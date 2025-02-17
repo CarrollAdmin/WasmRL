@@ -1,9 +1,0 @@
-# started on Thu Feb 13 17:32:23 2025
-
-108780868;;branch-instructions;63748260;69.40;;
-104763;;branch-misses;67749051;73.76;0.10;of all branches
-612568;;cache-references;55855686;60.81;;
-324591;;cache-misses;55860330;60.81;52.989;of all cache refs
-908641594;;instructions;67860391;73.88;;
-0;;mem-loads;64108584;69.79;;
-98023011;;mem-stores;60103149;65.43;;
