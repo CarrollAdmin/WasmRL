@@ -1,0 +1,184 @@
+office_stringsearch1: 1.3376660346984863, inf, inf, inf, 1.3376660346984863, -1.3376660346984863
+-lowerinvoke -memcpyopt -partial-inliner -reassociate -break-crit-edges -gvn -simple-loop-unswitch -function-attrs -lowerswitch -sroa -strip -jump-threading -loop-deletion -adce -inline -constmerge -deadargelim -indvars -float2int -mem2reg 
+office_stringsearch1: 1.1194911003112793, inf, inf, inf, 1.1194911003112793, -1.1194911003112793
+-mem2reg -deadargelim -licm -loop-idiom -gvn -loweratomic -loop-simplify -function-attrs -simplifycfg -inline -strip -globalopt -reg2mem -tailcallelim -early-cse -globaldce -sink -sccp -sroa -memcpyopt 
+office_stringsearch1: 1.0136651992797852, inf, inf, inf, 1.0136651992797852, -1.0136651992797852
+-sccp -jump-threading -partial-inliner -lowerswitch -adce -break-crit-edges -early-cse -function-attrs -lowerinvoke -sink -globalopt -alignment-from-assumptions -simple-loop-unswitch -lcssa -correlated-propagation -memcpyopt -loop-reduce -loop-simplify -constmerge -loop-rotate 
+office_stringsearch1: 1.0136651992797852, inf, inf, inf, 1.0182347297668457, -1.0182347297668457
+-loop-simplify -simple-loop-unswitch -inline -adce -loop-reduce -lowerswitch -licm -instcombine -sroa -lowerinvoke -loop-fusion -loop-idiom -function-attrs -correlated-propagation -constmerge -loop-unroll -simplifycfg -indvars -memcpyopt -early-cse 
+office_stringsearch1: 1.0136651992797852, inf, inf, inf, 1.5027592182159424, -1.5027592182159424
+-loop-fusion -loop-rotate -reg2mem -lowerswitch -alignment-from-assumptions -libcalls-shrinkwrap -tailcallelim -lower-expect -deadargelim -sccp -lcssa -instcombine -loop-reduce -sink -loop-idiom -break-crit-edges -globaldce -simple-loop-unswitch -licm -float2int 
+office_stringsearch1: 1.0136651992797852, inf, inf, inf, 1.2717673778533936, -1.2717673778533936
+-deadargelim -strip-nondebug -libcalls-shrinkwrap -loweratomic -correlated-propagation -globaldce -loop-deletion -strip -sccp -lower-expect -lcssa -loop-simplify -loop-reduce -tailcallelim -ipsccp -loop-rotate -reassociate -lowerinvoke -early-cse -constmerge 
+office_stringsearch1: 1.0136651992797852, inf, inf, inf, 1.3200781345367432, -1.3200781345367432
+-adce -loop-reduce -strip -dse -instcombine -loweratomic -break-crit-edges -reg2mem -sccp -memcpyopt -ipsccp -jump-threading -float2int -loop-simplify -indvars -loop-idiom -globalopt -lowerswitch -strip-nondebug -partial-inliner 
+office_stringsearch1: 0.9595377445220947, inf, inf, inf, 0.9595377445220947, -0.9595377445220947
+-loop-idiom -adce -tailcallelim -loop-reduce -alignment-from-assumptions -sink -reassociate -loop-fusion -globaldce -strip-nondebug -libcalls-shrinkwrap -partial-inliner -float2int -loop-rotate -memcpyopt -globalopt -early-cse -strip -deadargelim -break-crit-edges 
+office_stringsearch1: 0.9595377445220947, inf, inf, inf, 1.0184223651885986, -1.0184223651885986
+-partial-inliner -strip-nondebug -reg2mem -alignment-from-assumptions -break-crit-edges -early-cse -libcalls-shrinkwrap -constmerge -instcombine -memcpyopt -loop-reduce -loop-simplify -licm -float2int -loop-deletion -loop-rotate -strip -mem2reg -gvn -sroa 
+office_stringsearch1: 0.9595377445220947, inf, inf, inf, 1.1553263664245605, -1.1553263664245605
+-sink -lcssa -adce -sroa -loop-deletion -indvars -globalopt -correlated-propagation -memcpyopt -loop-reduce -strip -lowerswitch -loweratomic -simplifycfg -strip-nondebug -dse -reg2mem -early-cse -mem2reg -lower-expect 
+office_stringsearch1: 0.9595377445220947, inf, inf, inf, 1.1893928050994873, -1.1893928050994873
+-break-crit-edges -ipsccp -loop-idiom -constmerge -float2int -early-cse -strip-nondebug -indvars -lcssa -jump-threading -instcombine -function-attrs -loop-simplify -lowerinvoke -licm -simple-loop-unswitch -tailcallelim -strip -gvn -inline 
+office_stringsearch1: 0.9595377445220947, inf, inf, inf, 1.3417420387268066, -1.3417420387268066
+-strip -sccp -tailcallelim -instcombine -function-attrs -mem2reg -partial-inliner -loop-deletion -indvars -loop-simplify -ipsccp -simple-loop-unswitch -break-crit-edges -dse -sroa -adce -loweratomic -strip-nondebug -constmerge -globaldce 
+office_stringsearch1: 0.9595377445220947, inf, inf, inf, 1.1454310417175293, -1.1454310417175293
+-ipsccp -globaldce -sink -jump-threading -indvars -strip-nondebug -loop-simplify -memcpyopt -loop-fusion -loweratomic -loop-deletion -float2int -sccp -instcombine -alignment-from-assumptions -dse -function-attrs -tailcallelim -reg2mem -simplifycfg 
+office_stringsearch1: 0.9595377445220947, inf, inf, inf, 1.2515969276428223, -1.2515969276428223
+-strip -float2int -sroa -deadargelim -early-cse -memcpyopt -lower-expect -loop-deletion -sccp -lcssa -adce -sink -ipsccp -indvars -loop-unroll -reassociate -globalopt -correlated-propagation -dse -globaldce 
+office_stringsearch1: 0.9595377445220947, inf, inf, inf, 1.3633437156677246, -1.3633437156677246
+-reassociate -indvars -lowerinvoke -tailcallelim -gvn -globaldce -loop-idiom -mem2reg -lcssa -simple-loop-unswitch -loop-simplify -adce -loop-deletion -ipsccp -dse -lowerswitch -early-cse -loop-reduce -lower-expect -inline 
+office_stringsearch1: 0.9595377445220947, inf, inf, inf, 1.3726811408996582, -1.3726811408996582
+-dse -simplifycfg -simple-loop-unswitch -deadargelim -gvn -early-cse -lowerinvoke -globalopt -sroa -reassociate -loweratomic -sccp -adce -strip-nondebug -tailcallelim -lcssa -reg2mem -globaldce -constmerge -ipsccp 
+office_stringsearch1: 0.9595377445220947, inf, inf, inf, 1.5187625885009766, -1.5187625885009766
+-ipsccp -simple-loop-unswitch -strip -sccp -lower-expect -gvn -loop-reduce -loweratomic -reassociate -float2int -reg2mem -indvars -lowerinvoke -loop-deletion -licm -globalopt -jump-threading -correlated-propagation -break-crit-edges -instcombine 
+office_stringsearch1: 0.9595377445220947, inf, inf, inf, 1.5276284217834473, -1.5276284217834473
+-globaldce -loop-simplify -loop-idiom -sink -mem2reg -gvn -adce -loop-deletion -jump-threading -memcpyopt -loop-unroll -ipsccp -reassociate -loop-rotate -lowerswitch -loop-reduce -inline -lowerinvoke -break-crit-edges -deadargelim 
+office_stringsearch1: 0.864835262298584, inf, inf, inf, 0.864835262298584, -0.864835262298584
+-loop-fusion -break-crit-edges -simplifycfg -lowerinvoke -licm -simple-loop-unswitch -inline -sroa -function-attrs -tailcallelim -instcombine -lcssa -gvn -early-cse -float2int -loop-unroll -memcpyopt -loweratomic -strip-nondebug -loop-idiom 
+office_stringsearch1: 0.864835262298584, inf, inf, inf, 1.1396377086639404, -1.1396377086639404
+-partial-inliner -lowerinvoke -correlated-propagation -simplifycfg -loweratomic -early-cse -loop-rotate -lcssa -libcalls-shrinkwrap -memcpyopt -loop-fusion -strip-nondebug -mem2reg -loop-idiom -lowerswitch -loop-reduce -alignment-from-assumptions -jump-threading -adce -reg2mem 
+office_stringsearch1: 0.8578805923461914, inf, inf, inf, 0.8578805923461914, -0.8578805923461914
+-ipsccp -reassociate -loweratomic -mem2reg -sccp -early-cse -globaldce -break-crit-edges -partial-inliner -instcombine -alignment-from-assumptions -sroa -loop-simplify -memcpyopt -loop-deletion -lower-expect -dse -jump-threading -loop-reduce -tailcallelim 
+office_stringsearch1: 0.8578805923461914, inf, inf, inf, 1.1996009349822998, -1.1996009349822998
+-gvn -sccp -lowerswitch -early-cse -loweratomic -break-crit-edges -lcssa -lowerinvoke -alignment-from-assumptions -simple-loop-unswitch -float2int -reassociate -loop-reduce -lower-expect -sink -reg2mem -globaldce -sroa -loop-fusion -indvars 
+office_stringsearch1: 0.8578805923461914, inf, inf, inf, 0.9884481430053711, -0.9884481430053711
+-reassociate -dse -loop-deletion -loop-reduce -adce -libcalls-shrinkwrap -globalopt -globaldce -lcssa -memcpyopt -loop-idiom -strip-nondebug -mem2reg -jump-threading -lowerinvoke -simplifycfg -sccp -alignment-from-assumptions -early-cse -constmerge 
+office_stringsearch1: 0.8578805923461914, inf, inf, inf, 2.2759346961975098, -2.2759346961975098
+-sink -gvn -libcalls-shrinkwrap -lcssa -loop-deletion -correlated-propagation -adce -sroa -indvars -globalopt -partial-inliner -memcpyopt -float2int -constmerge -ipsccp -break-crit-edges -deadargelim -loop-reduce -reg2mem -strip-nondebug 
+office_stringsearch1: 0.8578805923461914, inf, inf, inf, 0.8934977054595947, -0.8934977054595947
+-break-crit-edges -lower-expect -constmerge -sink -function-attrs -loop-rotate -ipsccp -loweratomic -alignment-from-assumptions -indvars -globaldce -early-cse -strip-nondebug -reg2mem -loop-reduce -instcombine -jump-threading -strip -sroa -loop-deletion 
+office_stringsearch1: 0.8578805923461914, inf, inf, inf, 1.2700910568237305, -1.2700910568237305
+-float2int -strip-nondebug -instcombine -loop-reduce -loop-idiom -loop-simplify -dse -constmerge -jump-threading -reg2mem -ipsccp -sroa -correlated-propagation -globaldce -lowerinvoke -memcpyopt -lowerswitch -tailcallelim -indvars -loop-unroll 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.8552324771881104, -0.8552324771881104
+-strip-nondebug -instcombine -float2int -early-cse -break-crit-edges -lowerswitch -memcpyopt -loop-idiom -ipsccp -lcssa -simple-loop-unswitch -strip -correlated-propagation -loweratomic -constmerge -globalopt -simplifycfg -indvars -mem2reg -loop-reduce 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.0723373889923096, -1.0723373889923096
+-strip-nondebug -globalopt -loweratomic -alignment-from-assumptions -lcssa -reg2mem -deadargelim -adce -lowerswitch -tailcallelim -loop-deletion -sroa -reassociate -memcpyopt -break-crit-edges -globaldce -indvars -correlated-propagation -partial-inliner -mem2reg 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.0223815441131592, -1.0223815441131592
+-lowerswitch -break-crit-edges -globaldce -ipsccp -jump-threading -loop-rotate -memcpyopt -dse -reg2mem -early-cse -adce -reassociate -inline -lower-expect -strip -correlated-propagation -sink -alignment-from-assumptions -strip-nondebug -tailcallelim 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.239570140838623, -1.239570140838623
+-break-crit-edges -reassociate -loop-fusion -adce -loop-simplify -sink -strip-nondebug -simple-loop-unswitch -alignment-from-assumptions -lcssa -dse -loweratomic -loop-rotate -loop-reduce -tailcallelim -float2int -correlated-propagation -reg2mem -indvars -mem2reg 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.2263169288635254, -1.2263169288635254
+-loop-simplify -deadargelim -jump-threading -alignment-from-assumptions -tailcallelim -instcombine -reg2mem -loweratomic -strip-nondebug -adce -correlated-propagation -constmerge -partial-inliner -loop-fusion -simplifycfg -globalopt -ipsccp -memcpyopt -libcalls-shrinkwrap -mem2reg 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.4091849327087402, -1.4091849327087402
+-break-crit-edges -strip -lower-expect -float2int -early-cse -sroa -jump-threading -lowerinvoke -loop-idiom -loop-reduce -mem2reg -loweratomic -loop-fusion -adce -indvars -memcpyopt -instcombine -correlated-propagation -loop-unroll -reg2mem 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.980635404586792, -0.980635404586792
+-alignment-from-assumptions -globalopt -float2int -strip-nondebug -simplifycfg -indvars -break-crit-edges -adce -sink -tailcallelim -reg2mem -loweratomic -memcpyopt -loop-idiom -loop-reduce -correlated-propagation -sroa -ipsccp -constmerge -mem2reg 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.6694972515106201, -1.6694972515106201
+-lcssa -instcombine -sroa -early-cse -strip -adce -ipsccp -mem2reg -memcpyopt -correlated-propagation -float2int -reassociate -sccp -inline -reg2mem -constmerge -tailcallelim -loop-rotate -globaldce -alignment-from-assumptions 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.2226569652557373, -1.2226569652557373
+-loop-rotate -reg2mem -reassociate -tailcallelim -strip-nondebug -simplifycfg -loweratomic -ipsccp -sink -correlated-propagation -break-crit-edges -float2int -adce -alignment-from-assumptions -loop-reduce -sroa -indvars -memcpyopt -loop-idiom -simple-loop-unswitch 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.9219434261322021, -0.9219434261322021
+-memcpyopt -loop-fusion -globalopt -correlated-propagation -lowerswitch -inline -alignment-from-assumptions -sink -mem2reg -adce -constmerge -float2int -break-crit-edges -loop-idiom -ipsccp -jump-threading -loweratomic -indvars -reg2mem -sroa 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.097595453262329, -1.097595453262329
+-libcalls-shrinkwrap -adce -loop-reduce -loweratomic -alignment-from-assumptions -lcssa -reg2mem -float2int -sccp -memcpyopt -break-crit-edges -loop-idiom -lowerswitch -indvars -reassociate -instcombine -early-cse -ipsccp -loop-fusion -mem2reg 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.9889843463897705, -0.9889843463897705
+-loop-reduce -simplifycfg -loop-rotate -jump-threading -break-crit-edges -early-cse -correlated-propagation -ipsccp -reg2mem -indvars -libcalls-shrinkwrap -deadargelim -strip -loweratomic -gvn -reassociate -sink -adce -constmerge -sroa 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.1066889762878418, -1.1066889762878418
+-deadargelim -simple-loop-unswitch -loop-fusion -early-cse -loop-idiom -strip-nondebug -reassociate -strip -indvars -break-crit-edges -correlated-propagation -ipsccp -adce -lowerinvoke -sroa -memcpyopt -globalopt -instcombine -tailcallelim -loop-reduce 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.126490592956543, -1.126490592956543
+-early-cse -lower-expect -mem2reg -memcpyopt -loop-simplify -float2int -globaldce -constmerge -reg2mem -lowerswitch -partial-inliner -loop-rotate -ipsccp -strip-nondebug -jump-threading -reassociate -loweratomic -break-crit-edges -deadargelim -instcombine 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.1373095512390137, -1.1373095512390137
+-early-cse -lcssa -indvars -licm -simple-loop-unswitch -constmerge -strip-nondebug -reg2mem -globalopt -break-crit-edges -ipsccp -correlated-propagation -loop-rotate -globaldce -reassociate -adce -float2int -sroa -loweratomic -sink 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.1826422214508057, -1.1826422214508057
+-loop-unroll -strip-nondebug -reg2mem -loop-rotate -indvars -memcpyopt -loop-deletion -globaldce -simple-loop-unswitch -break-crit-edges -reassociate -loop-reduce -ipsccp -licm -lowerswitch -loweratomic -correlated-propagation -instcombine -adce -constmerge 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.649935245513916, -1.649935245513916
+-sroa -indvars -loop-simplify -correlated-propagation -strip -lcssa -partial-inliner -loop-idiom -dse -adce -strip-nondebug -function-attrs -break-crit-edges -globalopt -deadargelim -instcombine -reassociate -reg2mem -loop-rotate -early-cse 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.5298185348510742, -1.5298185348510742
+-tailcallelim -function-attrs -constmerge -globaldce -ipsccp -correlated-propagation -indvars -float2int -break-crit-edges -memcpyopt -loop-idiom -loop-rotate -early-cse -loweratomic -reassociate -mem2reg -reg2mem -lower-expect -adce -lowerswitch 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.0232570171356201, -1.0232570171356201
+-lowerinvoke -memcpyopt -dse -inline -simplifycfg -libcalls-shrinkwrap -jump-threading -lowerswitch -adce -break-crit-edges -ipsccp -reg2mem -loop-rotate -correlated-propagation -loweratomic -mem2reg -globaldce -loop-idiom -indvars -strip-nondebug 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.3953642845153809, -1.3953642845153809
+-loop-idiom -break-crit-edges -jump-threading -partial-inliner -simplifycfg -sccp -strip-nondebug -dse -ipsccp -loop-rotate -indvars -early-cse -loweratomic -float2int -correlated-propagation -memcpyopt -reg2mem -instcombine -adce -lowerswitch 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 2.1786255836486816, -2.1786255836486816
+-loop-fusion -memcpyopt -gvn -alignment-from-assumptions -loop-idiom -adce -indvars -loop-reduce -tailcallelim -sink -partial-inliner -globalopt -correlated-propagation -loweratomic -strip-nondebug -break-crit-edges -early-cse -constmerge -reg2mem -loop-rotate 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.1045870780944824, -1.1045870780944824
+-loop-fusion -globaldce -tailcallelim -sccp -lower-expect -lcssa -partial-inliner -loweratomic -loop-unroll -break-crit-edges -loop-rotate -sink -reg2mem -jump-threading -float2int -ipsccp -correlated-propagation -deadargelim -early-cse -strip-nondebug 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.178717851638794, -1.178717851638794
+-break-crit-edges -strip-nondebug -correlated-propagation -reg2mem -lcssa -reassociate -globaldce -libcalls-shrinkwrap -loop-idiom -indvars -adce -early-cse -ipsccp -deadargelim -loop-rotate -memcpyopt -float2int -licm -constmerge -loweratomic 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.0205459594726562, -1.0205459594726562
+-lowerinvoke -loweratomic -reg2mem -strip -strip-nondebug -sroa -indvars -lower-expect -loop-rotate -simple-loop-unswitch -ipsccp -break-crit-edges -adce -float2int -instcombine -correlated-propagation -globaldce -reassociate -tailcallelim -loop-idiom 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.015472173690796, -1.015472173690796
+-break-crit-edges -adce -strip-nondebug -correlated-propagation -lowerinvoke -constmerge -sink -globaldce -ipsccp -loop-rotate -indvars -reg2mem -simplifycfg -loop-idiom -instcombine -libcalls-shrinkwrap -inline -memcpyopt -loweratomic -loop-unroll 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.6124341487884521, -1.6124341487884521
+-sroa -loop-reduce -lowerswitch -mem2reg -loop-idiom -reassociate -instcombine -break-crit-edges -indvars -alignment-from-assumptions -memcpyopt -constmerge -loop-rotate -adce -reg2mem -ipsccp -correlated-propagation -dse -loweratomic -strip-nondebug 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.124535083770752, -1.124535083770752
+-instcombine -loop-rotate -memcpyopt -strip-nondebug -lcssa -jump-threading -break-crit-edges -reassociate -tailcallelim -adce -reg2mem -globaldce -lowerswitch -indvars -correlated-propagation -loop-idiom -strip -constmerge -early-cse -loweratomic 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.2748792171478271, -1.2748792171478271
+-sroa -loop-unroll -reassociate -correlated-propagation -lowerswitch -sccp -globaldce -function-attrs -tailcallelim -break-crit-edges -adce -reg2mem -instcombine -indvars -ipsccp -loop-idiom -memcpyopt -constmerge -deadargelim -loop-rotate 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.467820167541504, -1.467820167541504
+-loop-rotate -lcssa -loop-fusion -indvars -instcombine -break-crit-edges -mem2reg -adce -reg2mem -lowerswitch -globaldce -correlated-propagation -early-cse -constmerge -ipsccp -deadargelim -memcpyopt -tailcallelim -reassociate -dse 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.9631659984588623, -0.9631659984588623
+-indvars -jump-threading -mem2reg -reg2mem -globaldce -instcombine -loop-rotate -memcpyopt -break-crit-edges -tailcallelim -constmerge -ipsccp -strip-nondebug -adce -correlated-propagation -deadargelim -reassociate -lower-expect -loop-idiom -loweratomic 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.2172138690948486, -1.2172138690948486
+-lower-expect -deadargelim -ipsccp -dse -early-cse -licm -indvars -break-crit-edges -reassociate -instcombine -correlated-propagation -loop-rotate -constmerge -adce -reg2mem -mem2reg -loop-unroll -memcpyopt -globaldce -strip-nondebug 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.9289591312408447, -0.9289591312408447
+-libcalls-shrinkwrap -simplifycfg -ipsccp -break-crit-edges -loop-idiom -correlated-propagation -indvars -reg2mem -deadargelim -loop-rotate -adce -reassociate -instcombine -constmerge -loweratomic -memcpyopt -early-cse -mem2reg -float2int -licm 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.1039409637451172, -1.1039409637451172
+-loop-rotate -indvars -ipsccp -adce -reg2mem -licm -instcombine -break-crit-edges -reassociate -correlated-propagation -constmerge -deadargelim -loweratomic -dse -memcpyopt -strip-nondebug -gvn -loop-idiom -loop-unroll -globaldce 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.2007625102996826, -1.2007625102996826
+-mem2reg -adce -loop-idiom -indvars -dse -simplifycfg -memcpyopt -reassociate -ipsccp -constmerge -correlated-propagation -break-crit-edges -deadargelim -reg2mem -instcombine -strip-nondebug -loop-rotate -licm -globaldce -loweratomic 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.8753974437713623, -0.8753974437713623
+-lcssa -globalopt -break-crit-edges -libcalls-shrinkwrap -deadargelim -strip -reg2mem -ipsccp -loop-rotate -partial-inliner -jump-threading -instcombine -correlated-propagation -inline -loweratomic -constmerge -indvars -strip-nondebug -memcpyopt -adce 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.119981288909912, -1.119981288909912
+-reassociate -dse -loop-idiom -licm -indvars -early-cse -break-crit-edges -loweratomic -lowerswitch -globaldce -constmerge -reg2mem -deadargelim -memcpyopt -loop-rotate -adce -ipsccp -strip-nondebug -correlated-propagation -instcombine 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.0532574653625488, -1.0532574653625488
+-partial-inliner -loop-deletion -break-crit-edges -deadargelim -simple-loop-unswitch -constmerge -memcpyopt -indvars -reg2mem -dse -adce -correlated-propagation -mem2reg -loweratomic -libcalls-shrinkwrap -globaldce -reassociate -ipsccp -instcombine -loop-rotate 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.0626060962677002, -1.0626060962677002
+-loop-rotate -loweratomic -indvars -instcombine -lowerswitch -break-crit-edges -globalopt -reg2mem -strip-nondebug -ipsccp -loop-simplify -adce -correlated-propagation -constmerge -reassociate -deadargelim -dse -memcpyopt -loop-idiom -globaldce 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.074127435684204, -1.074127435684204
+-alignment-from-assumptions -adce -ipsccp -correlated-propagation -indvars -loop-rotate -constmerge -break-crit-edges -dse -instcombine -globaldce -reassociate -memcpyopt -reg2mem -loweratomic -deadargelim -partial-inliner -strip-nondebug -lowerswitch -loop-idiom 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.8718247413635254, -0.8718247413635254
+-break-crit-edges -memcpyopt -loop-rotate -reassociate -float2int -constmerge -correlated-propagation -reg2mem -early-cse -jump-threading -indvars -ipsccp -lowerswitch -strip-nondebug -globaldce -adce -loweratomic -instcombine -simple-loop-unswitch -deadargelim 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.059767484664917, -1.059767484664917
+-adce -break-crit-edges -strip-nondebug -reg2mem -inline -mem2reg -float2int -instcombine -indvars -ipsccp -constmerge -libcalls-shrinkwrap -reassociate -loop-rotate -correlated-propagation -deadargelim -lcssa -loweratomic -memcpyopt -simple-loop-unswitch 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.9451503753662109, -0.9451503753662109
+-deadargelim -correlated-propagation -float2int -strip -reassociate -memcpyopt -break-crit-edges -sink -ipsccp -globaldce -loop-rotate -indvars -dse -constmerge -reg2mem -instcombine -adce -mem2reg -loweratomic -strip-nondebug 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.8749527931213379, -0.8749527931213379
+-break-crit-edges -lcssa -indvars -function-attrs -strip-nondebug -loop-unroll -constmerge -correlated-propagation -memcpyopt -adce -reg2mem -dse -reassociate -jump-threading -instcombine -globaldce -loweratomic -ipsccp -loop-rotate -early-cse 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.9510016441345215, -0.9510016441345215
+-globalopt -break-crit-edges -loweratomic -loop-rotate -reg2mem -deadargelim -adce -early-cse -ipsccp -indvars -correlated-propagation -constmerge -memcpyopt -libcalls-shrinkwrap -loop-reduce -sccp -strip-nondebug -loop-idiom -globaldce -instcombine 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.011112928390503, -1.011112928390503
+-ipsccp -loop-unroll -strip-nondebug -break-crit-edges -lowerswitch -adce -reassociate -libcalls-shrinkwrap -reg2mem -loop-idiom -deadargelim -correlated-propagation -indvars -globaldce -memcpyopt -instcombine -loop-rotate -constmerge -tailcallelim -loweratomic 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.0619542598724365, -1.0619542598724365
+-partial-inliner -loop-reduce -correlated-propagation -break-crit-edges -constmerge -loop-unroll -adce -strip-nondebug -loweratomic -indvars -deadargelim -reg2mem -reassociate -loop-rotate -loop-idiom -ipsccp -loop-deletion -memcpyopt -instcombine -dse 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.9165241718292236, -0.9165241718292236
+-globaldce -memcpyopt -loop-rotate -loop-deletion -tailcallelim -reassociate -instcombine -simplifycfg -break-crit-edges -correlated-propagation -loop-unroll -adce -reg2mem -indvars -strip-nondebug -ipsccp -loweratomic -constmerge -loop-idiom -licm 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.9957787990570068, -1.9957787990570068
+-sink -correlated-propagation -instcombine -dse -ipsccp -break-crit-edges -loweratomic -loop-rotate -mem2reg -constmerge -indvars -adce -globaldce -reg2mem -memcpyopt -early-cse -strip-nondebug -reassociate -jump-threading -deadargelim 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.8775033950805664, -0.8775033950805664
+-jump-threading -globalopt -inline -lowerinvoke -loop-rotate -reg2mem -strip -break-crit-edges -alignment-from-assumptions -adce -globaldce -correlated-propagation -lowerswitch -deadargelim -reassociate -loop-idiom -indvars -instcombine -loweratomic -constmerge 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.12441086769104, -1.12441086769104
+-constmerge -loop-rotate -gvn -reg2mem -break-crit-edges -indvars -loweratomic -correlated-propagation -memcpyopt -dse -partial-inliner -licm -ipsccp -adce -globaldce -instcombine -mem2reg -deadargelim -sroa -strip-nondebug 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.1468329429626465, -1.1468329429626465
+-alignment-from-assumptions -loop-fusion -loop-deletion -correlated-propagation -libcalls-shrinkwrap -lower-expect -indvars -break-crit-edges -deadargelim -constmerge -float2int -ipsccp -adce -globaldce -reg2mem -loop-idiom -loop-reduce -instcombine -loweratomic -early-cse 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 1.011864185333252, -1.011864185333252
+-loop-fusion -break-crit-edges -function-attrs -loweratomic -indvars -ipsccp -constmerge -tailcallelim -adce -globaldce -reassociate -reg2mem -deadargelim -licm -instcombine -strip-nondebug -dse -memcpyopt -correlated-propagation -partial-inliner 
+office_stringsearch1: 0.8552324771881104, inf, inf, inf, 0.9069638252258301, -0.9069638252258301
+-simplifycfg -strip-nondebug -alignment-from-assumptions -function-attrs -reassociate -reg2mem -correlated-propagation -indvars -lower-expect -loop-idiom -constmerge -instcombine -break-crit-edges -ipsccp -loop-rotate -adce -deadargelim -globaldce -loweratomic -memcpyopt 
+office_stringsearch1: 0.8172991275787354, inf, inf, inf, 0.8172991275787354, -0.8172991275787354
+-simple-loop-unswitch -loop-unroll -jump-threading -reassociate -reg2mem -sink -strip-nondebug -loop-idiom -break-crit-edges -adce -ipsccp -mem2reg -constmerge -correlated-propagation -indvars -globaldce -memcpyopt -tailcallelim -loweratomic -instcombine 
+office_stringsearch1: 0.8172991275787354, inf, inf, inf, 1.5763804912567139, -1.5763804912567139
+-lcssa -mem2reg -simple-loop-unswitch -sroa -early-cse -break-crit-edges -instcombine -function-attrs -loweratomic -correlated-propagation -strip -indvars -constmerge -reassociate -memcpyopt -reg2mem -ipsccp -deadargelim -adce -strip-nondebug 
+office_stringsearch1: 0.8172991275787354, inf, inf, inf, 1.105367660522461, -1.105367660522461
+-loop-deletion -loop-idiom -break-crit-edges -strip -instcombine -indvars -loop-rotate -early-cse -reassociate -strip-nondebug -memcpyopt -deadargelim -adce -reg2mem -correlated-propagation -globaldce -loweratomic -constmerge -sink -ipsccp 
+office_stringsearch1: 0.8172991275787354, inf, inf, inf, 1.930117130279541, -1.930117130279541
+-gvn -partial-inliner -sccp -globaldce -indvars -instcombine -loweratomic -break-crit-edges -constmerge -reassociate -memcpyopt -adce -reg2mem -ipsccp -loop-rotate -strip-nondebug -lcssa -correlated-propagation -loop-idiom -dse 
+office_stringsearch1: 0.8172991275787354, inf, inf, inf, 1.1713635921478271, -1.1713635921478271
+-globaldce -loop-simplify -globalopt -loweratomic -lowerswitch -reassociate -indvars -break-crit-edges -correlated-propagation -reg2mem -strip-nondebug -ipsccp -memcpyopt -instcombine -gvn -loop-reduce -adce -early-cse -loop-rotate -constmerge 
+office_stringsearch1: 0.8172991275787354, inf, inf, inf, 1.7253296375274658, -1.7253296375274658
+-break-crit-edges -reassociate -sink -correlated-propagation -constmerge -tailcallelim -memcpyopt -ipsccp -reg2mem -loop-idiom -deadargelim -adce -instcombine -loweratomic -indvars -loop-reduce -strip-nondebug -globaldce -gvn -early-cse 
+office_stringsearch1: 0.8172991275787354, inf, inf, inf, 1.0718486309051514, -1.0718486309051514
+-early-cse -loop-deletion -globaldce -ipsccp -loweratomic -strip-nondebug -float2int -reg2mem -libcalls-shrinkwrap -mem2reg -break-crit-edges -simplifycfg -indvars -loop-rotate -tailcallelim -reassociate -memcpyopt -correlated-propagation -adce -constmerge 
+office_stringsearch1: 0.8172991275787354, inf, inf, inf, 0.970970630645752, -0.970970630645752
+-loop-reduce -loop-idiom -indvars -break-crit-edges -loop-rotate -early-cse -loop-unroll -adce -reassociate -reg2mem -ipsccp -strip-nondebug -correlated-propagation -memcpyopt -deadargelim -globaldce -loweratomic -constmerge -instcombine -dse 
+office_stringsearch1: 0.8172991275787354, inf, inf, inf, 1.5125031471252441, -1.5125031471252441
+-loop-fusion -strip-nondebug -function-attrs -indvars -correlated-propagation -memcpyopt -loweratomic -reg2mem -globaldce -ipsccp -constmerge -break-crit-edges -loop-rotate -reassociate -adce -loop-idiom -tailcallelim -libcalls-shrinkwrap -dse -deadargelim 
+office_stringsearch1: 0.8172991275787354, inf, inf, inf, 0.8973338603973389, -0.8973338603973389
+-loweratomic -lcssa -lowerswitch -indvars -tailcallelim -strip -simplifycfg -globaldce -break-crit-edges -ipsccp -constmerge -reg2mem -adce -early-cse -strip-nondebug -loop-idiom -reassociate -deadargelim -instcombine -correlated-propagation 
+office_stringsearch1: 0.8172991275787354, inf, inf, inf, 1.0460186004638672, -1.0460186004638672
+-reassociate -tailcallelim -inline -memcpyopt -ipsccp -lower-expect -simple-loop-unswitch -partial-inliner -correlated-propagation -adce -float2int -reg2mem -loop-fusion -licm -instcombine -strip -break-crit-edges -dse -loweratomic -strip-nondebug 
+office_stringsearch1: 0.8172991275787354, inf, inf, inf, 0.9375066757202148, -0.9375066757202148
+-ipsccp -partial-inliner -dse -instcombine -break-crit-edges -strip-nondebug -indvars -loop-rotate -reassociate -adce -loweratomic -globaldce -loop-idiom -deadargelim -reg2mem -constmerge -mem2reg -memcpyopt -correlated-propagation -alignment-from-assumptions 
+office_stringsearch1: 0.8172991275787354, inf, inf, inf, 1.4167416095733643, -1.4167416095733643
+-strip-nondebug -ipsccp -deadargelim -indvars -licm -break-crit-edges -loop-idiom -correlated-propagation -adce -dse -globaldce -loweratomic -loop-rotate -reg2mem -constmerge -tailcallelim -reassociate -memcpyopt -instcombine -early-cse 

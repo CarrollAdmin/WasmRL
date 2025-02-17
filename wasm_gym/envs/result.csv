@@ -1,0 +1,9 @@
+# started on Sat Feb 15 15:13:07 2025
+
+108598614;;branch-instructions;63777213;69.65;;
+104162;;branch-misses;67561806;73.79;0.10;of all branches
+569314;;cache-references;55561673;60.68;;
+321505;;cache-misses;55561729;60.68;56.472;of all cache refs
+907009916;;instructions;67561851;73.79;;
+0;;mem-loads;63785410;69.66;;
+97973226;;mem-stores;60000761;65.53;;

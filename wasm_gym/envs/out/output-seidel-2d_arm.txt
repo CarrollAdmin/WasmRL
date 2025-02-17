@@ -1,0 +1,542 @@
+seidel-2d: 0.1609337329864502, inf, inf, 0.1609337329864502, -0.1609337329864502
+-reassociate -lower-expect -dse -globaldce -loop-idiom -indvars -partial-inliner -loop-fusion -jump-threading -strip -inline -globalopt -correlated-propagation -strip-nondebug -lowerinvoke -loop-simplify -deadargelim -libcalls-shrinkwrap -loweratomic -loop-rotate 
+seidel-2d: 0.1609337329864502, inf, inf, 0.18904852867126465, -0.18904852867126465
+-constmerge -strip-nondebug -lowerswitch -sink -loop-simplify -globaldce -globalopt -reg2mem -libcalls-shrinkwrap -memcpyopt -inline -loop-fusion -lower-expect -strip -loop-idiom -lcssa -loop-rotate -loop-deletion -loop-reduce -loweratomic 
+seidel-2d: 0.09140992164611816, inf, inf, 0.09140992164611816, -0.09140992164611816
+-simplifycfg -dse -globalopt -mem2reg -loop-reduce -libcalls-shrinkwrap -loop-unroll -sink -jump-threading -loop-idiom -reg2mem -strip-nondebug -lower-expect -inline -simple-loop-unswitch -loop-simplify -constmerge -strip -deadargelim -partial-inliner 
+seidel-2d: 0.09140992164611816, inf, inf, 0.09405684471130371, -0.09405684471130371
+-constmerge -inline -globaldce -strip-nondebug -alignment-from-assumptions -lowerswitch -dse -libcalls-shrinkwrap -lowerinvoke -adce -float2int -early-cse -partial-inliner -loop-simplify -correlated-propagation -simple-loop-unswitch -loop-deletion -loop-fusion -simplifycfg -lower-expect 
+seidel-2d: 0.09140992164611816, inf, inf, 0.1601114273071289, -0.1601114273071289
+-simplifycfg -function-attrs -reg2mem -correlated-propagation -loop-idiom -lower-expect -inline -globalopt -loop-deletion -strip-nondebug -loweratomic -loop-reduce -simple-loop-unswitch -libcalls-shrinkwrap -dse -jump-threading -memcpyopt -strip -indvars -loop-fusion 
+seidel-2d: 0.09140992164611816, inf, inf, 0.16601800918579102, -0.16601800918579102
+-strip-nondebug -globaldce -simplifycfg -loop-idiom -loop-deletion -loop-fusion -lower-expect -reg2mem -correlated-propagation -libcalls-shrinkwrap -constmerge -loop-reduce -globalopt -sink -loop-simplify -partial-inliner -inline -jump-threading -loop-rotate -lcssa 
+seidel-2d: 0.09140992164611816, inf, inf, 0.16065692901611328, -0.16065692901611328
+-deadargelim -loop-idiom -strip-nondebug -lower-expect -libcalls-shrinkwrap -loop-unroll -globalopt -strip -loop-simplify -constmerge -function-attrs -inline -loweratomic -loop-fusion -jump-threading -alignment-from-assumptions -loop-deletion -globaldce -ipsccp -simplifycfg 
+seidel-2d: 0.09140992164611816, inf, inf, 0.15981340408325195, -0.15981340408325195
+-reg2mem -globalopt -simple-loop-unswitch -break-crit-edges -lower-expect -dse -correlated-propagation -function-attrs -loweratomic -strip -indvars -loop-unroll -loop-fusion -loop-reduce -memcpyopt -libcalls-shrinkwrap -inline -sccp -strip-nondebug -loop-idiom 
+seidel-2d: 0.09140992164611816, inf, inf, 0.19932150840759277, -0.19932150840759277
+-loop-fusion -break-crit-edges -lower-expect -loweratomic -loop-simplify -partial-inliner -strip -reg2mem -strip-nondebug -deadargelim -libcalls-shrinkwrap -jump-threading -sccp -inline -sink -globalopt -function-attrs -loop-idiom -loop-deletion -constmerge 
+seidel-2d: 0.09140992164611816, inf, inf, 0.16025495529174805, -0.16025495529174805
+-inline -indvars -libcalls-shrinkwrap -alignment-from-assumptions -strip -loop-idiom -loop-deletion -loweratomic -simplifycfg -lowerswitch -function-attrs -strip-nondebug -loop-simplify -lower-expect -sccp -deadargelim -jump-threading -globalopt -globaldce -partial-inliner 
+seidel-2d: 0.09140992164611816, inf, inf, 0.17615270614624023, -0.17615270614624023
+-memcpyopt -globaldce -libcalls-shrinkwrap -loop-unroll -jump-threading -globalopt -partial-inliner -adce -loop-deletion -simple-loop-unswitch -strip -loweratomic -loop-idiom -strip-nondebug -reg2mem -loop-fusion -inline -sink -loop-simplify -simplifycfg 
+seidel-2d: 0.09140992164611816, inf, inf, 0.19905328750610352, -0.19905328750610352
+-simplifycfg -sccp -loop-reduce -memcpyopt -loop-idiom -libcalls-shrinkwrap -correlated-propagation -strip -jump-threading -inline -loop-simplify -loop-fusion -strip-nondebug -lower-expect -function-attrs -deadargelim -reg2mem -dse -break-crit-edges -partial-inliner 
+seidel-2d: 0.09140992164611816, inf, inf, 0.10325908660888672, -0.10325908660888672
+-strip-nondebug -lcssa -loop-reduce -early-cse -globaldce -reg2mem -loop-idiom -libcalls-shrinkwrap -loweratomic -correlated-propagation -globalopt -loop-simplify -lower-expect -adce -loop-fusion -strip -indvars -loop-deletion -jump-threading -deadargelim 
+seidel-2d: 0.09140992164611816, inf, inf, 0.17284536361694336, -0.17284536361694336
+-lcssa -loop-simplify -sink -loop-reduce -loop-idiom -loweratomic -deadargelim -adce -strip -inline -lowerswitch -libcalls-shrinkwrap -simplifycfg -jump-threading -loop-fusion -reg2mem -simple-loop-unswitch -lower-expect -break-crit-edges -strip-nondebug 
+seidel-2d: 0.09140992164611816, inf, inf, 0.12779855728149414, -0.12779855728149414
+-partial-inliner -loop-fusion -constmerge -loop-idiom -adce -simple-loop-unswitch -strip -lower-expect -indvars -loop-reduce -licm -reg2mem -function-attrs -strip-nondebug -sink -libcalls-shrinkwrap -simplifycfg -globalopt -jump-threading -loop-simplify 
+seidel-2d: 0.09140992164611816, inf, inf, 0.18505024909973145, -0.18505024909973145
+-strip-nondebug -sink -correlated-propagation -strip -simplifycfg -loop-deletion -loop-rotate -partial-inliner -loop-unroll -loweratomic -loop-idiom -lower-expect -loop-simplify -loop-fusion -simple-loop-unswitch -dse -deadargelim -jump-threading -ipsccp -loop-reduce 
+seidel-2d: 0.09140992164611816, inf, inf, 0.1210639476776123, -0.1210639476776123
+-globaldce -sink -loop-simplify -lower-expect -libcalls-shrinkwrap -loop-reduce -lcssa -loop-deletion -loop-fusion -inline -jump-threading -mem2reg -dse -strip -simplifycfg -loop-idiom -strip-nondebug -ipsccp -loweratomic -globalopt 
+seidel-2d: 0.09140992164611816, inf, inf, 0.1951596736907959, -0.1951596736907959
+-jump-threading -indvars -lower-expect -constmerge -lowerinvoke -correlated-propagation -lowerswitch -loop-simplify -loweratomic -simplifycfg -strip -ipsccp -globalopt -libcalls-shrinkwrap -strip-nondebug -inline -loop-idiom -loop-unroll -partial-inliner -sink 
+seidel-2d: 0.08509373664855957, inf, inf, 0.08509373664855957, -0.08509373664855957
+-simple-loop-unswitch -lowerswitch -function-attrs -simplifycfg -loop-fusion -inline -deadargelim -loop-idiom -lower-expect -sroa -early-cse -dse -break-crit-edges -strip-nondebug -libcalls-shrinkwrap -jump-threading -loop-simplify -globaldce -correlated-propagation -loop-unroll 
+seidel-2d: 0.08509373664855957, inf, inf, 0.16108989715576172, -0.16108989715576172
+-reg2mem -loop-idiom -loop-reduce -loweratomic -loop-simplify -libcalls-shrinkwrap -lower-expect -strip-nondebug -loop-fusion -jump-threading -loop-deletion -ipsccp -strip -globaldce -alignment-from-assumptions -simplifycfg -partial-inliner -lowerswitch -correlated-propagation -break-crit-edges 
+seidel-2d: 0.08509373664855957, inf, inf, 0.16066956520080566, -0.16066956520080566
+-simplifycfg -globalopt -loweratomic -loop-idiom -loop-fusion -loop-simplify -loop-reduce -loop-deletion -strip -sink -lcssa -tailcallelim -correlated-propagation -strip-nondebug -jump-threading -simple-loop-unswitch -inline -lower-expect -libcalls-shrinkwrap -adce 
+seidel-2d: 0.08509373664855957, inf, inf, 0.16911935806274414, -0.16911935806274414
+-instcombine -lcssa -libcalls-shrinkwrap -simplifycfg -loop-unroll -loop-simplify -lower-expect -lowerswitch -deadargelim -loop-idiom -strip -globalopt -correlated-propagation -jump-threading -loweratomic -strip-nondebug -sink -loop-fusion -mem2reg -loop-deletion 
+seidel-2d: 0.08509373664855957, inf, inf, 0.16010403633117676, -0.16010403633117676
+-loop-deletion -reg2mem -loop-fusion -partial-inliner -inline -lowerswitch -strip -loop-unroll -sink -loop-idiom -loop-simplify -strip-nondebug -loweratomic -lowerinvoke -globalopt -deadargelim -simple-loop-unswitch -jump-threading -libcalls-shrinkwrap -correlated-propagation 
+seidel-2d: 0.06494307518005371, inf, inf, 0.06494307518005371, -0.06494307518005371
+-loop-idiom -partial-inliner -loop-fusion -globalopt -reg2mem -sroa -strip-nondebug -strip -deadargelim -dse -loop-simplify -simplifycfg -alignment-from-assumptions -loop-reduce -sink -correlated-propagation -loweratomic -libcalls-shrinkwrap -inline -break-crit-edges 
+seidel-2d: 0.06494307518005371, inf, inf, 0.16110968589782715, -0.16110968589782715
+-jump-threading -simple-loop-unswitch -loop-reduce -libcalls-shrinkwrap -loop-simplify -dse -loop-fusion -function-attrs -loweratomic -loop-idiom -globalopt -deadargelim -strip-nondebug -lowerinvoke -lower-expect -simplifycfg -lcssa -strip -lowerswitch -reg2mem 
+seidel-2d: 0.06494307518005371, inf, inf, 0.16167473793029785, -0.16167473793029785
+-jump-threading -loop-idiom -break-crit-edges -ipsccp -sink -strip-nondebug -loweratomic -loop-simplify -globalopt -reg2mem -indvars -libcalls-shrinkwrap -lower-expect -loop-deletion -correlated-propagation -simplifycfg -simple-loop-unswitch -loop-fusion -lowerswitch -loop-reduce 
+seidel-2d: 0.06494307518005371, inf, inf, 0.15329384803771973, -0.15329384803771973
+-partial-inliner -loop-simplify -correlated-propagation -deadargelim -lowerinvoke -loop-idiom -globalopt -strip-nondebug -globaldce -loop-reduce -lower-expect -sink -reg2mem -alignment-from-assumptions -simplifycfg -strip -libcalls-shrinkwrap -loweratomic -instcombine -loop-deletion 
+seidel-2d: 0.06494307518005371, inf, inf, 0.08714985847473145, -0.08714985847473145
+-deadargelim -function-attrs -sink -loop-simplify -break-crit-edges -adce -lowerinvoke -libcalls-shrinkwrap -lower-expect -loop-reduce -licm -simplifycfg -early-cse -loweratomic -jump-threading -strip-nondebug -loop-deletion -correlated-propagation -constmerge -inline 
+seidel-2d: 0.06494307518005371, inf, inf, 0.1691148281097412, -0.1691148281097412
+-libcalls-shrinkwrap -strip-nondebug -alignment-from-assumptions -sink -lower-expect -simplifycfg -lowerswitch -strip -globaldce -loop-simplify -simple-loop-unswitch -loop-idiom -loop-deletion -jump-threading -reg2mem -deadargelim -lowerinvoke -function-attrs -break-crit-edges -loweratomic 
+seidel-2d: 0.06494307518005371, inf, inf, 0.16013550758361816, -0.16013550758361816
+-lower-expect -globaldce -reassociate -dse -ipsccp -strip-nondebug -loop-fusion -strip -function-attrs -loop-unroll -correlated-propagation -globalopt -loop-reduce -loop-simplify -loop-idiom -loweratomic -jump-threading -libcalls-shrinkwrap -reg2mem -sink 
+seidel-2d: 0.06494307518005371, inf, inf, 0.1608421802520752, -0.1608421802520752
+-lowerswitch -loop-deletion -loop-idiom -deadargelim -loop-simplify -loweratomic -strip-nondebug -lower-expect -libcalls-shrinkwrap -function-attrs -partial-inliner -simplifycfg -globalopt -sink -strip -simple-loop-unswitch -reg2mem -ipsccp -globaldce -indvars 
+seidel-2d: 0.06494307518005371, inf, inf, 0.16099905967712402, -0.16099905967712402
+-deadargelim -globalopt -loop-simplify -partial-inliner -strip-nondebug -loweratomic -lower-expect -simplifycfg -sink -ipsccp -reg2mem -lowerswitch -function-attrs -libcalls-shrinkwrap -correlated-propagation -loop-idiom -break-crit-edges -globaldce -jump-threading -inline 
+seidel-2d: 0.06494307518005371, inf, inf, 0.18344473838806152, -0.18344473838806152
+-jump-threading -libcalls-shrinkwrap -simplifycfg -loweratomic -strip -loop-simplify -dse -constmerge -lower-expect -memcpyopt -strip-nondebug -sink -loop-fusion -partial-inliner -correlated-propagation -loop-deletion -loop-idiom -deadargelim -globalopt -globaldce 
+seidel-2d: 0.06390810012817383, inf, inf, 0.06390810012817383, -0.06390810012817383
+-sink -loop-idiom -sroa -lowerinvoke -loop-simplify -loop-reduce -deadargelim -lowerswitch -indvars -correlated-propagation -memcpyopt -function-attrs -loop-deletion -strip-nondebug -loop-fusion -strip -simple-loop-unswitch -libcalls-shrinkwrap -loweratomic -jump-threading 
+seidel-2d: 0.06390810012817383, inf, inf, 0.13897275924682617, -0.13897275924682617
+-loop-fusion -float2int -loop-idiom -early-cse -loop-simplify -ipsccp -strip-nondebug -deadargelim -lower-expect -sink -reg2mem -dse -inline -loweratomic -jump-threading -correlated-propagation -partial-inliner -libcalls-shrinkwrap -simple-loop-unswitch -strip 
+seidel-2d: 0.06390810012817383, inf, inf, 0.1549825668334961, -0.1549825668334961
+-loop-simplify -loop-fusion -lowerinvoke -alignment-from-assumptions -indvars -function-attrs -loop-rotate -loweratomic -lower-expect -loop-idiom -strip-nondebug -globalopt -libcalls-shrinkwrap -deadargelim -reg2mem -correlated-propagation -simple-loop-unswitch -instcombine -loop-reduce -strip 
+seidel-2d: 0.06390810012817383, inf, inf, 0.16055774688720703, -0.16055774688720703
+-reg2mem -simple-loop-unswitch -lower-expect -partial-inliner -loop-unroll -deadargelim -strip -function-attrs -strip-nondebug -inline -loop-simplify -loop-reduce -simplifycfg -jump-threading -loop-idiom -dse -sink -loweratomic -correlated-propagation -globalopt 
+seidel-2d: 0.06390810012817383, inf, inf, 0.1598811149597168, -0.1598811149597168
+-libcalls-shrinkwrap -lower-expect -globalopt -strip-nondebug -inline -reg2mem -loweratomic -strip -sink -loop-reduce -loop-fusion -loop-idiom -simplifycfg -correlated-propagation -loop-simplify -deadargelim -loop-deletion -jump-threading -constmerge -partial-inliner 
+seidel-2d: 0.06390810012817383, inf, inf, 0.15538692474365234, -0.15538692474365234
+-dse -simple-loop-unswitch -loop-reduce -inline -loop-simplify -ipsccp -jump-threading -sink -simplifycfg -alignment-from-assumptions -instcombine -loop-idiom -strip-nondebug -strip -libcalls-shrinkwrap -function-attrs -deadargelim -lowerinvoke -lower-expect -loweratomic 
+seidel-2d: 0.06390810012817383, inf, inf, 0.16049718856811523, -0.16049718856811523
+-lowerswitch -partial-inliner -inline -dse -strip-nondebug -jump-threading -loop-idiom -reg2mem -libcalls-shrinkwrap -adce -lower-expect -globaldce -break-crit-edges -globalopt -loweratomic -loop-simplify -strip -simple-loop-unswitch -sink -loop-deletion 
+seidel-2d: 0.06390810012817383, inf, inf, 0.1604011058807373, -0.1604011058807373
+-float2int -indvars -reg2mem -sink -strip-nondebug -libcalls-shrinkwrap -lower-expect -strip -loop-idiom -dse -loop-simplify -deadargelim -lowerinvoke -simplifycfg -globalopt -loweratomic -inline -loop-fusion -loop-deletion -function-attrs 
+seidel-2d: 0.06390810012817383, inf, inf, 0.16040492057800293, -0.16040492057800293
+-strip -loop-fusion -loweratomic -loop-simplify -loop-deletion -loop-idiom -lower-expect -strip-nondebug -deadargelim -simple-loop-unswitch -break-crit-edges -sink -simplifycfg -loop-reduce -reg2mem -globalopt -lowerswitch -jump-threading -libcalls-shrinkwrap -correlated-propagation 
+seidel-2d: 0.06390810012817383, inf, inf, 0.16179895401000977, -0.16179895401000977
+-correlated-propagation -loop-rotate -loweratomic -sink -dse -loop-reduce -loop-simplify -libcalls-shrinkwrap -loop-idiom -inline -strip-nondebug -simplifycfg -adce -jump-threading -deadargelim -loop-unroll -simple-loop-unswitch -function-attrs -strip -lower-expect 
+seidel-2d: 0.08504366874694824, inf, inf, 0.08504366874694824, -0.08504366874694824
+-loop-simplify -strip-nondebug -loop-fusion -lowerswitch -mem2reg -jump-threading -early-cse -alignment-from-assumptions -globaldce -break-crit-edges -sink -reg2mem -sroa -ipsccp -loop-deletion -strip -deadargelim -function-attrs -partial-inliner -correlated-propagation 
+seidel-2d: 0.05659055709838867, inf, inf, 0.05659055709838867, -0.05659055709838867
+-loop-simplify -licm -break-crit-edges -globalopt -lowerinvoke -loop-reduce -reg2mem -alignment-from-assumptions -dse -sroa -deadargelim -sink -loop-deletion -simplifycfg -loop-rotate -loop-fusion -constmerge -early-cse -partial-inliner -jump-threading 
+seidel-2d: 0.05659055709838867, inf, inf, 0.08283519744873047, -0.08283519744873047
+-inline -mem2reg -partial-inliner -break-crit-edges -loop-simplify -tailcallelim -early-cse -function-attrs -simplifycfg -sccp -constmerge -strip-nondebug -adce -alignment-from-assumptions -deadargelim -correlated-propagation -loop-deletion -float2int -loop-rotate -jump-threading 
+seidel-2d: 0.05659055709838867, inf, inf, 0.06677103042602539, -0.06677103042602539
+-loop-fusion -dse -function-attrs -loop-idiom -mem2reg -lowerswitch -ipsccp -globaldce -simplifycfg -strip-nondebug -indvars -early-cse -loop-deletion -correlated-propagation -lcssa -constmerge -simple-loop-unswitch -loweratomic -libcalls-shrinkwrap -loop-reduce 
+seidel-2d: 0.05659055709838867, inf, inf, 0.07850265502929688, -0.07850265502929688
+-tailcallelim -simple-loop-unswitch -lowerinvoke -deadargelim -function-attrs -licm -strip-nondebug -inline -early-cse -indvars -mem2reg -strip -sink -dse -sroa -sccp -simplifycfg -lowerswitch -partial-inliner -alignment-from-assumptions 
+seidel-2d: 0.05659055709838867, inf, inf, 0.08353447914123535, -0.08353447914123535
+-loop-simplify -dse -reg2mem -sroa -partial-inliner -lowerinvoke -gvn -loop-rotate -inline -libcalls-shrinkwrap -ipsccp -globalopt -loop-idiom -lowerswitch -simple-loop-unswitch -lcssa -correlated-propagation -loop-unroll -loop-fusion -function-attrs 
+seidel-2d: 0.05659055709838867, inf, inf, 0.10137748718261719, -0.10137748718261719
+-lowerswitch -loop-unroll -gvn -loop-rotate -simplifycfg -globaldce -lcssa -simple-loop-unswitch -early-cse -libcalls-shrinkwrap -loop-reduce -ipsccp -sroa -float2int -dse -loop-idiom -reassociate -loweratomic -lowerinvoke -mem2reg 
+seidel-2d: 0.05659055709838867, inf, inf, 0.14991331100463867, -0.14991331100463867
+-loop-reduce -simple-loop-unswitch -reg2mem -deadargelim -alignment-from-assumptions -lower-expect -globaldce -loop-rotate -strip-nondebug -loop-deletion -dse -sroa -function-attrs -lowerinvoke -ipsccp -loop-unroll -break-crit-edges -memcpyopt -lowerswitch -partial-inliner 
+seidel-2d: 0.05659055709838867, inf, inf, 0.08931779861450195, -0.08931779861450195
+-sroa -strip -simplifycfg -inline -tailcallelim -constmerge -loop-idiom -reg2mem -adce -sccp -libcalls-shrinkwrap -jump-threading -loop-deletion -lower-expect -gvn -lowerinvoke -sink -globaldce -reassociate -partial-inliner 
+seidel-2d: 0.05659055709838867, inf, inf, 0.08992171287536621, -0.08992171287536621
+-sccp -indvars -memcpyopt -loop-unroll -ipsccp -mem2reg -loop-reduce -dse -reg2mem -jump-threading -globalopt -loop-fusion -deadargelim -alignment-from-assumptions -loop-deletion -loop-idiom -lowerinvoke -inline -loop-simplify -sink 
+seidel-2d: 0.05659055709838867, inf, inf, 0.12580513954162598, -0.12580513954162598
+-deadargelim -licm -jump-threading -loop-unroll -lowerswitch -strip -tailcallelim -strip-nondebug -reassociate -globaldce -lcssa -break-crit-edges -mem2reg -sroa -alignment-from-assumptions -partial-inliner -lowerinvoke -reg2mem -dse -loop-simplify 
+seidel-2d: 0.05659055709838867, inf, inf, 0.08091354370117188, -0.08091354370117188
+-simple-loop-unswitch -mem2reg -alignment-from-assumptions -float2int -partial-inliner -strip-nondebug -sink -licm -function-attrs -simplifycfg -sccp -lowerswitch -deadargelim -early-cse -libcalls-shrinkwrap -strip -memcpyopt -loop-simplify -loop-rotate -correlated-propagation 
+seidel-2d: 0.05659055709838867, inf, inf, 0.1213994026184082, -0.1213994026184082
+-lowerswitch -loop-simplify -sroa -constmerge -ipsccp -alignment-from-assumptions -simple-loop-unswitch -sccp -float2int -globalopt -reg2mem -strip -inline -mem2reg -dse -reassociate -adce -loop-unroll -loweratomic -lower-expect 
+seidel-2d: 0.05659055709838867, inf, inf, 0.0900731086730957, -0.0900731086730957
+-mem2reg -lower-expect -lowerswitch -adce -deadargelim -strip -reg2mem -loop-unroll -inline -loop-simplify -loop-idiom -loop-fusion -alignment-from-assumptions -loweratomic -lcssa -ipsccp -gvn -indvars -simple-loop-unswitch -constmerge 
+seidel-2d: 0.05659055709838867, inf, inf, 0.09533071517944336, -0.09533071517944336
+-alignment-from-assumptions -reassociate -lowerinvoke -loop-simplify -sink -sccp -tailcallelim -correlated-propagation -lowerswitch -strip-nondebug -simple-loop-unswitch -jump-threading -inline -loweratomic -globalopt -adce -function-attrs -loop-unroll -gvn -break-crit-edges 
+seidel-2d: 0.05659055709838867, inf, inf, 0.09284710884094238, -0.09284710884094238
+-lowerswitch -globaldce -loop-fusion -break-crit-edges -libcalls-shrinkwrap -jump-threading -float2int -loop-unroll -strip -loweratomic -sccp -function-attrs -loop-deletion -strip-nondebug -memcpyopt -loop-idiom -licm -adce -sroa -indvars 
+seidel-2d: 0.05659055709838867, inf, inf, 0.15396976470947266, -0.15396976470947266
+-globaldce -loop-unroll -ipsccp -simple-loop-unswitch -mem2reg -lower-expect -globalopt -tailcallelim -reg2mem -indvars -lowerswitch -loop-idiom -strip -inline -alignment-from-assumptions -deadargelim -loop-fusion -lcssa -function-attrs -loweratomic 
+seidel-2d: 0.05659055709838867, inf, inf, 0.08569478988647461, -0.08569478988647461
+-break-crit-edges -early-cse -deadargelim -mem2reg -loop-fusion -simple-loop-unswitch -libcalls-shrinkwrap -inline -loop-deletion -alignment-from-assumptions -dse -loop-rotate -lowerswitch -sccp -jump-threading -loop-idiom -float2int -lowerinvoke -strip -ipsccp 
+seidel-2d: 0.05659055709838867, inf, inf, 0.12466263771057129, -0.12466263771057129
+-sccp -ipsccp -strip-nondebug -lcssa -break-crit-edges -function-attrs -indvars -sroa -loweratomic -memcpyopt -lowerswitch -adce -lowerinvoke -constmerge -loop-deletion -partial-inliner -loop-idiom -lower-expect -mem2reg -simplifycfg 
+seidel-2d: 0.05659055709838867, inf, inf, 0.10895943641662598, -0.10895943641662598
+-lowerinvoke -loop-fusion -strip-nondebug -mem2reg -sroa -lowerswitch -gvn -reg2mem -memcpyopt -sccp -loop-unroll -inline -reassociate -loop-reduce -loop-rotate -simplifycfg -indvars -alignment-from-assumptions -deadargelim -dse 
+seidel-2d: 0.05659055709838867, inf, inf, 0.16842055320739746, -0.16842055320739746
+-instcombine -jump-threading -loweratomic -lowerswitch -reg2mem -lowerinvoke -strip-nondebug -sink -memcpyopt -partial-inliner -gvn -inline -alignment-from-assumptions -loop-idiom -early-cse -lower-expect -globaldce -simplifycfg -function-attrs -deadargelim 
+seidel-2d: 0.05659055709838867, inf, inf, 0.11569690704345703, -0.11569690704345703
+-reassociate -deadargelim -adce -sink -indvars -function-attrs -ipsccp -strip-nondebug -loop-rotate -libcalls-shrinkwrap -jump-threading -partial-inliner -early-cse -simplifycfg -reg2mem -loop-idiom -loop-deletion -alignment-from-assumptions -instcombine -lowerswitch 
+seidel-2d: 0.05659055709838867, inf, inf, 0.06529116630554199, -0.06529116630554199
+-early-cse -loweratomic -adce -loop-deletion -break-crit-edges -mem2reg -lower-expect -alignment-from-assumptions -dse -lowerswitch -loop-fusion -loop-reduce -float2int -simple-loop-unswitch -sroa -jump-threading -sccp -strip -simplifycfg -lowerinvoke 
+seidel-2d: 0.05659055709838867, inf, inf, 0.08193683624267578, -0.08193683624267578
+-alignment-from-assumptions -indvars -loop-rotate -loop-unroll -loop-idiom -deadargelim -break-crit-edges -lowerinvoke -mem2reg -lcssa -loweratomic -gvn -lower-expect -lowerswitch -dse -simple-loop-unswitch -strip-nondebug -ipsccp -loop-deletion -sink 
+seidel-2d: 0.05659055709838867, inf, inf, 0.169417142868042, -0.169417142868042
+-lowerswitch -function-attrs -jump-threading -globalopt -sccp -reg2mem -ipsccp -inline -loop-rotate -adce -lower-expect -correlated-propagation -lowerinvoke -loop-fusion -loop-deletion -loweratomic -alignment-from-assumptions -dse -loop-idiom -reassociate 
+seidel-2d: 0.05659055709838867, inf, inf, 0.17236590385437012, -0.17236590385437012
+-sink -loop-idiom -simple-loop-unswitch -strip -jump-threading -lcssa -strip-nondebug -sroa -lowerinvoke -lowerswitch -loweratomic -deadargelim -function-attrs -instcombine -dse -sccp -globaldce -reg2mem -reassociate -loop-deletion 
+seidel-2d: 0.05659055709838867, inf, inf, 0.09598183631896973, -0.09598183631896973
+-strip-nondebug -loop-idiom -lowerinvoke -function-attrs -loop-reduce -loop-unroll -float2int -constmerge -lowerswitch -inline -adce -dse -libcalls-shrinkwrap -correlated-propagation -lower-expect -loop-deletion -gvn -simplifycfg -indvars -strip 
+seidel-2d: 0.05659055709838867, inf, inf, 0.08126020431518555, -0.08126020431518555
+-simple-loop-unswitch -lowerinvoke -indvars -deadargelim -memcpyopt -inline -lowerswitch -break-crit-edges -loop-reduce -loop-idiom -constmerge -globalopt -sroa -loop-rotate -sccp -dse -loweratomic -gvn -ipsccp -simplifycfg 
+seidel-2d: 0.05659055709838867, inf, inf, 0.16064834594726562, -0.16064834594726562
+-lowerinvoke -reassociate -loop-idiom -loop-fusion -alignment-from-assumptions -lcssa -function-attrs -indvars -ipsccp -dse -globalopt -globaldce -loweratomic -memcpyopt -loop-deletion -sccp -libcalls-shrinkwrap -lowerswitch -jump-threading -float2int 
+seidel-2d: 0.05659055709838867, inf, inf, 0.0897676944732666, -0.0897676944732666
+-licm -mem2reg -break-crit-edges -partial-inliner -libcalls-shrinkwrap -strip-nondebug -dse -alignment-from-assumptions -correlated-propagation -reassociate -ipsccp -lower-expect -loweratomic -function-attrs -sccp -loop-deletion -deadargelim -loop-idiom -indvars -lowerswitch 
+seidel-2d: 0.05659055709838867, inf, inf, 0.0630333423614502, -0.0630333423614502
+-loop-deletion -lowerswitch -loop-fusion -lowerinvoke -lower-expect -mem2reg -alignment-from-assumptions -sccp -loop-reduce -reassociate -sink -loop-idiom -lcssa -dse -indvars -inline -jump-threading -function-attrs -globaldce -memcpyopt 
+seidel-2d: 0.05659055709838867, inf, inf, 0.08333325386047363, -0.08333325386047363
+-sroa -tailcallelim -globalopt -simplifycfg -simple-loop-unswitch -break-crit-edges -function-attrs -lowerinvoke -lower-expect -sccp -dse -inline -gvn -early-cse -loop-rotate -lowerswitch -memcpyopt -loop-deletion -loweratomic -reassociate 
+seidel-2d: 0.05659055709838867, inf, inf, 0.06313085556030273, -0.06313085556030273
+-licm -lowerswitch -alignment-from-assumptions -sccp -globalopt -function-attrs -loweratomic -early-cse -constmerge -loop-fusion -strip-nondebug -loop-reduce -gvn -lower-expect -lcssa -float2int -indvars -dse -loop-deletion -lowerinvoke 
+seidel-2d: 0.05659055709838867, inf, inf, 0.07984328269958496, -0.07984328269958496
+-strip-nondebug -loop-idiom -lowerinvoke -break-crit-edges -mem2reg -dse -loop-fusion -early-cse -sccp -loop-deletion -lowerswitch -lower-expect -loop-rotate -tailcallelim -loweratomic -indvars -simple-loop-unswitch -jump-threading -alignment-from-assumptions -licm 
+seidel-2d: 0.05659055709838867, inf, inf, 0.16017460823059082, -0.16017460823059082
+-correlated-propagation -memcpyopt -globaldce -constmerge -dse -simplifycfg -indvars -instcombine -partial-inliner -jump-threading -function-attrs -lowerinvoke -loop-deletion -reg2mem -deadargelim -sccp -loweratomic -break-crit-edges -strip -loop-rotate 
+seidel-2d: 0.05659055709838867, inf, inf, 0.09369087219238281, -0.09369087219238281
+-early-cse -lower-expect -dse -tailcallelim -alignment-from-assumptions -loop-idiom -loop-unroll -adce -reassociate -ipsccp -globalopt -lowerinvoke -sccp -strip-nondebug -lowerswitch -loop-deletion -globaldce -memcpyopt -break-crit-edges -deadargelim 
+seidel-2d: 0.05659055709838867, inf, inf, 0.06290221214294434, -0.06290221214294434
+-correlated-propagation -memcpyopt -lcssa -mem2reg -reg2mem -loweratomic -adce -loop-rotate -gvn -function-attrs -globaldce -loop-reduce -indvars -strip-nondebug -loop-deletion -deadargelim -dse -loop-unroll -sroa -sccp 
+seidel-2d: 0.05659055709838867, inf, inf, 0.11620235443115234, -0.11620235443115234
+-memcpyopt -reg2mem -inline -licm -globalopt -dse -instcombine -strip-nondebug -adce -indvars -lowerinvoke -float2int -break-crit-edges -loweratomic -sroa -jump-threading -lowerswitch -lower-expect -function-attrs -loop-unroll 
+seidel-2d: 0.05659055709838867, inf, inf, 0.1560060977935791, -0.1560060977935791
+-dse -simplifycfg -sccp -function-attrs -break-crit-edges -libcalls-shrinkwrap -alignment-from-assumptions -deadargelim -memcpyopt -loop-reduce -strip-nondebug -lowerinvoke -reg2mem -constmerge -loop-fusion -jump-threading -lowerswitch -lcssa -instcombine -globalopt 
+seidel-2d: 0.05659055709838867, inf, inf, 0.12252593040466309, -0.12252593040466309
+-strip-nondebug -loop-rotate -loweratomic -lowerinvoke -mem2reg -loop-idiom -lowerswitch -function-attrs -reassociate -dse -loop-deletion -tailcallelim -float2int -memcpyopt -indvars -globalopt -sccp -deadargelim -loop-unroll -alignment-from-assumptions 
+seidel-2d: 0.05659055709838867, inf, inf, 0.1905195713043213, -0.1905195713043213
+-function-attrs -jump-threading -loweratomic -float2int -loop-unroll -loop-fusion -indvars -deadargelim -lowerswitch -correlated-propagation -alignment-from-assumptions -loop-rotate -simple-loop-unswitch -ipsccp -dse -strip-nondebug -break-crit-edges -lowerinvoke -sccp -loop-deletion 
+seidel-2d: 0.05659055709838867, inf, inf, 0.12125062942504883, -0.12125062942504883
+-lcssa -loweratomic -sccp -mem2reg -strip-nondebug -function-attrs -libcalls-shrinkwrap -lowerswitch -loop-unroll -sink -loop-idiom -ipsccp -loop-deletion -dse -jump-threading -simplifycfg -break-crit-edges -lowerinvoke -loop-simplify -indvars 
+seidel-2d: 0.05659055709838867, inf, inf, 0.11574912071228027, -0.11574912071228027
+-licm -strip-nondebug -tailcallelim -jump-threading -loweratomic -break-crit-edges -lower-expect -sroa -dse -lowerinvoke -strip -loop-deletion -float2int -memcpyopt -loop-rotate -lowerswitch -sccp -reg2mem -simplifycfg -adce 
+seidel-2d: 0.05659055709838867, inf, inf, 0.14005684852600098, -0.14005684852600098
+-ipsccp -tailcallelim -loop-rotate -simple-loop-unswitch -dse -adce -memcpyopt -correlated-propagation -instcombine -loop-deletion -lowerinvoke -lowerswitch -function-attrs -loweratomic -inline -lower-expect -mem2reg -partial-inliner -break-crit-edges -sccp 
+seidel-2d: 0.05659055709838867, inf, inf, 0.18473076820373535, -0.18473076820373535
+-jump-threading -lowerinvoke -sroa -dse -simple-loop-unswitch -loop-rotate -lowerswitch -correlated-propagation -reg2mem -strip -alignment-from-assumptions -strip-nondebug -loop-deletion -libcalls-shrinkwrap -loweratomic -function-attrs -adce -loop-idiom -loop-simplify -deadargelim 
+seidel-2d: 0.05659055709838867, inf, inf, 0.12431144714355469, -0.12431144714355469
+-loop-reduce -simplifycfg -tailcallelim -function-attrs -strip -break-crit-edges -lowerswitch -deadargelim -alignment-from-assumptions -libcalls-shrinkwrap -correlated-propagation -memcpyopt -loweratomic -dse -jump-threading -reg2mem -reassociate -lowerinvoke -loop-rotate -mem2reg 
+seidel-2d: 0.05659055709838867, inf, inf, 0.09515023231506348, -0.09515023231506348
+-strip-nondebug -lowerswitch -loop-idiom -reassociate -loop-deletion -sccp -loop-reduce -function-attrs -loweratomic -lowerinvoke -dse -lower-expect -correlated-propagation -float2int -indvars -globalopt -alignment-from-assumptions -loop-unroll -reg2mem -gvn 
+seidel-2d: 0.05659055709838867, inf, inf, 0.16000723838806152, -0.16000723838806152
+-dse -loop-reduce -lowerinvoke -libcalls-shrinkwrap -lowerswitch -break-crit-edges -sccp -loop-deletion -jump-threading -loop-idiom -partial-inliner -indvars -function-attrs -reg2mem -correlated-propagation -strip-nondebug -alignment-from-assumptions -loweratomic -strip -constmerge 
+seidel-2d: 0.05659055709838867, inf, inf, 0.1233060359954834, -0.1233060359954834
+-sroa -loop-deletion -lowerswitch -loop-rotate -lcssa -strip -loop-unroll -memcpyopt -lower-expect -loop-simplify -partial-inliner -lowerinvoke -loop-fusion -correlated-propagation -loweratomic -function-attrs -jump-threading -dse -globalopt -strip-nondebug 
+seidel-2d: 0.05659055709838867, inf, inf, 0.11447453498840332, -0.11447453498840332
+-early-cse -constmerge -lowerswitch -strip-nondebug -instcombine -loop-deletion -deadargelim -dse -lowerinvoke -memcpyopt -simplifycfg -loweratomic -reassociate -loop-idiom -globaldce -indvars -lcssa -function-attrs -sccp -float2int 
+seidel-2d: 0.05659055709838867, inf, inf, 0.0645298957824707, -0.0645298957824707
+-sroa -loop-deletion -jump-threading -loop-idiom -lowerswitch -function-attrs -correlated-propagation -adce -lowerinvoke -mem2reg -libcalls-shrinkwrap -strip-nondebug -dse -globalopt -loweratomic -sccp -loop-reduce -reassociate -deadargelim -memcpyopt 
+seidel-2d: 0.05659055709838867, inf, inf, 0.15344834327697754, -0.15344834327697754
+-lower-expect -reg2mem -correlated-propagation -strip -lowerinvoke -float2int -instcombine -sccp -dse -inline -function-attrs -alignment-from-assumptions -lowerswitch -loop-deletion -memcpyopt -lcssa -loweratomic -jump-threading -strip-nondebug -indvars 
+seidel-2d: 0.05659055709838867, inf, inf, 0.1668703556060791, -0.1668703556060791
+-loop-reduce -correlated-propagation -lowerinvoke -loop-deletion -adce -loweratomic -alignment-from-assumptions -libcalls-shrinkwrap -dse -indvars -loop-unroll -lowerswitch -globaldce -tailcallelim -simple-loop-unswitch -lower-expect -function-attrs -loop-rotate -globalopt -strip-nondebug 
+seidel-2d: 0.05659055709838867, inf, inf, 0.086883544921875, -0.086883544921875
+-partial-inliner -loop-reduce -lower-expect -globaldce -lowerinvoke -strip-nondebug -early-cse -function-attrs -lowerswitch -dse -loweratomic -deadargelim -loop-unroll -memcpyopt -loop-deletion -inline -jump-threading -globalopt -gvn -sccp 
+seidel-2d: 0.05659055709838867, inf, inf, 0.0947108268737793, -0.0947108268737793
+-dse -alignment-from-assumptions -loop-deletion -ipsccp -function-attrs -globaldce -lower-expect -strip-nondebug -lowerinvoke -sccp -correlated-propagation -deadargelim -loop-unroll -gvn -globalopt -loweratomic -memcpyopt -libcalls-shrinkwrap -adce -lowerswitch 
+seidel-2d: 0.05659055709838867, inf, inf, 0.1498870849609375, -0.1498870849609375
+-loweratomic -memcpyopt -licm -dse -libcalls-shrinkwrap -lower-expect -reg2mem -loop-deletion -correlated-propagation -lowerswitch -strip-nondebug -globalopt -loop-idiom -simple-loop-unswitch -lowerinvoke -ipsccp -sccp -globaldce -function-attrs -constmerge 
+seidel-2d: 0.05659055709838867, inf, inf, 0.16008710861206055, -0.16008710861206055
+-globalopt -lower-expect -loweratomic -adce -break-crit-edges -loop-deletion -lowerinvoke -dse -memcpyopt -correlated-propagation -reg2mem -inline -sccp -strip-nondebug -function-attrs -lowerswitch -alignment-from-assumptions -loop-idiom -loop-unroll -deadargelim 
+seidel-2d: 0.05659055709838867, inf, inf, 0.20231199264526367, -0.20231199264526367
+-memcpyopt -lower-expect -loop-rotate -loop-reduce -jump-threading -globaldce -strip-nondebug -alignment-from-assumptions -sccp -lowerinvoke -dse -function-attrs -lowerswitch -adce -loop-deletion -loweratomic -float2int -loop-fusion -correlated-propagation -globalopt 
+seidel-2d: 0.05659055709838867, inf, inf, 0.12532401084899902, -0.12532401084899902
+-correlated-propagation -deadargelim -strip-nondebug -alignment-from-assumptions -lcssa -dse -loweratomic -lowerswitch -float2int -lowerinvoke -sccp -indvars -memcpyopt -adce -function-attrs -globaldce -loop-unroll -ipsccp -loop-reduce -mem2reg 
+seidel-2d: 0.05659055709838867, inf, inf, 0.12560820579528809, -0.12560820579528809
+-lcssa -loweratomic -function-attrs -libcalls-shrinkwrap -loop-rotate -lowerinvoke -float2int -dse -lowerswitch -globalopt -strip-nondebug -sroa -sccp -deadargelim -indvars -memcpyopt -lower-expect -correlated-propagation -loop-idiom -reassociate 
+seidel-2d: 0.05659055709838867, inf, inf, 0.12335801124572754, -0.12335801124572754
+-adce -tailcallelim -lower-expect -globaldce -loweratomic -reg2mem -function-attrs -correlated-propagation -float2int -sroa -lowerinvoke -sccp -strip-nondebug -deadargelim -memcpyopt -jump-threading -lowerswitch -dse -libcalls-shrinkwrap -globalopt 
+seidel-2d: 0.05659055709838867, inf, inf, 0.15574932098388672, -0.15574932098388672
+-alignment-from-assumptions -adce -lowerinvoke -strip-nondebug -memcpyopt -correlated-propagation -loweratomic -constmerge -sccp -lowerswitch -float2int -indvars -lower-expect -loop-reduce -mem2reg -function-attrs -loop-unroll -dse -globalopt -libcalls-shrinkwrap 
+seidel-2d: 0.05659055709838867, inf, inf, 0.174407958984375, -0.174407958984375
+-strip-nondebug -globalopt -reg2mem -lowerswitch -simple-loop-unswitch -sccp -loweratomic -loop-deletion -indvars -lowerinvoke -memcpyopt -dse -float2int -loop-unroll -correlated-propagation -loop-idiom -lower-expect -adce -ipsccp -function-attrs 
+seidel-2d: 0.05659055709838867, inf, inf, 0.09367513656616211, -0.09367513656616211
+-inline -dse -float2int -lowerswitch -strip-nondebug -libcalls-shrinkwrap -correlated-propagation -memcpyopt -function-attrs -jump-threading -tailcallelim -sccp -gvn -reg2mem -loweratomic -alignment-from-assumptions -lowerinvoke -simple-loop-unswitch -sroa -break-crit-edges 
+seidel-2d: 0.05659055709838867, inf, inf, 0.15577268600463867, -0.15577268600463867
+-ipsccp -lowerswitch -dse -alignment-from-assumptions -loop-fusion -lowerinvoke -strip-nondebug -constmerge -correlated-propagation -jump-threading -deadargelim -globalopt -loop-unroll -float2int -tailcallelim -lower-expect -sccp -loweratomic -memcpyopt -instcombine 
+seidel-2d: 0.05659055709838867, inf, inf, 0.15987348556518555, -0.15987348556518555
+-loweratomic -jump-threading -correlated-propagation -reg2mem -loop-deletion -strip-nondebug -float2int -dse -sccp -lowerinvoke -loop-idiom -memcpyopt -globaldce -lowerswitch -constmerge -globalopt -inline -indvars -reassociate -lower-expect 
+seidel-2d: 0.05659055709838867, inf, inf, 0.12293791770935059, -0.12293791770935059
+-libcalls-shrinkwrap -indvars -loop-rotate -lower-expect -float2int -loweratomic -lowerinvoke -dse -globaldce -lowerswitch -sccp -strip-nondebug -memcpyopt -reg2mem -globalopt -correlated-propagation -function-attrs -loop-unroll -mem2reg -loop-deletion 
+seidel-2d: 0.05659055709838867, inf, inf, 0.16086530685424805, -0.16086530685424805
+-tailcallelim -sink -break-crit-edges -lowerswitch -float2int -lcssa -globaldce -globalopt -jump-threading -loop-rotate -lowerinvoke -dse -memcpyopt -strip-nondebug -loop-unroll -loweratomic -loop-deletion -sccp -ipsccp -simple-loop-unswitch 
+seidel-2d: 0.05659055709838867, inf, inf, 0.16045689582824707, -0.16045689582824707
+-loop-idiom -sccp -loweratomic -lowerinvoke -jump-threading -correlated-propagation -lowerswitch -dse -libcalls-shrinkwrap -globaldce -strip-nondebug -function-attrs -reassociate -inline -reg2mem -loop-unroll -partial-inliner -alignment-from-assumptions -globalopt -deadargelim 
+seidel-2d: 0.05659055709838867, inf, inf, 0.11422014236450195, -0.11422014236450195
+-lowerinvoke -gvn -globaldce -libcalls-shrinkwrap -loop-rotate -strip-nondebug -dse -sccp -reassociate -reg2mem -partial-inliner -loweratomic -lowerswitch -simplifycfg -correlated-propagation -jump-threading -function-attrs -float2int -memcpyopt -globalopt 
+seidel-2d: 0.05659055709838867, inf, inf, 0.20190978050231934, -0.20190978050231934
+-float2int -dse -lowerinvoke -lowerswitch -sink -globaldce -reassociate -simplifycfg -strip-nondebug -loop-deletion -libcalls-shrinkwrap -sccp -ipsccp -function-attrs -loweratomic -constmerge -loop-rotate -loop-unroll -memcpyopt -inline 
+seidel-2d: 0.05659055709838867, inf, inf, 0.09247922897338867, -0.09247922897338867
+-strip-nondebug -lowerinvoke -simple-loop-unswitch -constmerge -dse -reassociate -loop-deletion -lowerswitch -function-attrs -loweratomic -libcalls-shrinkwrap -gvn -lcssa -indvars -globalopt -sccp -break-crit-edges -memcpyopt -tailcallelim -loop-unroll 
+seidel-2d: 0.05659055709838867, inf, inf, 0.1654360294342041, -0.1654360294342041
+-tailcallelim -loweratomic -alignment-from-assumptions -lowerinvoke -sccp -float2int -globalopt -dse -sroa -lowerswitch -correlated-propagation -strip-nondebug -reassociate -memcpyopt -jump-threading -libcalls-shrinkwrap -loop-unroll -lower-expect -deadargelim -reg2mem 
+seidel-2d: 0.05659055709838867, inf, inf, 0.16028976440429688, -0.16028976440429688
+-strip-nondebug -float2int -lowerinvoke -lowerswitch -libcalls-shrinkwrap -function-attrs -jump-threading -deadargelim -loop-unroll -globaldce -inline -indvars -dse -reassociate -loop-deletion -sccp -loweratomic -lcssa -correlated-propagation -ipsccp 
+seidel-2d: 0.05659055709838867, inf, inf, 0.1318204402923584, -0.1318204402923584
+-mem2reg -correlated-propagation -inline -lowerswitch -float2int -loweratomic -strip-nondebug -dse -loop-deletion -reassociate -globalopt -lowerinvoke -lcssa -sccp -instcombine -simplifycfg -loop-unroll -libcalls-shrinkwrap -break-crit-edges -ipsccp 
+seidel-2d: 0.05659055709838867, inf, inf, 0.18361353874206543, -0.18361353874206543
+-lowerswitch -loop-unroll -correlated-propagation -reassociate -libcalls-shrinkwrap -ipsccp -sccp -dse -strip-nondebug -lowerinvoke -loop-idiom -loweratomic -tailcallelim -deadargelim -memcpyopt -loop-reduce -loop-rotate -float2int -loop-deletion -constmerge 
+seidel-2d: 0.05659055709838867, inf, inf, 0.17026400566101074, -0.17026400566101074
+-loweratomic -sccp -lowerswitch -correlated-propagation -strip-nondebug -loop-rotate -reg2mem -lowerinvoke -inline -alignment-from-assumptions -reassociate -deadargelim -globalopt -dse -loop-deletion -libcalls-shrinkwrap -jump-threading -float2int -ipsccp -loop-unroll 
+seidel-2d: 0.05659055709838867, inf, inf, 0.16662073135375977, -0.16662073135375977
+-strip-nondebug -loop-deletion -float2int -dse -loop-fusion -lowerinvoke -reassociate -lowerswitch -sccp -reg2mem -loweratomic -loop-unroll -globalopt -break-crit-edges -sink -alignment-from-assumptions -inline -partial-inliner -simplifycfg -correlated-propagation 
+seidel-2d: 0.05659055709838867, inf, inf, 0.09274053573608398, -0.09274053573608398
+-ipsccp -lowerinvoke -lowerswitch -deadargelim -jump-threading -loweratomic -dse -sccp -strip-nondebug -reassociate -sink -float2int -libcalls-shrinkwrap -globalopt -memcpyopt -lower-expect -gvn -correlated-propagation -break-crit-edges -loop-rotate 
+seidel-2d: 0.09443354606628418, inf, inf, 0.09443354606628418, -0.09443354606628418
+-instcombine -adce -loop-idiom -loop-rotate -reg2mem -dse -loweratomic -mem2reg -gvn -loop-fusion -strip -loop-deletion -deadargelim -function-attrs -early-cse -indvars -sccp -constmerge -libcalls-shrinkwrap -sink 
+seidel-2d: 0.3060121536254883, 0.17264080047607422, 0.13337135314941406, 0.3060121536254883, -0.3060121536254883
+-globaldce -globalopt -partial-inliner -dse -reassociate -loop-unroll -loop-rotate -loweratomic -simple-loop-unswitch -lower-expect -mem2reg -correlated-propagation -inline -sccp -strip -strip-nondebug -loop-fusion -constmerge -ipsccp -instcombine 
+seidel-2d: 0.15656280517578125, 0.09370636940002441, 0.06285643577575684, 0.15656280517578125, -0.15656280517578125
+-loop-simplify -loweratomic -loop-unroll -memcpyopt -libcalls-shrinkwrap -globalopt -break-crit-edges -float2int -lowerswitch -strip-nondebug -mem2reg -adce -dse -tailcallelim -loop-reduce -alignment-from-assumptions -strip -correlated-propagation -loop-rotate -deadargelim 
+seidel-2d: 0.15656280517578125, 0.09370636940002441, 0.06285643577575684, 0.18363165855407715, -0.18363165855407715
+-simple-loop-unswitch -reassociate -deadargelim -loop-rotate -dse -loop-deletion -gvn -alignment-from-assumptions -mem2reg -lower-expect -loweratomic -globaldce -simplifycfg -partial-inliner -loop-simplify -ipsccp -loop-idiom -inline -strip -sroa 
+seidel-2d: 5.25698977470398, 3.73, 1.33, 0.1969897747039795, 5.25698977470398, -5.25698977470398
+-loop-unroll -loweratomic -inline -jump-threading -reassociate -sccp -simplifycfg -strip -dse -ipsccp -simple-loop-unswitch -loop-rotate -sink -deadargelim -lowerswitch -alignment-from-assumptions -float2int -lower-expect -globaldce -indvars 
+seidel-2d: 2.6787217235565186, 1.92, 0.64, 0.11872172355651855, 2.6787217235565186, -2.6787217235565186
+-memcpyopt -loop-reduce -mem2reg -simplifycfg -loop-rotate -lowerswitch -dse -loop-simplify -lower-expect -loop-unroll -ipsccp -reassociate -float2int -constmerge -globalopt -loop-fusion -licm -lowerinvoke -strip -sink 
+seidel-2d: 2.6787217235565186, 1.92, 0.64, 0.11872172355651855, 3.9119987201690676, -3.9119987201690676
+-deadargelim -lowerinvoke -gvn -correlated-propagation -loweratomic -lower-expect -dse -jump-threading -indvars -reg2mem -simple-loop-unswitch -loop-simplify -break-crit-edges -sink -adce -globaldce -partial-inliner -loop-reduce -strip -loop-idiom 
+seidel-2d: 1.9350229263305663, 1.4, 0.45, 0.0850229263305664, 1.9350229263305663, -1.9350229263305663
+-licm -memcpyopt -loweratomic -mem2reg -strip-nondebug -loop-idiom -lower-expect -loop-rotate -float2int -lowerswitch -ipsccp -loop-unroll -deadargelim -loop-reduce -lcssa -instcombine -partial-inliner -simple-loop-unswitch -sink -globaldce 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 1.667972640991211, -1.667972640991211
+-licm -loop-fusion -strip-nondebug -lcssa -loweratomic -simple-loop-unswitch -lowerswitch -strip -indvars -gvn -loop-reduce -loop-idiom -memcpyopt -correlated-propagation -instcombine -dse -libcalls-shrinkwrap -sroa -alignment-from-assumptions -jump-threading 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 2.637439727783203, -2.637439727783203
+-loweratomic -inline -simple-loop-unswitch -float2int -licm -break-crit-edges -loop-reduce -alignment-from-assumptions -gvn -reg2mem -tailcallelim -deadargelim -libcalls-shrinkwrap -loop-unroll -memcpyopt -sccp -correlated-propagation -strip-nondebug -constmerge -sink 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 1.7491776084899902, -1.7491776084899902
+-lowerswitch -libcalls-shrinkwrap -loop-deletion -jump-threading -function-attrs -partial-inliner -reassociate -sink -deadargelim -mem2reg -indvars -lcssa -strip-nondebug -lower-expect -licm -globalopt -strip -lowerinvoke -memcpyopt -loop-reduce 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 2.8296050739288328, -2.8296050739288328
+-sccp -loop-unroll -simple-loop-unswitch -loop-deletion -constmerge -adce -sink -early-cse -lowerinvoke -lowerswitch -indvars -inline -globalopt -tailcallelim -reg2mem -libcalls-shrinkwrap -lcssa -sroa -alignment-from-assumptions -strip-nondebug 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 1.9149761867523194, -1.9149761867523194
+-indvars -jump-threading -strip -sroa -memcpyopt -deadargelim -loop-fusion -lowerinvoke -correlated-propagation -alignment-from-assumptions -adce -licm -gvn -lower-expect -lowerswitch -constmerge -loop-unroll -strip-nondebug -loop-idiom -loop-reduce 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 2.2229455566406253, -2.2229455566406253
+-globalopt -licm -indvars -strip -jump-threading -sroa -ipsccp -partial-inliner -lower-expect -loop-rotate -memcpyopt -loop-reduce -libcalls-shrinkwrap -loop-fusion -deadargelim -break-crit-edges -constmerge -reg2mem -float2int -reassociate 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 4.159428367614746, -4.159428367614746
+-tailcallelim -function-attrs -globalopt -adce -inline -correlated-propagation -mem2reg -jump-threading -reassociate -strip-nondebug -break-crit-edges -loop-idiom -alignment-from-assumptions -loweratomic -loop-fusion -sroa -loop-unroll -sccp -libcalls-shrinkwrap -lowerinvoke 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 2.0475463390350344, -2.0475463390350344
+-sroa -loweratomic -loop-idiom -reg2mem -loop-fusion -lower-expect -indvars -simple-loop-unswitch -function-attrs -correlated-propagation -reassociate -sccp -ipsccp -gvn -loop-rotate -partial-inliner -loop-reduce -deadargelim -adce -globaldce 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 3.3078180980682372, -3.3078180980682372
+-alignment-from-assumptions -reg2mem -loweratomic -gvn -early-cse -jump-threading -constmerge -sccp -loop-idiom -reassociate -memcpyopt -float2int -lcssa -instcombine -lowerinvoke -globalopt -loop-unroll -dse -function-attrs -lowerswitch 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 2.218215084075928, -2.218215084075928
+-globalopt -jump-threading -break-crit-edges -early-cse -loop-simplify -loweratomic -reg2mem -lowerinvoke -loop-idiom -inline -simplifycfg -memcpyopt -reassociate -sroa -deadargelim -licm -loop-fusion -dse -float2int -tailcallelim 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 3.0497686100006103, -3.0497686100006103
+-sroa -lowerinvoke -reg2mem -instcombine -loop-idiom -alignment-from-assumptions -gvn -memcpyopt -loop-simplify -mem2reg -loop-rotate -sccp -libcalls-shrinkwrap -strip -simple-loop-unswitch -reassociate -adce -constmerge -indvars -strip-nondebug 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 5.065278654098511, -5.065278654098511
+-loop-simplify -sink -function-attrs -libcalls-shrinkwrap -loweratomic -simple-loop-unswitch -loop-deletion -indvars -reg2mem -simplifycfg -sccp -lowerswitch -lcssa -memcpyopt -loop-reduce -globalopt -loop-idiom -jump-threading -strip -globaldce 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 5.113969507217407, -5.113969507217407
+-loop-fusion -loop-reduce -lower-expect -lcssa -ipsccp -loop-idiom -loop-simplify -strip-nondebug -lowerinvoke -libcalls-shrinkwrap -alignment-from-assumptions -reassociate -globaldce -reg2mem -simple-loop-unswitch -loop-unroll -correlated-propagation -sink -loweratomic -dse 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 4.123608074188232, -4.123608074188232
+-inline -partial-inliner -loop-idiom -libcalls-shrinkwrap -strip -memcpyopt -loop-unroll -indvars -reg2mem -loop-fusion -globalopt -function-attrs -jump-threading -constmerge -alignment-from-assumptions -reassociate -float2int -mem2reg -lcssa -correlated-propagation 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 20.0959210395813, -20.0959210395813
+-partial-inliner -licm -jump-threading -adce -lcssa -loop-reduce -loop-simplify -loop-rotate -sink -strip -dse -inline -libcalls-shrinkwrap -loop-unroll -alignment-from-assumptions -lowerswitch -loop-idiom -reassociate -simplifycfg -memcpyopt 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 20.12588143348694, -20.12588143348694
+-sink -loweratomic -licm -loop-fusion -sccp -simplifycfg -reassociate -instcombine -dse -break-crit-edges -strip -loop-idiom -deadargelim -lower-expect -lcssa -strip-nondebug -early-cse -libcalls-shrinkwrap -tailcallelim -adce 
+seidel-2d: 1.667972640991211, 1.22, 0.36, 0.08797264099121094, 20.0877206325531, -20.0877206325531
+-inline -mem2reg -loweratomic -simplifycfg -reassociate -jump-threading -break-crit-edges -lcssa -licm -deadargelim -memcpyopt -alignment-from-assumptions -globalopt -libcalls-shrinkwrap -loop-fusion -globaldce -loop-reduce -dse -loop-idiom -lower-expect 
+seidel-2d: 2.958013849258423, 2.14, 0.69, 0.12801384925842285, 2.958013849258423, -2.958013849258423
+-jump-threading -loop-idiom -tailcallelim -reassociate -loop-simplify -function-attrs -libcalls-shrinkwrap -alignment-from-assumptions -sink -loop-fusion -instcombine -indvars -licm -memcpyopt -early-cse -mem2reg -simplifycfg -strip-nondebug -globaldce -simple-loop-unswitch 
+seidel-2d: 2.958013849258423, 2.14, 0.69, 0.12801384925842285, 3.3527745819091797, -3.3527745819091797
+-alignment-from-assumptions -sroa -globaldce -simplifycfg -loop-deletion -loweratomic -function-attrs -licm -loop-rotate -lcssa -dse -strip -jump-threading -simple-loop-unswitch -loop-simplify -lower-expect -loop-unroll -reassociate -lowerinvoke -instcombine 
+seidel-2d: 2.0070444774627685, 1.44, 0.48, 0.08704447746276855, 2.0070444774627685, -2.0070444774627685
+-ipsccp -licm -alignment-from-assumptions -globaldce -loop-reduce -partial-inliner -globalopt -sink -loop-rotate -reassociate -deadargelim -sroa -lcssa -strip-nondebug -lowerinvoke -reg2mem -early-cse -gvn -simple-loop-unswitch -dse 
+seidel-2d: 2.0070444774627685, 1.44, 0.48, 0.08704447746276855, 2.193485584259033, -2.193485584259033
+-simplifycfg -globalopt -reg2mem -break-crit-edges -alignment-from-assumptions -constmerge -tailcallelim -reassociate -float2int -loop-simplify -simple-loop-unswitch -loop-fusion -mem2reg -early-cse -indvars -licm -inline -lowerinvoke -loweratomic -gvn 
+seidel-2d: 1.02, inf, inf, inf, 1.02, -1.02
+-lower-expect -loop-unroll -reassociate -sink -indvars -break-crit-edges -loop-idiom -memcpyopt -loop-deletion -inline -loop-reduce -tailcallelim -adce -strip -float2int -lcssa -dse -lowerswitch -gvn -deadargelim 
+seidel-2d: 0.64, inf, inf, inf, 0.64, -0.64
+-loop-fusion -sccp -globaldce -constmerge -float2int -ipsccp -loop-unroll -indvars -deadargelim -function-attrs -loop-idiom -sroa -sink -break-crit-edges -inline -libcalls-shrinkwrap -simple-loop-unswitch -mem2reg -jump-threading -licm 
+seidel-2d: 0.64, inf, inf, inf, 1.27, -1.27
+-lowerswitch -loweratomic -lower-expect -loop-simplify -function-attrs -lcssa -sccp -reg2mem -tailcallelim -indvars -reassociate -libcalls-shrinkwrap -constmerge -jump-threading -loop-unroll -simplifycfg -ipsccp -loop-deletion -inline -strip 
+seidel-2d: 0.64, inf, inf, inf, 0.71, -0.71
+-sink -loop-deletion -simple-loop-unswitch -ipsccp -sroa -loop-simplify -licm -reassociate -instcombine -inline -indvars -early-cse -loop-unroll -float2int -dse -constmerge -sccp -lowerinvoke -loop-idiom -partial-inliner 
+seidel-2d: 0.64, inf, inf, inf, 0.93, -0.93
+-tailcallelim -simplifycfg -function-attrs -strip -libcalls-shrinkwrap -deadargelim -gvn -float2int -sroa -loop-unroll -adce -lower-expect -loop-idiom -globalopt -dse -lowerinvoke -jump-threading -inline -correlated-propagation -loweratomic 
+seidel-2d: 0.4, inf, inf, inf, 0.4, -0.4
+-deadargelim -sroa -simple-loop-unswitch -instcombine -lowerinvoke -loop-simplify -reassociate -constmerge -strip -lcssa -partial-inliner -loop-fusion -break-crit-edges -memcpyopt -lowerswitch -globaldce -loop-reduce -loop-rotate -loweratomic -mem2reg 
+seidel-2d: 0.4, inf, inf, inf, 0.84, -0.84
+-alignment-from-assumptions -strip-nondebug -strip -lowerinvoke -sroa -licm -loop-idiom -loop-unroll -gvn -sink -reassociate -tailcallelim -adce -instcombine -globaldce -partial-inliner -loop-rotate -loop-deletion -lcssa -globalopt 
+seidel-2d: 0.4, inf, inf, inf, 0.5, -0.5
+-break-crit-edges -dse -sroa -globalopt -gvn -libcalls-shrinkwrap -loweratomic -reassociate -lcssa -function-attrs -strip -partial-inliner -lowerinvoke -deadargelim -jump-threading -licm -loop-simplify -sccp -correlated-propagation -adce 
+seidel-2d: 0.4, inf, inf, inf, 0.71, -0.71
+-ipsccp -alignment-from-assumptions -loop-deletion -adce -inline -loop-idiom -correlated-propagation -partial-inliner -mem2reg -sink -globalopt -licm -lowerswitch -break-crit-edges -sroa -loop-rotate -jump-threading -libcalls-shrinkwrap -lower-expect -tailcallelim 
+seidel-2d: 0.4, inf, inf, inf, 0.49, -0.49
+-strip -ipsccp -strip-nondebug -lowerswitch -globaldce -licm -partial-inliner -deadargelim -loop-reduce -lowerinvoke -reg2mem -adce -dse -libcalls-shrinkwrap -gvn -sink -loop-idiom -early-cse -float2int -tailcallelim 
+seidel-2d: 0.4, inf, inf, inf, 1.06, -1.06
+-loop-unroll -libcalls-shrinkwrap -loop-reduce -loop-rotate -lcssa -deadargelim -inline -jump-threading -indvars -globaldce -ipsccp -gvn -sink -correlated-propagation -reassociate -float2int -alignment-from-assumptions -strip -loop-idiom -adce 
+seidel-2d: 0.4, inf, inf, inf, 0.74, -0.74
+-reassociate -lower-expect -memcpyopt -mem2reg -dse -loop-unroll -gvn -lowerswitch -function-attrs -inline -strip-nondebug -alignment-from-assumptions -instcombine -jump-threading -globaldce -lcssa -loop-simplify -constmerge -loop-idiom -correlated-propagation 
+seidel-2d: 0.4, inf, inf, inf, 0.95, -0.95
+-break-crit-edges -indvars -loop-idiom -constmerge -sroa -globalopt -correlated-propagation -tailcallelim -loop-rotate -adce -licm -sink -lowerswitch -alignment-from-assumptions -lcssa -lower-expect -loop-fusion -loweratomic -function-attrs -float2int 
+seidel-2d: 0.4, inf, inf, inf, 1.62, -1.62
+-gvn -loop-fusion -correlated-propagation -loop-rotate -function-attrs -float2int -indvars -inline -libcalls-shrinkwrap -alignment-from-assumptions -sccp -break-crit-edges -loop-simplify -instcombine -partial-inliner -lowerinvoke -adce -loop-unroll -sroa -licm 
+seidel-2d: 0.4, inf, inf, inf, 1.07, -1.07
+-adce -indvars -constmerge -licm -reassociate -mem2reg -globaldce -sroa -memcpyopt -alignment-from-assumptions -partial-inliner -instcombine -tailcallelim -lowerswitch -inline -globalopt -strip -correlated-propagation -strip-nondebug -lowerinvoke 
+seidel-2d: 0.4, inf, inf, inf, 1.34, -1.34
+-alignment-from-assumptions -function-attrs -dse -globalopt -break-crit-edges -correlated-propagation -partial-inliner -jump-threading -sccp -loop-idiom -libcalls-shrinkwrap -loop-deletion -loop-fusion -inline -strip-nondebug -loop-reduce -ipsccp -simplifycfg -reassociate -lower-expect 
+seidel-2d: 0.4, inf, inf, inf, 1.7, -1.7
+-lowerswitch -correlated-propagation -simple-loop-unswitch -sccp -jump-threading -break-crit-edges -partial-inliner -dse -reassociate -licm -constmerge -loop-simplify -tailcallelim -loop-idiom -strip -adce -inline -memcpyopt -float2int -instcombine 
+seidel-2d: 0.4, inf, inf, inf, 0.96, -0.96
+-adce -globalopt -function-attrs -loop-unroll -licm -correlated-propagation -loop-fusion -lcssa -instcombine -deadargelim -loop-deletion -libcalls-shrinkwrap -simplifycfg -jump-threading -sccp -dse -mem2reg -sink -lowerswitch -strip 
+seidel-2d: 0.4, inf, inf, inf, 0.95, -0.95
+-reg2mem -partial-inliner -simplifycfg -constmerge -lowerinvoke -instcombine -deadargelim -loweratomic -adce -ipsccp -memcpyopt -jump-threading -gvn -globalopt -loop-rotate -licm -globaldce -loop-simplify -lowerswitch -loop-deletion 
+seidel-2d: 0.4, inf, inf, inf, 0.71, -0.71
+-early-cse -loop-deletion -instcombine -simplifycfg -float2int -tailcallelim -lcssa -constmerge -correlated-propagation -dse -indvars -strip -gvn -globaldce -deadargelim -reassociate -lowerinvoke -sccp -loop-fusion -lowerswitch 
+seidel-2d: 0.4, inf, inf, inf, 1.27, -1.27
+-correlated-propagation -float2int -loop-reduce -lowerinvoke -loop-deletion -gvn -adce -lowerswitch -loop-rotate -loop-fusion -alignment-from-assumptions -instcombine -libcalls-shrinkwrap -strip-nondebug -sroa -deadargelim -jump-threading -globalopt -mem2reg -simplifycfg 
+seidel-2d: 0.4, inf, inf, inf, 1.04, -1.04
+-libcalls-shrinkwrap -gvn -loweratomic -inline -sccp -loop-fusion -strip-nondebug -loop-simplify -loop-unroll -partial-inliner -reg2mem -function-attrs -float2int -simple-loop-unswitch -correlated-propagation -loop-deletion -tailcallelim -lower-expect -loop-rotate -adce 
+seidel-2d: 0.4, inf, inf, inf, 0.71, -0.71
+-ipsccp -early-cse -partial-inliner -function-attrs -lowerinvoke -loop-fusion -licm -memcpyopt -loweratomic -globaldce -loop-reduce -libcalls-shrinkwrap -mem2reg -alignment-from-assumptions -dse -lowerswitch -indvars -deadargelim -reassociate -jump-threading 
+seidel-2d: 0.4, inf, inf, inf, 1.16, -1.16
+-correlated-propagation -reg2mem -globalopt -early-cse -loweratomic -licm -strip -loop-idiom -lowerswitch -inline -deadargelim -reassociate -sink -loop-deletion -sccp -constmerge -lower-expect -simple-loop-unswitch -ipsccp -lcssa 
+seidel-2d: 0.4, inf, inf, inf, 0.66, -0.66
+-lowerswitch -adce -loop-simplify -alignment-from-assumptions -constmerge -loop-fusion -function-attrs -tailcallelim -strip-nondebug -loop-reduce -gvn -early-cse -lcssa -deadargelim -sroa -partial-inliner -sccp -correlated-propagation -lower-expect -licm 
+seidel-2d: 0.4, inf, inf, inf, 1.06, -1.06
+-loop-idiom -licm -sink -reassociate -globalopt -adce -sroa -memcpyopt -constmerge -float2int -gvn -loweratomic -break-crit-edges -loop-deletion -inline -simplifycfg -loop-fusion -lowerinvoke -sccp -lower-expect 
+seidel-2d: 0.4, inf, inf, inf, 0.75, -0.75
+-loop-fusion -loop-deletion -libcalls-shrinkwrap -partial-inliner -jump-threading -alignment-from-assumptions -strip -deadargelim -early-cse -globalopt -mem2reg -licm -reassociate -correlated-propagation -tailcallelim -constmerge -adce -lowerswitch -sroa -lower-expect 
+seidel-2d: 0.4, inf, inf, inf, 0.68, -0.68
+-reg2mem -lowerswitch -lower-expect -tailcallelim -function-attrs -indvars -sink -correlated-propagation -gvn -sccp -simple-loop-unswitch -globalopt -globaldce -strip -break-crit-edges -float2int -loop-idiom -libcalls-shrinkwrap -inline -licm 
+seidel-2d: 0.4, inf, inf, inf, 0.97, -0.97
+-deadargelim -inline -loop-deletion -loop-reduce -alignment-from-assumptions -reassociate -partial-inliner -licm -early-cse -mem2reg -break-crit-edges -ipsccp -loop-rotate -adce -tailcallelim -float2int -lower-expect -memcpyopt -sroa -libcalls-shrinkwrap 
+seidel-2d: 0.4, inf, inf, inf, 0.67, -0.67
+-simple-loop-unswitch -loop-reduce -licm -globaldce -lowerswitch -dse -globalopt -lcssa -reg2mem -break-crit-edges -function-attrs -sccp -loop-idiom -loop-fusion -sroa -deadargelim -loop-rotate -loweratomic -lower-expect -strip-nondebug 
+seidel-2d: 0.4, inf, inf, inf, 0.72, -0.72
+-sroa -dse -alignment-from-assumptions -partial-inliner -float2int -sccp -memcpyopt -tailcallelim -lcssa -early-cse -lowerswitch -break-crit-edges -function-attrs -adce -licm -ipsccp -deadargelim -reg2mem -globalopt -lower-expect 
+seidel-2d: 0.4, inf, inf, inf, 0.49, -0.49
+-mem2reg -loweratomic -reassociate -memcpyopt -jump-threading -loop-reduce -reg2mem -constmerge -licm -lower-expect -instcombine -alignment-from-assumptions -globalopt -lcssa -indvars -dse -sccp -ipsccp -tailcallelim -loop-unroll 
+seidel-2d: 0.4, inf, inf, inf, 0.4, -0.4
+-early-cse -function-attrs -float2int -licm -strip-nondebug -deadargelim -jump-threading -instcombine -libcalls-shrinkwrap -loop-deletion -strip -mem2reg -sccp -sroa -lowerswitch -lower-expect -simple-loop-unswitch -loop-unroll -correlated-propagation -loop-reduce 
+seidel-2d: 0.4, inf, inf, inf, 0.49, -0.49
+-sroa -inline -correlated-propagation -indvars -early-cse -break-crit-edges -lower-expect -sccp -strip -mem2reg -deadargelim -globalopt -loop-deletion -tailcallelim -reassociate -libcalls-shrinkwrap -ipsccp -constmerge -licm -loweratomic 
+seidel-2d: 0.4, inf, inf, inf, 0.7, -0.7
+-sroa -loop-deletion -lowerswitch -instcombine -inline -constmerge -libcalls-shrinkwrap -globaldce -licm -early-cse -sink -lower-expect -loop-simplify -dse -simplifycfg -alignment-from-assumptions -sccp -loweratomic -deadargelim -lcssa 
+seidel-2d: 0.4, inf, inf, inf, 0.4, -0.4
+-float2int -tailcallelim -correlated-propagation -deadargelim -licm -ipsccp -inline -loop-idiom -loop-deletion -indvars -libcalls-shrinkwrap -sccp -sink -lowerswitch -adce -globalopt -loop-reduce -lcssa -loop-rotate -simplifycfg 
+seidel-2d: 0.4, inf, inf, inf, 0.54, -0.54
+-globalopt -float2int -libcalls-shrinkwrap -tailcallelim -lowerswitch -early-cse -sccp -constmerge -lower-expect -sink -partial-inliner -correlated-propagation -adce -lcssa -deadargelim -loop-rotate -loop-deletion -licm -indvars -function-attrs 
+seidel-2d: 1.47, inf, inf, inf, 1.47, -1.47
+-div-rem-pairs -break-crit-edges -bdce -dse -attributor -extract-blocks -adce -flattencfg -globalsplit -dce -always-inline -gvn -deadargelim -canon-freeze -simplifycfg -fix-irreducible -consthoist -annotation2metadata -hotcoldsplit -float2int 
+seidel-2d: 0.42, inf, inf, inf, 0.42, -0.42
+-bdce -dfa-jump-threading -adce -globaldce -attributor-cgscc -aggressive-instcombine -forceattrs -ipsccp -annotation2metadata -early-cse -add-discriminators -constraint-elimination -flattencfg -dce -fix-irreducible -assume-simplify -called-value-propagation -float2int -attributor -callsite-splitting 
+seidel-2d: 0.42, inf, inf, inf, 0.52, -0.52
+-div-rem-pairs -constmerge -globalsplit -simplifycfg -cross-dso-cfi -inline -constraint-elimination -early-cse-memssa -annotation-remarks -float2int -correlated-propagation -guard-widening -annotation2metadata -function-specialization -elim-avail-extern -bdce -gvn -attributor -fix-irreducible -ipsccp 
+seidel-2d: 0.42, inf, inf, inf, 1.05, -1.05
+-dfa-jump-threading -fix-irreducible -attributor -globalopt -annotation2metadata -consthoist -float2int -early-cse-memssa -cross-dso-cfi -simplifycfg -function-specialization -correlated-propagation -annotation-remarks -extract-blocks -deadargelim -dce -globalsplit -adce -called-value-propagation -div-rem-pairs 
+seidel-2d: 0.42, inf, inf, inf, 0.84, -0.84
+-deadargelim -extract-blocks -constraint-elimination -dce -annotation2metadata -cross-dso-cfi -simplifycfg -called-value-propagation -flattencfg -globalopt -consthoist -hotcoldsplit -guard-widening -always-inline -assume-builder -globalsplit -div-rem-pairs -float2int -fix-irreducible -attributor 
+seidel-2d: 0.42, inf, inf, inf, 0.48, -0.48
+-annotation-remarks -globaldce -ipsccp -attributor -float2int -cross-dso-cfi -fix-irreducible -flattencfg -dce -annotation2metadata -early-cse-memssa -gvn -constraint-elimination -function-specialization -elim-avail-extern -globalopt -hotcoldsplit -dfa-jump-threading -constmerge -break-crit-edges 
+seidel-2d: 0.42, inf, inf, inf, 0.48, -0.48
+-attributor-cgscc -extract-blocks -callsite-splitting -attributor -float2int -annotation2metadata -globalsplit -assume-simplify -dce -inline -called-value-propagation -hotcoldsplit -consthoist -bdce -break-crit-edges -correlated-propagation -assume-builder -adce -annotation-remarks -forceattrs 
+seidel-2d: 0.42, inf, inf, inf, 0.55, -0.55
+-attributor -forceattrs -correlated-propagation -hotcoldsplit -float2int -assume-simplify -gvn -early-cse-memssa -dce -always-inline -constmerge -assume-builder -div-rem-pairs -constraint-elimination -fix-irreducible -annotation-remarks -flattencfg -ipsccp -simplifycfg -dse 
+seidel-2d: 0.42, inf, inf, inf, 0.51, -0.51
+-early-cse-memssa -flattencfg -early-cse -attributor -float2int -consthoist -deadargelim -globaldce -dfa-jump-threading -ipsccp -dce -hotcoldsplit -canon-freeze -constmerge -bdce -gvn -forceattrs -annotation-remarks -correlated-propagation -called-value-propagation 
+seidel-2d: 0.42, inf, inf, inf, 0.49, -0.49
+-forceattrs -adce -fix-irreducible -canon-freeze -float2int -add-discriminators -extract-blocks -consthoist -dfa-jump-threading -constmerge -dse -annotation2metadata -gvn -break-crit-edges -annotation-remarks -deadargelim -dce -ipsccp -called-value-propagation -hotcoldsplit 
+seidel-2d: 0.42, inf, inf, inf, 0.78, -0.78
+-cross-dso-cfi -forceattrs -extract-blocks -constmerge -annotation2metadata -constraint-elimination -bdce -adce -float2int -canon-freeze -annotation-remarks -simplifycfg -called-value-propagation -break-crit-edges -inline -hotcoldsplit -dfa-jump-threading -attributor -add-discriminators -div-rem-pairs 
+seidel-2d: 0.42, inf, inf, inf, 1.41, -1.41
+-deadargelim -gvn-hoist -early-cse-memssa -annotation2metadata -attributor -called-value-propagation -inline -dce -add-discriminators -break-crit-edges -float2int -constmerge -canon-freeze -adce -div-rem-pairs -cross-dso-cfi -assume-simplify -globalopt -bdce -attributor-cgscc 
+seidel-2d: 0.42, inf, inf, inf, 0.63, -0.63
+-annotation2metadata -adce -assume-builder -attributor-cgscc -hotcoldsplit -extract-blocks -gvn -callsite-splitting -simplifycfg -canon-freeze -ipsccp -cross-dso-cfi -gvn-hoist -bdce -flattencfg -dce -consthoist -globalopt -float2int -early-cse-memssa 
+seidel-2d: 0.42, inf, inf, inf, 0.53, -0.53
+-fix-irreducible -always-inline -callsite-splitting -constraint-elimination -float2int -simplifycfg -annotation2metadata -dce -dfa-jump-threading -extract-blocks -cross-dso-cfi -ipsccp -constmerge -globalsplit -flattencfg -function-specialization -hotcoldsplit -aggressive-instcombine -bdce -globalopt 
+seidel-2d: 0.42, inf, inf, inf, 0.67, -0.67
+-gvn -guard-widening -constmerge -flattencfg -break-crit-edges -early-cse -early-cse-memssa -aggressive-instcombine -extract-blocks -annotation2metadata -callsite-splitting -cross-dso-cfi -canon-freeze -hotcoldsplit -annotation-remarks -dfa-jump-threading -div-rem-pairs -globalopt -fix-irreducible -float2int 
+seidel-2d: 0.42, inf, inf, inf, 0.43, -0.43
+-dce -simplifycfg -callsite-splitting -inline -attributor -break-crit-edges -annotation-remarks -extract-blocks -annotation2metadata -assume-simplify -constmerge -globalopt -fix-irreducible -dfa-jump-threading -float2int -div-rem-pairs -called-value-propagation -assume-builder -dse -early-cse-memssa 
+seidel-2d: 0.42, inf, inf, inf, 0.68, -0.68
+-attributor -early-cse-memssa -extract-blocks -dce -gvn-hoist -called-value-propagation -globalopt -callsite-splitting -cross-dso-cfi -forceattrs -float2int -attributor-cgscc -hotcoldsplit -alignment-from-assumptions -inline -fix-irreducible -dse -annotation2metadata -dfa-jump-threading -guard-widening 
+seidel-2d: 0.42, inf, inf, inf, 0.51, -0.51
+-globalopt -simplifycfg -called-value-propagation -cross-dso-cfi -fix-irreducible -hotcoldsplit -assume-builder -add-discriminators -always-inline -flattencfg -guard-widening -dce -forceattrs -early-cse-memssa -dfa-jump-threading -deadargelim -gvn -canon-freeze -callsite-splitting -float2int 
+seidel-2d: 0.42, inf, inf, inf, 0.65, -0.65
+-consthoist -constraint-elimination -extract-blocks -dce -canon-freeze -flattencfg -attributor-cgscc -correlated-propagation -globalopt -break-crit-edges -ipsccp -float2int -annotation2metadata -early-cse-memssa -constmerge -gvn -fix-irreducible -alignment-from-assumptions -simplifycfg -add-discriminators 
+seidel-2d: 0.42, inf, inf, inf, 0.61, -0.61
+-assume-builder -inline -annotation2metadata -globaldce -called-value-propagation -add-discriminators -attributor -constmerge -float2int -consthoist -simplifycfg -gvn-hoist -dfa-jump-threading -always-inline -cross-dso-cfi -ipsccp -extract-blocks -assume-simplify -fix-irreducible -adce 
+seidel-2d: 0.42, inf, inf, inf, 0.5, -0.5
+-hotcoldsplit -dse -constmerge -inline -globalopt -globalsplit -bdce -float2int -flattencfg -early-cse-memssa -extract-blocks -assume-builder -alignment-from-assumptions -consthoist -correlated-propagation -annotation-remarks -dfa-jump-threading -called-value-propagation -fix-irreducible -dce 
+seidel-2d: 0.42, inf, inf, inf, 0.51, -0.51
+-assume-simplify -extract-blocks -early-cse-memssa -dfa-jump-threading -globaldce -float2int -callsite-splitting -constmerge -assume-builder -attributor-cgscc -gvn -gvn-hoist -simplifycfg -flattencfg -called-value-propagation -deadargelim -consthoist -hotcoldsplit -add-discriminators -globalopt 
+seidel-2d: 0.42, inf, inf, inf, 0.74, -0.74
+-early-cse-memssa -callsite-splitting -guard-widening -adce -attributor-cgscc -globalsplit -globalopt -fix-irreducible -dfa-jump-threading -annotation-remarks -ipsccp -div-rem-pairs -simplifycfg -constmerge -annotation2metadata -float2int -globaldce -hotcoldsplit -canon-freeze -gvn 
+seidel-2d: 0.42, inf, inf, inf, 0.66, -0.66
+-early-cse-memssa -dse -constmerge -div-rem-pairs -fix-irreducible -aggressive-instcombine -correlated-propagation -dfa-jump-threading -extract-blocks -consthoist -simplifycfg -bdce -float2int -dce -assume-simplify -gvn-hoist -assume-builder -annotation-remarks -canon-freeze -gvn 
+seidel-2d: 0.42, inf, inf, inf, 0.52, -0.52
+-globaldce -dce -early-cse-memssa -constmerge -globalsplit -canon-freeze -annotation2metadata -add-discriminators -forceattrs -guard-widening -correlated-propagation -attributor -dfa-jump-threading -globalopt -flattencfg -gvn-hoist -fix-irreducible -float2int -ipsccp -assume-simplify 
+seidel-2d: 0.42, inf, inf, inf, 0.66, -0.66
+-consthoist -div-rem-pairs -constmerge -dfa-jump-threading -float2int -called-value-propagation -extract-blocks -annotation-remarks -early-cse-memssa -globaldce -dse -guard-widening -simplifycfg -callsite-splitting -inline -globalsplit -cross-dso-cfi -ipsccp -assume-simplify -flattencfg 
+seidel-2d: 0.42, inf, inf, inf, 0.42, -0.42
+-globaldce -fix-irreducible -early-cse-memssa -constmerge -gvn-hoist -dse -dfa-jump-threading -simplifycfg -ipsccp -float2int -alignment-from-assumptions -always-inline -correlated-propagation -attributor -gvn -break-crit-edges -called-value-propagation -consthoist -hotcoldsplit -extract-blocks 
+seidel-2d: 0.42, inf, inf, inf, 0.84, -0.84
+-constmerge -deadargelim -annotation2metadata -gvn -consthoist -float2int -globalopt -simplifycfg -extract-blocks -globaldce -elim-avail-extern -div-rem-pairs -aggressive-instcombine -early-cse-memssa -fix-irreducible -canon-freeze -assume-builder -attributor-cgscc -assume-simplify -globalsplit 
+seidel-2d: 0.42, inf, inf, inf, 0.47, -0.47
+-add-discriminators -dce -correlated-propagation -fix-irreducible -inline -always-inline -cross-dso-cfi -elim-avail-extern -early-cse-memssa -constmerge -assume-simplify -float2int -consthoist -dfa-jump-threading -extract-blocks -attributor -gvn-hoist -globalopt -break-crit-edges -hotcoldsplit 
+seidel-2d: 0.42, inf, inf, inf, 0.44, -0.44
+-deadargelim -alignment-from-assumptions -gvn -assume-simplify -div-rem-pairs -dce -globalopt -extract-blocks -canon-freeze -float2int -simplifycfg -assume-builder -add-discriminators -correlated-propagation -attributor -called-value-propagation -hotcoldsplit -bdce -constmerge -ipsccp 
+seidel-2d: 0.42, inf, inf, inf, 0.5, -0.5
+-fix-irreducible -inline -globalopt -ipsccp -always-inline -guard-widening -assume-builder -float2int -annotation-remarks -hotcoldsplit -consthoist -callsite-splitting -early-cse-memssa -globaldce -attributor -correlated-propagation -extract-blocks -add-discriminators -dse -dfa-jump-threading 
+seidel-2d: 0.42, inf, inf, inf, 0.63, -0.63
+-guard-widening -div-rem-pairs -aggressive-instcombine -float2int -extract-blocks -constmerge -annotation2metadata -fix-irreducible -early-cse-memssa -gvn-hoist -ipsccp -simplifycfg -early-cse -annotation-remarks -deadargelim -canon-freeze -dce -gvn -assume-builder -hotcoldsplit 
+seidel-2d: 0.42, inf, inf, inf, 0.73, -0.73
+-simplifycfg -annotation-remarks -ipsccp -called-value-propagation -break-crit-edges -hotcoldsplit -gvn -aggressive-instcombine -fix-irreducible -float2int -extract-blocks -early-cse-memssa -gvn-hoist -div-rem-pairs -assume-simplify -attributor-cgscc -globalsplit -forceattrs -cross-dso-cfi -globalopt 
+seidel-2d: 0.42, inf, inf, inf, 1.39, -1.39
+-bdce -globalsplit -canon-freeze -dce -extract-blocks -guard-widening -adce -break-crit-edges -alignment-from-assumptions -flattencfg -constmerge -correlated-propagation -float2int -div-rem-pairs -globalopt -elim-avail-extern -assume-builder -early-cse-memssa -fix-irreducible -called-value-propagation 
+seidel-2d: 0.42, inf, inf, inf, 0.54, -0.54
+-attributor-cgscc -add-discriminators -ipsccp -globalopt -fix-irreducible -float2int -dfa-jump-threading -assume-builder -called-value-propagation -dse -hotcoldsplit -correlated-propagation -extract-blocks -gvn-hoist -constraint-elimination -annotation-remarks -assume-simplify -canon-freeze -dce -elim-avail-extern 
+seidel-2d: 0.42, inf, inf, inf, 0.68, -0.68
+-add-discriminators -guard-widening -correlated-propagation -div-rem-pairs -callsite-splitting -hotcoldsplit -dfa-jump-threading -constmerge -early-cse-memssa -annotation2metadata -cross-dso-cfi -float2int -break-crit-edges -flattencfg -elim-avail-extern -fix-irreducible -inline -gvn-hoist -globalopt -called-value-propagation 
+seidel-2d: 0.42, inf, inf, inf, 0.61, -0.61
+-constmerge -flattencfg -called-value-propagation -globalopt -adce -break-crit-edges -bdce -fix-irreducible -guard-widening -assume-simplify -dfa-jump-threading -early-cse-memssa -float2int -hotcoldsplit -assume-builder -attributor-cgscc -annotation-remarks -extract-blocks -dse -simplifycfg 
+seidel-2d: 0.42, inf, inf, inf, 0.61, -0.61
+-annotation-remarks -early-cse-memssa -globalopt -adce -extract-blocks -break-crit-edges -consthoist -callsite-splitting -add-discriminators -canon-freeze -float2int -gvn-hoist -gvn -dce -cross-dso-cfi -fix-irreducible -constraint-elimination -hotcoldsplit -correlated-propagation -called-value-propagation 
+seidel-2d: 0.42, inf, inf, inf, 0.65, -0.65
+-elim-avail-extern -consthoist -callsite-splitting -constmerge -dce -attributor -float2int -globalopt -early-cse-memssa -early-cse -break-crit-edges -hotcoldsplit -bdce -correlated-propagation -cross-dso-cfi -annotation2metadata -assume-simplify -extract-blocks -inline -called-value-propagation 
+seidel-2d: 0.42, inf, inf, inf, 0.66, -0.66
+-guard-widening -add-discriminators -constmerge -globalopt -aggressive-instcombine -flattencfg -globaldce -bdce -annotation-remarks -consthoist -fix-irreducible -attributor-cgscc -gvn-hoist -elim-avail-extern -extract-blocks -deadargelim -ipsccp -float2int -forceattrs -early-cse-memssa 
+seidel-2d: 0.42, inf, inf, inf, 1.16, -1.16
+-flattencfg -elim-avail-extern -dce -extract-blocks -div-rem-pairs -attributor -callsite-splitting -simplifycfg -inline -consthoist -always-inline -correlated-propagation -early-cse-memssa -float2int -constmerge -called-value-propagation -globalopt -fix-irreducible -gvn -bdce 
+seidel-2d: 0.42, inf, inf, inf, 0.59, -0.59
+-div-rem-pairs -assume-simplify -float2int -adce -gvn-hoist -fix-irreducible -attributor-cgscc -flattencfg -forceattrs -constraint-elimination -annotation-remarks -constmerge -globalopt -dse -assume-builder -correlated-propagation -cross-dso-cfi -bdce -consthoist -extract-blocks 
+seidel-2d: 0.42, inf, inf, inf, 0.51, -0.51
+-break-crit-edges -canon-freeze -dfa-jump-threading -add-discriminators -cross-dso-cfi -fix-irreducible -correlated-propagation -early-cse-memssa -adce -gvn-hoist -gvn -dse -hotcoldsplit -consthoist -assume-builder -float2int -assume-simplify -simplifycfg -globalopt -extract-blocks 
+seidel-2d: 0.42, inf, inf, inf, 0.49, -0.49
+-assume-builder -callsite-splitting -fix-irreducible -elim-avail-extern -gvn-hoist -dfa-jump-threading -annotation-remarks -attributor -float2int -constraint-elimination -extract-blocks -globaldce -div-rem-pairs -hotcoldsplit -dce -bdce -called-value-propagation -gvn -constmerge -correlated-propagation 
+seidel-2d: 0.42, inf, inf, inf, 0.47, -0.47
+-break-crit-edges -adce -dfa-jump-threading -constmerge -float2int -inline -fix-irreducible -dse -add-discriminators -annotation2metadata -extract-blocks -cross-dso-cfi -bdce -assume-builder -consthoist -annotation-remarks -simplifycfg -gvn -canon-freeze -ipsccp 
+seidel-2d: 0.42, inf, inf, inf, 0.54, -0.54
+-bdce -break-crit-edges -gvn-hoist -canon-freeze -called-value-propagation -guard-widening -cross-dso-cfi -constraint-elimination -assume-builder -float2int -constmerge -annotation2metadata -deadargelim -extract-blocks -annotation-remarks -early-cse-memssa -fix-irreducible -dfa-jump-threading -assume-simplify -gvn 
+seidel-2d: 0.42, inf, inf, inf, 0.98, -0.98
+-extract-blocks -float2int -gvn -bdce -ipsccp -div-rem-pairs -assume-builder -assume-simplify -fix-irreducible -globalsplit -constmerge -consthoist -break-crit-edges -correlated-propagation -guard-widening -gvn-hoist -flattencfg -hotcoldsplit -early-cse-memssa -add-discriminators 
+seidel-2d: 0.42, inf, inf, inf, 0.63, -0.63
+-add-discriminators -consthoist -annotation-remarks -fix-irreducible -bdce -flattencfg -float2int -annotation2metadata -ipsccp -constmerge -inline -dce -globalopt -early-cse-memssa -gvn-hoist -dfa-jump-threading -assume-builder -assume-simplify -canon-freeze -hotcoldsplit 
+seidel-2d: 0.42, inf, inf, inf, 0.74, -0.74
+-correlated-propagation -aggressive-instcombine -function-specialization -gvn -hotcoldsplit -float2int -consthoist -bdce -early-cse-memssa -annotation-remarks -called-value-propagation -div-rem-pairs -guard-widening -fix-irreducible -constmerge -ipsccp -deadargelim -gvn-hoist -dfa-jump-threading -flattencfg 
+seidel-2d: 0.42, inf, inf, inf, 0.42, -0.42
+-float2int -dfa-jump-threading -assume-simplify -bdce -early-cse-memssa -inline -constmerge -cross-dso-cfi -assume-builder -fix-irreducible -correlated-propagation -hotcoldsplit -gvn-hoist -globalopt -annotation-remarks -consthoist -break-crit-edges -attributor -flattencfg -canon-freeze 
+seidel-2d: 0.42, inf, inf, inf, 0.56, -0.56
+-annotation-remarks -deadargelim -aggressive-instcombine -dfa-jump-threading -attributor -dce -cross-dso-cfi -inline -add-discriminators -fix-irreducible -flattencfg -globaldce -float2int -hotcoldsplit -annotation2metadata -gvn-hoist -bdce -constmerge -early-cse-memssa -globalopt 
+seidel-2d: 0.42, inf, inf, inf, 0.5, -0.5
+-attributor -always-inline -float2int -aggressive-instcombine -cross-dso-cfi -hotcoldsplit -constmerge -fix-irreducible -dce -annotation-remarks -annotation2metadata -gvn -dse -dfa-jump-threading -correlated-propagation -assume-builder -inline -extract-blocks -globalopt -consthoist 
+seidel-2d: 0.42, inf, inf, inf, 0.5, -0.5
+-cross-dso-cfi -globalopt -assume-builder -inline -correlated-propagation -forceattrs -annotation-remarks -called-value-propagation -assume-simplify -constmerge -bdce -fix-irreducible -simplifycfg -float2int -hotcoldsplit -flattencfg -consthoist -extract-blocks -early-cse-memssa -dce 
+seidel-2d: 0.42, inf, inf, inf, 0.62, -0.62
+-add-discriminators -hotcoldsplit -globalopt -assume-simplify -inline -float2int -constmerge -dce -correlated-propagation -early-cse-memssa -deadargelim -canon-freeze -extract-blocks -annotation2metadata -annotation-remarks -fix-irreducible -div-rem-pairs -callsite-splitting -assume-builder -ipsccp 
+seidel-2d: 0.42, inf, inf, inf, 0.66, -0.66
+-float2int -assume-builder -globalopt -ipsccp -break-crit-edges -simplifycfg -gvn -constmerge -annotation-remarks -globaldce -called-value-propagation -early-cse-memssa -canon-freeze -hotcoldsplit -extract-blocks -guard-widening -inline -elim-avail-extern -div-rem-pairs -dfa-jump-threading 
+seidel-2d: 0.42, inf, inf, inf, 0.5, -0.5
+-elim-avail-extern -globalopt -constmerge -simplifycfg -inline -assume-builder -float2int -fix-irreducible -hotcoldsplit -early-cse -annotation-remarks -dfa-jump-threading -attributor-cgscc -deadargelim -callsite-splitting -break-crit-edges -consthoist -dce -gvn-hoist -flattencfg 
+seidel-2d: 0.42, inf, inf, inf, 0.45, -0.45
+-assume-simplify -early-cse-memssa -globalopt -float2int -canon-freeze -fix-irreducible -correlated-propagation -dfa-jump-threading -ipsccp -gvn-hoist -gvn -cross-dso-cfi -add-discriminators -constmerge -callsite-splitting -hotcoldsplit -attributor -extract-blocks -assume-builder -annotation-remarks 
+seidel-2d: 0.4, inf, inf, inf, 0.4, -0.4
+-globalopt -extract-blocks -constmerge -consthoist -gvn-hoist -dce -float2int -function-specialization -inline -assume-builder -early-cse-memssa -deadargelim -attributor -cross-dso-cfi -ipsccp -adce -fix-irreducible -called-value-propagation -dfa-jump-threading -annotation-remarks 
+seidel-2d: 0.4, inf, inf, inf, 0.72, -0.72
+-div-rem-pairs -constmerge -called-value-propagation -always-inline -globalopt -inline -hotcoldsplit -assume-simplify -annotation-remarks -dfa-jump-threading -simplifycfg -float2int -assume-builder -ipsccp -gvn -extract-blocks -bdce -correlated-propagation -fix-irreducible -callsite-splitting 
+seidel-2d: 0.4, inf, inf, inf, 0.5, -0.5
+-hotcoldsplit -float2int -constmerge -fix-irreducible -gvn -assume-builder -called-value-propagation -dce -annotation-remarks -gvn-hoist -correlated-propagation -consthoist -cross-dso-cfi -flattencfg -assume-simplify -bdce -guard-widening -inline -aggressive-instcombine -globalopt 
+seidel-2d: 0.4, inf, inf, inf, 0.66, -0.66
+-annotation-remarks -hotcoldsplit -constmerge -early-cse -consthoist -deadargelim -float2int -assume-builder -simplifycfg -gvn-hoist -annotation2metadata -cross-dso-cfi -adce -assume-simplify -early-cse-memssa -globalopt -bdce -ipsccp -add-discriminators -called-value-propagation 
+seidel-2d: 0.4, inf, inf, inf, 0.49, -0.49
+-deadargelim -consthoist -float2int -globalsplit -alignment-from-assumptions -globalopt -constmerge -correlated-propagation -fix-irreducible -cross-dso-cfi -annotation-remarks -aggressive-instcombine -flattencfg -early-cse-memssa -gvn-hoist -callsite-splitting -dce -assume-builder -bdce -hotcoldsplit 
+seidel-2d: 0.4, inf, inf, inf, 0.46, -0.46
+-globalopt -canon-freeze -always-inline -correlated-propagation -constmerge -aggressive-instcombine -called-value-propagation -hotcoldsplit -deadargelim -float2int -gvn-hoist -fix-irreducible -bdce -annotation-remarks -assume-builder -flattencfg -gvn -early-cse-memssa -annotation2metadata -consthoist 
+seidel-2d: 0.4, inf, inf, inf, 0.51, -0.51
+-attributor -globaldce -float2int -constmerge -extract-blocks -ipsccp -hotcoldsplit -consthoist -gvn-hoist -assume-builder -simplifycfg -early-cse-memssa -fix-irreducible -add-discriminators -dce -annotation-remarks -called-value-propagation -globalopt -callsite-splitting -bdce 
+seidel-2d: 0.4, inf, inf, inf, 0.63, -0.63
+-simplifycfg -elim-avail-extern -dce -assume-builder -constmerge -fix-irreducible -div-rem-pairs -dfa-jump-threading -float2int -deadargelim -cross-dso-cfi -attributor-cgscc -always-inline -bdce -inline -gvn-hoist -correlated-propagation -aggressive-instcombine -extract-blocks -annotation-remarks 
+seidel-2d: 0.4, inf, inf, inf, 0.47, -0.47
+-globalopt -inline -simplifycfg -assume-builder -hotcoldsplit -float2int -extract-blocks -fix-irreducible -assume-simplify -constmerge -early-cse-memssa -aggressive-instcombine -annotation-remarks -flattencfg -canon-freeze -correlated-propagation -gvn-hoist -elim-avail-extern -dfa-jump-threading -cross-dso-cfi 
+seidel-2d: 0.4, inf, inf, inf, 0.72, -0.72
+-early-cse-memssa -float2int -assume-builder -assume-simplify -ipsccp -constmerge -hotcoldsplit -inline -flattencfg -annotation-remarks -simplifycfg -guard-widening -consthoist -attributor-cgscc -correlated-propagation -dfa-jump-threading -called-value-propagation -gvn-hoist -bdce -cross-dso-cfi 
+seidel-2d: 0.4, inf, inf, inf, 0.81, -0.81
+-globalopt -canon-freeze -annotation-remarks -gvn-hoist -called-value-propagation -globaldce -constmerge -early-cse-memssa -gvn -dfa-jump-threading -float2int -guard-widening -extract-blocks -callsite-splitting -bdce -assume-builder -hotcoldsplit -correlated-propagation -assume-simplify -add-discriminators 
+seidel-2d: 0.4, inf, inf, inf, 0.69, -0.69
+-correlated-propagation -globalopt -early-cse -constmerge -called-value-propagation -canon-freeze -annotation-remarks -deadargelim -consthoist -flattencfg -float2int -hotcoldsplit -forceattrs -gvn-hoist -bdce -extract-blocks -assume-builder -cross-dso-cfi -fix-irreducible -gvn 
+seidel-2d: 0.4, inf, inf, inf, 0.96, -0.96
+-constmerge -simplifycfg -ipsccp -inline -hotcoldsplit -float2int -cross-dso-cfi -called-value-propagation -assume-builder -attributor -gvn-hoist -fix-irreducible -globalsplit -bdce -annotation-remarks -correlated-propagation -annotation2metadata -globalopt -gvn -flattencfg 
+seidel-2d: 0.4, inf, inf, inf, 0.54, -0.54
+-forceattrs -constraint-elimination -hotcoldsplit -assume-simplify -gvn -float2int -extract-blocks -deadargelim -constmerge -simplifycfg -early-cse-memssa -flattencfg -annotation-remarks -cross-dso-cfi -consthoist -ipsccp -fix-irreducible -adce -gvn-hoist -assume-builder 
+seidel-2d: 0.4, inf, inf, inf, 0.49, -0.49
+-adce -early-cse-memssa -globaldce -fix-irreducible -float2int -correlated-propagation -assume-builder -constmerge -hotcoldsplit -guard-widening -inline -gvn-hoist -dce -consthoist -bdce -annotation-remarks -assume-simplify -break-crit-edges -flattencfg -dfa-jump-threading 
+seidel-2d: 0.4, inf, inf, inf, 0.51, -0.51
+-attributor -constmerge -gvn-hoist -globalopt -deadargelim -inline -hotcoldsplit -dce -annotation2metadata -annotation-remarks -cross-dso-cfi -consthoist -assume-simplify -fix-irreducible -dfa-jump-threading -float2int -assume-builder -simplifycfg -early-cse-memssa -gvn 
+seidel-2d: 0.4, inf, inf, inf, 0.51, -0.51
+-inline -deadargelim -fix-irreducible -break-crit-edges -assume-builder -globalopt -float2int -annotation-remarks -simplifycfg -adce -ipsccp -hotcoldsplit -gvn-hoist -cross-dso-cfi -extract-blocks -alignment-from-assumptions -constmerge -bdce -consthoist -gvn 
+seidel-2d: 0.4, inf, inf, inf, 0.5, -0.5
+-float2int -simplifycfg -elim-avail-extern -gvn-hoist -hotcoldsplit -always-inline -add-discriminators -constmerge -dfa-jump-threading -bdce -extract-blocks -dce -deadargelim -forceattrs -annotation-remarks -cross-dso-cfi -flattencfg -globalopt -inline -aggressive-instcombine 
+seidel-2d: 0.4, inf, inf, inf, 0.64, -0.64
+-always-inline -hotcoldsplit -float2int -ipsccp -fix-irreducible -flattencfg -correlated-propagation -cross-dso-cfi -annotation2metadata -constraint-elimination -callsite-splitting -globalopt -gvn-hoist -consthoist -deadargelim -constmerge -early-cse-memssa -assume-simplify -dce -assume-builder 
+seidel-2d: 0.4, inf, inf, inf, 0.96, -0.96
+-forceattrs -dfa-jump-threading -function-specialization -constmerge -div-rem-pairs -inline -assume-builder -extract-blocks -adce -annotation-remarks -globalopt -float2int -cross-dso-cfi -dce -always-inline -attributor-cgscc -correlated-propagation -simplifycfg -hotcoldsplit -fix-irreducible 
+seidel-2d: 0.4, inf, inf, inf, 0.5, -0.5
+-globaldce -flattencfg -adce -bdce -constmerge -extract-blocks -cross-dso-cfi -deadargelim -inline -assume-builder -hotcoldsplit -globalopt -float2int -correlated-propagation -simplifycfg -annotation-remarks -function-specialization -called-value-propagation -consthoist -dfa-jump-threading 
+seidel-2d: 0.4, inf, inf, inf, 0.48, -0.48
+-gvn-hoist -cross-dso-cfi -attributor -float2int -extract-blocks -early-cse -inline -deadargelim -constmerge -simplifycfg -assume-builder -fix-irreducible -adce -hotcoldsplit -canon-freeze -dfa-jump-threading -add-discriminators -ipsccp -constraint-elimination -consthoist 
+seidel-2d: 0.4, inf, inf, inf, 0.42, -0.42
+-div-rem-pairs -gvn-hoist -globalopt -constmerge -deadargelim -hotcoldsplit -guard-widening -cross-dso-cfi -aggressive-instcombine -inline -globaldce -float2int -early-cse -attributor -bdce -adce -called-value-propagation -simplifycfg -early-cse-memssa -assume-builder 
+seidel-2d: 0.4, inf, inf, inf, 0.49, -0.49
+-bdce -early-cse -called-value-propagation -assume-simplify -dfa-jump-threading -deadargelim -constmerge -globalopt -float2int -gvn-hoist -early-cse-memssa -assume-builder -hotcoldsplit -inline -consthoist -add-discriminators -fix-irreducible -ipsccp -extract-blocks -globaldce 
+seidel-2d: 0.4, inf, inf, inf, 0.43, -0.43
+-div-rem-pairs -float2int -gvn-hoist -dfa-jump-threading -assume-simplify -annotation-remarks -cross-dso-cfi -assume-builder -hotcoldsplit -attributor -correlated-propagation -consthoist -called-value-propagation -dce -constmerge -globalopt -break-crit-edges -deadargelim -inline -bdce 
+seidel-2d: 0.4, inf, inf, inf, 0.44, -0.44
+-callsite-splitting -globalopt -called-value-propagation -bdce -simplifycfg -deadargelim -gvn-hoist -annotation2metadata -assume-builder -float2int -break-crit-edges -inline -consthoist -hotcoldsplit -attributor -constmerge -globaldce -ipsccp -add-discriminators -cross-dso-cfi 

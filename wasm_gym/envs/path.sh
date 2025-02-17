@@ -1,0 +1,1 @@
+export PYTHONPATH=$PYTHONPATH:/home/kaikai/WasmRL/wasm_gym/envs

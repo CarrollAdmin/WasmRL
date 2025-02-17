@@ -1,0 +1,352 @@
+jacobi-2d: 0.09179925918579102, inf, inf, 0.09179925918579102, -0.09179925918579102
+-ipsccp -sink -libcalls-shrinkwrap -globaldce -loop-reduce -constmerge -reassociate -loop-unroll -dse -simple-loop-unswitch -loop-fusion -loop-rotate -indvars -lower-expect -alignment-from-assumptions -strip-nondebug -break-crit-edges -correlated-propagation -loop-simplify -sroa 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.05362343788146973, -0.05362343788146973
+-reassociate -reg2mem -sink -mem2reg -function-attrs -correlated-propagation -lcssa -globalopt -constmerge -float2int -partial-inliner -dse -instcombine -libcalls-shrinkwrap -simple-loop-unswitch -loop-reduce -loop-fusion -loop-rotate -memcpyopt -jump-threading 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.12853217124938965, -0.12853217124938965
+-memcpyopt -strip -libcalls-shrinkwrap -globalopt -loop-simplify -deadargelim -correlated-propagation -licm -lcssa -loop-idiom -loop-rotate -strip-nondebug -lowerinvoke -instcombine -reg2mem -inline -lowerswitch -sccp -loop-deletion -loop-reduce 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.054105281829833984, -0.054105281829833984
+-loweratomic -break-crit-edges -loop-idiom -loop-reduce -loop-rotate -loop-fusion -loop-deletion -dse -deadargelim -jump-threading -libcalls-shrinkwrap -licm -reg2mem -alignment-from-assumptions -early-cse -partial-inliner -tailcallelim -ipsccp -gvn -lowerswitch 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.0968790054321289, -0.0968790054321289
+-globalopt -loop-rotate -inline -dse -simple-loop-unswitch -lower-expect -loop-idiom -adce -float2int -ipsccp -constmerge -early-cse -loop-reduce -mem2reg -partial-inliner -break-crit-edges -lowerinvoke -correlated-propagation -loop-unroll -instcombine 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.08390140533447266, -0.08390140533447266
+-indvars -constmerge -ipsccp -loop-rotate -early-cse -break-crit-edges -memcpyopt -sccp -partial-inliner -loop-idiom -loweratomic -loop-deletion -lowerinvoke -lowerswitch -simple-loop-unswitch -loop-simplify -mem2reg -reg2mem -strip -adce 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.07142090797424316, -0.07142090797424316
+-loop-fusion -mem2reg -loop-reduce -dse -globalopt -gvn -inline -simple-loop-unswitch -loop-simplify -ipsccp -reg2mem -strip-nondebug -partial-inliner -loweratomic -sccp -deadargelim -correlated-propagation -lower-expect -sink -reassociate 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.0646669864654541, -0.0646669864654541
+-constmerge -lowerswitch -inline -function-attrs -mem2reg -sroa -alignment-from-assumptions -loop-simplify -dse -simple-loop-unswitch -ipsccp -loop-fusion -indvars -loweratomic -gvn -lower-expect -lcssa -partial-inliner -deadargelim -sink 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.08328056335449219, -0.08328056335449219
+-function-attrs -ipsccp -sink -globalopt -reassociate -break-crit-edges -strip -strip-nondebug -early-cse -inline -adce -correlated-propagation -lowerinvoke -lcssa -float2int -loop-reduce -reg2mem -memcpyopt -simple-loop-unswitch -loop-fusion 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.07351875305175781, -0.07351875305175781
+-dse -correlated-propagation -adce -indvars -strip -ipsccp -partial-inliner -lcssa -tailcallelim -loweratomic -libcalls-shrinkwrap -memcpyopt -strip-nondebug -sink -loop-fusion -deadargelim -simple-loop-unswitch -loop-reduce -inline -early-cse 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.09161520004272461, -0.09161520004272461
+-early-cse -break-crit-edges -constmerge -loop-fusion -loop-rotate -mem2reg -simple-loop-unswitch -sroa -globalopt -loop-deletion -dse -strip -indvars -deadargelim -tailcallelim -lcssa -jump-threading -inline -memcpyopt -correlated-propagation 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.07000184059143066, -0.07000184059143066
+-memcpyopt -loop-reduce -adce -lowerswitch -float2int -loweratomic -inline -alignment-from-assumptions -strip -lcssa -loop-unroll -sroa -strip-nondebug -sink -libcalls-shrinkwrap -globaldce -loop-fusion -early-cse -globalopt -partial-inliner 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.07202768325805664, -0.07202768325805664
+-memcpyopt -early-cse -loop-reduce -lower-expect -gvn -dse -strip -indvars -globaldce -loop-fusion -break-crit-edges -loop-idiom -reassociate -loweratomic -strip-nondebug -sink -lowerinvoke -instcombine -simplifycfg -float2int 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.07326316833496094, -0.07326316833496094
+-indvars -loop-rotate -lcssa -loop-reduce -strip -ipsccp -loop-fusion -sccp -float2int -lowerinvoke -alignment-from-assumptions -globaldce -memcpyopt -early-cse -loop-idiom -inline -simple-loop-unswitch -correlated-propagation -simplifycfg -libcalls-shrinkwrap 
+jacobi-2d: 0.05362343788146973, inf, inf, 0.1244204044342041, -0.1244204044342041
+-loop-reduce -tailcallelim -lower-expect -simple-loop-unswitch -loop-unroll -deadargelim -simplifycfg -float2int -libcalls-shrinkwrap -loop-deletion -globaldce -loop-idiom -jump-threading -partial-inliner -loop-rotate -reassociate -strip-nondebug -correlated-propagation -lcssa -constmerge 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.04433894157409668, -0.04433894157409668
+-sccp -sroa -alignment-from-assumptions -memcpyopt -lower-expect -indvars -globaldce -sink -break-crit-edges -simplifycfg -mem2reg -loweratomic -correlated-propagation -loop-rotate -strip -loop-unroll -globalopt -loop-reduce -jump-threading -strip-nondebug 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.05185079574584961, -0.05185079574584961
+-globaldce -reg2mem -globalopt -dse -simple-loop-unswitch -loop-fusion -licm -break-crit-edges -mem2reg -inline -loop-idiom -loop-deletion -lcssa -ipsccp -simplifycfg -jump-threading -loop-rotate -correlated-propagation -alignment-from-assumptions -sccp 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.049950361251831055, -0.049950361251831055
+-gvn -sink -float2int -mem2reg -sccp -instcombine -sroa -loop-unroll -lower-expect -loweratomic -indvars -lcssa -loop-rotate -correlated-propagation -loop-idiom -loop-reduce -partial-inliner -libcalls-shrinkwrap -strip-nondebug -loop-deletion 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.0923469066619873, -0.0923469066619873
+-jump-threading -lower-expect -lowerinvoke -dse -partial-inliner -mem2reg -lcssa -float2int -adce -constmerge -reassociate -ipsccp -strip-nondebug -indvars -deadargelim -loop-deletion -loop-idiom -break-crit-edges -loweratomic -tailcallelim 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.0786595344543457, -0.0786595344543457
+-ipsccp -sccp -instcombine -lowerswitch -loop-simplify -mem2reg -simple-loop-unswitch -function-attrs -globaldce -tailcallelim -indvars -loop-idiom -early-cse -inline -loop-fusion -jump-threading -loweratomic -sink -simplifycfg -float2int 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.08135032653808594, -0.08135032653808594
+-simplifycfg -lower-expect -float2int -mem2reg -loop-unroll -reassociate -loop-fusion -sccp -loop-simplify -lcssa -ipsccp -strip -correlated-propagation -gvn -globaldce -globalopt -reg2mem -loop-idiom -deadargelim -jump-threading 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.04695868492126465, -0.04695868492126465
+-strip -sroa -loop-deletion -sink -correlated-propagation -ipsccp -loweratomic -lower-expect -indvars -strip-nondebug -float2int -lowerswitch -loop-fusion -tailcallelim -deadargelim -dse -simplifycfg -globalopt -loop-reduce -sccp 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.0828104019165039, -0.0828104019165039
+-loweratomic -loop-unroll -loop-rotate -correlated-propagation -instcombine -mem2reg -reg2mem -inline -sink -jump-threading -sroa -indvars -libcalls-shrinkwrap -loop-fusion -alignment-from-assumptions -loop-simplify -strip-nondebug -float2int -ipsccp -simplifycfg 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.08252120018005371, -0.08252120018005371
+-lower-expect -lowerinvoke -strip-nondebug -loweratomic -inline -loop-deletion -jump-threading -simple-loop-unswitch -lcssa -globalopt -early-cse -indvars -globaldce -loop-reduce -reg2mem -tailcallelim -dse -float2int -sink -instcombine 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.09278488159179688, -0.09278488159179688
+-loop-reduce -globaldce -deadargelim -lowerswitch -reg2mem -strip-nondebug -loop-deletion -indvars -lcssa -libcalls-shrinkwrap -loop-fusion -memcpyopt -loop-simplify -dse -constmerge -inline -adce -lower-expect -jump-threading -reassociate 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.0748128890991211, -0.0748128890991211
+-deadargelim -memcpyopt -sccp -float2int -loop-fusion -loop-deletion -sroa -adce -jump-threading -alignment-from-assumptions -globaldce -indvars -inline -lowerswitch -loop-simplify -constmerge -reg2mem -lower-expect -loop-rotate -licm 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.09188365936279297, -0.09188365936279297
+-globalopt -adce -reg2mem -sccp -constmerge -mem2reg -ipsccp -strip-nondebug -reassociate -early-cse -loop-fusion -lcssa -memcpyopt -inline -simple-loop-unswitch -sink -sroa -globaldce -correlated-propagation -loop-idiom 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.04796290397644043, -0.04796290397644043
+-function-attrs -simple-loop-unswitch -early-cse -loop-rotate -loweratomic -libcalls-shrinkwrap -correlated-propagation -lower-expect -loop-unroll -mem2reg -adce -loop-simplify -loop-deletion -loop-idiom -lowerinvoke -jump-threading -deadargelim -loop-reduce -inline -indvars 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.07027959823608398, -0.07027959823608398
+-lowerswitch -loop-fusion -deadargelim -simplifycfg -partial-inliner -sroa -simple-loop-unswitch -loweratomic -inline -jump-threading -dse -globalopt -strip-nondebug -lower-expect -memcpyopt -libcalls-shrinkwrap -sink -loop-deletion -reg2mem -mem2reg 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.11476683616638184, -0.11476683616638184
+-loop-idiom -correlated-propagation -libcalls-shrinkwrap -reassociate -loop-rotate -lcssa -adce -indvars -inline -loop-deletion -strip-nondebug -sccp -loop-reduce -partial-inliner -float2int -loweratomic -function-attrs -lowerinvoke -reg2mem -loop-unroll 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.049297332763671875, -0.049297332763671875
+-correlated-propagation -inline -lowerinvoke -lower-expect -strip-nondebug -loop-fusion -lowerswitch -libcalls-shrinkwrap -mem2reg -loop-reduce -memcpyopt -partial-inliner -lcssa -sink -jump-threading -loop-idiom -indvars -reassociate -deadargelim -loweratomic 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.08951926231384277, -0.08951926231384277
+-loop-fusion -inline -partial-inliner -correlated-propagation -licm -reassociate -loop-idiom -loweratomic -instcombine -tailcallelim -sccp -reg2mem -globalopt -libcalls-shrinkwrap -break-crit-edges -loop-reduce -loop-simplify -jump-threading -lower-expect -dse 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.09120965003967285, -0.09120965003967285
+-lcssa -loop-fusion -sink -loop-idiom -simplifycfg -partial-inliner -globaldce -inline -function-attrs -sroa -lowerinvoke -reg2mem -strip-nondebug -globalopt -sccp -jump-threading -loop-simplify -dse -loweratomic -strip 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.04704141616821289, -0.04704141616821289
+-ipsccp -dse -early-cse -loweratomic -lower-expect -partial-inliner -loop-simplify -constmerge -loop-unroll -sink -correlated-propagation -strip -lowerswitch -loop-idiom -sroa -inline -loop-rotate -adce -strip-nondebug -loop-reduce 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.08764314651489258, -0.08764314651489258
+-jump-threading -inline -globalopt -lowerswitch -loop-reduce -mem2reg -simplifycfg -correlated-propagation -lcssa -strip-nondebug -lower-expect -strip -loop-deletion -loop-simplify -loweratomic -dse -reg2mem -loop-idiom -loop-rotate -tailcallelim 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.08206534385681152, -0.08206534385681152
+-indvars -lcssa -loop-reduce -lower-expect -sink -loweratomic -simplifycfg -deadargelim -mem2reg -libcalls-shrinkwrap -early-cse -inline -reg2mem -lowerswitch -strip -jump-threading -dse -globaldce -loop-deletion -strip-nondebug 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.09269285202026367, -0.09269285202026367
+-loop-fusion -jump-threading -deadargelim -break-crit-edges -simple-loop-unswitch -licm -reg2mem -strip-nondebug -sroa -inline -lower-expect -loop-idiom -partial-inliner -simplifycfg -tailcallelim -globalopt -lcssa -globaldce -indvars -dse 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.07805967330932617, -0.07805967330932617
+-globalopt -simplifycfg -loop-rotate -loop-deletion -strip-nondebug -libcalls-shrinkwrap -strip -loweratomic -lcssa -lowerinvoke -loop-idiom -correlated-propagation -jump-threading -inline -lower-expect -reg2mem -globaldce -instcombine -mem2reg -dse 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.08079075813293457, -0.08079075813293457
+-loop-deletion -inline -dse -globaldce -early-cse -globalopt -strip -simplifycfg -lower-expect -correlated-propagation -loop-simplify -reg2mem -loop-unroll -libcalls-shrinkwrap -reassociate -jump-threading -sink -loop-fusion -loop-rotate -loweratomic 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.07639145851135254, -0.07639145851135254
+-strip-nondebug -loop-fusion -adce -inline -loop-simplify -deadargelim -loweratomic -globalopt -sccp -memcpyopt -indvars -loop-deletion -lower-expect -constmerge -mem2reg -strip -correlated-propagation -loop-idiom -sink -instcombine 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.09955525398254395, -0.09955525398254395
+-loop-fusion -sink -libcalls-shrinkwrap -loop-idiom -memcpyopt -loop-rotate -alignment-from-assumptions -jump-threading -strip -loop-reduce -inline -loop-simplify -lower-expect -loweratomic -globalopt -reg2mem -strip-nondebug -correlated-propagation -partial-inliner -lowerswitch 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.0907740592956543, -0.0907740592956543
+-sink -correlated-propagation -sroa -lower-expect -function-attrs -memcpyopt -loweratomic -loop-rotate -loop-idiom -inline -loop-fusion -reg2mem -strip-nondebug -globalopt -dse -loop-deletion -jump-threading -libcalls-shrinkwrap -loop-simplify -loop-reduce 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.09472179412841797, -0.09472179412841797
+-partial-inliner -loop-rotate -loop-simplify -tailcallelim -sink -loop-deletion -deadargelim -loop-reduce -inline -strip-nondebug -loop-idiom -reg2mem -jump-threading -lowerswitch -libcalls-shrinkwrap -reassociate -simplifycfg -strip -adce -correlated-propagation 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.09403753280639648, -0.09403753280639648
+-strip -reg2mem -strip-nondebug -inline -jump-threading -dse -globaldce -loop-simplify -float2int -lower-expect -loop-reduce -libcalls-shrinkwrap -ipsccp -loweratomic -loop-idiom -loop-fusion -lcssa -loop-rotate -lowerswitch -globalopt 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.07033443450927734, -0.07033443450927734
+-dse -lowerinvoke -ipsccp -jump-threading -lower-expect -strip -lowerswitch -strip-nondebug -reg2mem -inline -loop-unroll -correlated-propagation -sink -simplifycfg -loweratomic -loop-fusion -sroa -loop-simplify -partial-inliner -libcalls-shrinkwrap 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.08810043334960938, -0.08810043334960938
+-early-cse -loop-simplify -sink -loop-fusion -inline -adce -reg2mem -lower-expect -globalopt -loop-deletion -jump-threading -ipsccp -strip -loop-idiom -lowerswitch -partial-inliner -break-crit-edges -indvars -dse -libcalls-shrinkwrap 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.08818626403808594, -0.08818626403808594
+-instcombine -loop-simplify -loop-idiom -libcalls-shrinkwrap -inline -jump-threading -sccp -strip -loop-reduce -loop-rotate -loweratomic -reg2mem -globalopt -strip-nondebug -lower-expect -tailcallelim -correlated-propagation -globaldce -loop-fusion -deadargelim 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.07826375961303711, -0.07826375961303711
+-alignment-from-assumptions -inline -early-cse -globaldce -lowerinvoke -sink -loop-idiom -strip -dse -loop-deletion -loweratomic -lower-expect -libcalls-shrinkwrap -jump-threading -loop-simplify -loop-fusion -simple-loop-unswitch -partial-inliner -globalopt -strip-nondebug 
+jacobi-2d: 0.04433894157409668, inf, inf, 0.09008336067199707, -0.09008336067199707
+-strip-nondebug -jump-threading -inline -instcombine -loop-idiom -sccp -correlated-propagation -lower-expect -tailcallelim -loop-deletion -break-crit-edges -libcalls-shrinkwrap -loop-fusion -globalopt -reg2mem -constmerge -strip -loop-simplify -lowerswitch -globaldce 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.04283475875854492, -0.04283475875854492
+-licm -loop-fusion -break-crit-edges -loop-reduce -strip-nondebug -loweratomic -jump-threading -inline -alignment-from-assumptions -lowerswitch -strip -correlated-propagation -loop-simplify -loop-idiom -libcalls-shrinkwrap -lower-expect -adce -ipsccp -dse -globalopt 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.1007387638092041, -0.1007387638092041
+-libcalls-shrinkwrap -loop-idiom -lowerswitch -strip-nondebug -loop-fusion -alignment-from-assumptions -inline -loop-simplify -dse -ipsccp -globalopt -lower-expect -globaldce -memcpyopt -jump-threading -strip -reg2mem -loop-rotate -correlated-propagation -constmerge 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.09993314743041992, -0.09993314743041992
+-jump-threading -libcalls-shrinkwrap -dse -inline -loop-fusion -globaldce -loop-simplify -loop-rotate -strip -loop-deletion -deadargelim -strip-nondebug -lower-expect -partial-inliner -loop-idiom -break-crit-edges -globalopt -reg2mem -lowerinvoke -correlated-propagation 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.0995481014251709, -0.0995481014251709
+-globaldce -globalopt -loop-deletion -libcalls-shrinkwrap -inline -partial-inliner -tailcallelim -lower-expect -correlated-propagation -loop-rotate -jump-threading -loop-idiom -loop-reduce -loop-fusion -reg2mem -dse -strip-nondebug -lowerinvoke -loweratomic -loop-simplify 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.05055117607116699, -0.05055117607116699
+-lower-expect -strip-nondebug -loweratomic -mem2reg -memcpyopt -globalopt -inline -loop-reduce -globaldce -partial-inliner -adce -libcalls-shrinkwrap -dse -ipsccp -sink -strip -loop-unroll -loop-fusion -jump-threading -indvars 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.10003066062927246, -0.10003066062927246
+-loop-rotate -inline -strip-nondebug -dse -libcalls-shrinkwrap -strip -adce -jump-threading -correlated-propagation -deadargelim -loop-reduce -partial-inliner -loop-simplify -loop-fusion -sink -lower-expect -reg2mem -loweratomic -globalopt -globaldce 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.07203245162963867, -0.07203245162963867
+-function-attrs -correlated-propagation -libcalls-shrinkwrap -adce -loop-idiom -constmerge -early-cse -jump-threading -inline -memcpyopt -tailcallelim -strip -lower-expect -strip-nondebug -globaldce -loop-simplify -ipsccp -loop-deletion -partial-inliner -loop-fusion 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.12673163414001465, -0.12673163414001465
+-function-attrs -correlated-propagation -loop-simplify -simplifycfg -break-crit-edges -loop-unroll -loop-rotate -partial-inliner -reg2mem -lower-expect -loop-idiom -globaldce -inline -jump-threading -loop-fusion -loop-deletion -libcalls-shrinkwrap -strip-nondebug -constmerge -strip 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.09501528739929199, -0.09501528739929199
+-loop-fusion -jump-threading -loop-simplify -loop-rotate -inline -lowerinvoke -break-crit-edges -globaldce -loop-reduce -loop-idiom -correlated-propagation -strip-nondebug -dse -libcalls-shrinkwrap -deadargelim -loop-deletion -strip -lower-expect -simplifycfg -loop-unroll 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.09453678131103516, -0.09453678131103516
+-constmerge -globalopt -strip-nondebug -reg2mem -libcalls-shrinkwrap -strip -simplifycfg -correlated-propagation -inline -jump-threading -break-crit-edges -lower-expect -loop-fusion -loop-idiom -loop-rotate -sink -adce -loop-simplify -loweratomic -globaldce 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.08272361755371094, -0.08272361755371094
+-deadargelim -loop-simplify -early-cse -loweratomic -loop-idiom -simple-loop-unswitch -inline -sccp -strip-nondebug -instcombine -strip -lower-expect -ipsccp -simplifycfg -loop-fusion -loop-reduce -libcalls-shrinkwrap -globaldce -loop-deletion -globalopt 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.07342338562011719, -0.07342338562011719
+-reg2mem -partial-inliner -early-cse -globalopt -strip-nondebug -loop-fusion -loop-idiom -sccp -jump-threading -inline -loweratomic -strip -libcalls-shrinkwrap -loop-deletion -lower-expect -globaldce -deadargelim -simplifycfg -mem2reg -function-attrs 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.09406042098999023, -0.09406042098999023
+-loop-simplify -globaldce -lower-expect -float2int -dse -globalopt -strip-nondebug -libcalls-shrinkwrap -partial-inliner -loop-fusion -loop-unroll -jump-threading -strip -constmerge -loweratomic -inline -loop-reduce -deadargelim -reg2mem -loop-idiom 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.08641457557678223, -0.08641457557678223
+-loop-simplify -memcpyopt -instcombine -lower-expect -partial-inliner -loop-fusion -loop-deletion -globaldce -loop-rotate -dse -adce -loop-unroll -jump-threading -strip-nondebug -inline -simplifycfg -libcalls-shrinkwrap -strip -loop-idiom -sink 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.09493684768676758, -0.09493684768676758
+-loop-deletion -lower-expect -strip-nondebug -libcalls-shrinkwrap -loop-idiom -inline -loop-fusion -lowerswitch -loop-simplify -globaldce -jump-threading -simplifycfg -deadargelim -partial-inliner -loweratomic -strip -loop-rotate -dse -loop-reduce -sink 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.09404325485229492, -0.09404325485229492
+-tailcallelim -jump-threading -dse -simplifycfg -strip-nondebug -inline -loweratomic -deadargelim -partial-inliner -lowerinvoke -strip -lower-expect -function-attrs -libcalls-shrinkwrap -loop-fusion -loop-unroll -globalopt -loop-simplify -indvars -loop-idiom 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.09366321563720703, -0.09366321563720703
+-simplifycfg -strip-nondebug -partial-inliner -loweratomic -loop-reduce -lower-expect -function-attrs -strip -jump-threading -inline -globaldce -loop-simplify -loop-idiom -correlated-propagation -reg2mem -libcalls-shrinkwrap -dse -adce -sink -loop-deletion 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.0711367130279541, -0.0711367130279541
+-mem2reg -loweratomic -loop-reduce -deadargelim -strip -dse -reg2mem -loop-idiom -lower-expect -inline -simplifycfg -loop-fusion -partial-inliner -strip-nondebug -libcalls-shrinkwrap -jump-threading -loop-unroll -loop-simplify -loop-deletion -lowerswitch 
+jacobi-2d: 0.04283475875854492, inf, inf, 0.09480667114257812, -0.09480667114257812
+-inline -lower-expect -loop-idiom -sink -loop-simplify -loop-rotate -libcalls-shrinkwrap -constmerge -loop-unroll -strip-nondebug -simplifycfg -partial-inliner -strip -jump-threading -dse -lowerinvoke -function-attrs -loweratomic -adce -globaldce 
+jacobi-2d: 0.08304667472839355, inf, inf, 0.08304667472839355, -0.08304667472839355
+-jump-threading -licm -loop-rotate -reassociate -simplifycfg -lowerinvoke -libcalls-shrinkwrap -alignment-from-assumptions -loop-deletion -memcpyopt -sink -globalopt -simple-loop-unswitch -loop-unroll -lcssa -instcombine -sccp -constmerge -indvars -ipsccp 
+jacobi-2d: 0.2592287063598633, 0.08556532859802246, 0.0866537094116211, 0.08700966835021973, 0.2592287063598633, -0.2592287063598633
+-jump-threading -loop-deletion -memcpyopt -reg2mem -constmerge -float2int -libcalls-shrinkwrap -tailcallelim -gvn -indvars -lowerinvoke -globalopt -strip -loop-rotate -licm -alignment-from-assumptions -loop-unroll -early-cse -loop-simplify -loop-fusion 
+jacobi-2d: 1.9854027080535888, 1.42, 0.46, 0.10540270805358887, 1.9854027080535888, -1.9854027080535888
+-sroa -sink -partial-inliner -indvars -globaldce -loop-fusion -mem2reg -sccp -loop-unroll -deadargelim -loop-rotate -instcombine -lcssa -function-attrs -loop-deletion -constmerge -float2int -memcpyopt -libcalls-shrinkwrap -break-crit-edges 
+jacobi-2d: 1.5215174674987795, 1.08, 0.37, 0.0715174674987793, 1.5215174674987795, -1.5215174674987795
+-function-attrs -adce -licm -strip -lowerinvoke -simple-loop-unswitch -inline -jump-threading -sccp -lcssa -early-cse -alignment-from-assumptions -loop-deletion -libcalls-shrinkwrap -lower-expect -correlated-propagation -mem2reg -loop-unroll -loop-fusion -float2int 
+jacobi-2d: 2.246343030929565, 1.63, 0.51, 0.10634303092956543, 2.246343030929565, -2.246343030929565
+-alignment-from-assumptions -lower-expect -correlated-propagation -break-crit-edges -globaldce -simple-loop-unswitch -early-cse -loop-unroll -loop-rotate -function-attrs -instcombine -simplifycfg -constmerge -float2int -memcpyopt -strip-nondebug -loop-idiom -libcalls-shrinkwrap -strip -sccp 
+jacobi-2d: 1.9346693325042725, 1.35, 0.48, 0.10466933250427246, 1.9346693325042725, -1.9346693325042725
+-deadargelim -break-crit-edges -adce -constmerge -simplifycfg -lcssa -function-attrs -loop-unroll -gvn -loop-rotate -lowerswitch -lower-expect -dse -jump-threading -globaldce -early-cse -reg2mem -globalopt -simple-loop-unswitch -sroa 
+jacobi-2d: 1.8728268432617188, 1.31, 0.47, 0.09282684326171875, 1.8728268432617188, -1.8728268432617188
+-partial-inliner -sink -lower-expect -ipsccp -loop-idiom -lowerswitch -libcalls-shrinkwrap -sroa -loweratomic -lowerinvoke -gvn -loop-unroll -loop-deletion -licm -globaldce -instcombine -break-crit-edges -memcpyopt -simplifycfg -float2int 
+jacobi-2d: 1.8728268432617188, 1.31, 0.47, 0.09282684326171875, 2.2312565803527833, -2.2312565803527833
+-gvn -instcombine -inline -lowerinvoke -loweratomic -lower-expect -lowerswitch -reg2mem -dse -float2int -alignment-from-assumptions -simplifycfg -strip-nondebug -loop-unroll -early-cse -lcssa -function-attrs -reassociate -globaldce -simple-loop-unswitch 
+jacobi-2d: 1.321502685546875, 0.96, 0.29, 0.071502685546875, 1.321502685546875, -1.321502685546875
+-lowerinvoke -lcssa -simple-loop-unswitch -reg2mem -jump-threading -libcalls-shrinkwrap -sroa -break-crit-edges -globalopt -deadargelim -indvars -loweratomic -partial-inliner -loop-idiom -loop-reduce -alignment-from-assumptions -constmerge -float2int -ipsccp -strip-nondebug 
+jacobi-2d: 1.321502685546875, 0.96, 0.29, 0.071502685546875, 1.9104986763000489, -1.9104986763000489
+-loop-deletion -function-attrs -loop-fusion -strip-nondebug -simplifycfg -sccp -loop-idiom -deadargelim -indvars -adce -lowerinvoke -loop-unroll -alignment-from-assumptions -float2int -strip -loweratomic -loop-rotate -globalopt -partial-inliner -gvn 
+jacobi-2d: 1.321502685546875, 0.96, 0.29, 0.071502685546875, 1.4035037326812745, -1.4035037326812745
+-jump-threading -alignment-from-assumptions -mem2reg -ipsccp -early-cse -loop-unroll -sroa -loop-reduce -function-attrs -lowerswitch -lowerinvoke -strip -adce -loop-deletion -loop-fusion -simple-loop-unswitch -float2int -loop-simplify -strip-nondebug -lower-expect 
+jacobi-2d: 1.321502685546875, 0.96, 0.29, 0.071502685546875, 1.9797085571289061, -1.9797085571289061
+-lowerinvoke -memcpyopt -tailcallelim -break-crit-edges -reassociate -early-cse -deadargelim -lowerswitch -float2int -globalopt -loop-deletion -loop-reduce -sroa -lcssa -ipsccp -partial-inliner -jump-threading -sccp -constmerge -simplifycfg 
+jacobi-2d: 1.321502685546875, 0.96, 0.29, 0.071502685546875, 1.9061098670959473, -1.9061098670959473
+-loop-idiom -ipsccp -break-crit-edges -loop-unroll -lowerinvoke -memcpyopt -alignment-from-assumptions -tailcallelim -globaldce -gvn -strip-nondebug -instcombine -strip -inline -partial-inliner -simplifycfg -licm -indvars -reassociate -lowerswitch 
+jacobi-2d: 1.1932197570800782, 0.85, 0.25, 0.09321975708007812, 1.1932197570800782, -1.1932197570800782
+-loop-fusion -globaldce -lcssa -strip -sink -strip-nondebug -licm -constmerge -loop-idiom -loop-reduce -ipsccp -correlated-propagation -alignment-from-assumptions -sroa -loweratomic -mem2reg -libcalls-shrinkwrap -reassociate -inline -adce 
+jacobi-2d: 1.1932197570800782, 0.85, 0.25, 0.09321975708007812, 1.8445956802368164, -1.8445956802368164
+-constmerge -loop-rotate -licm -strip -strip-nondebug -loweratomic -float2int -tailcallelim -lower-expect -sccp -instcombine -indvars -early-cse -function-attrs -adce -reassociate -jump-threading -alignment-from-assumptions -lowerinvoke -simplifycfg 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.089709300994873, -1.089709300994873
+-lowerswitch -lcssa -inline -globaldce -simplifycfg -alignment-from-assumptions -strip-nondebug -loop-rotate -reassociate -correlated-propagation -libcalls-shrinkwrap -loweratomic -break-crit-edges -adce -partial-inliner -licm -dse -loop-reduce -mem2reg -instcombine 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.2637254428863525, -2.2637254428863525
+-loop-rotate -alignment-from-assumptions -lowerinvoke -simple-loop-unswitch -constmerge -loop-unroll -correlated-propagation -lowerswitch -break-crit-edges -indvars -loop-reduce -loweratomic -dse -loop-fusion -tailcallelim -strip -sink -sccp -adce -mem2reg 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.598283500671387, -2.598283500671387
+-inline -deadargelim -loweratomic -correlated-propagation -sroa -simplifycfg -strip-nondebug -libcalls-shrinkwrap -instcombine -adce -globalopt -reg2mem -lowerinvoke -break-crit-edges -simple-loop-unswitch -float2int -jump-threading -dse -loop-unroll -sink 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.138810920715332, -2.138810920715332
+-gvn -loop-unroll -alignment-from-assumptions -tailcallelim -simplifycfg -float2int -strip-nondebug -loweratomic -sccp -lowerswitch -loop-simplify -simple-loop-unswitch -early-cse -lowerinvoke -jump-threading -memcpyopt -sroa -globalopt -adce -lcssa 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.3948326778411866, -1.3948326778411866
+-float2int -adce -loop-rotate -loop-reduce -loop-idiom -lowerinvoke -inline -indvars -function-attrs -sink -constmerge -libcalls-shrinkwrap -licm -sroa -alignment-from-assumptions -ipsccp -early-cse -strip-nondebug -memcpyopt -loop-simplify 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.4894234371185302, -1.4894234371185302
+-tailcallelim -correlated-propagation -loweratomic -strip-nondebug -float2int -dse -alignment-from-assumptions -jump-threading -loop-rotate -simple-loop-unswitch -globalopt -licm -lowerswitch -gvn -adce -constmerge -sink -break-crit-edges -globaldce -reassociate 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.4117079544067384, -1.4117079544067384
+-break-crit-edges -strip-nondebug -inline -sink -loop-fusion -sroa -loop-rotate -libcalls-shrinkwrap -sccp -float2int -early-cse -tailcallelim -partial-inliner -lowerinvoke -correlated-propagation -reassociate -globaldce -jump-threading -loop-reduce -adce 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.9781495475769042, -1.9781495475769042
+-dse -indvars -tailcallelim -constmerge -lowerswitch -strip-nondebug -alignment-from-assumptions -reg2mem -licm -loop-deletion -globalopt -float2int -lowerinvoke -instcombine -jump-threading -adce -loop-fusion -ipsccp -memcpyopt -libcalls-shrinkwrap 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.4064565467834473, -1.4064565467834473
+-adce -reassociate -function-attrs -memcpyopt -dse -tailcallelim -alignment-from-assumptions -lowerinvoke -loop-simplify -sroa -float2int -break-crit-edges -correlated-propagation -loop-idiom -libcalls-shrinkwrap -loop-rotate -loop-reduce -instcombine -constmerge -deadargelim 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.670892534255981, -2.670892534255981
+-gvn -loop-rotate -loop-deletion -libcalls-shrinkwrap -deadargelim -loop-unroll -float2int -loop-simplify -strip -lowerswitch -correlated-propagation -mem2reg -adce -partial-inliner -loop-idiom -loop-reduce -globalopt -reg2mem -instcombine -licm 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.186118221282959, -2.186118221282959
+-deadargelim -mem2reg -reassociate -memcpyopt -loop-unroll -function-attrs -sccp -correlated-propagation -globaldce -loop-fusion -alignment-from-assumptions -lowerinvoke -strip -dse -indvars -ipsccp -inline -partial-inliner -strip-nondebug -loop-rotate 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.9143326950073243, -1.9143326950073243
+-sink -sccp -float2int -lowerinvoke -tailcallelim -partial-inliner -libcalls-shrinkwrap -loop-simplify -globalopt -sroa -instcombine -mem2reg -lcssa -indvars -jump-threading -loop-rotate -gvn -loop-unroll -simple-loop-unswitch -simplifycfg 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.786068820953369, -2.786068820953369
+-globaldce -correlated-propagation -dse -libcalls-shrinkwrap -adce -loweratomic -sink -globalopt -indvars -tailcallelim -sroa -simplifycfg -ipsccp -strip-nondebug -mem2reg -reg2mem -memcpyopt -loop-fusion -float2int -break-crit-edges 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.4576078605651857, -1.4576078605651857
+-lowerinvoke -jump-threading -break-crit-edges -lowerswitch -inline -loop-simplify -dse -tailcallelim -lower-expect -loop-fusion -loop-deletion -licm -instcombine -loop-rotate -globalopt -simplifycfg -loop-reduce -strip -float2int -adce 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.2621132564544677, -1.2621132564544677
+-loop-rotate -strip-nondebug -reg2mem -loop-deletion -licm -reassociate -loweratomic -indvars -loop-fusion -sroa -loop-reduce -instcombine -memcpyopt -partial-inliner -gvn -lowerswitch -loop-simplify -loop-idiom -correlated-propagation -simple-loop-unswitch 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.463267889022827, -2.463267889022827
+-loweratomic -licm -constmerge -sink -alignment-from-assumptions -strip-nondebug -lowerswitch -gvn -instcombine -early-cse -ipsccp -tailcallelim -loop-unroll -mem2reg -indvars -memcpyopt -simplifycfg -globalopt -deadargelim -reg2mem 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.8818762588500977, -1.8818762588500977
+-jump-threading -loop-unroll -loop-fusion -loop-simplify -reg2mem -alignment-from-assumptions -mem2reg -loop-deletion -licm -lowerinvoke -partial-inliner -inline -indvars -instcombine -globaldce -loop-rotate -correlated-propagation -sccp -early-cse -float2int 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.178653545379639, -2.178653545379639
+-ipsccp -loop-unroll -sink -loop-simplify -partial-inliner -constmerge -dse -simple-loop-unswitch -tailcallelim -globaldce -indvars -jump-threading -simplifycfg -inline -early-cse -deadargelim -reassociate -loop-fusion -break-crit-edges -lower-expect 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.9216209220886231, -1.9216209220886231
+-deadargelim -loop-unroll -globalopt -early-cse -globaldce -sccp -loop-reduce -float2int -sroa -gvn -sink -dse -correlated-propagation -alignment-from-assumptions -partial-inliner -indvars -function-attrs -adce -memcpyopt -strip-nondebug 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.3807466506958008, -1.3807466506958008
+-alignment-from-assumptions -lower-expect -indvars -correlated-propagation -early-cse -licm -instcombine -sccp -loop-fusion -memcpyopt -simplifycfg -simple-loop-unswitch -deadargelim -globalopt -strip -reg2mem -jump-threading -lowerswitch -mem2reg -loop-reduce 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.2752849578857421, -1.2752849578857421
+-loop-unroll -licm -inline -instcombine -lower-expect -partial-inliner -loop-reduce -strip-nondebug -simplifycfg -tailcallelim -mem2reg -lcssa -correlated-propagation -loop-deletion -function-attrs -loop-simplify -globalopt -gvn -alignment-from-assumptions -break-crit-edges 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.920667953491211, -1.920667953491211
+-sink -reassociate -loop-fusion -strip -dse -memcpyopt -sroa -loop-idiom -early-cse -tailcallelim -lowerinvoke -constmerge -simplifycfg -mem2reg -lcssa -deadargelim -strip-nondebug -loop-simplify -simple-loop-unswitch -correlated-propagation 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.4354432678222655, -1.4354432678222655
+-ipsccp -instcombine -partial-inliner -lcssa -lower-expect -tailcallelim -sroa -loop-rotate -simple-loop-unswitch -strip-nondebug -float2int -loop-simplify -loop-fusion -globalopt -libcalls-shrinkwrap -memcpyopt -function-attrs -loop-reduce -mem2reg -alignment-from-assumptions 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.963822956085205, -1.963822956085205
+-deadargelim -simplifycfg -loop-fusion -lowerinvoke -loop-deletion -instcombine -libcalls-shrinkwrap -adce -loweratomic -lcssa -simple-loop-unswitch -dse -memcpyopt -mem2reg -loop-rotate -indvars -loop-idiom -inline -sink -globaldce 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.9856330204010009, -1.9856330204010009
+-gvn -ipsccp -reassociate -inline -mem2reg -constmerge -lcssa -instcombine -lower-expect -loop-rotate -tailcallelim -lowerinvoke -simple-loop-unswitch -strip-nondebug -float2int -sink -loop-idiom -correlated-propagation -simplifycfg -loop-simplify 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.5108117389678957, -1.5108117389678957
+-reassociate -partial-inliner -sroa -loop-reduce -inline -loop-fusion -instcombine -strip -break-crit-edges -lowerinvoke -indvars -tailcallelim -constmerge -float2int -mem2reg -simple-loop-unswitch -correlated-propagation -loweratomic -loop-simplify -sink 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.8088917446136474, -1.8088917446136474
+-adce -simple-loop-unswitch -loop-deletion -break-crit-edges -partial-inliner -indvars -tailcallelim -correlated-propagation -loop-simplify -loop-unroll -reassociate -ipsccp -lcssa -gvn -loop-fusion -licm -simplifycfg -lowerswitch -constmerge -globalopt 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.936820602416992, -1.936820602416992
+-alignment-from-assumptions -mem2reg -lowerinvoke -lowerswitch -instcombine -licm -constmerge -simplifycfg -inline -loop-rotate -adce -tailcallelim -simple-loop-unswitch -function-attrs -loop-fusion -partial-inliner -jump-threading -strip-nondebug -correlated-propagation -loop-unroll 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.9139486026763917, -1.9139486026763917
+-jump-threading -loop-idiom -dse -reg2mem -early-cse -simplifycfg -loop-reduce -globaldce -constmerge -strip-nondebug -sink -libcalls-shrinkwrap -indvars -simple-loop-unswitch -lowerswitch -correlated-propagation -loop-deletion -loop-rotate -break-crit-edges -gvn 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.8724212837219234, -2.8724212837219234
+-loweratomic -loop-deletion -lcssa -tailcallelim -inline -dse -adce -float2int -simplifycfg -jump-threading -alignment-from-assumptions -sink -correlated-propagation -reg2mem -strip-nondebug -break-crit-edges -simple-loop-unswitch -lowerswitch -function-attrs -globaldce 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.88636399269104, -2.88636399269104
+-loop-reduce -correlated-propagation -break-crit-edges -lower-expect -indvars -function-attrs -dse -alignment-from-assumptions -loop-fusion -ipsccp -simplifycfg -loop-idiom -strip-nondebug -tailcallelim -adce -deadargelim -float2int -loweratomic -lcssa -sink 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.0779873943328857, -2.0779873943328857
+-lower-expect -indvars -sccp -deadargelim -loop-unroll -early-cse -constmerge -break-crit-edges -inline -lcssa -strip-nondebug -simplifycfg -simple-loop-unswitch -loop-rotate -instcombine -globalopt -adce -tailcallelim -loweratomic -mem2reg 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.9416340160369874, -2.9416340160369874
+-partial-inliner -libcalls-shrinkwrap -ipsccp -loop-idiom -strip -lcssa -reassociate -correlated-propagation -loop-simplify -memcpyopt -reg2mem -function-attrs -simple-loop-unswitch -globaldce -strip-nondebug -loop-rotate -tailcallelim -break-crit-edges -loop-reduce -simplifycfg 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.9115946674346924, -2.9115946674346924
+-lowerinvoke -reg2mem -deadargelim -simplifycfg -strip-nondebug -loop-fusion -break-crit-edges -indvars -tailcallelim -correlated-propagation -sccp -simple-loop-unswitch -inline -adce -memcpyopt -dse -globaldce -strip -loop-deletion -lower-expect 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.652558116912842, -2.652558116912842
+-loop-fusion -break-crit-edges -dse -loop-unroll -partial-inliner -strip-nondebug -sccp -inline -tailcallelim -indvars -instcombine -correlated-propagation -loop-reduce -loop-rotate -alignment-from-assumptions -globaldce -constmerge -globalopt -lower-expect -deadargelim 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.9626637458801268, -1.9626637458801268
+-lcssa -loop-rotate -loop-fusion -mem2reg -lowerswitch -adce -simple-loop-unswitch -correlated-propagation -sink -loop-deletion -strip-nondebug -simplifycfg -dse -instcombine -globaldce -memcpyopt -early-cse -alignment-from-assumptions -loweratomic -sccp 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.6868687629699706, -1.6868687629699706
+-reg2mem -loop-idiom -reassociate -instcombine -loweratomic -gvn -lcssa -simple-loop-unswitch -loop-fusion -dse -sccp -globalopt -mem2reg -alignment-from-assumptions -deadargelim -loop-reduce -loop-deletion -strip-nondebug -indvars -globaldce 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.446314220428467, -1.446314220428467
+-tailcallelim -gvn -partial-inliner -correlated-propagation -lcssa -sccp -instcombine -adce -loop-reduce -loop-deletion -indvars -globaldce -reassociate -loop-fusion -lower-expect -simplifycfg -constmerge -alignment-from-assumptions -globalopt -break-crit-edges 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.1701810932159424, -2.1701810932159424
+-globalopt -jump-threading -loop-fusion -lowerswitch -dse -simplifycfg -lower-expect -tailcallelim -memcpyopt -strip-nondebug -early-cse -break-crit-edges -partial-inliner -float2int -loop-simplify -sccp -loop-rotate -correlated-propagation -loop-idiom -function-attrs 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.9815896892547606, -1.9815896892547606
+-sccp -sink -instcombine -loop-reduce -reg2mem -tailcallelim -lower-expect -indvars -lowerswitch -gvn -libcalls-shrinkwrap -adce -loop-idiom -deadargelim -ipsccp -simplifycfg -inline -licm -strip-nondebug -loop-rotate 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.7656916904449462, -1.7656916904449462
+-tailcallelim -loop-simplify -adce -sink -float2int -loop-deletion -correlated-propagation -lowerinvoke -lcssa -gvn -partial-inliner -simple-loop-unswitch -loop-reduce -simplifycfg -indvars -dse -loweratomic -lower-expect -alignment-from-assumptions -memcpyopt 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.068153324127197, -2.068153324127197
+-correlated-propagation -ipsccp -lcssa -inline -constmerge -loop-fusion -indvars -loweratomic -globaldce -sink -tailcallelim -instcombine -lower-expect -loop-idiom -adce -simplifycfg -reg2mem -break-crit-edges -float2int -sroa 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.155252513885498, -2.155252513885498
+-correlated-propagation -ipsccp -globalopt -reassociate -sink -deadargelim -gvn -loop-unroll -loop-rotate -loop-simplify -strip-nondebug -loop-fusion -indvars -lower-expect -float2int -break-crit-edges -strip -dse -lowerinvoke -mem2reg 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.7801834678649904, -2.7801834678649904
+-dse -lowerswitch -tailcallelim -loweratomic -ipsccp -instcombine -reg2mem -loop-unroll -indvars -sink -libcalls-shrinkwrap -deadargelim -simple-loop-unswitch -float2int -lower-expect -function-attrs -correlated-propagation -adce -strip-nondebug -jump-threading 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.631646919250488, -1.631646919250488
+-ipsccp -lowerinvoke -gvn -instcombine -strip -early-cse -loop-unroll -loop-reduce -strip-nondebug -dse -loweratomic -alignment-from-assumptions -correlated-propagation -loop-rotate -float2int -reassociate -reg2mem -adce -tailcallelim -lcssa 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.1219136810302732, -2.1219136810302732
+-tailcallelim -adce -instcombine -sink -correlated-propagation -simple-loop-unswitch -loop-idiom -dse -indvars -strip -float2int -loop-unroll -gvn -globalopt -lower-expect -alignment-from-assumptions -partial-inliner -memcpyopt -break-crit-edges -strip-nondebug 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.2447723293304445, -2.2447723293304445
+-adce -indvars -instcombine -loop-reduce -gvn -break-crit-edges -partial-inliner -strip -alignment-from-assumptions -constmerge -dse -globalopt -deadargelim -loop-fusion -simplifycfg -memcpyopt -libcalls-shrinkwrap -lower-expect -simple-loop-unswitch -inline 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.9608763313293456, -1.9608763313293456
+-float2int -lowerinvoke -mem2reg -loop-rotate -indvars -dse -globaldce -constmerge -function-attrs -strip-nondebug -lower-expect -simple-loop-unswitch -instcombine -jump-threading -sccp -loop-fusion -break-crit-edges -tailcallelim -ipsccp -loweratomic 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.099714756011963, -2.099714756011963
+-float2int -dse -globalopt -sink -lcssa -loop-rotate -indvars -simple-loop-unswitch -tailcallelim -partial-inliner -strip-nondebug -loop-deletion -lowerswitch -libcalls-shrinkwrap -loop-reduce -loop-simplify -instcombine -deadargelim -adce -gvn 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.8844270801544187, -2.8844270801544187
+-loop-rotate -alignment-from-assumptions -strip-nondebug -loop-fusion -partial-inliner -correlated-propagation -deadargelim -break-crit-edges -simplifycfg -adce -loop-deletion -strip -lower-expect -memcpyopt -constmerge -simple-loop-unswitch -indvars -dse -tailcallelim -loop-unroll 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.329180965423584, -1.329180965423584
+-lowerinvoke -strip-nondebug -simple-loop-unswitch -float2int -indvars -sroa -libcalls-shrinkwrap -deadargelim -loop-fusion -loop-reduce -correlated-propagation -loop-deletion -globalopt -gvn -reg2mem -alignment-from-assumptions -adce -early-cse -loop-rotate -instcombine 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.021123809814453, -2.021123809814453
+-loop-rotate -lcssa -sccp -loop-simplify -inline -mem2reg -alignment-from-assumptions -lower-expect -simple-loop-unswitch -lowerinvoke -strip-nondebug -sink -globalopt -instcombine -float2int -sroa -strip -constmerge -loweratomic -dse 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.330339651107788, -2.330339651107788
+-instcombine -lcssa -gvn -sroa -adce -memcpyopt -loop-unroll -loop-fusion -strip-nondebug -libcalls-shrinkwrap -alignment-from-assumptions -break-crit-edges -simplifycfg -indvars -loop-rotate -inline -simple-loop-unswitch -sink -strip -lower-expect 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 2.7591523075103757, -2.7591523075103757
+-alignment-from-assumptions -jump-threading -loop-simplify -partial-inliner -instcombine -dse -float2int -simplifycfg -early-cse -globalopt -lowerswitch -loop-rotate -sink -lower-expect -memcpyopt -adce -gvn -constmerge -correlated-propagation -reg2mem 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.9871221923828124, -1.9871221923828124
+-adce -loop-fusion -float2int -loop-rotate -instcombine -globaldce -tailcallelim -loop-reduce -alignment-from-assumptions -deadargelim -licm -indvars -strip-nondebug -sink -memcpyopt -partial-inliner -libcalls-shrinkwrap -function-attrs -lowerinvoke -simplifycfg 
+jacobi-2d: 1.089709300994873, 0.78, 0.24, 0.06970930099487305, 1.524827423095703, -1.524827423095703
+-deadargelim -loop-reduce -strip-nondebug -simple-loop-unswitch -globalopt -tailcallelim -lowerswitch -licm -loop-unroll -correlated-propagation -inline -function-attrs -sccp -lower-expect -float2int -adce -loop-rotate -loop-fusion -lcssa -sroa 
+jacobi-2d: 0.33, inf, inf, inf, 0.33, -0.33
+-partial-inliner -libcalls-shrinkwrap -loop-rotate -globalopt -memcpyopt -sroa -constmerge -lowerinvoke -loop-reduce -inline -deadargelim -simple-loop-unswitch -loop-unroll -float2int -reassociate -loop-deletion -gvn -lowerswitch -ipsccp -sink 
+jacobi-2d: 0.33, inf, inf, inf, 1.2, -1.2
+-memcpyopt -gvn -indvars -float2int -sccp -break-crit-edges -strip -alignment-from-assumptions -sroa -deadargelim -reassociate -early-cse -tailcallelim -loop-idiom -lcssa -globalopt -dse -libcalls-shrinkwrap -strip-nondebug -lower-expect 
+jacobi-2d: 0.32, inf, inf, inf, 0.32, -0.32
+-break-crit-edges -float2int -sroa -loop-reduce -ipsccp -globaldce -simplifycfg -sink -libcalls-shrinkwrap -memcpyopt -loop-unroll -indvars -simple-loop-unswitch -adce -jump-threading -lower-expect -deadargelim -loop-fusion -loweratomic -early-cse 
+jacobi-2d: 0.25, inf, inf, inf, 0.25, -0.25
+-licm -tailcallelim -inline -globaldce -loop-reduce -loop-simplify -lower-expect -constmerge -early-cse -loop-rotate -lowerinvoke -simple-loop-unswitch -gvn -jump-threading -simplifycfg -loop-idiom -partial-inliner -sink -libcalls-shrinkwrap -adce 
+jacobi-2d: 0.25, inf, inf, inf, 0.6, -0.6
+-reg2mem -globalopt -sccp -loop-deletion -loop-idiom -libcalls-shrinkwrap -loop-reduce -alignment-from-assumptions -constmerge -gvn -lowerswitch -lcssa -loop-rotate -float2int -simple-loop-unswitch -loop-fusion -loop-simplify -licm -dse -partial-inliner 
+jacobi-2d: 0.25, inf, inf, inf, 1.17, -1.17
+-inline -instcombine -early-cse -function-attrs -loop-simplify -jump-threading -loop-fusion -reg2mem -loop-rotate -strip -lcssa -lowerswitch -globalopt -partial-inliner -loop-unroll -lowerinvoke -dse -sink -reassociate -memcpyopt 
+jacobi-2d: 0.25, inf, inf, inf, 0.84, -0.84
+-ipsccp -break-crit-edges -loop-deletion -globaldce -loop-unroll -function-attrs -early-cse -mem2reg -lowerswitch -memcpyopt -globalopt -float2int -loweratomic -jump-threading -inline -partial-inliner -loop-simplify -libcalls-shrinkwrap -licm -simple-loop-unswitch 
+jacobi-2d: 0.25, inf, inf, inf, 0.37, -0.37
+-inline -alignment-from-assumptions -loop-unroll -loop-simplify -dse -early-cse -loop-fusion -mem2reg -deadargelim -simple-loop-unswitch -licm -ipsccp -simplifycfg -sink -jump-threading -float2int -gvn -loop-deletion -loop-idiom -indvars 
+jacobi-2d: 0.25, inf, inf, inf, 1.41, -1.41
+-float2int -constmerge -sroa -simplifycfg -deadargelim -simple-loop-unswitch -reg2mem -lower-expect -correlated-propagation -lowerswitch -loop-fusion -loop-reduce -globalopt -break-crit-edges -reassociate -libcalls-shrinkwrap -lcssa -lowerinvoke -function-attrs -sink 
+jacobi-2d: 0.25, inf, inf, inf, 1.18, -1.18
+-ipsccp -lowerinvoke -simple-loop-unswitch -memcpyopt -loop-fusion -loop-deletion -strip-nondebug -instcombine -gvn -lower-expect -correlated-propagation -jump-threading -lcssa -tailcallelim -lowerswitch -sccp -function-attrs -libcalls-shrinkwrap -reg2mem -sroa 
+jacobi-2d: 0.25, inf, inf, inf, 0.54, -0.54
+-simple-loop-unswitch -sccp -loop-idiom -reassociate -loweratomic -sink -lower-expect -break-crit-edges -correlated-propagation -lowerinvoke -alignment-from-assumptions -loop-simplify -lowerswitch -reg2mem -ipsccp -early-cse -memcpyopt -simplifycfg -jump-threading -loop-reduce 
+jacobi-2d: 0.25, inf, inf, inf, 0.52, -0.52
+-lower-expect -loweratomic -strip-nondebug -early-cse -jump-threading -loop-unroll -ipsccp -loop-fusion -memcpyopt -lowerswitch -float2int -strip -tailcallelim -function-attrs -loop-deletion -adce -simple-loop-unswitch -gvn -libcalls-shrinkwrap -indvars 
+jacobi-2d: 0.25, inf, inf, inf, 0.47, -0.47
+-lowerswitch -strip-nondebug -strip -loop-rotate -loweratomic -globalopt -loop-deletion -inline -licm -loop-fusion -loop-unroll -constmerge -correlated-propagation -lowerinvoke -partial-inliner -instcombine -lcssa -function-attrs -float2int -loop-simplify 
+jacobi-2d: 0.25, inf, inf, inf, 0.47, -0.47
+-licm -lowerswitch -sink -indvars -gvn -function-attrs -break-crit-edges -lower-expect -inline -loop-deletion -loop-simplify -deadargelim -strip -globalopt -early-cse -mem2reg -simple-loop-unswitch -reg2mem -jump-threading -simplifycfg 
+jacobi-2d: 0.25, inf, inf, inf, 0.44, -0.44
+-loop-simplify -sccp -loop-reduce -sink -globaldce -strip -indvars -correlated-propagation -loop-rotate -partial-inliner -simplifycfg -gvn -lowerinvoke -lowerswitch -constmerge -licm -loop-idiom -lower-expect -loop-fusion -adce 
+jacobi-2d: 0.25, inf, inf, inf, 0.45, -0.45
+-lower-expect -loweratomic -tailcallelim -deadargelim -jump-threading -loop-deletion -simplifycfg -mem2reg -loop-simplify -function-attrs -loop-rotate -constmerge -libcalls-shrinkwrap -correlated-propagation -adce -alignment-from-assumptions -strip -loop-fusion -globalopt -early-cse 
+jacobi-2d: 0.25, inf, inf, inf, 0.83, -0.83
+-tailcallelim -break-crit-edges -memcpyopt -simple-loop-unswitch -lowerswitch -loweratomic -globalopt -float2int -lowerinvoke -globaldce -loop-idiom -dse -licm -deadargelim -loop-unroll -strip-nondebug -correlated-propagation -lcssa -reg2mem -constmerge 
+jacobi-2d: 0.25, inf, inf, inf, 0.34, -0.34
+-globalopt -strip-nondebug -licm -float2int -reg2mem -lowerinvoke -sink -loop-unroll -loop-idiom -libcalls-shrinkwrap -correlated-propagation -lower-expect -deadargelim -mem2reg -gvn -loop-deletion -adce -ipsccp -inline -lowerswitch 
+jacobi-2d: 0.25, inf, inf, inf, 1.54, -1.54
+-loop-simplify -lowerinvoke -adce -instcombine -gvn -strip-nondebug -jump-threading -break-crit-edges -reg2mem -loop-fusion -simple-loop-unswitch -loop-reduce -lower-expect -correlated-propagation -sccp -alignment-from-assumptions -sink -globalopt -loop-rotate -licm 
+jacobi-2d: 0.25, inf, inf, inf, 0.35, -0.35
+-globalopt -float2int -simple-loop-unswitch -simplifycfg -loop-reduce -globaldce -licm -early-cse -gvn -loop-rotate -constmerge -correlated-propagation -inline -reg2mem -lower-expect -instcombine -mem2reg -strip-nondebug -jump-threading -loop-idiom 
+jacobi-2d: 0.25, inf, inf, inf, 0.57, -0.57
+-dse -sroa -lower-expect -break-crit-edges -adce -alignment-from-assumptions -deadargelim -float2int -sink -tailcallelim -simplifycfg -mem2reg -globalopt -lowerswitch -memcpyopt -loop-unroll -licm -reassociate -loop-rotate -loop-reduce 
+jacobi-2d: 0.25, inf, inf, inf, 0.35, -0.35
+-reassociate -deadargelim -globalopt -early-cse -lcssa -strip -jump-threading -alignment-from-assumptions -loop-rotate -loop-idiom -indvars -loop-fusion -loop-deletion -libcalls-shrinkwrap -licm -simplifycfg -globaldce -function-attrs -tailcallelim -loop-reduce 
+jacobi-2d: 0.25, inf, inf, inf, 1.31, -1.31
+-reg2mem -inline -lower-expect -correlated-propagation -lowerswitch -lcssa -early-cse -reassociate -loweratomic -instcombine -indvars -constmerge -ipsccp -simple-loop-unswitch -loop-idiom -jump-threading -libcalls-shrinkwrap -sccp -loop-reduce -float2int 
+jacobi-2d: 0.25, inf, inf, inf, 0.36, -0.36
+-globalopt -float2int -strip-nondebug -loop-deletion -early-cse -loop-rotate -memcpyopt -sccp -inline -indvars -lowerswitch -lowerinvoke -lower-expect -libcalls-shrinkwrap -globaldce -adce -gvn -mem2reg -loop-reduce -constmerge 
+jacobi-2d: 0.25, inf, inf, inf, 0.25, -0.25
+-strip-nondebug -lowerswitch -globaldce -lcssa -sccp -adce -licm -reassociate -loop-reduce -break-crit-edges -function-attrs -jump-threading -strip -early-cse -loop-fusion -libcalls-shrinkwrap -sroa -loweratomic -dse -lower-expect 
+jacobi-2d: 0.25, inf, inf, inf, 0.46, -0.46
+-lowerswitch -lower-expect -globalopt -memcpyopt -tailcallelim -sink -licm -libcalls-shrinkwrap -indvars -loop-reduce -constmerge -partial-inliner -simplifycfg -float2int -deadargelim -inline -function-attrs -sccp -reg2mem -simple-loop-unswitch 
+jacobi-2d: 0.25, inf, inf, inf, 0.53, -0.53
+-loop-idiom -licm -reg2mem -loweratomic -strip-nondebug -correlated-propagation -lowerswitch -globalopt -inline -lower-expect -simplifycfg -adce -early-cse -loop-fusion -lcssa -sccp -globaldce -libcalls-shrinkwrap -strip -constmerge 
+jacobi-2d: 0.25, inf, inf, inf, 0.46, -0.46
+-reg2mem -simple-loop-unswitch -instcombine -lower-expect -ipsccp -loop-reduce -strip -deadargelim -jump-threading -lcssa -dse -strip-nondebug -loweratomic -libcalls-shrinkwrap -lowerswitch -licm -loop-fusion -reassociate -globalopt -lowerinvoke 
+jacobi-2d: 0.25, inf, inf, inf, 0.28, -0.28
+-mem2reg -globaldce -indvars -simple-loop-unswitch -globalopt -loop-fusion -lowerswitch -loop-deletion -tailcallelim -lower-expect -libcalls-shrinkwrap -lcssa -loop-reduce -function-attrs -licm -dse -gvn -reassociate -sroa -sccp 
+jacobi-2d: 0.25, inf, inf, inf, 0.36, -0.36
+-lower-expect -early-cse -simplifycfg -alignment-from-assumptions -sroa -inline -loop-deletion -tailcallelim -licm -libcalls-shrinkwrap -mem2reg -sccp -adce -deadargelim -ipsccp -float2int -strip-nondebug -lcssa -globaldce -loop-fusion 
+jacobi-2d: 0.25, inf, inf, inf, 0.32, -0.32
+-loop-unroll -adce -globalopt -alignment-from-assumptions -correlated-propagation -reassociate -dse -loop-reduce -ipsccp -loweratomic -mem2reg -sroa -loop-deletion -libcalls-shrinkwrap -function-attrs -early-cse -licm -constmerge -jump-threading -simplifycfg 
+jacobi-2d: 0.25, inf, inf, inf, 0.42, -0.42
+-gvn -function-attrs -loop-unroll -globaldce -globalopt -tailcallelim -dse -sccp -break-crit-edges -reassociate -loop-deletion -early-cse -sroa -lower-expect -memcpyopt -licm -lcssa -loop-reduce -libcalls-shrinkwrap -deadargelim 
+jacobi-2d: 0.25, inf, inf, inf, 0.37, -0.37
+-lower-expect -deadargelim -early-cse -mem2reg -loop-reduce -adce -simple-loop-unswitch -loop-unroll -loop-rotate -sccp -function-attrs -libcalls-shrinkwrap -loop-deletion -indvars -lcssa -alignment-from-assumptions -lowerswitch -float2int -licm -jump-threading 
+jacobi-2d: 0.25, inf, inf, inf, 0.35, -0.35
+-licm -early-cse -sink -loop-unroll -lowerswitch -libcalls-shrinkwrap -lcssa -mem2reg -gvn -strip -ipsccp -loop-fusion -dse -function-attrs -adce -sroa -loop-reduce -tailcallelim -loop-deletion -loop-idiom 
+jacobi-2d: 0.25, inf, inf, inf, 0.46, -0.46
+-sroa -sccp -loop-unroll -loop-simplify -float2int -adce -lower-expect -tailcallelim -loop-reduce -instcombine -deadargelim -loop-fusion -licm -inline -mem2reg -globaldce -early-cse -loop-idiom -reg2mem -globalopt 
+jacobi-2d: 0.25, inf, inf, inf, 0.37, -0.37
+-lower-expect -mem2reg -loop-unroll -deadargelim -sroa -loop-idiom -lowerinvoke -reg2mem -alignment-from-assumptions -function-attrs -partial-inliner -licm -ipsccp -libcalls-shrinkwrap -lowerswitch -sccp -inline -strip -memcpyopt -early-cse 
+jacobi-2d: 0.25, inf, inf, inf, 0.33, -0.33
+-lowerswitch -loop-fusion -strip -mem2reg -libcalls-shrinkwrap -gvn -jump-threading -inline -lower-expect -deadargelim -float2int -strip-nondebug -loop-deletion -licm -simplifycfg -instcombine -alignment-from-assumptions -dse -simple-loop-unswitch -loop-reduce 

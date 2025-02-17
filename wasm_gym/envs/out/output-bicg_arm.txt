@@ -1,0 +1,464 @@
+bicg: 0.15181660652160645, inf, inf, 0.15181660652160645, -0.15181660652160645
+-gvn -loop-fusion -jump-threading -partial-inliner -mem2reg -dse -loweratomic -sroa -globaldce -early-cse -inline -lower-expect -correlated-propagation -lowerinvoke -memcpyopt -strip -float2int -lowerswitch -sccp -loop-simplify 
+bicg: 0.11807584762573242, inf, inf, 0.11807584762573242, -0.11807584762573242
+-simple-loop-unswitch -inline -libcalls-shrinkwrap -jump-threading -ipsccp -break-crit-edges -lowerinvoke -dse -tailcallelim -adce -loop-unroll -function-attrs -lowerswitch -early-cse -globalopt -loop-rotate -sroa -mem2reg -loop-fusion -loop-idiom 
+bicg: 0.11807584762573242, inf, inf, 0.16863250732421875, -0.16863250732421875
+-ipsccp -loweratomic -loop-reduce -reg2mem -lowerinvoke -libcalls-shrinkwrap -tailcallelim -mem2reg -jump-threading -inline -loop-unroll -globalopt -constmerge -loop-idiom -deadargelim -strip -alignment-from-assumptions -adce -sccp -lower-expect 
+bicg: 0.11586117744445801, inf, inf, 0.11586117744445801, -0.11586117744445801
+-function-attrs -loop-idiom -dse -instcombine -partial-inliner -loop-reduce -float2int -memcpyopt -lcssa -tailcallelim -inline -simplifycfg -licm -loop-simplify -libcalls-shrinkwrap -break-crit-edges -loop-rotate -loop-unroll -globaldce -ipsccp 
+bicg: 0.11586117744445801, inf, inf, 0.14650678634643555, -0.14650678634643555
+-reassociate -float2int -loop-reduce -globaldce -simple-loop-unswitch -mem2reg -correlated-propagation -lowerinvoke -lcssa -loop-idiom -partial-inliner -loop-unroll -early-cse -alignment-from-assumptions -loop-deletion -memcpyopt -inline -gvn -loop-rotate -strip 
+bicg: 0.10699844360351562, inf, inf, 0.10699844360351562, -0.10699844360351562
+-lowerinvoke -ipsccp -function-attrs -jump-threading -early-cse -sink -gvn -strip -indvars -simple-loop-unswitch -partial-inliner -loop-reduce -dse -lowerswitch -break-crit-edges -mem2reg -reassociate -loop-idiom -constmerge -loop-rotate 
+bicg: 0.10699844360351562, inf, inf, 0.20320558547973633, -0.20320558547973633
+-lcssa -instcombine -lowerinvoke -deadargelim -dse -partial-inliner -globalopt -loop-unroll -indvars -loop-simplify -simplifycfg -loop-reduce -lower-expect -lowerswitch -loop-rotate -libcalls-shrinkwrap -ipsccp -sccp -adce -loop-fusion 
+bicg: 0.10699844360351562, inf, inf, 0.15866971015930176, -0.15866971015930176
+-licm -ipsccp -loweratomic -loop-rotate -simple-loop-unswitch -loop-unroll -adce -globaldce -loop-simplify -deadargelim -simplifycfg -inline -lowerinvoke -globalopt -lower-expect -loop-fusion -mem2reg -correlated-propagation -reg2mem -sink 
+bicg: 0.10699844360351562, inf, inf, 0.13361859321594238, -0.13361859321594238
+-sccp -globalopt -strip-nondebug -lower-expect -inline -loop-rotate -early-cse -ipsccp -gvn -simple-loop-unswitch -simplifycfg -deadargelim -lowerinvoke -sink -lcssa -jump-threading -lowerswitch -libcalls-shrinkwrap -float2int -indvars 
+bicg: 0.10699844360351562, inf, inf, 0.13316583633422852, -0.13316583633422852
+-dse -constmerge -loweratomic -instcombine -reg2mem -ipsccp -gvn -lcssa -break-crit-edges -strip-nondebug -loop-fusion -lower-expect -globalopt -simple-loop-unswitch -inline -simplifycfg -lowerswitch -loop-deletion -float2int -mem2reg 
+bicg: 0.10474944114685059, inf, inf, 0.10474944114685059, -0.10474944114685059
+-loop-unroll -partial-inliner -break-crit-edges -sccp -early-cse -simple-loop-unswitch -loop-fusion -indvars -lowerswitch -loop-reduce -loop-idiom -alignment-from-assumptions -adce -libcalls-shrinkwrap -licm -strip -dse -simplifycfg -mem2reg -globalopt 
+bicg: 0.10474944114685059, inf, inf, 0.1693568229675293, -0.1693568229675293
+-correlated-propagation -lcssa -globaldce -float2int -strip -sccp -simple-loop-unswitch -break-crit-edges -instcombine -globalopt -sink -loop-fusion -lowerswitch -reassociate -inline -ipsccp -jump-threading -loop-idiom -memcpyopt -loweratomic 
+bicg: 0.10474944114685059, inf, inf, 0.13090944290161133, -0.13090944290161133
+-simple-loop-unswitch -lcssa -loop-deletion -strip -globalopt -loop-fusion -mem2reg -correlated-propagation -loop-idiom -sroa -loweratomic -reg2mem -memcpyopt -licm -jump-threading -partial-inliner -inline -float2int -tailcallelim -indvars 
+bicg: 0.10474944114685059, inf, inf, 0.1345045566558838, -0.1345045566558838
+-alignment-from-assumptions -reassociate -deadargelim -sroa -lowerswitch -inline -licm -adce -strip -lowerinvoke -partial-inliner -loop-deletion -loop-rotate -loop-simplify -reg2mem -strip-nondebug -instcombine -globaldce -globalopt -break-crit-edges 
+bicg: 0.09676098823547363, inf, inf, 0.09676098823547363, -0.09676098823547363
+-dse -libcalls-shrinkwrap -lowerswitch -loop-fusion -correlated-propagation -loweratomic -function-attrs -globaldce -inline -reg2mem -strip-nondebug -licm -gvn -strip -globalopt -ipsccp -sink -lower-expect -loop-rotate -simplifycfg 
+bicg: 0.09676098823547363, inf, inf, 0.1166372299194336, -0.1166372299194336
+-inline -loop-rotate -early-cse -jump-threading -loop-idiom -lowerinvoke -instcombine -reassociate -licm -sink -simple-loop-unswitch -gvn -strip -globalopt -adce -loop-reduce -function-attrs -mem2reg -lower-expect -loop-deletion 
+bicg: 0.09676098823547363, inf, inf, 0.14783787727355957, -0.14783787727355957
+-lcssa -mem2reg -gvn -lowerswitch -lowerinvoke -loweratomic -indvars -libcalls-shrinkwrap -inline -lower-expect -reassociate -float2int -simplifycfg -sink -partial-inliner -ipsccp -simple-loop-unswitch -loop-deletion -instcombine -adce 
+bicg: 0.09676098823547363, inf, inf, 0.10309529304504395, -0.10309529304504395
+-lower-expect -simplifycfg -reg2mem -globalopt -inline -loop-deletion -correlated-propagation -sccp -mem2reg -reassociate -loweratomic -break-crit-edges -constmerge -early-cse -loop-reduce -lcssa -strip-nondebug -tailcallelim -ipsccp -loop-idiom 
+bicg: 0.09676098823547363, inf, inf, 0.16498470306396484, -0.16498470306396484
+-inline -loop-rotate -break-crit-edges -ipsccp -gvn -globaldce -loop-deletion -reg2mem -simplifycfg -early-cse -strip-nondebug -tailcallelim -libcalls-shrinkwrap -lower-expect -indvars -loop-fusion -jump-threading -deadargelim -loop-unroll -sccp 
+bicg: 0.09676098823547363, inf, inf, 0.14705896377563477, -0.14705896377563477
+-partial-inliner -tailcallelim -lowerinvoke -globaldce -memcpyopt -lowerswitch -deadargelim -sccp -indvars -jump-threading -constmerge -loop-rotate -adce -dse -inline -lower-expect -strip-nondebug -early-cse -loop-idiom -instcombine 
+bicg: 0.09676098823547363, inf, inf, 0.16734695434570312, -0.16734695434570312
+-simplifycfg -libcalls-shrinkwrap -loweratomic -memcpyopt -strip-nondebug -strip -correlated-propagation -loop-simplify -indvars -instcombine -sink -dse -sccp -loop-deletion -inline -loop-fusion -lowerswitch -partial-inliner -lowerinvoke -globalopt 
+bicg: 0.09676098823547363, inf, inf, 0.09780192375183105, -0.09780192375183105
+-licm -gvn -lowerinvoke -lowerswitch -memcpyopt -loweratomic -early-cse -globalopt -indvars -simple-loop-unswitch -loop-idiom -partial-inliner -lcssa -correlated-propagation -deadargelim -simplifycfg -loop-deletion -sink -instcombine -constmerge 
+bicg: 0.09676098823547363, inf, inf, 0.10732340812683105, -0.10732340812683105
+-loop-simplify -lcssa -loop-reduce -loop-fusion -globaldce -correlated-propagation -loweratomic -mem2reg -gvn -inline -function-attrs -reassociate -lowerswitch -alignment-from-assumptions -simple-loop-unswitch -sink -loop-idiom -adce -memcpyopt -early-cse 
+bicg: 0.09676098823547363, inf, inf, 0.1512906551361084, -0.1512906551361084
+-sink -simple-loop-unswitch -deadargelim -lowerswitch -licm -loop-fusion -loop-idiom -strip-nondebug -reassociate -libcalls-shrinkwrap -function-attrs -lcssa -simplifycfg -mem2reg -memcpyopt -adce -lowerinvoke -globalopt -sccp -reg2mem 
+bicg: 0.09676098823547363, inf, inf, 0.15015673637390137, -0.15015673637390137
+-strip -indvars -globaldce -reg2mem -loweratomic -sink -loop-reduce -correlated-propagation -lower-expect -early-cse -loop-fusion -sccp -loop-idiom -jump-threading -inline -partial-inliner -loop-deletion -dse -tailcallelim -strip-nondebug 
+bicg: 0.09676098823547363, inf, inf, 0.14704012870788574, -0.14704012870788574
+-early-cse -globalopt -simple-loop-unswitch -reassociate -jump-threading -lower-expect -loop-deletion -adce -function-attrs -loop-simplify -float2int -strip -memcpyopt -instcombine -sink -loop-reduce -loop-rotate -inline -globaldce -strip-nondebug 
+bicg: 0.09676098823547363, inf, inf, 0.10243940353393555, -0.10243940353393555
+-constmerge -licm -correlated-propagation -loop-unroll -libcalls-shrinkwrap -loop-deletion -loweratomic -adce -loop-reduce -globalopt -loop-idiom -strip-nondebug -deadargelim -reg2mem -lowerinvoke -alignment-from-assumptions -sroa -lower-expect -dse -lowerswitch 
+bicg: 0.09676098823547363, inf, inf, 0.12487649917602539, -0.12487649917602539
+-memcpyopt -sink -alignment-from-assumptions -lower-expect -deadargelim -indvars -simple-loop-unswitch -simplifycfg -loop-fusion -lcssa -loweratomic -loop-idiom -reassociate -inline -loop-rotate -sroa -correlated-propagation -early-cse -ipsccp -jump-threading 
+bicg: 0.09676098823547363, inf, inf, 0.1048886775970459, -0.1048886775970459
+-float2int -mem2reg -strip -inline -indvars -globaldce -simple-loop-unswitch -dse -loop-idiom -licm -loop-reduce -correlated-propagation -lower-expect -reassociate -strip-nondebug -loop-fusion -loweratomic -partial-inliner -lowerswitch -memcpyopt 
+bicg: 0.09676098823547363, inf, inf, 0.10683894157409668, -0.10683894157409668
+-globalopt -lowerinvoke -memcpyopt -tailcallelim -reassociate -simplifycfg -correlated-propagation -instcombine -sroa -strip-nondebug -indvars -globaldce -jump-threading -loop-simplify -lower-expect -lowerswitch -libcalls-shrinkwrap -gvn -loweratomic -sccp 
+bicg: 0.09676098823547363, inf, inf, 0.12583255767822266, -0.12583255767822266
+-simplifycfg -reg2mem -mem2reg -loop-idiom -loweratomic -simple-loop-unswitch -loop-deletion -jump-threading -loop-simplify -correlated-propagation -memcpyopt -globalopt -inline -globaldce -alignment-from-assumptions -loop-rotate -ipsccp -lowerinvoke -strip-nondebug -constmerge 
+bicg: 0.09676098823547363, inf, inf, 0.12825822830200195, -0.12825822830200195
+-strip-nondebug -indvars -simple-loop-unswitch -loop-idiom -strip -reg2mem -instcombine -loweratomic -inline -lower-expect -mem2reg -loop-simplify -loop-rotate -ipsccp -correlated-propagation -loop-deletion -sink -dse -loop-reduce -licm 
+bicg: 0.09676098823547363, inf, inf, 0.12667250633239746, -0.12667250633239746
+-lower-expect -lowerswitch -globaldce -loop-fusion -dse -mem2reg -correlated-propagation -loop-idiom -early-cse -sccp -loop-reduce -libcalls-shrinkwrap -partial-inliner -simplifycfg -deadargelim -loop-simplify -indvars -inline -strip-nondebug -loop-deletion 
+bicg: 0.09676098823547363, inf, inf, 0.16622519493103027, -0.16622519493103027
+-loweratomic -loop-simplify -strip -indvars -deadargelim -loop-rotate -loop-deletion -strip-nondebug -constmerge -correlated-propagation -partial-inliner -libcalls-shrinkwrap -dse -simple-loop-unswitch -inline -globalopt -break-crit-edges -jump-threading -globaldce -mem2reg 
+bicg: 0.09676098823547363, inf, inf, 0.12383699417114258, -0.12383699417114258
+-loweratomic -lower-expect -simple-loop-unswitch -libcalls-shrinkwrap -function-attrs -dse -loop-idiom -sink -loop-fusion -correlated-propagation -lowerinvoke -reg2mem -jump-threading -globalopt -gvn -loop-reduce -strip-nondebug -loop-rotate -lcssa -lowerswitch 
+bicg: 0.09676098823547363, inf, inf, 0.1295013427734375, -0.1295013427734375
+-lowerinvoke -globalopt -inline -strip -jump-threading -correlated-propagation -lower-expect -strip-nondebug -tailcallelim -loop-deletion -loop-idiom -loweratomic -reg2mem -loop-reduce -mem2reg -memcpyopt -dse -sink -simple-loop-unswitch -libcalls-shrinkwrap 
+bicg: 0.09676098823547363, inf, inf, 0.19446063041687012, -0.19446063041687012
+-strip -lowerinvoke -reg2mem -lower-expect -simple-loop-unswitch -lcssa -float2int -adce -dse -globalopt -libcalls-shrinkwrap -inline -strip-nondebug -loop-reduce -simplifycfg -correlated-propagation -loop-idiom -loop-fusion -jump-threading -reassociate 
+bicg: 0.09676098823547363, inf, inf, 0.12123346328735352, -0.12123346328735352
+-jump-threading -indvars -loop-deletion -inline -strip-nondebug -loop-rotate -reg2mem -gvn -loweratomic -lower-expect -simplifycfg -ipsccp -correlated-propagation -loop-simplify -dse -early-cse -lowerswitch -lcssa -strip -libcalls-shrinkwrap 
+bicg: 0.09676098823547363, inf, inf, 0.1700296401977539, -0.1700296401977539
+-function-attrs -loop-idiom -indvars -inline -loop-fusion -simplifycfg -loweratomic -reg2mem -lower-expect -jump-threading -early-cse -libcalls-shrinkwrap -loop-rotate -strip-nondebug -ipsccp -loop-deletion -loop-simplify -sink -dse -tailcallelim 
+bicg: 0.09676098823547363, inf, inf, 0.17233967781066895, -0.17233967781066895
+-alignment-from-assumptions -globalopt -inline -partial-inliner -indvars -sink -loop-rotate -instcombine -jump-threading -reg2mem -tailcallelim -loop-deletion -loop-unroll -lower-expect -constmerge -loop-idiom -loweratomic -libcalls-shrinkwrap -strip-nondebug -deadargelim 
+bicg: 0.09676098823547363, inf, inf, 0.16293001174926758, -0.16293001174926758
+-loop-fusion -correlated-propagation -dse -mem2reg -inline -loop-simplify -libcalls-shrinkwrap -licm -strip-nondebug -lower-expect -loop-idiom -ipsccp -loweratomic -adce -reg2mem -jump-threading -globalopt -strip -lowerswitch -loop-deletion 
+bicg: 0.09676098823547363, inf, inf, 0.10673069953918457, -0.10673069953918457
+-correlated-propagation -globalopt -libcalls-shrinkwrap -loop-deletion -loop-simplify -loop-idiom -jump-threading -inline -indvars -strip -lower-expect -licm -strip-nondebug -loweratomic -globaldce -lowerinvoke -sink -loop-fusion -sroa -lowerswitch 
+bicg: 0.09676098823547363, inf, inf, 0.2090895175933838, -0.2090895175933838
+-loop-deletion -licm -simple-loop-unswitch -sccp -simplifycfg -reg2mem -loop-simplify -libcalls-shrinkwrap -lower-expect -inline -strip-nondebug -tailcallelim -correlated-propagation -loop-fusion -lowerswitch -lowerinvoke -globaldce -jump-threading -reassociate -loweratomic 
+bicg: 0.09676098823547363, inf, inf, 0.1751246452331543, -0.1751246452331543
+-ipsccp -correlated-propagation -loop-simplify -globaldce -jump-threading -inline -indvars -globalopt -sink -loop-rotate -lower-expect -loop-fusion -strip -sccp -lowerswitch -reg2mem -libcalls-shrinkwrap -tailcallelim -loop-idiom -partial-inliner 
+bicg: 0.09676098823547363, inf, inf, 0.182448148727417, -0.182448148727417
+-strip -lowerswitch -simplifycfg -loop-simplify -loop-deletion -globalopt -loop-rotate -libcalls-shrinkwrap -early-cse -jump-threading -tailcallelim -inline -sink -lower-expect -partial-inliner -correlated-propagation -memcpyopt -globaldce -reg2mem -loop-reduce 
+bicg: 0.09676098823547363, inf, inf, 0.17397499084472656, -0.17397499084472656
+-loop-idiom -strip-nondebug -partial-inliner -dse -loweratomic -loop-simplify -loop-rotate -float2int -simplifycfg -lower-expect -loop-fusion -sink -loop-deletion -reg2mem -inline -libcalls-shrinkwrap -lowerinvoke -strip -lowerswitch -lcssa 
+bicg: 0.09676098823547363, inf, inf, 0.1734609603881836, -0.1734609603881836
+-loop-idiom -loop-fusion -loweratomic -jump-threading -loop-simplify -lowerswitch -sink -loop-rotate -strip-nondebug -strip -inline -alignment-from-assumptions -loop-reduce -lower-expect -lowerinvoke -memcpyopt -libcalls-shrinkwrap -loop-deletion -dse -break-crit-edges 
+bicg: 0.09676098823547363, inf, inf, 0.10634899139404297, -0.10634899139404297
+-sccp -globaldce -indvars -jump-threading -lower-expect -libcalls-shrinkwrap -loop-idiom -loop-rotate -inline -simplifycfg -loop-fusion -loweratomic -ipsccp -loop-simplify -mem2reg -strip -strip-nondebug -loop-reduce -partial-inliner -correlated-propagation 
+bicg: 0.09676098823547363, inf, inf, 0.17665576934814453, -0.17665576934814453
+-lower-expect -simple-loop-unswitch -memcpyopt -inline -jump-threading -float2int -libcalls-shrinkwrap -correlated-propagation -lowerinvoke -loop-simplify -loop-fusion -globalopt -ipsccp -strip -dse -loop-idiom -strip-nondebug -sink -globaldce -deadargelim 
+bicg: 0.09676098823547363, inf, inf, 0.14577627182006836, -0.14577627182006836
+-mem2reg -loop-deletion -memcpyopt -indvars -strip-nondebug -jump-threading -loweratomic -inline -libcalls-shrinkwrap -reg2mem -lowerinvoke -lower-expect -globalopt -loop-reduce -loop-simplify -early-cse -strip -partial-inliner -globaldce -dse 
+bicg: 0.09676098823547363, inf, inf, 0.17923402786254883, -0.17923402786254883
+-loop-fusion -ipsccp -libcalls-shrinkwrap -inline -lowerswitch -loop-simplify -correlated-propagation -strip-nondebug -loop-unroll -loweratomic -lower-expect -constmerge -jump-threading -reg2mem -partial-inliner -function-attrs -globalopt -strip -sink -loop-idiom 
+bicg: 0.09676098823547363, inf, inf, 0.172088623046875, -0.172088623046875
+-simplifycfg -lower-expect -globalopt -ipsccp -loop-idiom -jump-threading -globaldce -loop-simplify -loop-reduce -loop-fusion -memcpyopt -strip -dse -inline -loweratomic -libcalls-shrinkwrap -strip-nondebug -simple-loop-unswitch -break-crit-edges -loop-rotate 
+bicg: 0.09676098823547363, inf, inf, 0.16800546646118164, -0.16800546646118164
+-inline -early-cse -mem2reg -loop-fusion -reg2mem -lower-expect -simple-loop-unswitch -constmerge -strip -loop-idiom -libcalls-shrinkwrap -globalopt -jump-threading -lcssa -simplifycfg -loop-simplify -strip-nondebug -loop-reduce -globaldce -correlated-propagation 
+bicg: 0.09676098823547363, inf, inf, 0.1713402271270752, -0.1713402271270752
+-inline -lower-expect -simplifycfg -libcalls-shrinkwrap -loop-fusion -break-crit-edges -globaldce -loop-simplify -dse -loweratomic -strip-nondebug -loop-rotate -lowerinvoke -jump-threading -lowerswitch -correlated-propagation -strip -loop-idiom -memcpyopt -loop-deletion 
+bicg: 0.09676098823547363, inf, inf, 0.1520531177520752, -0.1520531177520752
+-loop-fusion -lower-expect -libcalls-shrinkwrap -loop-idiom -reg2mem -loop-unroll -strip-nondebug -partial-inliner -loop-simplify -inline -correlated-propagation -globalopt -jump-threading -sink -strip -globaldce -dse -loop-deletion -lowerswitch -mem2reg 
+bicg: 0.09676098823547363, inf, inf, 0.17466115951538086, -0.17466115951538086
+-lower-expect -libcalls-shrinkwrap -strip -strip-nondebug -loop-simplify -loop-reduce -simple-loop-unswitch -indvars -reg2mem -loop-idiom -inline -ipsccp -globaldce -partial-inliner -loweratomic -simplifycfg -loop-deletion -jump-threading -dse -loop-fusion 
+bicg: 0.09676098823547363, inf, inf, 0.18634605407714844, -0.18634605407714844
+-lower-expect -loop-idiom -libcalls-shrinkwrap -loop-rotate -jump-threading -lowerswitch -dse -partial-inliner -strip -correlated-propagation -reg2mem -loop-simplify -instcombine -sink -strip-nondebug -globaldce -function-attrs -loop-reduce -inline -loweratomic 
+bicg: 0.09676098823547363, inf, inf, 0.15259504318237305, -0.15259504318237305
+-early-cse -simple-loop-unswitch -strip-nondebug -tailcallelim -simplifycfg -libcalls-shrinkwrap -deadargelim -loop-reduce -loweratomic -inline -lcssa -loop-unroll -loop-idiom -globaldce -indvars -jump-threading -sink -globalopt -lower-expect -loop-deletion 
+bicg: 0.09676098823547363, inf, inf, 0.18967461585998535, -0.18967461585998535
+-sccp -correlated-propagation -break-crit-edges -partial-inliner -reg2mem -loop-idiom -dse -inline -loop-rotate -function-attrs -jump-threading -strip-nondebug -lcssa -loop-reduce -loop-simplify -globaldce -strip -lower-expect -lowerswitch -loop-fusion 
+bicg: 0.09676098823547363, inf, inf, 0.21259689331054688, -0.21259689331054688
+-loop-fusion -adce -globaldce -ipsccp -inline -strip -loop-idiom -constmerge -simplifycfg -libcalls-shrinkwrap -simple-loop-unswitch -loweratomic -strip-nondebug -lower-expect -correlated-propagation -reg2mem -sink -indvars -globalopt -loop-simplify 
+bicg: 0.09676098823547363, inf, inf, 0.2059478759765625, -0.2059478759765625
+-libcalls-shrinkwrap -instcombine -loweratomic -globaldce -loop-simplify -sink -jump-threading -strip -inline -lower-expect -memcpyopt -lowerinvoke -loop-fusion -reg2mem -correlated-propagation -loop-idiom -strip-nondebug -ipsccp -function-attrs -lowerswitch 
+bicg: 0.09676098823547363, inf, inf, 0.17125821113586426, -0.17125821113586426
+-lowerinvoke -simple-loop-unswitch -globalopt -loop-idiom -lower-expect -strip -loop-fusion -inline -simplifycfg -strip-nondebug -globaldce -loop-deletion -correlated-propagation -libcalls-shrinkwrap -loop-simplify -reg2mem -loop-rotate -jump-threading -loweratomic -deadargelim 
+bicg: 0.09676098823547363, inf, inf, 0.1543257236480713, -0.1543257236480713
+-libcalls-shrinkwrap -partial-inliner -lower-expect -strip-nondebug -sroa -loop-idiom -jump-threading -loop-rotate -globaldce -correlated-propagation -loop-simplify -simplifycfg -lowerinvoke -inline -strip -loweratomic -loop-fusion -dse -loop-deletion -reg2mem 
+bicg: 0.09676098823547363, inf, inf, 0.19574999809265137, -0.19574999809265137
+-lower-expect -loop-unroll -globaldce -loop-fusion -dse -inline -ipsccp -globalopt -simple-loop-unswitch -deadargelim -loweratomic -loop-simplify -libcalls-shrinkwrap -strip-nondebug -loop-idiom -lcssa -jump-threading -memcpyopt -strip -sink 
+bicg: 0.09676098823547363, inf, inf, 0.1754319667816162, -0.1754319667816162
+-lower-expect -sccp -loop-unroll -strip-nondebug -constmerge -loop-idiom -inline -dse -float2int -break-crit-edges -indvars -jump-threading -sink -strip -globaldce -libcalls-shrinkwrap -loop-simplify -partial-inliner -deadargelim -lowerswitch 
+bicg: 0.09676098823547363, inf, inf, 0.21449923515319824, -0.21449923515319824
+-globaldce -inline -loop-deletion -dse -partial-inliner -simplifycfg -loop-idiom -strip -libcalls-shrinkwrap -loop-simplify -lower-expect -strip-nondebug -globalopt -loop-fusion -loweratomic -lowerswitch -jump-threading -ipsccp -break-crit-edges -correlated-propagation 
+bicg: 0.09676098823547363, inf, inf, 0.17535781860351562, -0.17535781860351562
+-reg2mem -lower-expect -loop-idiom -tailcallelim -lcssa -libcalls-shrinkwrap -sccp -loop-simplify -loweratomic -strip-nondebug -dse -correlated-propagation -deadargelim -simplifycfg -inline -simple-loop-unswitch -partial-inliner -sink -jump-threading -strip 
+bicg: 0.09676098823547363, inf, inf, 0.17610526084899902, -0.17610526084899902
+-loop-idiom -lower-expect -loweratomic -jump-threading -strip-nondebug -lcssa -libcalls-shrinkwrap -strip -ipsccp -loop-unroll -loop-simplify -loop-deletion -adce -inline -loop-fusion -reg2mem -float2int -simplifycfg -globalopt -partial-inliner 
+bicg: 0.09676098823547363, inf, inf, 0.12839484214782715, -0.12839484214782715
+-loweratomic -mem2reg -dse -jump-threading -globalopt -inline -loop-simplify -lower-expect -function-attrs -simple-loop-unswitch -lowerswitch -loop-idiom -globaldce -loop-deletion -simplifycfg -deadargelim -strip -libcalls-shrinkwrap -strip-nondebug -loop-fusion 
+bicg: 0.09676098823547363, inf, inf, 0.1524219512939453, -0.1524219512939453
+-strip-nondebug -sccp -libcalls-shrinkwrap -function-attrs -jump-threading -loop-simplify -lower-expect -loop-idiom -tailcallelim -partial-inliner -loop-deletion -simplifycfg -loweratomic -inline -early-cse -globaldce -loop-unroll -globalopt -alignment-from-assumptions -strip 
+bicg: 0.15452218055725098, inf, inf, 0.15452218055725098, -0.15452218055725098
+-adce -lcssa -libcalls-shrinkwrap -reassociate -sroa -mem2reg -constmerge -simple-loop-unswitch -lowerinvoke -inline -ipsccp -loop-deletion -loop-unroll -lowerswitch -break-crit-edges -loop-simplify -reg2mem -instcombine -deadargelim -strip-nondebug 
+bicg: 0.15452218055725098, inf, inf, 0.1686084270477295, -0.1686084270477295
+-lcssa -loop-deletion -gvn -sroa -indvars -globalopt -constmerge -break-crit-edges -simple-loop-unswitch -loop-rotate -lower-expect -correlated-propagation -jump-threading -simplifycfg -loop-unroll -ipsccp -sink -loop-fusion -mem2reg -deadargelim 
+bicg: 0.1996769905090332, inf, inf, 0.1996769905090332, -0.1996769905090332
+-loop-simplify -globaldce -tailcallelim -lowerinvoke -indvars -mem2reg -memcpyopt -loop-rotate -inline -loop-fusion -constmerge -function-attrs -reg2mem -globalopt -loop-deletion -dse -lowerswitch -adce -libcalls-shrinkwrap -simplifycfg 
+bicg: 0.3139309883117676, 0.10246515274047852, 0.10830426216125488, 0.10316157341003418, 0.3139309883117676, -0.3139309883117676
+-constmerge -instcombine -correlated-propagation -licm -gvn -globalopt -float2int -inline -sccp -loweratomic -indvars -memcpyopt -lowerswitch -mem2reg -loop-idiom -loop-simplify -lcssa -lower-expect -function-attrs -globaldce 
+bicg: 2.860721092224121, 2.07, 0.66, 0.1307210922241211, 2.860721092224121, -2.860721092224121
+-function-attrs -loop-rotate -strip-nondebug -reg2mem -correlated-propagation -constmerge -simple-loop-unswitch -lcssa -licm -loweratomic -libcalls-shrinkwrap -simplifycfg -lowerinvoke -dse -jump-threading -float2int -lowerswitch -break-crit-edges -strip -alignment-from-assumptions 
+bicg: 4.132070512771606, 2.88, 1.09, 0.16207051277160645, 4.132070512771606, -4.132070512771606
+-loop-deletion -indvars -reassociate -globalopt -strip-nondebug -reg2mem -constmerge -loweratomic -memcpyopt -simplifycfg -libcalls-shrinkwrap -gvn -lowerinvoke -partial-inliner -dse -mem2reg -loop-fusion -loop-unroll -inline -alignment-from-assumptions 
+bicg: 3.0358640193939213, 2.2, 0.7, 0.1358640193939209, 3.0358640193939213, -3.0358640193939213
+-loop-idiom -lcssa -simple-loop-unswitch -partial-inliner -simplifycfg -indvars -loop-rotate -libcalls-shrinkwrap -gvn -strip -alignment-from-assumptions -instcombine -sink -sccp -break-crit-edges -reg2mem -float2int -loop-unroll -licm -loop-reduce 
+bicg: 3.128070116043091, 2.23, 0.77, 0.12807011604309082, 3.128070116043091, -3.128070116043091
+-alignment-from-assumptions -loop-unroll -correlated-propagation -reassociate -instcombine -licm -deadargelim -loop-reduce -tailcallelim -libcalls-shrinkwrap -loop-fusion -lowerswitch -strip -globaldce -adce -dse -partial-inliner -reg2mem -mem2reg -lowerinvoke 
+bicg: 3.7807980823516845, 2.65, 0.98, 0.15079808235168457, 3.7807980823516845, -3.7807980823516845
+-loop-unroll -correlated-propagation -sroa -loop-rotate -function-attrs -sccp -jump-threading -instcombine -lowerinvoke -dse -constmerge -inline -ipsccp -lowerswitch -globalopt -strip -loop-fusion -tailcallelim -partial-inliner -alignment-from-assumptions 
+bicg: 3.0999483680725097, 2.19, 0.77, 0.13994836807250977, 3.0999483680725097, -3.0999483680725097
+-libcalls-shrinkwrap -loop-fusion -licm -strip -strip-nondebug -gvn -lowerswitch -constmerge -mem2reg -jump-threading -lowerinvoke -ipsccp -early-cse -sink -adce -loop-simplify -simple-loop-unswitch -deadargelim -instcombine -globaldce 
+bicg: 2.5056725788116454, 1.8, 0.58, 0.1256725788116455, 2.5056725788116454, -2.5056725788116454
+-function-attrs -loop-reduce -lower-expect -memcpyopt -constmerge -loop-unroll -licm -early-cse -adce -gvn -sroa -alignment-from-assumptions -lowerinvoke -tailcallelim -lowerswitch -partial-inliner -strip -loop-idiom -jump-threading -loop-simplify 
+bicg: 3.2513459777832034, 2.41, 0.7, 0.14134597778320312, 3.2513459777832034, -3.2513459777832034
+-lowerinvoke -dse -ipsccp -loop-rotate -loop-unroll -lowerswitch -libcalls-shrinkwrap -alignment-from-assumptions -globaldce -deadargelim -lcssa -float2int -correlated-propagation -licm -function-attrs -gvn -sroa -lower-expect -constmerge -reg2mem 
+bicg: 2.564173183441162, 1.85, 0.61, 0.10417318344116211, 2.564173183441162, -2.564173183441162
+-partial-inliner -break-crit-edges -simple-loop-unswitch -sink -loop-reduce -reg2mem -strip -loop-fusion -inline -function-attrs -adce -float2int -licm -loop-idiom -loop-unroll -early-cse -globalopt -constmerge -dse -lcssa 
+bicg: 2.564173183441162, 1.85, 0.61, 0.10417318344116211, 2.9940239048004154, -2.9940239048004154
+-memcpyopt -sccp -simplifycfg -correlated-propagation -early-cse -loop-fusion -libcalls-shrinkwrap -strip-nondebug -loop-unroll -partial-inliner -jump-threading -strip -sroa -constmerge -inline -dse -deadargelim -gvn -break-crit-edges -instcombine 
+bicg: 2.564173183441162, 1.85, 0.61, 0.10417318344116211, 2.8377472972869873, -2.8377472972869873
+-jump-threading -loweratomic -loop-reduce -tailcallelim -simple-loop-unswitch -float2int -sink -globalopt -function-attrs -strip -loop-simplify -memcpyopt -loop-rotate -correlated-propagation -mem2reg -indvars -loop-fusion -loop-deletion -partial-inliner -licm 
+bicg: 2.564173183441162, 1.85, 0.61, 0.10417318344116211, 3.923142671585083, -3.923142671585083
+-deadargelim -loop-fusion -loweratomic -strip -sroa -jump-threading -simple-loop-unswitch -reg2mem -sccp -alignment-from-assumptions -loop-simplify -loop-reduce -adce -lower-expect -early-cse -float2int -lowerswitch -loop-idiom -break-crit-edges -memcpyopt 
+bicg: 2.564173183441162, 1.85, 0.61, 0.10417318344116211, 3.109627943038941, -3.109627943038941
+-sink -function-attrs -reg2mem -strip-nondebug -memcpyopt -tailcallelim -early-cse -gvn -licm -sccp -libcalls-shrinkwrap -lowerswitch -loop-simplify -globalopt -jump-threading -lowerinvoke -instcombine -partial-inliner -simplifycfg -sroa 
+bicg: 2.564173183441162, 1.85, 0.61, 0.10417318344116211, 3.8532595062255863, -3.8532595062255863
+-lcssa -sink -adce -alignment-from-assumptions -simple-loop-unswitch -loweratomic -loop-idiom -break-crit-edges -dse -globaldce -mem2reg -float2int -loop-fusion -lowerswitch -strip -function-attrs -inline -loop-unroll -instcombine -globalopt 
+bicg: 2.439587898254395, 1.78, 0.54, 0.11958789825439453, 2.439587898254395, -2.439587898254395
+-jump-threading -lowerswitch -globalopt -function-attrs -ipsccp -correlated-propagation -licm -lower-expect -lowerinvoke -loop-simplify -partial-inliner -float2int -gvn -loop-rotate -alignment-from-assumptions -lcssa -strip-nondebug -globaldce -loop-fusion -simple-loop-unswitch 
+bicg: 2.439587898254395, 1.78, 0.54, 0.11958789825439453, 4.396234254837037, -4.396234254837037
+-instcombine -lowerinvoke -gvn -loop-rotate -correlated-propagation -inline -lowerswitch -loweratomic -reassociate -loop-unroll -simple-loop-unswitch -jump-threading -lcssa -loop-reduce -ipsccp -sink -break-crit-edges -loop-fusion -reg2mem -simplifycfg 
+bicg: 3.282567415237427, 2.39, 0.77, 0.12256741523742676, 3.282567415237427, -3.282567415237427
+-correlated-propagation -break-crit-edges -function-attrs -partial-inliner -sroa -loop-unroll -loweratomic -memcpyopt -loop-rotate -reassociate -libcalls-shrinkwrap -simplifycfg -globalopt -lower-expect -lcssa -tailcallelim -loop-deletion -strip -loop-reduce -instcombine 
+bicg: 2.803908519744873, 2.04, 0.64, 0.12390851974487305, 2.803908519744873, -2.803908519744873
+-strip-nondebug -dse -loop-simplify -partial-inliner -simple-loop-unswitch -alignment-from-assumptions -lowerinvoke -loop-rotate -globaldce -loop-reduce -function-attrs -correlated-propagation -adce -sink -simplifycfg -memcpyopt -licm -sroa -jump-threading -loop-deletion 
+bicg: 2.803908519744873, 2.04, 0.64, 0.12390851974487305, 4.383124074935913, -4.383124074935913
+-float2int -correlated-propagation -partial-inliner -loop-idiom -reg2mem -loop-fusion -simplifycfg -early-cse -dse -lowerswitch -globalopt -memcpyopt -globaldce -loop-simplify -tailcallelim -indvars -loop-unroll -constmerge -loop-deletion -simple-loop-unswitch 
+bicg: 3.66971923828125, 2.52, 1.0, 0.14971923828125, 3.66971923828125, -3.66971923828125
+-lowerswitch -simplifycfg -sroa -loop-idiom -reassociate -instcombine -memcpyopt -globalopt -inline -indvars -libcalls-shrinkwrap -loop-rotate -sccp -deadargelim -correlated-propagation -simple-loop-unswitch -lcssa -strip -loop-fusion -function-attrs 
+bicg: 3.66971923828125, 2.52, 1.0, 0.14971923828125, 4.402848453521729, -4.402848453521729
+-indvars -loweratomic -loop-deletion -simplifycfg -loop-reduce -instcombine -licm -lcssa -lower-expect -sccp -early-cse -loop-idiom -deadargelim -tailcallelim -correlated-propagation -sink -reg2mem -lowerswitch -loop-rotate -ipsccp 
+bicg: 3.66971923828125, 2.52, 1.0, 0.14971923828125, 3.7972754478454593, -3.7972754478454593
+-loop-fusion -deadargelim -correlated-propagation -jump-threading -tailcallelim -lowerinvoke -memcpyopt -indvars -constmerge -adce -partial-inliner -ipsccp -float2int -globalopt -gvn -loop-deletion -alignment-from-assumptions -inline -loweratomic -instcombine 
+bicg: 3.66971923828125, 2.52, 1.0, 0.14971923828125, 4.007278757095337, -4.007278757095337
+-instcombine -ipsccp -partial-inliner -dse -loweratomic -simplifycfg -sink -lower-expect -loop-unroll -licm -mem2reg -sroa -loop-rotate -float2int -function-attrs -reg2mem -loop-simplify -sccp -indvars -lowerswitch 
+bicg: 3.5453948020935058, 2.53, 0.87, 0.14539480209350586, 3.5453948020935058, -3.5453948020935058
+-loweratomic -strip-nondebug -partial-inliner -function-attrs -reg2mem -loop-reduce -early-cse -break-crit-edges -loop-rotate -lower-expect -constmerge -lowerswitch -dse -correlated-propagation -instcombine -jump-threading -mem2reg -globaldce -sccp -memcpyopt 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 2.806533737182617, -2.806533737182617
+-inline -simplifycfg -correlated-propagation -ipsccp -reassociate -simple-loop-unswitch -dse -reg2mem -loop-fusion -sink -early-cse -libcalls-shrinkwrap -loop-simplify -tailcallelim -jump-threading -lowerinvoke -licm -break-crit-edges -loop-rotate -alignment-from-assumptions 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 3.723201103210449, -3.723201103210449
+-simplifycfg -loop-fusion -reassociate -break-crit-edges -jump-threading -dse -loop-deletion -loop-simplify -loop-reduce -sccp -loop-rotate -lowerinvoke -float2int -simple-loop-unswitch -partial-inliner -ipsccp -tailcallelim -loweratomic -globaldce -sroa 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 3.593681516647339, -3.593681516647339
+-lowerinvoke -reg2mem -lcssa -adce -globalopt -partial-inliner -early-cse -loop-fusion -reassociate -loop-simplify -function-attrs -libcalls-shrinkwrap -simple-loop-unswitch -tailcallelim -deadargelim -strip-nondebug -inline -loop-unroll -sroa -mem2reg 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 3.468823251724243, -3.468823251724243
+-reassociate -function-attrs -early-cse -lower-expect -ipsccp -break-crit-edges -sccp -strip-nondebug -sink -deadargelim -loop-rotate -indvars -simplifycfg -tailcallelim -loop-reduce -reg2mem -memcpyopt -inline -globalopt -mem2reg 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 2.853031129837036, -2.853031129837036
+-loop-rotate -loop-fusion -simplifycfg -reassociate -partial-inliner -lcssa -constmerge -libcalls-shrinkwrap -mem2reg -globalopt -sink -simple-loop-unswitch -strip -sccp -gvn -sroa -lowerinvoke -loop-deletion -strip-nondebug -float2int 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 4.888680877685546, -4.888680877685546
+-tailcallelim -lowerswitch -loop-fusion -indvars -float2int -adce -libcalls-shrinkwrap -partial-inliner -sccp -sroa -mem2reg -jump-threading -instcombine -lower-expect -reg2mem -function-attrs -loop-unroll -break-crit-edges -loweratomic -strip 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 4.304800386428833, -4.304800386428833
+-lowerswitch -inline -sink -strip -loop-rotate -simple-loop-unswitch -loop-fusion -globaldce -lcssa -sccp -sroa -simplifycfg -globalopt -reg2mem -dse -jump-threading -loop-idiom -correlated-propagation -partial-inliner -function-attrs 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 3.030530595779419, -3.030530595779419
+-loop-rotate -strip-nondebug -loop-fusion -loop-deletion -instcombine -ipsccp -memcpyopt -break-crit-edges -mem2reg -simple-loop-unswitch -correlated-propagation -libcalls-shrinkwrap -lowerinvoke -loop-simplify -partial-inliner -simplifycfg -strip -function-attrs -licm -lowerswitch 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 3.3500511074066166, -3.3500511074066166
+-early-cse -loop-rotate -deadargelim -simplifycfg -gvn -reg2mem -reassociate -loop-unroll -break-crit-edges -strip-nondebug -sroa -loweratomic -loop-idiom -loop-fusion -dse -tailcallelim -instcombine -sccp -sink -adce 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 3.2107818794250487, -3.2107818794250487
+-function-attrs -reg2mem -jump-threading -mem2reg -break-crit-edges -reassociate -partial-inliner -lowerinvoke -strip -loweratomic -loop-unroll -adce -tailcallelim -lower-expect -early-cse -inline -libcalls-shrinkwrap -constmerge -loop-deletion -ipsccp 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 2.8914880752563477, -2.8914880752563477
+-globalopt -reg2mem -loop-reduce -adce -indvars -strip -strip-nondebug -lowerinvoke -early-cse -memcpyopt -reassociate -loop-rotate -function-attrs -dse -float2int -licm -sroa -tailcallelim -sccp -lowerswitch 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 5.751807708740235, -5.751807708740235
+-strip-nondebug -constmerge -sccp -adce -globaldce -break-crit-edges -tailcallelim -jump-threading -partial-inliner -function-attrs -loop-idiom -indvars -dse -inline -instcombine -reassociate -gvn -reg2mem -lowerswitch -lcssa 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 3.949172048568726, -3.949172048568726
+-loop-rotate -break-crit-edges -simple-loop-unswitch -lcssa -alignment-from-assumptions -loop-idiom -reg2mem -gvn -function-attrs -memcpyopt -globaldce -reassociate -loop-simplify -partial-inliner -correlated-propagation -strip -early-cse -adce -tailcallelim -dse 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 4.996752786636352, -4.996752786636352
+-reassociate -sccp -loop-deletion -loop-reduce -partial-inliner -lowerswitch -simplifycfg -strip -ipsccp -loop-rotate -break-crit-edges -jump-threading -libcalls-shrinkwrap -correlated-propagation -adce -globalopt -loop-fusion -loweratomic -memcpyopt -reg2mem 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 3.7655531120300294, -3.7655531120300294
+-sccp -lowerinvoke -break-crit-edges -loop-deletion -strip -loop-rotate -reg2mem -alignment-from-assumptions -partial-inliner -correlated-propagation -lcssa -loop-unroll -mem2reg -simplifycfg -memcpyopt -ipsccp -globaldce -lowerswitch -reassociate -adce 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 4.806925649642944, -4.806925649642944
+-correlated-propagation -libcalls-shrinkwrap -constmerge -loop-simplify -lowerswitch -lowerinvoke -break-crit-edges -alignment-from-assumptions -strip-nondebug -loop-unroll -memcpyopt -reassociate -indvars -strip -jump-threading -instcombine -simplifycfg -globaldce -lower-expect -loop-fusion 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 4.028486595153809, -4.028486595153809
+-strip -sroa -loop-deletion -loop-unroll -reg2mem -adce -indvars -loop-rotate -early-cse -ipsccp -strip-nondebug -libcalls-shrinkwrap -lcssa -dse -globaldce -constmerge -function-attrs -break-crit-edges -lowerinvoke -correlated-propagation 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 4.448744802474976, -4.448744802474976
+-simplifycfg -float2int -early-cse -loop-simplify -strip -function-attrs -loop-unroll -lcssa -correlated-propagation -libcalls-shrinkwrap -break-crit-edges -loop-rotate -reassociate -simple-loop-unswitch -partial-inliner -alignment-from-assumptions -lower-expect -lowerinvoke -adce -loweratomic 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 3.8803062152862546, -3.8803062152862546
+-globalopt -loop-fusion -adce -globaldce -lowerswitch -break-crit-edges -dse -loop-simplify -loop-idiom -lower-expect -reg2mem -libcalls-shrinkwrap -mem2reg -alignment-from-assumptions -strip-nondebug -reassociate -simplifycfg -ipsccp -sroa -lowerinvoke 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 4.242034740447998, -4.242034740447998
+-deadargelim -correlated-propagation -sccp -simplifycfg -strip -reg2mem -memcpyopt -function-attrs -loop-fusion -sink -break-crit-edges -loweratomic -gvn -tailcallelim -partial-inliner -float2int -loop-idiom -lowerswitch -loop-deletion -dse 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 4.935885887145996, -4.935885887145996
+-simplifycfg -memcpyopt -tailcallelim -break-crit-edges -partial-inliner -correlated-propagation -ipsccp -libcalls-shrinkwrap -dse -loop-idiom -float2int -reassociate -globaldce -jump-threading -lcssa -function-attrs -loop-fusion -deadargelim -alignment-from-assumptions -loop-reduce 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 3.7386639881134034, -3.7386639881134034
+-inline -function-attrs -lower-expect -correlated-propagation -ipsccp -loop-fusion -adce -strip-nondebug -memcpyopt -loop-unroll -sroa -globalopt -break-crit-edges -partial-inliner -lcssa -jump-threading -loop-rotate -libcalls-shrinkwrap -strip -loop-idiom 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 4.964550514221191, -4.964550514221191
+-ipsccp -strip -strip-nondebug -adce -alignment-from-assumptions -loop-deletion -lowerinvoke -indvars -reg2mem -sccp -loop-rotate -tailcallelim -function-attrs -loop-fusion -loop-reduce -correlated-propagation -partial-inliner -lcssa -memcpyopt -loop-idiom 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 3.7937888145446776, -3.7937888145446776
+-reg2mem -loop-rotate -lcssa -loop-fusion -indvars -memcpyopt -lowerswitch -correlated-propagation -dse -mem2reg -sroa -strip -loop-idiom -break-crit-edges -lowerinvoke -loop-unroll -strip-nondebug -simplifycfg -loop-deletion -alignment-from-assumptions 
+bicg: 2.806533737182617, 1.97, 0.7, 0.1365337371826172, 2.9059832286834717, -2.9059832286834717
+-reg2mem -tailcallelim -lowerswitch -adce -loop-idiom -ipsccp -correlated-propagation -jump-threading -globalopt -function-attrs -constmerge -alignment-from-assumptions -loop-rotate -dse -strip -lowerinvoke -globaldce -lower-expect -loweratomic -licm 
+bicg: 2.3568546867370603, 1.7, 0.56, 0.09685468673706055, 2.3568546867370603, -2.3568546867370603
+-inline -loop-deletion -simplifycfg -licm -sroa -loop-fusion -memcpyopt -sccp -loop-reduce -ipsccp -jump-threading -partial-inliner -loop-rotate -mem2reg -break-crit-edges -deadargelim -globalopt -early-cse -lowerinvoke -loop-unroll 
+bicg: 2.3568546867370603, 1.7, 0.56, 0.09685468673706055, 2.9546752738952637, -2.9546752738952637
+-loop-idiom -loweratomic -globaldce -indvars -loop-rotate -float2int -memcpyopt -jump-threading -lowerswitch -ipsccp -strip -reg2mem -alignment-from-assumptions -partial-inliner -loop-unroll -loop-reduce -mem2reg -early-cse -dse -deadargelim 
+bicg: 2.3568546867370603, 1.7, 0.56, 0.09685468673706055, 2.9892591094970706, -2.9892591094970706
+-loop-fusion -lower-expect -loop-deletion -loop-reduce -break-crit-edges -partial-inliner -sink -jump-threading -loop-simplify -globalopt -licm -correlated-propagation -deadargelim -strip -loop-unroll -loop-rotate -sroa -dse -alignment-from-assumptions -loop-idiom 
+bicg: 2.3568546867370603, 1.7, 0.56, 0.09685468673706055, 3.8964404869079585, -3.8964404869079585
+-inline -reg2mem -globalopt -indvars -lower-expect -libcalls-shrinkwrap -loop-unroll -mem2reg -loweratomic -globaldce -lowerswitch -loop-idiom -memcpyopt -alignment-from-assumptions -loop-rotate -dse -break-crit-edges -sink -jump-threading -strip 
+bicg: 2.3568546867370603, 1.7, 0.56, 0.09685468673706055, 4.262121286392212, -4.262121286392212
+-inline -lowerinvoke -sink -strip -break-crit-edges -float2int -ipsccp -libcalls-shrinkwrap -loop-idiom -memcpyopt -loop-rotate -instcombine -jump-threading -sroa -globaldce -reg2mem -lower-expect -dse -adce -correlated-propagation 
+bicg: 2.3568546867370603, 1.7, 0.56, 0.09685468673706055, 3.8440002536773683, -3.8440002536773683
+-simple-loop-unswitch -mem2reg -tailcallelim -memcpyopt -ipsccp -lowerswitch -globalopt -correlated-propagation -strip-nondebug -lcssa -strip -loop-simplify -break-crit-edges -gvn -jump-threading -globaldce -reg2mem -alignment-from-assumptions -sink -loop-rotate 
+bicg: 2.3568546867370603, 1.7, 0.56, 0.09685468673706055, 3.2545949077606204, -3.2545949077606204
+-gvn -lowerinvoke -instcombine -loop-deletion -loop-reduce -globaldce -jump-threading -dse -constmerge -strip -lcssa -sink -loop-idiom -loop-unroll -adce -memcpyopt -correlated-propagation -sccp -partial-inliner -break-crit-edges 
+bicg: 2.3568546867370603, 1.7, 0.56, 0.09685468673706055, 3.5565828323364257, -3.5565828323364257
+-correlated-propagation -strip -reg2mem -loop-rotate -globaldce -loop-deletion -jump-threading -loop-unroll -instcombine -lowerswitch -loop-idiom -constmerge -globalopt -function-attrs -dse -simplifycfg -mem2reg -tailcallelim -sroa -lcssa 
+bicg: 2.3568546867370603, 1.7, 0.56, 0.09685468673706055, 3.40234471321106, -3.40234471321106
+-partial-inliner -memcpyopt -lcssa -loop-unroll -strip-nondebug -loop-rotate -early-cse -strip -correlated-propagation -jump-threading -sroa -loop-simplify -mem2reg -adce -dse -instcombine -indvars -break-crit-edges -reassociate -globalopt 
+bicg: 2.3568546867370603, 1.7, 0.56, 0.09685468673706055, 4.012082452774048, -4.012082452774048
+-reassociate -sink -deadargelim -mem2reg -break-crit-edges -loop-unroll -globaldce -memcpyopt -adce -jump-threading -ipsccp -partial-inliner -constmerge -simplifycfg -loop-reduce -gvn -lowerswitch -loop-deletion -reg2mem -licm 
+bicg: 2.3568546867370603, 1.7, 0.56, 0.09685468673706055, 3.6262581062316896, -3.6262581062316896
+-simplifycfg -indvars -alignment-from-assumptions -loweratomic -loop-idiom -memcpyopt -dse -strip -adce -break-crit-edges -correlated-propagation -loop-fusion -reg2mem -loop-rotate -jump-threading -mem2reg -lowerswitch -lowerinvoke -constmerge -sroa 
+bicg: 2.3568546867370603, 1.7, 0.56, 0.09685468673706055, 4.222998676300049, -4.222998676300049
+-loop-deletion -reassociate -loop-idiom -reg2mem -loop-reduce -gvn -lcssa -adce -simplifycfg -alignment-from-assumptions -ipsccp -strip -loweratomic -sink -globaldce -jump-threading -loop-fusion -lowerswitch -globalopt -constmerge 
+bicg: 2.3568546867370603, 1.7, 0.56, 0.09685468673706055, 4.996249008178711, -4.996249008178711
+-break-crit-edges -loop-idiom -deadargelim -function-attrs -inline -globalopt -correlated-propagation -sink -jump-threading -partial-inliner -tailcallelim -sccp -dse -strip -float2int -lowerswitch -globaldce -memcpyopt -lower-expect -lcssa 
+bicg: 2.9303396224975584, 2.06, 0.74, 0.1303396224975586, 2.9303396224975584, -2.9303396224975584
+-deadargelim -alignment-from-assumptions -loop-reduce -loop-rotate -simplifycfg -early-cse -constmerge -loop-unroll -function-attrs -sink -lcssa -float2int -indvars -globaldce -ipsccp -strip -mem2reg -gvn -lowerinvoke -jump-threading 
+bicg: 2.8374654865264892, 1.96, 0.75, 0.12746548652648926, 2.8374654865264892, -2.8374654865264892
+-lcssa -lowerinvoke -partial-inliner -loop-fusion -sink -loop-unroll -loop-deletion -mem2reg -loweratomic -break-crit-edges -early-cse -indvars -inline -strip-nondebug -lowerswitch -instcombine -simplifycfg -reassociate -lower-expect -adce 
+bicg: 3.7899111557006835, 2.6, 1.03, 0.1599111557006836, 3.7899111557006835, -3.7899111557006835
+-memcpyopt -loweratomic -dse -lower-expect -alignment-from-assumptions -strip-nondebug -inline -jump-threading -simple-loop-unswitch -simplifycfg -loop-unroll -lowerswitch -globaldce -sroa -indvars -loop-fusion -loop-rotate -lowerinvoke -ipsccp -sccp 
+bicg: 3.1174332904815674, 2.19, 0.79, 0.13743329048156738, 3.1174332904815674, -3.1174332904815674
+-jump-threading -loop-reduce -sink -function-attrs -sccp -reassociate -loop-simplify -loop-unroll -simple-loop-unswitch -instcombine -inline -sroa -memcpyopt -licm -loop-fusion -adce -lcssa -constmerge -tailcallelim -loweratomic 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 2.7434035205841063, -2.7434035205841063
+-loop-deletion -indvars -lowerswitch -float2int -simple-loop-unswitch -strip -gvn -libcalls-shrinkwrap -instcombine -memcpyopt -constmerge -early-cse -loop-simplify -sink -adce -licm -deadargelim -loop-rotate -loop-fusion -function-attrs 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 2.831766557693481, -2.831766557693481
+-ipsccp -sink -strip -jump-threading -alignment-from-assumptions -float2int -mem2reg -dse -constmerge -instcombine -loop-unroll -licm -strip-nondebug -loop-rotate -globalopt -gvn -break-crit-edges -lowerswitch -loop-reduce -loop-fusion 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.241276082992554, -4.241276082992554
+-loweratomic -loop-unroll -tailcallelim -function-attrs -memcpyopt -adce -instcombine -simplifycfg -simple-loop-unswitch -loop-rotate -early-cse -lowerswitch -constmerge -gvn -alignment-from-assumptions -break-crit-edges -reg2mem -loop-idiom -jump-threading -lower-expect 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.7362249755859374, -3.7362249755859374
+-loop-reduce -inline -float2int -loweratomic -loop-fusion -simple-loop-unswitch -sroa -loop-rotate -break-crit-edges -reassociate -instcombine -alignment-from-assumptions -simplifycfg -deadargelim -sink -loop-simplify -constmerge -adce -correlated-propagation -loop-idiom 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.767373189926148, -3.767373189926148
+-strip-nondebug -function-attrs -adce -lowerinvoke -lowerswitch -loop-rotate -sroa -globalopt -mem2reg -memcpyopt -constmerge -jump-threading -dse -reassociate -instcombine -simplifycfg -sink -inline -libcalls-shrinkwrap -loop-unroll 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.194749164581299, -3.194749164581299
+-correlated-propagation -strip-nondebug -early-cse -lcssa -lowerswitch -sccp -simplifycfg -float2int -loop-unroll -constmerge -adce -globalopt -sroa -tailcallelim -loop-fusion -loop-reduce -libcalls-shrinkwrap -instcombine -loop-rotate -strip 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.467423496246338, -3.467423496246338
+-globaldce -strip-nondebug -loop-unroll -inline -licm -lowerinvoke -loop-deletion -jump-threading -lower-expect -lcssa -loop-rotate -loop-idiom -ipsccp -simplifycfg -reassociate -sroa -reg2mem -loweratomic -tailcallelim -globalopt 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 6.448797674179077, -6.448797674179077
+-ipsccp -loweratomic -globalopt -indvars -loop-unroll -inline -gvn -loop-fusion -break-crit-edges -lowerinvoke -early-cse -lowerswitch -float2int -correlated-propagation -dse -loop-reduce -reg2mem -loop-idiom -loop-simplify -simplifycfg 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.862017068862915, -4.862017068862915
+-lowerswitch -loop-reduce -simple-loop-unswitch -instcombine -adce -dse -float2int -loop-rotate -inline -correlated-propagation -sroa -lower-expect -globalopt -mem2reg -reg2mem -break-crit-edges -tailcallelim -constmerge -lcssa -indvars 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.1896498680114744, -3.1896498680114744
+-loop-deletion -constmerge -tailcallelim -loop-simplify -reg2mem -globalopt -licm -strip-nondebug -lowerinvoke -loop-reduce -simple-loop-unswitch -float2int -loop-unroll -globaldce -alignment-from-assumptions -lower-expect -early-cse -simplifycfg -loop-rotate -loop-fusion 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 5.063675756454468, -5.063675756454468
+-constmerge -jump-threading -dse -sink -loop-simplify -loop-unroll -instcombine -inline -globaldce -adce -break-crit-edges -partial-inliner -indvars -function-attrs -simple-loop-unswitch -loop-deletion -lowerswitch -lowerinvoke -float2int -simplifycfg 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 5.762714433670045, -5.762714433670045
+-adce -sink -memcpyopt -function-attrs -partial-inliner -inline -lcssa -ipsccp -libcalls-shrinkwrap -instcombine -loop-reduce -alignment-from-assumptions -lower-expect -early-cse -loweratomic -simplifycfg -gvn -indvars -reg2mem -break-crit-edges 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.641370010375977, -4.641370010375977
+-loop-simplify -lowerinvoke -strip-nondebug -simplifycfg -lowerswitch -function-attrs -lower-expect -loop-reduce -globaldce -lcssa -early-cse -indvars -sink -tailcallelim -dse -reg2mem -ipsccp -reassociate -memcpyopt -constmerge 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.136134147644043, -3.136134147644043
+-lowerswitch -function-attrs -instcombine -inline -break-crit-edges -mem2reg -memcpyopt -loop-reduce -loop-idiom -lcssa -partial-inliner -loop-deletion -early-cse -sink -deadargelim -dse -simplifycfg -loweratomic -indvars -jump-threading 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.0342348861694335, -3.0342348861694335
+-jump-threading -sink -strip -globaldce -lcssa -loop-simplify -ipsccp -indvars -alignment-from-assumptions -loop-unroll -loop-reduce -gvn -instcombine -loop-deletion -float2int -early-cse -loop-rotate -break-crit-edges -strip-nondebug -tailcallelim 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 2.816678714752197, -2.816678714752197
+-reg2mem -loop-rotate -indvars -lowerswitch -constmerge -globaldce -simplifycfg -strip-nondebug -dse -loop-reduce -loweratomic -libcalls-shrinkwrap -loop-deletion -function-attrs -licm -lowerinvoke -reassociate -lower-expect -correlated-propagation -lcssa 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 5.0592075538635255, -5.0592075538635255
+-globaldce -strip-nondebug -instcombine -loop-deletion -float2int -loop-reduce -function-attrs -lowerswitch -break-crit-edges -indvars -libcalls-shrinkwrap -dse -loweratomic -loop-fusion -sink -simplifycfg -ipsccp -lcssa -loop-idiom -sccp 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.849763107299805, -3.849763107299805
+-float2int -loweratomic -lower-expect -deadargelim -loop-deletion -globaldce -break-crit-edges -globalopt -simple-loop-unswitch -loop-reduce -constmerge -simplifycfg -adce -strip -lcssa -function-attrs -mem2reg -ipsccp -sroa -inline 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.7720812225341795, -4.7720812225341795
+-lcssa -loop-unroll -tailcallelim -simplifycfg -globaldce -memcpyopt -dse -loop-deletion -gvn -loweratomic -instcombine -strip-nondebug -libcalls-shrinkwrap -early-cse -lowerswitch -indvars -function-attrs -loop-reduce -reg2mem -simple-loop-unswitch 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.929659357070923, -4.929659357070923
+-globalopt -strip -break-crit-edges -globaldce -deadargelim -strip-nondebug -constmerge -lowerinvoke -float2int -lcssa -simplifycfg -loweratomic -correlated-propagation -simple-loop-unswitch -indvars -loop-reduce -instcombine -loop-deletion -function-attrs -libcalls-shrinkwrap 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.108630123138428, -4.108630123138428
+-indvars -loop-rotate -reg2mem -break-crit-edges -partial-inliner -lowerswitch -sink -simple-loop-unswitch -alignment-from-assumptions -float2int -loop-reduce -loop-fusion -constmerge -early-cse -globalopt -libcalls-shrinkwrap -lcssa -loop-deletion -globaldce -simplifycfg 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.386539421081543, -4.386539421081543
+-strip-nondebug -partial-inliner -loop-unroll -memcpyopt -lcssa -simplifycfg -lowerswitch -instcombine -tailcallelim -reg2mem -constmerge -loweratomic -indvars -function-attrs -loop-reduce -gvn -strip -simple-loop-unswitch -libcalls-shrinkwrap -globaldce 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.8550812721252443, -3.8550812721252443
+-lowerswitch -loweratomic -constmerge -libcalls-shrinkwrap -strip-nondebug -early-cse -globalopt -deadargelim -loop-simplify -loop-reduce -function-attrs -simple-loop-unswitch -loop-unroll -indvars -lcssa -globaldce -adce -float2int -gvn -alignment-from-assumptions 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.009515609741211, -4.009515609741211
+-tailcallelim -loop-rotate -loweratomic -instcombine -reg2mem -loop-reduce -constmerge -strip -loop-deletion -alignment-from-assumptions -loop-unroll -lowerswitch -function-attrs -simplifycfg -simple-loop-unswitch -correlated-propagation -sink -deadargelim -strip-nondebug -gvn 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.329233779907227, -4.329233779907227
+-indvars -tailcallelim -strip -memcpyopt -early-cse -loop-reduce -lcssa -alignment-from-assumptions -gvn -loweratomic -partial-inliner -strip-nondebug -loop-fusion -lowerswitch -function-attrs -globalopt -instcombine -break-crit-edges -simple-loop-unswitch -reg2mem 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.585051202774048, -4.585051202774048
+-lcssa -partial-inliner -constmerge -memcpyopt -strip-nondebug -ipsccp -loop-simplify -loop-fusion -simplifycfg -early-cse -loweratomic -break-crit-edges -reg2mem -lowerinvoke -loop-unroll -float2int -dse -lowerswitch -loop-reduce -globalopt 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.383198699951172, -4.383198699951172
+-simplifycfg -instcombine -globaldce -indvars -tailcallelim -reg2mem -partial-inliner -libcalls-shrinkwrap -sink -lcssa -lower-expect -break-crit-edges -loop-unroll -lowerswitch -globalopt -loop-reduce -loweratomic -constmerge -gvn -early-cse 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.746196584701538, -3.746196584701538
+-adce -libcalls-shrinkwrap -early-cse -globaldce -tailcallelim -lowerswitch -loop-reduce -simple-loop-unswitch -loweratomic -deadargelim -inline -loop-unroll -function-attrs -strip -partial-inliner -loop-deletion -indvars -gvn -simplifycfg -sink 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.245344696044922, -4.245344696044922
+-sccp -strip-nondebug -constmerge -simple-loop-unswitch -ipsccp -simplifycfg -reg2mem -loweratomic -globaldce -lcssa -instcombine -break-crit-edges -loop-deletion -loop-reduce -globalopt -tailcallelim -early-cse -lowerswitch -loop-unroll -indvars 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.885331821441651, -4.885331821441651
+-adce -loweratomic -reg2mem -constmerge -dse -indvars -globaldce -instcombine -globalopt -alignment-from-assumptions -simplifycfg -simple-loop-unswitch -float2int -tailcallelim -lowerinvoke -lowerswitch -break-crit-edges -correlated-propagation -loop-reduce -loop-unroll 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.397945604324341, -4.397945604324341
+-lowerswitch -loop-unroll -break-crit-edges -reg2mem -sccp -jump-threading -memcpyopt -loweratomic -strip-nondebug -loop-reduce -indvars -simplifycfg -sink -adce -lowerinvoke -simple-loop-unswitch -early-cse -lcssa -constmerge -globaldce 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.0109614276885983, -3.0109614276885983
+-reg2mem -gvn -mem2reg -alignment-from-assumptions -loop-deletion -instcombine -constmerge -loop-unroll -break-crit-edges -loweratomic -simplifycfg -loop-reduce -lowerswitch -early-cse -function-attrs -lcssa -globaldce -indvars -strip-nondebug -sink 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.1991396522521973, -3.1991396522521973
+-early-cse -alignment-from-assumptions -loop-unroll -loweratomic -simple-loop-unswitch -reg2mem -loop-deletion -lcssa -instcombine -sroa -adce -float2int -libcalls-shrinkwrap -constmerge -sccp -simplifycfg -lowerswitch -loop-reduce -sink -globaldce 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.2877672767639154, -4.2877672767639154
+-loweratomic -loop-reduce -adce -constmerge -simple-loop-unswitch -globalopt -instcombine -early-cse -indvars -break-crit-edges -float2int -lcssa -simplifycfg -alignment-from-assumptions -lowerswitch -loop-unroll -tailcallelim -globaldce -loop-deletion -ipsccp 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.289328212738037, -4.289328212738037
+-sink -mem2reg -float2int -break-crit-edges -reg2mem -lowerswitch -constmerge -globaldce -simple-loop-unswitch -tailcallelim -globalopt -libcalls-shrinkwrap -instcombine -loop-deletion -loweratomic -adce -simplifycfg -lcssa -loop-reduce -loop-unroll 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.411113481521607, -4.411113481521607
+-constmerge -float2int -instcombine -strip-nondebug -inline -function-attrs -loop-reduce -loop-unroll -loweratomic -lcssa -break-crit-edges -tailcallelim -globalopt -simplifycfg -globaldce -partial-inliner -indvars -lowerswitch -reg2mem -early-cse 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.9181058120727545, -4.9181058120727545
+-instcombine -alignment-from-assumptions -strip-nondebug -break-crit-edges -globaldce -float2int -loop-unroll -loop-reduce -strip -simplifycfg -deadargelim -dse -loweratomic -loop-deletion -simple-loop-unswitch -indvars -lcssa -function-attrs -constmerge -lowerswitch 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.972013969421386, -4.972013969421386
+-lowerswitch -early-cse -simple-loop-unswitch -tailcallelim -indvars -lcssa -constmerge -instcombine -loop-reduce -break-crit-edges -adce -loop-unroll -sink -reg2mem -loweratomic -float2int -ipsccp -strip-nondebug -loop-deletion -libcalls-shrinkwrap 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.398919544219971, -4.398919544219971
+-strip-nondebug -sink -reg2mem -adce -simplifycfg -loweratomic -float2int -tailcallelim -strip -lowerswitch -loop-unroll -early-cse -partial-inliner -break-crit-edges -loop-deletion -lcssa -constmerge -loop-reduce -libcalls-shrinkwrap -simple-loop-unswitch 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.1116008663177492, -3.1116008663177492
+-globalopt -loop-unroll -deadargelim -break-crit-edges -strip-nondebug -lcssa -early-cse -licm -libcalls-shrinkwrap -loweratomic -alignment-from-assumptions -tailcallelim -sink -simplifycfg -lowerswitch -constmerge -loop-reduce -partial-inliner -strip -indvars 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.250592527389527, -4.250592527389527
+-float2int -sccp -loop-reduce -lcssa -indvars -lowerswitch -sink -loweratomic -tailcallelim -simplifycfg -constmerge -loop-deletion -simple-loop-unswitch -deadargelim -loop-unroll -libcalls-shrinkwrap -early-cse -function-attrs -lowerinvoke -break-crit-edges 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 5.12571159362793, -5.12571159362793
+-instcombine -globaldce -reg2mem -alignment-from-assumptions -reassociate -loop-deletion -correlated-propagation -strip -loweratomic -lcssa -indvars -libcalls-shrinkwrap -loop-unroll -constmerge -loop-reduce -deadargelim -simple-loop-unswitch -inline -simplifycfg -loop-fusion 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.235679683685303, -4.235679683685303
+-simplifycfg -tailcallelim -loop-unroll -break-crit-edges -simple-loop-unswitch -loweratomic -libcalls-shrinkwrap -instcombine -lcssa -strip -sink -indvars -strip-nondebug -loop-deletion -constmerge -lowerswitch -reg2mem -loop-reduce -early-cse -adce 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.421802024841309, -4.421802024841309
+-instcombine -loop-unroll -globalopt -loop-simplify -deadargelim -alignment-from-assumptions -globaldce -loweratomic -lcssa -reg2mem -early-cse -indvars -constmerge -loop-deletion -strip-nondebug -function-attrs -sink -libcalls-shrinkwrap -loop-reduce -break-crit-edges 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.9206640815734866, -3.9206640815734866
+-simplifycfg -loop-reduce -constmerge -loop-unroll -lowerswitch -globaldce -lcssa -licm -loop-deletion -strip-nondebug -sink -loweratomic -deadargelim -reg2mem -break-crit-edges -indvars -tailcallelim -float2int -simple-loop-unswitch -instcombine 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 6.308059520721435, -6.308059520721435
+-gvn -licm -adce -reg2mem -globalopt -loop-deletion -globaldce -simplifycfg -inline -sink -loop-unroll -loweratomic -loop-fusion -loop-reduce -constmerge -tailcallelim -float2int -libcalls-shrinkwrap -simple-loop-unswitch -lcssa 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.394401750564575, -4.394401750564575
+-loweratomic -reg2mem -lowerswitch -loop-unroll -instcombine -globalopt -sink -constmerge -early-cse -loop-deletion -simple-loop-unswitch -globaldce -simplifycfg -deadargelim -alignment-from-assumptions -float2int -strip -tailcallelim -loop-reduce -lcssa 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 5.22180965423584, -5.22180965423584
+-loop-deletion -libcalls-shrinkwrap -deadargelim -lcssa -tailcallelim -lowerinvoke -strip-nondebug -loweratomic -constmerge -loop-unroll -gvn -float2int -lowerswitch -reg2mem -simple-loop-unswitch -partial-inliner -reassociate -indvars -instcombine -loop-reduce 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.111834449768066, -4.111834449768066
+-loop-deletion -tailcallelim -constmerge -loweratomic -loop-unroll -instcombine -strip-nondebug -loop-reduce -lowerswitch -indvars -gvn -lcssa -libcalls-shrinkwrap -float2int -correlated-propagation -break-crit-edges -lower-expect -simplifycfg -early-cse -globaldce 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.985750942230225, -4.985750942230225
+-lowerswitch -strip-nondebug -function-attrs -sink -alignment-from-assumptions -simplifycfg -libcalls-shrinkwrap -partial-inliner -constmerge -tailcallelim -loop-unroll -loweratomic -simple-loop-unswitch -lower-expect -loop-deletion -float2int -globaldce -lcssa -loop-reduce -globalopt 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 3.3372182273864746, -3.3372182273864746
+-gvn -strip-nondebug -loop-simplify -loweratomic -globaldce -correlated-propagation -instcombine -globalopt -constmerge -loop-reduce -libcalls-shrinkwrap -loop-unroll -simplifycfg -float2int -loop-deletion -lcssa -indvars -lowerswitch -partial-inliner -strip 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.236162967681885, -4.236162967681885
+-lowerinvoke -lowerswitch -simplifycfg -simple-loop-unswitch -break-crit-edges -loop-reduce -loop-deletion -loweratomic -globalopt -sink -lcssa -reg2mem -constmerge -tailcallelim -gvn -globaldce -loop-unroll -deadargelim -early-cse -strip 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.797683820724487, -4.797683820724487
+-libcalls-shrinkwrap -lcssa -simplifycfg -constmerge -loop-idiom -instcombine -sink -lowerswitch -float2int -loweratomic -globaldce -break-crit-edges -globalopt -reassociate -loop-unroll -loop-reduce -strip-nondebug -indvars -deadargelim -function-attrs 
+bicg: 2.7434035205841063, 1.95, 0.64, 0.15340352058410645, 4.248134679794312, -4.248134679794312
+-ipsccp -lcssa -sink -lowerswitch -simple-loop-unswitch -dse -float2int -alignment-from-assumptions -constmerge -loop-deletion -break-crit-edges -reg2mem -loweratomic -tailcallelim -loop-unroll -loop-reduce -simplifycfg -early-cse -strip-nondebug -globalopt 
+bicg: 0.79, inf, inf, inf, 0.79, -0.79
+-sroa -indvars -loop-deletion -mem2reg -alignment-from-assumptions -sccp -jump-threading -loop-idiom -function-attrs -gvn -reg2mem -ipsccp -libcalls-shrinkwrap -correlated-propagation -deadargelim -early-cse -simplifycfg -sink -dse -loop-reduce 
+bicg: 0.76, inf, inf, inf, 0.76, -0.76
+-simplifycfg -deadargelim -alignment-from-assumptions -libcalls-shrinkwrap -early-cse -lowerswitch -memcpyopt -licm -constmerge -loop-deletion -loop-unroll -sink -globalopt -inline -loop-reduce -strip -loweratomic -jump-threading -loop-fusion -lower-expect 
+bicg: 0.76, inf, inf, inf, 1.49, -1.49
+-instcombine -simplifycfg -licm -correlated-propagation -loop-deletion -tailcallelim -loop-reduce -float2int -ipsccp -lower-expect -memcpyopt -loop-idiom -simple-loop-unswitch -gvn -alignment-from-assumptions -loweratomic -reg2mem -deadargelim -reassociate -loop-rotate 
+bicg: 0.76, inf, inf, inf, 0.87, -0.87
+-lower-expect -mem2reg -strip-nondebug -early-cse -constmerge -memcpyopt -break-crit-edges -ipsccp -indvars -dse -simple-loop-unswitch -loweratomic -globaldce -globalopt -inline -deadargelim -alignment-from-assumptions -float2int -loop-deletion -simplifycfg 
+bicg: 0.69, inf, inf, inf, 0.69, -0.69
+-instcombine -memcpyopt -strip -adce -simple-loop-unswitch -tailcallelim -loop-unroll -loop-deletion -jump-threading -inline -sccp -strip-nondebug -alignment-from-assumptions -licm -indvars -lowerinvoke -sroa -dse -globaldce -early-cse 
+bicg: 0.69, inf, inf, inf, 0.69, -0.69
+-reassociate -loop-rotate -simple-loop-unswitch -simplifycfg -loop-fusion -ipsccp -constmerge -licm -sink -lcssa -loop-deletion -break-crit-edges -lowerswitch -tailcallelim -globalopt -memcpyopt -mem2reg -lower-expect -indvars -loop-simplify 
+bicg: 0.69, inf, inf, inf, 1.11, -1.11
+-lowerswitch -lowerinvoke -loop-idiom -gvn -dse -loop-deletion -break-crit-edges -lcssa -correlated-propagation -loweratomic -float2int -globalopt -reassociate -loop-unroll -sink -lower-expect -loop-fusion -early-cse -ipsccp -loop-rotate 
+bicg: 0.69, inf, inf, inf, 1.19, -1.19
+-partial-inliner -loop-deletion -libcalls-shrinkwrap -float2int -adce -break-crit-edges -reassociate -memcpyopt -constmerge -loop-rotate -globalopt -inline -tailcallelim -loweratomic -instcombine -loop-simplify -reg2mem -strip -ipsccp -alignment-from-assumptions 
+bicg: 0.69, inf, inf, inf, 0.78, -0.78
+-partial-inliner -reg2mem -sink -loop-reduce -loop-fusion -gvn -loop-idiom -sccp -lowerswitch -loop-deletion -simplifycfg -instcombine -constmerge -simple-loop-unswitch -dse -licm -reassociate -mem2reg -strip -lcssa 
+bicg: 0.69, inf, inf, inf, 0.88, -0.88
+-alignment-from-assumptions -indvars -memcpyopt -instcombine -early-cse -tailcallelim -partial-inliner -adce -break-crit-edges -loop-unroll -sroa -lower-expect -loop-rotate -function-attrs -mem2reg -loop-idiom -loop-simplify -lowerswitch -loweratomic -lowerinvoke 
+bicg: 0.69, inf, inf, inf, 0.76, -0.76
+-sink -float2int -libcalls-shrinkwrap -inline -licm -loop-fusion -instcombine -loop-simplify -mem2reg -globalopt -correlated-propagation -deadargelim -lowerswitch -sccp -tailcallelim -lowerinvoke -simplifycfg -jump-threading -adce -break-crit-edges 
+bicg: 0.55, inf, inf, inf, 0.55, -0.55
+-licm -globalopt -correlated-propagation -loop-fusion -early-cse -sink -loop-unroll -memcpyopt -sroa -gvn -libcalls-shrinkwrap -dse -partial-inliner -globaldce -reg2mem -simplifycfg -mem2reg -lowerinvoke -loop-simplify -loop-rotate 
+bicg: 0.55, inf, inf, inf, 0.8, -0.8
+-jump-threading -globaldce -globalopt -loop-unroll -loweratomic -instcombine -loop-fusion -strip -float2int -tailcallelim -dse -loop-reduce -indvars -loop-simplify -ipsccp -constmerge -sroa -inline -libcalls-shrinkwrap -licm 
+bicg: 0.55, inf, inf, inf, 1.07, -1.07
+-lcssa -indvars -loweratomic -globaldce -loop-rotate -constmerge -simplifycfg -ipsccp -break-crit-edges -dse -adce -strip -inline -early-cse -globalopt -lower-expect -instcombine -libcalls-shrinkwrap -sccp -correlated-propagation 
+bicg: 0.55, inf, inf, inf, 0.81, -0.81
+-partial-inliner -constmerge -float2int -loop-rotate -gvn -sink -loop-unroll -loop-simplify -sccp -mem2reg -lowerswitch -indvars -lcssa -deadargelim -sroa -strip -tailcallelim -jump-threading -loop-idiom -dse 
+bicg: 0.55, inf, inf, inf, 1.08, -1.08
+-loop-reduce -correlated-propagation -ipsccp -indvars -reassociate -dse -loop-rotate -lower-expect -jump-threading -lowerinvoke -early-cse -simple-loop-unswitch -strip-nondebug -globalopt -libcalls-shrinkwrap -float2int -alignment-from-assumptions -adce -simplifycfg -reg2mem 
+bicg: 0.55, inf, inf, inf, 0.7, -0.7
+-simplifycfg -loop-rotate -sccp -licm -lowerinvoke -globaldce -inline -break-crit-edges -loweratomic -jump-threading -strip-nondebug -loop-reduce -instcombine -simple-loop-unswitch -indvars -dse -alignment-from-assumptions -correlated-propagation -function-attrs -libcalls-shrinkwrap 
+bicg: 0.55, inf, inf, inf, 0.7, -0.7
+-licm -strip -libcalls-shrinkwrap -gvn -lowerswitch -float2int -lower-expect -alignment-from-assumptions -loop-reduce -inline -tailcallelim -simplifycfg -function-attrs -break-crit-edges -sink -lowerinvoke -lcssa -strip-nondebug -globaldce -globalopt 
+bicg: 0.55, inf, inf, inf, 1.79, -1.79
+-lowerinvoke -loop-rotate -correlated-propagation -mem2reg -partial-inliner -adce -loop-idiom -lower-expect -function-attrs -sccp -instcombine -loop-fusion -globalopt -deadargelim -simple-loop-unswitch -memcpyopt -reg2mem -lcssa -jump-threading -break-crit-edges 
+bicg: 0.55, inf, inf, inf, 0.93, -0.93
+-float2int -simplifycfg -adce -ipsccp -reg2mem -strip -lowerinvoke -partial-inliner -loop-fusion -memcpyopt -licm -alignment-from-assumptions -loop-reduce -sroa -instcombine -loop-idiom -libcalls-shrinkwrap -globalopt -mem2reg -indvars 
+bicg: 0.55, inf, inf, inf, 0.87, -0.87
+-loweratomic -reg2mem -float2int -correlated-propagation -instcombine -loop-rotate -tailcallelim -loop-reduce -early-cse -strip-nondebug -lcssa -alignment-from-assumptions -indvars -gvn -sroa -jump-threading -sccp -sink -lowerswitch -inline 
+bicg: 0.55, inf, inf, inf, 0.78, -0.78
+-lowerinvoke -break-crit-edges -sink -simplifycfg -loop-unroll -loop-reduce -licm -constmerge -gvn -loop-fusion -libcalls-shrinkwrap -loop-rotate -lowerswitch -ipsccp -reg2mem -globalopt -early-cse -lower-expect -correlated-propagation -function-attrs 
+bicg: 0.55, inf, inf, inf, 0.7, -0.7
+-sink -strip -function-attrs -loop-reduce -simplifycfg -loweratomic -dse -loop-fusion -alignment-from-assumptions -globalopt -jump-threading -licm -constmerge -lcssa -adce -indvars -loop-deletion -simple-loop-unswitch -libcalls-shrinkwrap -memcpyopt 
+bicg: 0.55, inf, inf, inf, 1.06, -1.06
+-float2int -partial-inliner -early-cse -simplifycfg -libcalls-shrinkwrap -memcpyopt -alignment-from-assumptions -instcombine -loop-reduce -gvn -loop-rotate -loop-unroll -licm -inline -reassociate -lcssa -simple-loop-unswitch -loop-deletion -reg2mem -constmerge 
+bicg: 0.55, inf, inf, inf, 1.01, -1.01
+-gvn -mem2reg -reg2mem -alignment-from-assumptions -memcpyopt -globalopt -dse -simple-loop-unswitch -partial-inliner -constmerge -lower-expect -loop-idiom -strip -function-attrs -break-crit-edges -loop-reduce -correlated-propagation -lowerswitch -sroa -early-cse 
+bicg: 0.55, inf, inf, inf, 1.12, -1.12
+-early-cse -sink -deadargelim -loop-fusion -loop-simplify -loop-rotate -ipsccp -instcombine -sroa -globaldce -break-crit-edges -function-attrs -lowerinvoke -adce -lower-expect -licm -dse -constmerge -reg2mem -jump-threading 
+bicg: 0.55, inf, inf, inf, 0.84, -0.84
+-sroa -simplifycfg -lowerinvoke -lcssa -libcalls-shrinkwrap -early-cse -indvars -globalopt -memcpyopt -reassociate -globaldce -reg2mem -mem2reg -deadargelim -sccp -loop-idiom -licm -break-crit-edges -alignment-from-assumptions -function-attrs 
+bicg: 0.55, inf, inf, inf, 1.06, -1.06
+-loop-deletion -float2int -deadargelim -alignment-from-assumptions -loop-reduce -globaldce -lcssa -inline -jump-threading -sccp -libcalls-shrinkwrap -reassociate -strip -simple-loop-unswitch -lowerswitch -sroa -adce -constmerge -simplifycfg -instcombine 
+bicg: 0.55, inf, inf, inf, 0.85, -0.85
+-loop-reduce -loop-deletion -correlated-propagation -libcalls-shrinkwrap -inline -deadargelim -lcssa -sink -loop-idiom -partial-inliner -lower-expect -gvn -alignment-from-assumptions -instcombine -reg2mem -adce -tailcallelim -licm -lowerswitch -break-crit-edges 
+bicg: 0.55, inf, inf, inf, 0.67, -0.67
+-ipsccp -sink -globaldce -function-attrs -libcalls-shrinkwrap -licm -float2int -strip-nondebug -mem2reg -simple-loop-unswitch -adce -loop-deletion -loop-simplify -gvn -dse -simplifycfg -tailcallelim -strip -lower-expect -loop-fusion 
+bicg: 0.55, inf, inf, inf, 0.76, -0.76
+-lcssa -sccp -loop-rotate -deadargelim -lower-expect -gvn -loop-idiom -licm -loop-simplify -float2int -tailcallelim -reassociate -early-cse -constmerge -libcalls-shrinkwrap -lowerswitch -sroa -dse -globaldce -mem2reg 
+bicg: 0.55, inf, inf, inf, 1.02, -1.02
+-mem2reg -gvn -memcpyopt -licm -indvars -loop-unroll -early-cse -lowerinvoke -function-attrs -loop-simplify -loop-deletion -sccp -alignment-from-assumptions -deadargelim -strip-nondebug -tailcallelim -lowerswitch -instcombine -lcssa -reg2mem 
+bicg: 0.55, inf, inf, inf, 0.68, -0.68
+-lcssa -constmerge -adce -simple-loop-unswitch -gvn -dse -licm -sroa -loop-simplify -reassociate -tailcallelim -loop-idiom -sccp -loop-reduce -early-cse -globaldce -instcombine -libcalls-shrinkwrap -ipsccp -globalopt 
+bicg: 0.55, inf, inf, inf, 0.78, -0.78
+-alignment-from-assumptions -strip -dse -licm -globaldce -simple-loop-unswitch -loop-reduce -deadargelim -tailcallelim -mem2reg -lower-expect -correlated-propagation -reg2mem -loop-deletion -lowerswitch -lcssa -gvn -strip-nondebug -constmerge -sroa 
+bicg: 0.55, inf, inf, inf, 0.88, -0.88
+-reassociate -tailcallelim -simple-loop-unswitch -loop-idiom -gvn -sink -strip-nondebug -loop-deletion -deadargelim -reg2mem -inline -libcalls-shrinkwrap -lower-expect -instcombine -adce -early-cse -function-attrs -licm -loweratomic -loop-reduce 
+bicg: 0.55, inf, inf, inf, 0.66, -0.66
+-inline -libcalls-shrinkwrap -sink -dse -lower-expect -function-attrs -mem2reg -simple-loop-unswitch -loop-deletion -lcssa -instcombine -tailcallelim -globaldce -partial-inliner -adce -globalopt -licm -loop-reduce -sroa -loop-simplify 
+bicg: 0.55, inf, inf, inf, 0.61, -0.61
+-indvars -early-cse -deadargelim -mem2reg -ipsccp -gvn -libcalls-shrinkwrap -globalopt -strip-nondebug -tailcallelim -strip -lowerswitch -alignment-from-assumptions -lower-expect -loop-unroll -jump-threading -loop-deletion -lcssa -sroa -licm 
+bicg: 0.55, inf, inf, inf, 1.57, -1.57
+-loop-rotate -simple-loop-unswitch -lcssa -globaldce -sink -libcalls-shrinkwrap -licm -sccp -loop-reduce -float2int -simplifycfg -tailcallelim -deadargelim -reg2mem -dse -lowerswitch -correlated-propagation -mem2reg -sroa -early-cse 

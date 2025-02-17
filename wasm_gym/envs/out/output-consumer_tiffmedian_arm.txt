@@ -1,0 +1,184 @@
+consumer_tiffmedian: 2.726882219314575, inf, inf, inf, 2.726882219314575, -2.726882219314575
+-float2int -libcalls-shrinkwrap -lower-expect -licm -loop-idiom -deadargelim -simple-loop-unswitch -globalopt -early-cse -strip -lowerinvoke -reg2mem -instcombine -adce -sccp -indvars -ipsccp -memcpyopt -loop-reduce -lowerswitch 
+consumer_tiffmedian: 1.7974650859832764, inf, inf, inf, 1.7974650859832764, -1.7974650859832764
+-loop-idiom -licm -gvn -reg2mem -mem2reg -inline -loop-rotate -strip-nondebug -partial-inliner -sroa -strip -loop-unroll -loweratomic -float2int -deadargelim -early-cse -indvars -lower-expect -loop-fusion -globaldce 
+consumer_tiffmedian: 1.7974650859832764, inf, inf, inf, 2.5728495121002197, -2.5728495121002197
+-constmerge -lowerinvoke -loop-reduce -break-crit-edges -mem2reg -loop-rotate -globalopt -tailcallelim -loop-fusion -licm -simple-loop-unswitch -gvn -sroa -adce -ipsccp -function-attrs -partial-inliner -reg2mem -loop-idiom -loweratomic 
+consumer_tiffmedian: 1.7974650859832764, inf, inf, inf, 2.6994924545288086, -2.6994924545288086
+-strip-nondebug -lower-expect -indvars -function-attrs -reg2mem -adce -loop-reduce -sink -dse -sccp -reassociate -simple-loop-unswitch -lowerswitch -libcalls-shrinkwrap -lcssa -ipsccp -jump-threading -break-crit-edges -memcpyopt -instcombine 
+consumer_tiffmedian: 1.7974650859832764, inf, inf, inf, 1.9185802936553955, -1.9185802936553955
+-partial-inliner -strip -strip-nondebug -inline -sink -lowerswitch -loop-rotate -break-crit-edges -reg2mem -lower-expect -constmerge -tailcallelim -licm -memcpyopt -loop-reduce -deadargelim -loop-deletion -simple-loop-unswitch -instcombine -globalopt 
+consumer_tiffmedian: 1.7073357105255127, inf, inf, inf, 1.7073357105255127, -1.7073357105255127
+-constmerge -alignment-from-assumptions -partial-inliner -loweratomic -reassociate -lowerinvoke -break-crit-edges -loop-rotate -inline -simple-loop-unswitch -sink -sroa -adce -loop-reduce -lowerswitch -libcalls-shrinkwrap -indvars -dse -lower-expect -simplifycfg 
+consumer_tiffmedian: 1.7073357105255127, inf, inf, inf, 2.6816020011901855, -2.6816020011901855
+-memcpyopt -libcalls-shrinkwrap -loop-rotate -reg2mem -loop-simplify -reassociate -early-cse -indvars -inline -instcombine -strip-nondebug -simplifycfg -loop-unroll -simple-loop-unswitch -loop-fusion -deadargelim -loweratomic -correlated-propagation -lowerinvoke -lowerswitch 
+consumer_tiffmedian: 1.7073357105255127, inf, inf, inf, 1.8880846500396729, -1.8880846500396729
+-lower-expect -constmerge -loop-idiom -dse -loweratomic -partial-inliner -jump-threading -strip -loop-unroll -tailcallelim -loop-deletion -licm -strip-nondebug -indvars -instcombine -reassociate -loop-reduce -lcssa -inline -lowerswitch 
+consumer_tiffmedian: 1.7073357105255127, inf, inf, inf, 2.441261053085327, -2.441261053085327
+-dse -lower-expect -mem2reg -reg2mem -loop-rotate -reassociate -gvn -inline -globaldce -lowerinvoke -loweratomic -loop-simplify -loop-unroll -function-attrs -licm -loop-fusion -sink -instcombine -sccp -adce 
+consumer_tiffmedian: 1.7073357105255127, inf, inf, inf, 2.176090955734253, -2.176090955734253
+-loop-fusion -strip -loop-idiom -sink -lowerswitch -loop-reduce -reg2mem -instcombine -break-crit-edges -sccp -lcssa -lower-expect -inline -simplifycfg -gvn -globalopt -early-cse -lowerinvoke -sroa -adce 
+consumer_tiffmedian: 1.6921017169952393, inf, inf, inf, 1.6921017169952393, -1.6921017169952393
+-lowerswitch -globalopt -float2int -lower-expect -licm -partial-inliner -gvn -function-attrs -lcssa -adce -loop-unroll -instcombine -constmerge -loop-reduce -break-crit-edges -correlated-propagation -reassociate -strip -strip-nondebug -loop-rotate 
+consumer_tiffmedian: 1.6921017169952393, inf, inf, inf, 2.872109889984131, -2.872109889984131
+-licm -dse -adce -gvn -mem2reg -early-cse -inline -correlated-propagation -constmerge -indvars -strip -deadargelim -loop-idiom -break-crit-edges -sccp -globaldce -reg2mem -float2int -lcssa -loweratomic 
+consumer_tiffmedian: 1.6921017169952393, inf, inf, inf, 2.336989164352417, -2.336989164352417
+-loweratomic -break-crit-edges -simple-loop-unswitch -adce -alignment-from-assumptions -correlated-propagation -sink -function-attrs -lowerinvoke -sroa -reassociate -jump-threading -reg2mem -lcssa -dse -gvn -tailcallelim -loop-rotate -lowerswitch -float2int 
+consumer_tiffmedian: 1.6921017169952393, inf, inf, inf, 1.9589548110961914, -1.9589548110961914
+-indvars -function-attrs -globaldce -correlated-propagation -adce -licm -reassociate -break-crit-edges -loop-idiom -instcombine -loop-unroll -memcpyopt -lowerinvoke -ipsccp -tailcallelim -strip-nondebug -jump-threading -libcalls-shrinkwrap -sccp -loop-reduce 
+consumer_tiffmedian: 1.6921017169952393, inf, inf, inf, 1.7444241046905518, -1.7444241046905518
+-strip -loop-unroll -jump-threading -loweratomic -tailcallelim -loop-rotate -loop-deletion -lowerinvoke -instcombine -ipsccp -lowerswitch -simplifycfg -adce -memcpyopt -mem2reg -loop-reduce -dse -globaldce -sccp -alignment-from-assumptions 
+consumer_tiffmedian: 1.6921017169952393, inf, inf, inf, 2.949080467224121, -2.949080467224121
+-adce -libcalls-shrinkwrap -partial-inliner -tailcallelim -lcssa -early-cse -float2int -simplifycfg -lowerinvoke -loop-reduce -function-attrs -break-crit-edges -lower-expect -dse -loop-simplify -sroa -constmerge -ipsccp -reassociate -reg2mem 
+consumer_tiffmedian: 1.534266710281372, inf, inf, inf, 1.534266710281372, -1.534266710281372
+-loop-simplify -instcombine -reg2mem -mem2reg -libcalls-shrinkwrap -break-crit-edges -partial-inliner -loweratomic -loop-reduce -ipsccp -strip-nondebug -lcssa -lowerswitch -jump-threading -correlated-propagation -memcpyopt -early-cse -loop-idiom -loop-rotate -simplifycfg 
+consumer_tiffmedian: 1.534266710281372, inf, inf, inf, 2.8361687660217285, -2.8361687660217285
+-sink -break-crit-edges -loop-idiom -libcalls-shrinkwrap -constmerge -globalopt -lowerswitch -deadargelim -loop-rotate -sccp -lcssa -reg2mem -adce -strip-nondebug -loop-unroll -ipsccp -function-attrs -loop-simplify -indvars -dse 
+consumer_tiffmedian: 1.534266710281372, inf, inf, inf, 3.3081655502319336, -3.3081655502319336
+-ipsccp -float2int -lowerinvoke -globalopt -deadargelim -strip-nondebug -correlated-propagation -gvn -adce -globaldce -mem2reg -loop-rotate -alignment-from-assumptions -indvars -reassociate -loop-unroll -simplifycfg -loop-simplify -reg2mem -sccp 
+consumer_tiffmedian: 1.534266710281372, inf, inf, inf, 2.309886932373047, -2.309886932373047
+-function-attrs -loop-simplify -correlated-propagation -indvars -sccp -loop-reduce -deadargelim -jump-threading -lowerinvoke -float2int -loop-rotate -ipsccp -memcpyopt -globalopt -loweratomic -strip-nondebug -lowerswitch -libcalls-shrinkwrap -tailcallelim -mem2reg 
+consumer_tiffmedian: 1.534266710281372, inf, inf, inf, 2.677182197570801, -2.677182197570801
+-memcpyopt -adce -licm -strip-nondebug -instcombine -lowerswitch -dse -break-crit-edges -loop-reduce -loop-idiom -sccp -lowerinvoke -sink -jump-threading -early-cse -reg2mem -indvars -lcssa -loop-unroll -reassociate 
+consumer_tiffmedian: 1.534266710281372, inf, inf, inf, 2.2135157585144043, -2.2135157585144043
+-adce -partial-inliner -jump-threading -lcssa -mem2reg -loop-reduce -tailcallelim -loop-idiom -loop-unroll -reg2mem -dse -simple-loop-unswitch -simplifycfg -constmerge -lower-expect -correlated-propagation -float2int -early-cse -ipsccp -sink 
+consumer_tiffmedian: 1.534266710281372, inf, inf, inf, 1.9192171096801758, -1.9192171096801758
+-loop-simplify -partial-inliner -tailcallelim -lowerinvoke -loweratomic -licm -loop-idiom -alignment-from-assumptions -lowerswitch -mem2reg -adce -inline -globaldce -sink -early-cse -instcombine -loop-rotate -memcpyopt -correlated-propagation -break-crit-edges 
+consumer_tiffmedian: 1.534266710281372, inf, inf, inf, 3.3216469287872314, -3.3216469287872314
+-loop-fusion -lowerinvoke -loop-reduce -instcombine -break-crit-edges -loop-idiom -sroa -ipsccp -correlated-propagation -partial-inliner -globalopt -lowerswitch -jump-threading -loop-unroll -loweratomic -deadargelim -mem2reg -tailcallelim -reg2mem -indvars 
+consumer_tiffmedian: 1.534266710281372, inf, inf, inf, 3.4777843952178955, -3.4777843952178955
+-loop-unroll -correlated-propagation -break-crit-edges -loweratomic -libcalls-shrinkwrap -instcombine -lowerinvoke -sroa -dse -constmerge -alignment-from-assumptions -memcpyopt -indvars -globalopt -ipsccp -reassociate -reg2mem -strip-nondebug -deadargelim -partial-inliner 
+consumer_tiffmedian: 1.534266710281372, inf, inf, inf, 2.8730576038360596, -2.8730576038360596
+-indvars -instcombine -break-crit-edges -strip-nondebug -loop-deletion -float2int -reassociate -deadargelim -globaldce -reg2mem -sink -loop-reduce -correlated-propagation -loop-rotate -adce -simple-loop-unswitch -lower-expect -ipsccp -function-attrs -alignment-from-assumptions 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 1.5328288078308105, -1.5328288078308105
+-loop-simplify -tailcallelim -simple-loop-unswitch -memcpyopt -instcombine -sroa -loop-reduce -strip-nondebug -lowerinvoke -simplifycfg -reassociate -lcssa -jump-threading -loweratomic -ipsccp -adce -correlated-propagation -float2int -gvn -early-cse 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 1.8605289459228516, -1.8605289459228516
+-memcpyopt -libcalls-shrinkwrap -ipsccp -adce -lcssa -loop-unroll -lowerswitch -loop-idiom -reassociate -early-cse -indvars -tailcallelim -globaldce -reg2mem -sccp -mem2reg -alignment-from-assumptions -loweratomic -loop-reduce -break-crit-edges 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.853411912918091, -2.853411912918091
+-sroa -inline -tailcallelim -ipsccp -simplifycfg -gvn -adce -instcombine -loop-rotate -globaldce -jump-threading -reassociate -strip-nondebug -sink -loweratomic -reg2mem -break-crit-edges -alignment-from-assumptions -early-cse -memcpyopt 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.2306594848632812, -3.2306594848632812
+-loop-reduce -strip -ipsccp -memcpyopt -loop-deletion -sroa -float2int -deadargelim -correlated-propagation -indvars -reg2mem -strip-nondebug -partial-inliner -loweratomic -libcalls-shrinkwrap -reassociate -constmerge -loop-simplify -break-crit-edges -loop-rotate 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 1.9795279502868652, -1.9795279502868652
+-function-attrs -reg2mem -loop-simplify -partial-inliner -deadargelim -correlated-propagation -loop-idiom -adce -break-crit-edges -reassociate -alignment-from-assumptions -globaldce -lowerswitch -mem2reg -strip-nondebug -dse -licm -loop-rotate -memcpyopt -ipsccp 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.331942319869995, -2.331942319869995
+-indvars -inline -correlated-propagation -break-crit-edges -adce -dse -loweratomic -instcombine -reassociate -loop-deletion -reg2mem -licm -simplifycfg -lcssa -ipsccp -memcpyopt -loop-reduce -constmerge -strip-nondebug -tailcallelim 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 1.627417802810669, -1.627417802810669
+-indvars -early-cse -memcpyopt -break-crit-edges -lowerswitch -loweratomic -float2int -reassociate -tailcallelim -ipsccp -deadargelim -simple-loop-unswitch -adce -strip-nondebug -instcombine -correlated-propagation -reg2mem -mem2reg -loop-reduce -globaldce 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.652514934539795, -2.652514934539795
+-loop-idiom -loop-reduce -memcpyopt -constmerge -mem2reg -float2int -early-cse -strip -simplifycfg -loweratomic -loop-rotate -break-crit-edges -indvars -instcombine -correlated-propagation -ipsccp -globalopt -reg2mem -adce -strip-nondebug 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.1227073669433594, -2.1227073669433594
+-reassociate -dse -break-crit-edges -adce -reg2mem -early-cse -loop-fusion -loweratomic -loop-rotate -strip-nondebug -globaldce -float2int -jump-threading -constmerge -simplifycfg -ipsccp -loop-reduce -indvars -sroa -sink 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.0466315746307373, -2.0466315746307373
+-lowerinvoke -sroa -deadargelim -tailcallelim -memcpyopt -instcombine -ipsccp -mem2reg -jump-threading -break-crit-edges -loop-reduce -constmerge -reg2mem -loweratomic -indvars -gvn -loop-rotate -correlated-propagation -sccp -float2int 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 1.96529221534729, -1.96529221534729
+-deadargelim -gvn -loop-fusion -loop-reduce -reg2mem -loop-simplify -correlated-propagation -loweratomic -libcalls-shrinkwrap -indvars -globaldce -simplifycfg -memcpyopt -break-crit-edges -loop-rotate -sink -mem2reg -globalopt -ipsccp -strip-nondebug 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.57753324508667, -3.57753324508667
+-constmerge -float2int -gvn -adce -libcalls-shrinkwrap -indvars -deadargelim -reassociate -instcombine -loop-rotate -ipsccp -correlated-propagation -break-crit-edges -loweratomic -lowerinvoke -reg2mem -strip-nondebug -inline -globaldce -loop-simplify 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.8217437267303467, -2.8217437267303467
+-lowerswitch -mem2reg -ipsccp -reg2mem -loop-unroll -adce -alignment-from-assumptions -instcombine -break-crit-edges -indvars -float2int -loop-idiom -loweratomic -globaldce -correlated-propagation -reassociate -early-cse -simple-loop-unswitch -constmerge -jump-threading 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.5273120403289795, -2.5273120403289795
+-adce -sroa -globalopt -break-crit-edges -sink -strip-nondebug -globaldce -ipsccp -lower-expect -tailcallelim -loop-rotate -loweratomic -reg2mem -constmerge -mem2reg -lowerswitch -reassociate -indvars -jump-threading -loop-idiom 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.5322494506835938, -2.5322494506835938
+-dse -globaldce -break-crit-edges -function-attrs -memcpyopt -loop-unroll -globalopt -adce -reassociate -loweratomic -tailcallelim -correlated-propagation -loop-rotate -loop-deletion -reg2mem -indvars -alignment-from-assumptions -strip-nondebug -sroa -ipsccp 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.472929000854492, -3.472929000854492
+-break-crit-edges -loop-simplify -loweratomic -early-cse -loop-rotate -deadargelim -globaldce -loop-idiom -gvn -indvars -correlated-propagation -constmerge -strip-nondebug -reassociate -tailcallelim -inline -reg2mem -ipsccp -libcalls-shrinkwrap -loop-unroll 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.7476255893707275, -2.7476255893707275
+-loweratomic -lowerinvoke -indvars -sccp -reg2mem -dse -break-crit-edges -ipsccp -correlated-propagation -strip-nondebug -adce -globaldce -instcombine -reassociate -early-cse -constmerge -tailcallelim -loop-idiom -loop-rotate -inline 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.9724514484405518, -3.9724514484405518
+-loop-deletion -adce -ipsccp -float2int -loop-unroll -memcpyopt -break-crit-edges -loop-reduce -lowerswitch -licm -tailcallelim -indvars -correlated-propagation -instcombine -reassociate -loop-rotate -reg2mem -deadargelim -loweratomic -jump-threading 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.3683924674987793, -3.3683924674987793
+-instcombine -break-crit-edges -jump-threading -correlated-propagation -constmerge -loop-reduce -tailcallelim -loop-rotate -indvars -strip-nondebug -simplifycfg -reassociate -loweratomic -ipsccp -adce -sroa -partial-inliner -reg2mem -memcpyopt -loop-idiom 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.918501853942871, -2.918501853942871
+-tailcallelim -deadargelim -simplifycfg -partial-inliner -break-crit-edges -lowerswitch -globaldce -memcpyopt -indvars -adce -float2int -strip-nondebug -constmerge -early-cse -correlated-propagation -loweratomic -loop-reduce -reassociate -loop-idiom -reg2mem 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.923800468444824, -2.923800468444824
+-adce -partial-inliner -lowerinvoke -ipsccp -strip-nondebug -indvars -instcombine -break-crit-edges -loweratomic -correlated-propagation -reg2mem -loop-rotate -deadargelim -reassociate -tailcallelim -loop-simplify -memcpyopt -loop-idiom -dse -globaldce 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.9561755657196045, -2.9561755657196045
+-sink -correlated-propagation -adce -instcombine -jump-threading -reg2mem -lowerswitch -strip-nondebug -lowerinvoke -indvars -break-crit-edges -loop-idiom -lower-expect -ipsccp -early-cse -globaldce -memcpyopt -deadargelim -reassociate -loop-reduce 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 1.816312313079834, -1.816312313079834
+-gvn -loop-deletion -break-crit-edges -early-cse -reassociate -ipsccp -loop-reduce -sroa -dse -float2int -adce -memcpyopt -loop-rotate -simplifycfg -instcombine -indvars -lowerswitch -globaldce -loweratomic -correlated-propagation 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.6155669689178467, -2.6155669689178467
+-jump-threading -globaldce -correlated-propagation -deadargelim -indvars -reassociate -early-cse -lowerswitch -break-crit-edges -adce -loop-rotate -tailcallelim -sink -loweratomic -reg2mem -ipsccp -strip-nondebug -mem2reg -loop-unroll -instcombine 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.499115228652954, -3.499115228652954
+-loop-rotate -indvars -break-crit-edges -partial-inliner -early-cse -memcpyopt -adce -correlated-propagation -simplifycfg -ipsccp -instcombine -constmerge -loweratomic -reg2mem -tailcallelim -globaldce -reassociate -strip-nondebug -loop-idiom -libcalls-shrinkwrap 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.6333703994750977, -2.6333703994750977
+-reassociate -float2int -licm -lcssa -inline -alignment-from-assumptions -loweratomic -correlated-propagation -memcpyopt -sccp -indvars -break-crit-edges -adce -ipsccp -gvn -reg2mem -constmerge -instcombine -function-attrs -loop-idiom 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.05456805229187, -3.05456805229187
+-sink -globaldce -adce -simple-loop-unswitch -reg2mem -break-crit-edges -tailcallelim -memcpyopt -loweratomic -indvars -loop-simplify -loop-rotate -deadargelim -correlated-propagation -simplifycfg -early-cse -ipsccp -constmerge -instcombine -strip-nondebug 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.8047800064086914, -2.8047800064086914
+-simplifycfg -ipsccp -loop-rotate -globaldce -break-crit-edges -correlated-propagation -strip-nondebug -memcpyopt -indvars -reassociate -adce -deadargelim -reg2mem -constmerge -float2int -loop-idiom -loweratomic -instcombine -tailcallelim -dse 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.201354503631592, -3.201354503631592
+-strip -correlated-propagation -lowerinvoke -lowerswitch -globalopt -break-crit-edges -loop-simplify -indvars -early-cse -dse -loop-rotate -reg2mem -adce -instcombine -constmerge -ipsccp -reassociate -loop-idiom -globaldce -memcpyopt 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.265070915222168, -3.265070915222168
+-lower-expect -inline -break-crit-edges -early-cse -adce -reassociate -loop-reduce -constmerge -instcombine -dse -indvars -globalopt -reg2mem -loweratomic -correlated-propagation -memcpyopt -deadargelim -globaldce -loop-rotate -simplifycfg 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.147308349609375, -3.147308349609375
+-strip-nondebug -early-cse -reg2mem -adce -memcpyopt -break-crit-edges -correlated-propagation -ipsccp -constmerge -tailcallelim -loop-idiom -globaldce -globalopt -loweratomic -float2int -loop-rotate -reassociate -indvars -instcombine -deadargelim 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.212053060531616, -2.212053060531616
+-mem2reg -reg2mem -licm -globaldce -constmerge -loop-reduce -lower-expect -break-crit-edges -instcombine -loop-idiom -correlated-propagation -ipsccp -indvars -loweratomic -loop-rotate -adce -strip-nondebug -memcpyopt -reassociate -libcalls-shrinkwrap 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.916592597961426, -3.916592597961426
+-early-cse -inline -licm -constmerge -deadargelim -memcpyopt -indvars -break-crit-edges -dse -instcombine -simplifycfg -globaldce -correlated-propagation -ipsccp -reg2mem -reassociate -libcalls-shrinkwrap -loweratomic -adce -loop-rotate 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.050673484802246, -3.050673484802246
+-reg2mem -globalopt -loop-unroll -indvars -loweratomic -reassociate -break-crit-edges -loop-rotate -correlated-propagation -deadargelim -partial-inliner -constmerge -ipsccp -strip-nondebug -loop-idiom -instcombine -adce -globaldce -memcpyopt -tailcallelim 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.691282272338867, -2.691282272338867
+-break-crit-edges -loweratomic -indvars -loop-simplify -loop-idiom -loop-reduce -lcssa -simplifycfg -instcombine -reg2mem -memcpyopt -alignment-from-assumptions -constmerge -ipsccp -deadargelim -sroa -reassociate -loop-rotate -correlated-propagation -adce 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.6524434089660645, -2.6524434089660645
+-sroa -correlated-propagation -early-cse -reg2mem -ipsccp -lcssa -memcpyopt -loop-fusion -loweratomic -loop-rotate -break-crit-edges -indvars -strip-nondebug -deadargelim -instcombine -dse -adce -constmerge -libcalls-shrinkwrap -reassociate 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.2555320262908936, -2.2555320262908936
+-partial-inliner -mem2reg -ipsccp -break-crit-edges -jump-threading -adce -instcombine -reg2mem -indvars -loweratomic -strip-nondebug -constmerge -correlated-propagation -memcpyopt -licm -reassociate -loop-rotate -early-cse -tailcallelim -deadargelim 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.27335786819458, -3.27335786819458
+-simplifycfg -ipsccp -adce -strip -early-cse -lcssa -reassociate -loop-unroll -constmerge -break-crit-edges -correlated-propagation -globaldce -strip-nondebug -loop-idiom -memcpyopt -tailcallelim -indvars -loweratomic -reg2mem -dse 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.1071527004241943, -3.1071527004241943
+-loop-reduce -libcalls-shrinkwrap -lowerswitch -correlated-propagation -dse -loweratomic -globaldce -constmerge -indvars -break-crit-edges -strip-nondebug -adce -reassociate -reg2mem -memcpyopt -loop-rotate -loop-simplify -ipsccp -strip -instcombine 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.0802295207977295, -3.0802295207977295
+-sroa -sccp -partial-inliner -break-crit-edges -memcpyopt -constmerge -adce -jump-threading -correlated-propagation -loweratomic -indvars -reg2mem -instcombine -ipsccp -loop-rotate -sink -deadargelim -strip-nondebug -reassociate -simple-loop-unswitch 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.9314985275268555, -3.9314985275268555
+-dse -early-cse -loop-rotate -gvn -jump-threading -loop-fusion -libcalls-shrinkwrap -break-crit-edges -reassociate -indvars -instcombine -reg2mem -globaldce -adce -correlated-propagation -constmerge -strip-nondebug -ipsccp -memcpyopt -loop-idiom 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.4400196075439453, -3.4400196075439453
+-lcssa -loop-reduce -memcpyopt -loop-rotate -strip -correlated-propagation -loop-simplify -libcalls-shrinkwrap -float2int -globaldce -indvars -break-crit-edges -reg2mem -loweratomic -tailcallelim -reassociate -adce -constmerge -strip-nondebug -ipsccp 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.363168478012085, -2.363168478012085
+-correlated-propagation -alignment-from-assumptions -reg2mem -partial-inliner -deadargelim -break-crit-edges -loop-rotate -ipsccp -sroa -globaldce -adce -indvars -mem2reg -early-cse -tailcallelim -memcpyopt -constmerge -strip-nondebug -dse -reassociate 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.1834821701049805, -3.1834821701049805
+-mem2reg -lowerswitch -adce -constmerge -strip-nondebug -loop-rotate -globaldce -indvars -reassociate -break-crit-edges -correlated-propagation -inline -reg2mem -ipsccp -libcalls-shrinkwrap -instcombine -memcpyopt -dse -loweratomic -sink 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.178582191467285, -3.178582191467285
+-inline -loop-rotate -sccp -adce -break-crit-edges -loweratomic -reg2mem -tailcallelim -deadargelim -partial-inliner -instcombine -globaldce -ipsccp -strip-nondebug -indvars -memcpyopt -correlated-propagation -constmerge -dse -reassociate 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.7807202339172363, -2.7807202339172363
+-lower-expect -break-crit-edges -partial-inliner -memcpyopt -loop-simplify -lcssa -loop-idiom -adce -ipsccp -indvars -reg2mem -early-cse -mem2reg -strip-nondebug -globaldce -correlated-propagation -deadargelim -instcombine -constmerge -loop-rotate 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.1029300689697266, -3.1029300689697266
+-loop-unroll -ipsccp -deadargelim -correlated-propagation -memcpyopt -loop-rotate -adce -lowerswitch -reg2mem -jump-threading -dse -instcombine -indvars -break-crit-edges -constmerge -globaldce -loweratomic -reassociate -strip-nondebug -mem2reg 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.77549147605896, -2.77549147605896
+-deadargelim -mem2reg -reg2mem -instcombine -memcpyopt -reassociate -correlated-propagation -ipsccp -jump-threading -break-crit-edges -libcalls-shrinkwrap -indvars -adce -early-cse -strip-nondebug -loop-rotate -globaldce -constmerge -loop-idiom -partial-inliner 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.421382427215576, -3.421382427215576
+-simplifycfg -globaldce -correlated-propagation -loweratomic -indvars -break-crit-edges -simple-loop-unswitch -reassociate -adce -dse -instcombine -reg2mem -constmerge -ipsccp -memcpyopt -tailcallelim -loop-rotate -early-cse -deadargelim -loop-idiom 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.920311689376831, -2.920311689376831
+-reg2mem -loop-deletion -deadargelim -correlated-propagation -lcssa -mem2reg -tailcallelim -loop-rotate -break-crit-edges -constmerge -indvars -memcpyopt -ipsccp -loweratomic -dse -adce -libcalls-shrinkwrap -globaldce -instcombine -strip-nondebug 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.176030158996582, -3.176030158996582
+-dse -licm -early-cse -strip-nondebug -break-crit-edges -indvars -libcalls-shrinkwrap -partial-inliner -reg2mem -ipsccp -memcpyopt -constmerge -loweratomic -instcombine -deadargelim -correlated-propagation -adce -loop-idiom -globaldce -loop-rotate 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.303542375564575, -3.303542375564575
+-globaldce -loweratomic -jump-threading -alignment-from-assumptions -loop-idiom -indvars -tailcallelim -break-crit-edges -partial-inliner -instcombine -simple-loop-unswitch -deadargelim -reg2mem -memcpyopt -float2int -adce -loop-rotate -constmerge -correlated-propagation -ipsccp 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.5131216049194336, -3.5131216049194336
+-indvars -float2int -reg2mem -early-cse -jump-threading -reassociate -simplifycfg -adce -dse -loweratomic -libcalls-shrinkwrap -memcpyopt -lower-expect -ipsccp -globaldce -break-crit-edges -loop-idiom -instcombine -loop-rotate -correlated-propagation 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.9553627967834473, -2.9553627967834473
+-loop-deletion -jump-threading -reassociate -function-attrs -mem2reg -adce -ipsccp -memcpyopt -deadargelim -strip-nondebug -correlated-propagation -globaldce -loop-rotate -break-crit-edges -constmerge -reg2mem -indvars -loop-idiom -loweratomic -early-cse 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.709639310836792, -2.709639310836792
+-simple-loop-unswitch -float2int -tailcallelim -correlated-propagation -loop-reduce -ipsccp -loop-idiom -deadargelim -loop-fusion -break-crit-edges -globaldce -reg2mem -indvars -sroa -constmerge -adce -strip-nondebug -memcpyopt -loweratomic -reassociate 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.402237892150879, -3.402237892150879
+-adce -loop-reduce -ipsccp -loop-deletion -globaldce -strip-nondebug -constmerge -loop-idiom -reassociate -break-crit-edges -lcssa -instcombine -reg2mem -loweratomic -correlated-propagation -indvars -deadargelim -memcpyopt -loop-rotate -tailcallelim 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.2172398567199707, -3.2172398567199707
+-partial-inliner -simplifycfg -strip -loop-idiom -sink -break-crit-edges -indvars -libcalls-shrinkwrap -lowerswitch -reg2mem -constmerge -deadargelim -loweratomic -globaldce -float2int -reassociate -memcpyopt -correlated-propagation -ipsccp -strip-nondebug 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.303150177001953, -3.303150177001953
+-function-attrs -memcpyopt -simplifycfg -globaldce -partial-inliner -strip-nondebug -deadargelim -loweratomic -sccp -adce -indvars -reg2mem -break-crit-edges -correlated-propagation -loop-idiom -ipsccp -tailcallelim -constmerge -reassociate -loop-rotate 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.6526806354522705, -2.6526806354522705
+-strip -deadargelim -memcpyopt -reg2mem -lowerinvoke -loop-rotate -indvars -globaldce -break-crit-edges -adce -loweratomic -sroa -correlated-propagation -partial-inliner -reassociate -constmerge -loop-idiom -simple-loop-unswitch -strip-nondebug -ipsccp 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.303220748901367, -3.303220748901367
+-adce -break-crit-edges -loop-deletion -loop-idiom -sccp -ipsccp -instcombine -indvars -globaldce -strip-nondebug -loop-rotate -reg2mem -lowerswitch -reassociate -memcpyopt -loweratomic -constmerge -correlated-propagation -alignment-from-assumptions -deadargelim 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 2.9097464084625244, -2.9097464084625244
+-reassociate -dse -simplifycfg -libcalls-shrinkwrap -loweratomic -loop-idiom -break-crit-edges -ipsccp -instcombine -loop-rotate -indvars -reg2mem -mem2reg -strip-nondebug -memcpyopt -correlated-propagation -globaldce -adce -deadargelim -tailcallelim 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.2716164588928223, -3.2716164588928223
+-indvars -ipsccp -early-cse -partial-inliner -adce -globaldce -deadargelim -break-crit-edges -mem2reg -memcpyopt -strip-nondebug -loop-idiom -loweratomic -reg2mem -inline -constmerge -correlated-propagation -loop-rotate -dse -reassociate 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.0719759464263916, -3.0719759464263916
+-globaldce -alignment-from-assumptions -tailcallelim -strip-nondebug -reg2mem -function-attrs -break-crit-edges -loop-rotate -deadargelim -constmerge -indvars -correlated-propagation -reassociate -loweratomic -simplifycfg -memcpyopt -ipsccp -loop-idiom -adce -instcombine 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.127274990081787, -3.127274990081787
+-early-cse -function-attrs -loweratomic -indvars -constmerge -deadargelim -break-crit-edges -simple-loop-unswitch -adce -globaldce -tailcallelim -loop-idiom -reg2mem -float2int -correlated-propagation -memcpyopt -ipsccp -strip-nondebug -reassociate -loop-rotate 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.3014464378356934, -3.3014464378356934
+-globaldce -correlated-propagation -dse -adce -ipsccp -break-crit-edges -partial-inliner -instcombine -strip -strip-nondebug -deadargelim -reg2mem -indvars -reassociate -constmerge -loweratomic -loop-idiom -memcpyopt -loop-rotate -libcalls-shrinkwrap 
+consumer_tiffmedian: 1.5328288078308105, inf, inf, inf, 3.1279635429382324, -3.1279635429382324
+-indvars -partial-inliner -break-crit-edges -loweratomic -correlated-propagation -loop-deletion -reg2mem -deadargelim -loop-idiom -adce -constmerge -instcombine -memcpyopt -early-cse -ipsccp -strip-nondebug -globaldce -reassociate -loop-rotate -tailcallelim 

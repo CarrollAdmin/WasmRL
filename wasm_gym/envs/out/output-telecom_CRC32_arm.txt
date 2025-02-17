@@ -1,0 +1,184 @@
+telecom_CRC32: 3.1744940280914307, inf, inf, inf, 3.1744940280914307, -3.1744940280914307
+-lowerswitch -lcssa -tailcallelim -ipsccp -loop-deletion -licm -break-crit-edges -adce -simplifycfg -loop-fusion -sccp -simple-loop-unswitch -function-attrs -lowerinvoke -alignment-from-assumptions -sroa -loop-simplify -globaldce -loop-rotate -strip 
+telecom_CRC32: 2.636796712875366, inf, inf, inf, 2.636796712875366, -2.636796712875366
+-loop-rotate -reassociate -partial-inliner -float2int -sccp -loop-fusion -lowerinvoke -inline -instcombine -strip-nondebug -loop-unroll -sroa -strip -globaldce -loop-idiom -lower-expect -alignment-from-assumptions -lcssa -early-cse -adce 
+telecom_CRC32: 2.636796712875366, inf, inf, inf, 3.0179176330566406, -3.0179176330566406
+-simple-loop-unswitch -lcssa -indvars -sccp -loop-unroll -instcombine -tailcallelim -globalopt -break-crit-edges -lower-expect -strip -mem2reg -function-attrs -gvn -reg2mem -constmerge -dse -loop-reduce -reassociate -float2int 
+telecom_CRC32: 2.636796712875366, inf, inf, inf, 3.039872407913208, -3.039872407913208
+-tailcallelim -simple-loop-unswitch -loop-idiom -deadargelim -reassociate -early-cse -loop-simplify -sccp -loop-rotate -inline -lower-expect -loop-reduce -loweratomic -lowerswitch -correlated-propagation -sink -sroa -dse -strip -lcssa 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.402761697769165, -2.402761697769165
+-lowerinvoke -ipsccp -globaldce -correlated-propagation -licm -memcpyopt -instcombine -lcssa -alignment-from-assumptions -sccp -break-crit-edges -lowerswitch -loop-rotate -adce -loop-deletion -strip-nondebug -loop-unroll -jump-threading -loweratomic -tailcallelim 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.4846301078796387, -2.4846301078796387
+-loop-fusion -deadargelim -loop-deletion -break-crit-edges -loop-idiom -loop-simplify -lcssa -memcpyopt -gvn -licm -simplifycfg -instcombine -early-cse -sink -adce -mem2reg -tailcallelim -correlated-propagation -lowerinvoke -loweratomic 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.6599972248077393, -2.6599972248077393
+-tailcallelim -lcssa -adce -loop-rotate -function-attrs -dse -sink -instcombine -libcalls-shrinkwrap -lowerswitch -loop-deletion -strip -alignment-from-assumptions -lower-expect -globaldce -break-crit-edges -sccp -indvars -loweratomic -constmerge 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.1280195713043213, -3.1280195713043213
+-indvars -loweratomic -correlated-propagation -simple-loop-unswitch -reg2mem -sroa -adce -loop-deletion -loop-fusion -jump-threading -simplifycfg -break-crit-edges -partial-inliner -lower-expect -licm -alignment-from-assumptions -constmerge -lowerinvoke -float2int -loop-idiom 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.1138386726379395, -3.1138386726379395
+-strip-nondebug -mem2reg -strip -ipsccp -loop-rotate -lowerinvoke -partial-inliner -licm -break-crit-edges -dse -early-cse -loweratomic -sink -correlated-propagation -function-attrs -loop-reduce -loop-simplify -globaldce -float2int -alignment-from-assumptions 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.0273220539093018, -3.0273220539093018
+-reg2mem -sink -lcssa -loop-deletion -float2int -dse -globalopt -gvn -licm -inline -sroa -early-cse -globaldce -memcpyopt -function-attrs -lowerswitch -loweratomic -jump-threading -loop-rotate -adce 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.3109657764434814, -3.3109657764434814
+-licm -simple-loop-unswitch -lowerswitch -deadargelim -loop-simplify -constmerge -ipsccp -tailcallelim -early-cse -mem2reg -globalopt -correlated-propagation -indvars -sroa -jump-threading -break-crit-edges -strip-nondebug -lowerinvoke -loop-rotate -alignment-from-assumptions 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.0180695056915283, -3.0180695056915283
+-globalopt -partial-inliner -lower-expect -strip-nondebug -alignment-from-assumptions -sroa -sink -simple-loop-unswitch -loop-simplify -inline -loop-deletion -lcssa -indvars -loop-fusion -ipsccp -sccp -memcpyopt -adce -strip -break-crit-edges 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.800567626953125, -2.800567626953125
+-dse -float2int -globaldce -loweratomic -loop-simplify -indvars -adce -globalopt -loop-rotate -correlated-propagation -reg2mem -sccp -inline -ipsccp -memcpyopt -gvn -loop-reduce -lcssa -simplifycfg -loop-fusion 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.459336996078491, -2.459336996078491
+-reg2mem -lower-expect -loweratomic -dse -memcpyopt -adce -strip -loop-deletion -jump-threading -tailcallelim -loop-fusion -loop-reduce -lcssa -function-attrs -instcombine -float2int -strip-nondebug -mem2reg -correlated-propagation -lowerinvoke 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.0435049533843994, -3.0435049533843994
+-lcssa -sink -correlated-propagation -float2int -function-attrs -loop-rotate -loop-simplify -adce -constmerge -mem2reg -alignment-from-assumptions -early-cse -tailcallelim -simplifycfg -lowerswitch -sccp -libcalls-shrinkwrap -loop-fusion -inline -indvars 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.50008225440979, -2.50008225440979
+-loweratomic -reg2mem -lcssa -lowerinvoke -sccp -strip -instcombine -memcpyopt -loop-simplify -strip-nondebug -inline -gvn -mem2reg -float2int -ipsccp -alignment-from-assumptions -loop-unroll -dse -break-crit-edges -loop-idiom 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.3091588020324707, -3.3091588020324707
+-loweratomic -adce -alignment-from-assumptions -instcombine -constmerge -loop-reduce -loop-fusion -lowerinvoke -reassociate -memcpyopt -break-crit-edges -tailcallelim -strip -gvn -indvars -ipsccp -float2int -loop-deletion -licm -loop-unroll 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.4618430137634277, -2.4618430137634277
+-libcalls-shrinkwrap -ipsccp -indvars -deadargelim -jump-threading -loop-unroll -reassociate -instcombine -partial-inliner -memcpyopt -mem2reg -licm -loop-reduce -dse -inline -loweratomic -sink -tailcallelim -early-cse -sccp 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.1347427368164062, -3.1347427368164062
+-loop-fusion -sroa -ipsccp -constmerge -break-crit-edges -loop-idiom -float2int -lowerinvoke -dse -instcombine -adce -function-attrs -simple-loop-unswitch -reg2mem -alignment-from-assumptions -strip-nondebug -deadargelim -loop-unroll -correlated-propagation -jump-threading 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.2506966590881348, -3.2506966590881348
+-lcssa -jump-threading -simple-loop-unswitch -indvars -globaldce -loop-simplify -licm -strip-nondebug -ipsccp -loweratomic -mem2reg -break-crit-edges -adce -loop-idiom -reassociate -memcpyopt -gvn -loop-deletion -correlated-propagation -reg2mem 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.4427578449249268, -2.4427578449249268
+-function-attrs -instcombine -loweratomic -sccp -adce -float2int -loop-reduce -tailcallelim -lowerswitch -loop-fusion -libcalls-shrinkwrap -strip-nondebug -jump-threading -alignment-from-assumptions -lower-expect -loop-simplify -sroa -ipsccp -mem2reg -loop-rotate 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.252980947494507, -3.252980947494507
+-globaldce -ipsccp -indvars -correlated-propagation -sroa -loop-simplify -deadargelim -strip -globalopt -instcombine -loop-fusion -reassociate -early-cse -sink -reg2mem -break-crit-edges -loop-reduce -strip-nondebug -simplifycfg -tailcallelim 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.9341092109680176, -2.9341092109680176
+-early-cse -lowerinvoke -loop-deletion -instcombine -adce -indvars -correlated-propagation -loweratomic -lowerswitch -gvn -constmerge -globaldce -mem2reg -reg2mem -globalopt -ipsccp -libcalls-shrinkwrap -loop-simplify -reassociate -tailcallelim 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.5767955780029297, -2.5767955780029297
+-loop-deletion -constmerge -break-crit-edges -correlated-propagation -globalopt -ipsccp -instcombine -lowerinvoke -inline -partial-inliner -memcpyopt -alignment-from-assumptions -libcalls-shrinkwrap -loop-idiom -loop-fusion -sink -globaldce -loop-unroll -strip-nondebug -loweratomic 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.1868338584899902, -3.1868338584899902
+-lcssa -lowerinvoke -sccp -loop-rotate -loweratomic -lower-expect -tailcallelim -loop-idiom -dse -loop-reduce -simplifycfg -loop-simplify -globalopt -adce -inline -jump-threading -sroa -reg2mem -ipsccp -memcpyopt 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.6057639122009277, -3.6057639122009277
+-simplifycfg -sroa -instcombine -lowerinvoke -ipsccp -constmerge -tailcallelim -indvars -strip-nondebug -loop-idiom -early-cse -dse -loop-deletion -sink -globaldce -mem2reg -break-crit-edges -reg2mem -loop-rotate -memcpyopt 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.6990914344787598, -2.6990914344787598
+-memcpyopt -loop-simplify -dse -partial-inliner -simple-loop-unswitch -correlated-propagation -instcombine -tailcallelim -lowerswitch -reassociate -constmerge -libcalls-shrinkwrap -loweratomic -licm -strip-nondebug -indvars -alignment-from-assumptions -reg2mem -sroa -inline 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.859001636505127, -3.859001636505127
+-gvn -float2int -loop-fusion -reg2mem -break-crit-edges -globalopt -memcpyopt -tailcallelim -inline -licm -loop-unroll -function-attrs -simple-loop-unswitch -reassociate -correlated-propagation -indvars -alignment-from-assumptions -adce -ipsccp -strip 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.3993022441864014, -3.3993022441864014
+-function-attrs -globalopt -reg2mem -sccp -break-crit-edges -globaldce -simple-loop-unswitch -constmerge -strip-nondebug -loop-rotate -mem2reg -indvars -loweratomic -tailcallelim -correlated-propagation -sroa -float2int -reassociate -memcpyopt -early-cse 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.3478496074676514, -3.3478496074676514
+-correlated-propagation -alignment-from-assumptions -constmerge -loop-reduce -reassociate -dse -simple-loop-unswitch -memcpyopt -ipsccp -reg2mem -mem2reg -loop-simplify -partial-inliner -adce -libcalls-shrinkwrap -indvars -loweratomic -break-crit-edges -loop-rotate -loop-deletion 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.414936065673828, -2.414936065673828
+-correlated-propagation -dse -loweratomic -indvars -lower-expect -reg2mem -break-crit-edges -loop-rotate -adce -mem2reg -sink -ipsccp -loop-idiom -loop-reduce -memcpyopt -sroa -loop-deletion -alignment-from-assumptions -libcalls-shrinkwrap -instcombine 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.137453317642212, -3.137453317642212
+-libcalls-shrinkwrap -simplifycfg -reassociate -jump-threading -globaldce -lcssa -mem2reg -adce -ipsccp -strip -instcombine -deadargelim -strip-nondebug -break-crit-edges -correlated-propagation -loop-rotate -reg2mem -memcpyopt -alignment-from-assumptions -tailcallelim 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.052474021911621, -3.052474021911621
+-jump-threading -strip -reg2mem -dse -instcombine -loop-deletion -memcpyopt -break-crit-edges -licm -lowerinvoke -strip-nondebug -globaldce -ipsccp -loweratomic -partial-inliner -loop-rotate -loop-reduce -reassociate -deadargelim -mem2reg 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.788395643234253, -2.788395643234253
+-lcssa -alignment-from-assumptions -loweratomic -adce -reg2mem -constmerge -simple-loop-unswitch -simplifycfg -instcombine -function-attrs -partial-inliner -break-crit-edges -indvars -correlated-propagation -memcpyopt -strip-nondebug -mem2reg -reassociate -loop-unroll -ipsccp 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.3097145557403564, -3.3097145557403564
+-lowerinvoke -loop-unroll -indvars -reassociate -ipsccp -deadargelim -partial-inliner -memcpyopt -constmerge -loweratomic -correlated-propagation -reg2mem -instcombine -break-crit-edges -inline -loop-rotate -float2int -loop-reduce -strip-nondebug -adce 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.4754254817962646, -3.4754254817962646
+-tailcallelim -globalopt -strip-nondebug -lower-expect -globaldce -lowerinvoke -lcssa -memcpyopt -reg2mem -correlated-propagation -ipsccp -adce -break-crit-edges -loweratomic -alignment-from-assumptions -indvars -jump-threading -loop-unroll -reassociate -loop-reduce 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.733949661254883, -2.733949661254883
+-gvn -loop-unroll -break-crit-edges -loop-simplify -reg2mem -adce -partial-inliner -loweratomic -tailcallelim -deadargelim -simple-loop-unswitch -indvars -instcombine -constmerge -mem2reg -lcssa -ipsccp -globaldce -float2int -correlated-propagation 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.58750581741333, -2.58750581741333
+-loop-deletion -loop-simplify -alignment-from-assumptions -break-crit-edges -instcombine -strip -indvars -memcpyopt -loweratomic -ipsccp -float2int -simple-loop-unswitch -deadargelim -loop-reduce -strip-nondebug -loop-idiom -constmerge -correlated-propagation -gvn -adce 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.9382426738739014, -2.9382426738739014
+-lower-expect -loop-idiom -tailcallelim -sccp -strip-nondebug -reg2mem -indvars -adce -ipsccp -deadargelim -break-crit-edges -jump-threading -loop-reduce -sroa -correlated-propagation -simple-loop-unswitch -float2int -globaldce -loweratomic -memcpyopt 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.6584579944610596, -2.6584579944610596
+-indvars -memcpyopt -reg2mem -tailcallelim -deadargelim -break-crit-edges -alignment-from-assumptions -early-cse -loop-rotate -correlated-propagation -mem2reg -instcombine -loweratomic -strip -constmerge -globaldce -ipsccp -strip-nondebug -partial-inliner -loop-reduce 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.7163681983947754, -2.7163681983947754
+-strip-nondebug -memcpyopt -sink -loweratomic -instcombine -break-crit-edges -globalopt -adce -indvars -licm -reg2mem -loop-idiom -jump-threading -correlated-propagation -constmerge -dse -reassociate -sroa -ipsccp -loop-reduce 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.9450817108154297, -2.9450817108154297
+-dse -globalopt -adce -float2int -tailcallelim -constmerge -break-crit-edges -early-cse -sink -reg2mem -ipsccp -strip-nondebug -loweratomic -loop-idiom -loop-rotate -indvars -reassociate -correlated-propagation -globaldce -instcombine 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.8900949954986572, -3.8900949954986572
+-loop-unroll -mem2reg -loop-fusion -correlated-propagation -strip-nondebug -adce -lcssa -loweratomic -lower-expect -constmerge -ipsccp -globalopt -globaldce -loop-reduce -break-crit-edges -sccp -indvars -reg2mem -tailcallelim -reassociate 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.621450662612915, -2.621450662612915
+-partial-inliner -break-crit-edges -strip-nondebug -reassociate -correlated-propagation -instcombine -sccp -globaldce -indvars -loweratomic -memcpyopt -gvn -adce -reg2mem -loop-idiom -loop-rotate -simple-loop-unswitch -deadargelim -early-cse -sroa 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.7901611328125, -3.7901611328125
+-early-cse -function-attrs -reassociate -jump-threading -licm -loop-idiom -memcpyopt -break-crit-edges -lcssa -gvn -loop-deletion -correlated-propagation -lower-expect -adce -reg2mem -loweratomic -ipsccp -loop-reduce -indvars -tailcallelim 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.481887102127075, -3.481887102127075
+-adce -indvars -instcombine -break-crit-edges -reg2mem -early-cse -deadargelim -sink -simplifycfg -correlated-propagation -lower-expect -memcpyopt -loweratomic -float2int -strip-nondebug -reassociate -loop-reduce -ipsccp -partial-inliner -loop-rotate 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.5741236209869385, -2.5741236209869385
+-sroa -adce -globalopt -strip -instcombine -ipsccp -constmerge -break-crit-edges -indvars -partial-inliner -reg2mem -loweratomic -loop-idiom -reassociate -function-attrs -loop-unroll -deadargelim -mem2reg -correlated-propagation -loop-rotate 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.3039393424987793, -3.3039393424987793
+-lowerswitch -reassociate -loop-rotate -deadargelim -loop-idiom -early-cse -break-crit-edges -jump-threading -indvars -instcombine -correlated-propagation -loweratomic -sink -loop-reduce -globaldce -simplifycfg -reg2mem -ipsccp -strip-nondebug -adce 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.472059965133667, -2.472059965133667
+-lower-expect -function-attrs -reassociate -ipsccp -adce -globalopt -loop-simplify -correlated-propagation -break-crit-edges -reg2mem -indvars -tailcallelim -deadargelim -instcombine -inline -constmerge -sroa -loweratomic -loop-rotate -loop-idiom 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.783785581588745, -2.783785581588745
+-lowerswitch -simple-loop-unswitch -correlated-propagation -break-crit-edges -constmerge -deadargelim -mem2reg -tailcallelim -loop-fusion -loweratomic -globalopt -indvars -sroa -reg2mem -reassociate -instcombine -strip-nondebug -loop-rotate -float2int -adce 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.8572683334350586, -2.8572683334350586
+-reassociate -globaldce -loop-reduce -break-crit-edges -loop-idiom -adce -early-cse -constmerge -globalopt -strip-nondebug -sink -memcpyopt -ipsccp -reg2mem -indvars -loop-rotate -deadargelim -correlated-propagation -float2int -instcombine 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.5059990882873535, -3.5059990882873535
+-float2int -loop-fusion -globaldce -memcpyopt -loop-idiom -libcalls-shrinkwrap -early-cse -partial-inliner -instcombine -simplifycfg -break-crit-edges -correlated-propagation -adce -sink -reassociate -strip-nondebug -indvars -ipsccp -loop-rotate -loweratomic 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.713486909866333, -3.713486909866333
+-loop-fusion -loop-idiom -lcssa -tailcallelim -sroa -loweratomic -loop-rotate -break-crit-edges -reg2mem -libcalls-shrinkwrap -indvars -globaldce -simple-loop-unswitch -correlated-propagation -instcombine -adce -ipsccp -reassociate -inline -early-cse 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.1779773235321045, -3.1779773235321045
+-deadargelim -loop-fusion -memcpyopt -loop-rotate -float2int -ipsccp -adce -mem2reg -reassociate -break-crit-edges -strip-nondebug -correlated-propagation -indvars -loop-idiom -constmerge -reg2mem -tailcallelim -partial-inliner -instcombine -globaldce 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.017920732498169, -3.017920732498169
+-float2int -reassociate -loop-simplify -lcssa -reg2mem -tailcallelim -ipsccp -break-crit-edges -libcalls-shrinkwrap -indvars -simplifycfg -adce -instcombine -memcpyopt -loop-idiom -correlated-propagation -loweratomic -function-attrs -loop-rotate -constmerge 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.6034421920776367, -3.6034421920776367
+-tailcallelim -break-crit-edges -loop-fusion -dse -indvars -reassociate -strip-nondebug -simplifycfg -loop-rotate -adce -correlated-propagation -ipsccp -reg2mem -constmerge -deadargelim -memcpyopt -loweratomic -globaldce -early-cse -loop-idiom 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.2238221168518066, -3.2238221168518066
+-alignment-from-assumptions -tailcallelim -float2int -memcpyopt -sink -break-crit-edges -reg2mem -indvars -reassociate -adce -function-attrs -loop-rotate -correlated-propagation -ipsccp -constmerge -loweratomic -loop-reduce -strip-nondebug -loop-fusion -strip 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 4.683679819107056, -4.683679819107056
+-licm -correlated-propagation -loop-fusion -function-attrs -ipsccp -break-crit-edges -globaldce -dse -early-cse -adce -indvars -strip-nondebug -memcpyopt -loweratomic -instcombine -lowerswitch -loop-rotate -reassociate -reg2mem -constmerge 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.191201686859131, -3.191201686859131
+-gvn -loop-fusion -mem2reg -lowerinvoke -instcombine -libcalls-shrinkwrap -deadargelim -loweratomic -correlated-propagation -constmerge -strip-nondebug -break-crit-edges -loop-rotate -partial-inliner -ipsccp -reg2mem -indvars -adce -memcpyopt -loop-idiom 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.4837512969970703, -3.4837512969970703
+-function-attrs -lower-expect -simplifycfg -correlated-propagation -loop-idiom -adce -break-crit-edges -ipsccp -loop-rotate -indvars -sroa -constmerge -reassociate -reg2mem -instcombine -globaldce -loweratomic -strip-nondebug -early-cse -memcpyopt 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.4930579662323, -3.4930579662323
+-simple-loop-unswitch -globalopt -break-crit-edges -globaldce -float2int -constmerge -strip-nondebug -lcssa -instcombine -deadargelim -memcpyopt -correlated-propagation -reassociate -reg2mem -indvars -adce -loop-rotate -ipsccp -dse -tailcallelim 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 4.046706438064575, -4.046706438064575
+-instcombine -early-cse -break-crit-edges -gvn -reassociate -reg2mem -loop-idiom -loop-simplify -indvars -globaldce -correlated-propagation -constmerge -jump-threading -memcpyopt -deadargelim -ipsccp -alignment-from-assumptions -strip-nondebug -adce -loop-rotate 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.572266101837158, -3.572266101837158
+-strip-nondebug -indvars -loop-rotate -partial-inliner -reassociate -correlated-propagation -globaldce -reg2mem -break-crit-edges -tailcallelim -constmerge -deadargelim -licm -ipsccp -float2int -adce -memcpyopt -loop-unroll -loweratomic -loop-idiom 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.095996618270874, -3.095996618270874
+-deadargelim -adce -tailcallelim -strip-nondebug -instcombine -loweratomic -globaldce -mem2reg -break-crit-edges -correlated-propagation -loop-rotate -indvars -reg2mem -reassociate -constmerge -ipsccp -memcpyopt -loop-idiom -float2int -licm 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.3783247470855713, -3.3783247470855713
+-licm -libcalls-shrinkwrap -loop-deletion -indvars -early-cse -reassociate -instcombine -break-crit-edges -constmerge -correlated-propagation -adce -ipsccp -loop-rotate -loweratomic -reg2mem -strip-nondebug -deadargelim -dse -memcpyopt -loop-unroll 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.2518856525421143, -3.2518856525421143
+-loop-reduce -dse -libcalls-shrinkwrap -jump-threading -break-crit-edges -indvars -strip-nondebug -partial-inliner -correlated-propagation -loop-rotate -ipsccp -adce -reg2mem -loweratomic -memcpyopt -deadargelim -constmerge -globaldce -reassociate -instcombine 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.0335230827331543, -3.0335230827331543
+-strip-nondebug -mem2reg -ipsccp -indvars -adce -reg2mem -loop-rotate -float2int -early-cse -constmerge -break-crit-edges -correlated-propagation -loweratomic -globaldce -reassociate -memcpyopt -instcombine -loop-idiom -deadargelim -lowerinvoke 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.3540701866149902, -3.3540701866149902
+-adce -break-crit-edges -globalopt -loop-rotate -reg2mem -correlated-propagation -loop-reduce -indvars -constmerge -strip-nondebug -instcombine -ipsccp -loweratomic -float2int -memcpyopt -loop-idiom -reassociate -deadargelim -tailcallelim -partial-inliner 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.540121078491211, -3.540121078491211
+-constmerge -adce -mem2reg -simple-loop-unswitch -instcombine -deadargelim -break-crit-edges -early-cse -dse -loop-rotate -globalopt -reg2mem -ipsccp -memcpyopt -loweratomic -indvars -globaldce -reassociate -inline -tailcallelim 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.876539468765259, -2.876539468765259
+-adce -reassociate -loweratomic -break-crit-edges -dse -tailcallelim -correlated-propagation -simplifycfg -loop-simplify -memcpyopt -reg2mem -globaldce -lowerswitch -constmerge -jump-threading -loop-rotate -deadargelim -indvars -ipsccp -instcombine 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.302826166152954, -3.302826166152954
+-strip -reassociate -loweratomic -licm -break-crit-edges -adce -simplifycfg -constmerge -indvars -instcombine -reg2mem -globaldce -loop-rotate -early-cse -correlated-propagation -strip-nondebug -deadargelim -partial-inliner -ipsccp -memcpyopt 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.5410618782043457, -2.5410618782043457
+-break-crit-edges -alignment-from-assumptions -dse -indvars -instcombine -loop-unroll -reg2mem -licm -loweratomic -adce -mem2reg -tailcallelim -reassociate -globaldce -loop-idiom -loop-rotate -constmerge -correlated-propagation -strip -ipsccp 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.048194169998169, -3.048194169998169
+-correlated-propagation -lower-expect -ipsccp -instcombine -break-crit-edges -memcpyopt -loop-idiom -mem2reg -jump-threading -loweratomic -loop-rotate -globaldce -deadargelim -partial-inliner -reg2mem -indvars -dse -adce -strip-nondebug -reassociate 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.171388626098633, -3.171388626098633
+-gvn -libcalls-shrinkwrap -dse -strip-nondebug -break-crit-edges -loop-simplify -loweratomic -constmerge -adce -ipsccp -indvars -loop-rotate -reg2mem -correlated-propagation -strip -reassociate -instcombine -deadargelim -globaldce -memcpyopt 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.869863748550415, -3.869863748550415
+-simple-loop-unswitch -indvars -loop-rotate -reassociate -instcombine -adce -break-crit-edges -ipsccp -dse -memcpyopt -strip-nondebug -globaldce -licm -constmerge -loweratomic -reg2mem -correlated-propagation -tailcallelim -partial-inliner -loop-unroll 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.5392773151397705, -3.5392773151397705
+-loop-fusion -function-attrs -sroa -lowerinvoke -adce -globaldce -reg2mem -strip-nondebug -break-crit-edges -loop-rotate -constmerge -loweratomic -indvars -float2int -loop-idiom -correlated-propagation -instcombine -reassociate -tailcallelim -ipsccp 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.579155683517456, -2.579155683517456
+-loop-rotate -loop-reduce -strip -simple-loop-unswitch -loop-unroll -tailcallelim -correlated-propagation -break-crit-edges -reg2mem -memcpyopt -globaldce -instcombine -adce -constmerge -mem2reg -ipsccp -reassociate -loweratomic -indvars -deadargelim 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.2523913383483887, -3.2523913383483887
+-simplifycfg -ipsccp -licm -adce -loop-rotate -deadargelim -instcombine -loop-fusion -break-crit-edges -strip-nondebug -memcpyopt -reg2mem -loop-unroll -constmerge -globalopt -indvars -simple-loop-unswitch -loweratomic -correlated-propagation -partial-inliner 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.5526232719421387, -3.5526232719421387
+-correlated-propagation -ipsccp -adce -strip-nondebug -break-crit-edges -reg2mem -loop-deletion -loweratomic -loop-reduce -reassociate -globaldce -indvars -float2int -globalopt -constmerge -loop-rotate -instcombine -dse -loop-idiom -memcpyopt 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.083441972732544, -3.083441972732544
+-alignment-from-assumptions -float2int -globaldce -loweratomic -break-crit-edges -adce -loop-rotate -indvars -strip-nondebug -constmerge -reg2mem -jump-threading -instcombine -inline -ipsccp -reassociate -correlated-propagation -tailcallelim -memcpyopt -deadargelim 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 4.686667442321777, -4.686667442321777
+-indvars -licm -strip-nondebug -ipsccp -deadargelim -alignment-from-assumptions -dse -reg2mem -memcpyopt -globalopt -simple-loop-unswitch -break-crit-edges -loweratomic -constmerge -adce -loop-idiom -correlated-propagation -globaldce -reassociate -loop-rotate 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.374711513519287, -3.374711513519287
+-adce -instcombine -alignment-from-assumptions -reassociate -ipsccp -lowerinvoke -strip-nondebug -break-crit-edges -reg2mem -libcalls-shrinkwrap -loweratomic -constmerge -correlated-propagation -indvars -deadargelim -loop-rotate -globaldce -loop-idiom -memcpyopt -early-cse 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.834371328353882, -2.834371328353882
+-mem2reg -globaldce -inline -memcpyopt -gvn -loweratomic -loop-idiom -break-crit-edges -sink -reg2mem -adce -deadargelim -correlated-propagation -loop-rotate -indvars -instcombine -constmerge -strip -strip-nondebug -ipsccp 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.312617540359497, -3.312617540359497
+-tailcallelim -mem2reg -strip -loop-rotate -sroa -indvars -deadargelim -memcpyopt -globaldce -reassociate -reg2mem -constmerge -break-crit-edges -correlated-propagation -ipsccp -loop-idiom -loweratomic -adce -instcombine -strip-nondebug 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.7148003578186035, -2.7148003578186035
+-loop-simplify -reassociate -function-attrs -correlated-propagation -reg2mem -strip-nondebug -break-crit-edges -adce -inline -loop-rotate -tailcallelim -ipsccp -indvars -instcombine -memcpyopt -loweratomic -constmerge -deadargelim -globaldce -lowerinvoke 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.0619096755981445, -3.0619096755981445
+-instcombine -reg2mem -strip-nondebug -loweratomic -break-crit-edges -ipsccp -deadargelim -simple-loop-unswitch -memcpyopt -sroa -adce -jump-threading -globaldce -indvars -loop-idiom -loop-rotate -correlated-propagation -tailcallelim -constmerge -reassociate 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.1537861824035645, -3.1537861824035645
+-indvars -constmerge -reg2mem -loweratomic -break-crit-edges -simple-loop-unswitch -correlated-propagation -tailcallelim -strip-nondebug -ipsccp -memcpyopt -jump-threading -reassociate -instcombine -globaldce -loop-rotate -adce -loop-idiom -deadargelim -early-cse 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.1716983318328857, -3.1716983318328857
+-libcalls-shrinkwrap -strip-nondebug -simplifycfg -early-cse -indvars -reg2mem -loop-idiom -instcombine -break-crit-edges -loweratomic -ipsccp -loop-rotate -adce -constmerge -reassociate -memcpyopt -correlated-propagation -globaldce -deadargelim -tailcallelim 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.472027063369751, -3.472027063369751
+-loweratomic -deadargelim -partial-inliner -sroa -jump-threading -break-crit-edges -loop-idiom -instcombine -indvars -strip-nondebug -globaldce -loop-rotate -reg2mem -correlated-propagation -constmerge -reassociate -ipsccp -loop-deletion -memcpyopt -adce 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 3.991654872894287, -3.991654872894287
+-constmerge -ipsccp -function-attrs -strip-nondebug -lowerinvoke -adce -reg2mem -break-crit-edges -tailcallelim -reassociate -correlated-propagation -indvars -alignment-from-assumptions -loop-rotate -memcpyopt -loop-idiom -globaldce -deadargelim -loweratomic -simplifycfg 
+telecom_CRC32: 2.402761697769165, inf, inf, inf, 2.953784227371216, -2.953784227371216
+-tailcallelim -strip -instcombine -reg2mem -loweratomic -libcalls-shrinkwrap -adce -constmerge -reassociate -break-crit-edges -ipsccp -indvars -globaldce -simple-loop-unswitch -memcpyopt -correlated-propagation -strip-nondebug -loop-idiom -loop-rotate -deadargelim 
+telecom_CRC32: 0.01691579818725586, inf, inf, inf, 0.01691579818725586, -0.01691579818725586
+-partial-inliner -float2int -adce -gvn -memcpyopt -loweratomic -ipsccp -correlated-propagation -reassociate -indvars -early-cse -reg2mem -break-crit-edges -deadargelim -loop-idiom -licm -loop-reduce -constmerge -strip-nondebug -globaldce 

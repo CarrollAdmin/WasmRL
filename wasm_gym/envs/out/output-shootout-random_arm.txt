@@ -1,0 +1,400 @@
+shootout-random: 0.2242276668548584, inf, inf, inf, 0.2242276668548584, -0.2242276668548584
+-globalsplit -dce -called-value-propagation -canon-freeze -annotation2metadata -correlated-propagation -dse -attributor -extract-blocks -deadargelim -guard-widening -early-cse-memssa -forceattrs -break-crit-edges -div-rem-pairs -fix-irreducible -constmerge -flattencfg -consthoist -adce 
+shootout-random: 0.22202467918395996, inf, inf, inf, 0.22202467918395996, -0.22202467918395996
+-annotation-remarks -early-cse -add-discriminators -cross-dso-cfi -alignment-from-assumptions -constmerge -inline -forceattrs -float2int -simplifycfg -assume-simplify -callsite-splitting -annotation2metadata -globalsplit -div-rem-pairs -attributor -gvn -attributor-cgscc -break-crit-edges -flattencfg 
+shootout-random: 0.22202467918395996, inf, inf, inf, 0.2328031063079834, -0.2328031063079834
+-add-discriminators -early-cse -fix-irreducible -alignment-from-assumptions -attributor-cgscc -break-crit-edges -simplifycfg -attributor -early-cse-memssa -correlated-propagation -flattencfg -inline -aggressive-instcombine -consthoist -cross-dso-cfi -annotation-remarks -float2int -dse -globalopt -canon-freeze 
+shootout-random: 0.22202467918395996, inf, inf, inf, 0.2363567352294922, -0.2363567352294922
+-bdce -div-rem-pairs -dse -early-cse-memssa -break-crit-edges -adce -dfa-jump-threading -ipsccp -alignment-from-assumptions -function-specialization -early-cse -correlated-propagation -elim-avail-extern -canon-freeze -consthoist -guard-widening -annotation-remarks -constmerge -gvn -hotcoldsplit 
+shootout-random: 0.22202467918395996, inf, inf, inf, 0.22290897369384766, -0.22290897369384766
+-globalsplit -attributor -consthoist -gvn -bdce -called-value-propagation -correlated-propagation -alignment-from-assumptions -annotation-remarks -function-specialization -float2int -extract-blocks -dce -ipsccp -add-discriminators -early-cse -deadargelim -guard-widening -attributor-cgscc -simplifycfg 
+shootout-random: 0.22202467918395996, inf, inf, inf, 0.22962307929992676, -0.22962307929992676
+-globalopt -break-crit-edges -constmerge -correlated-propagation -ipsccp -cross-dso-cfi -forceattrs -div-rem-pairs -assume-simplify -float2int -flattencfg -globalsplit -aggressive-instcombine -always-inline -gvn -annotation2metadata -add-discriminators -called-value-propagation -alignment-from-assumptions -canon-freeze 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.21999263763427734, -0.21999263763427734
+-attributor -flattencfg -div-rem-pairs -inline -callsite-splitting -deadargelim -canon-freeze -gvn-hoist -globalsplit -assume-simplify -guard-widening -adce -constraint-elimination -extract-blocks -alignment-from-assumptions -globaldce -break-crit-edges -globalopt -fix-irreducible -consthoist 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2608070373535156, -0.2608070373535156
+-dfa-jump-threading -correlated-propagation -aggressive-instcombine -dce -globalsplit -attributor -adce -dse -div-rem-pairs -float2int -assume-simplify -inline -attributor-cgscc -alignment-from-assumptions -forceattrs -simplifycfg -assume-builder -ipsccp -guard-widening -called-value-propagation 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.27692103385925293, -0.27692103385925293
+-annotation-remarks -always-inline -attributor -gvn -adce -function-specialization -callsite-splitting -globalopt -dse -inline -early-cse -annotation2metadata -break-crit-edges -forceattrs -globaldce -constraint-elimination -aggressive-instcombine -alignment-from-assumptions -float2int -extract-blocks 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2253437042236328, -0.2253437042236328
+-correlated-propagation -aggressive-instcombine -globalsplit -elim-avail-extern -dse -assume-simplify -forceattrs -cross-dso-cfi -dfa-jump-threading -constmerge -div-rem-pairs -bdce -inline -always-inline -canon-freeze -extract-blocks -flattencfg -deadargelim -dce -attributor 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.23335003852844238, -0.23335003852844238
+-constmerge -dfa-jump-threading -globalsplit -div-rem-pairs -canon-freeze -cross-dso-cfi -inline -dce -guard-widening -correlated-propagation -called-value-propagation -gvn -alignment-from-assumptions -constraint-elimination -annotation-remarks -ipsccp -always-inline -break-crit-edges -function-specialization -float2int 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.22854876518249512, -0.22854876518249512
+-dfa-jump-threading -forceattrs -extract-blocks -hotcoldsplit -gvn -div-rem-pairs -consthoist -attributor -globalsplit -alignment-from-assumptions -fix-irreducible -aggressive-instcombine -function-specialization -guard-widening -constmerge -simplifycfg -constraint-elimination -canon-freeze -dce -early-cse-memssa 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.5410997867584229, -0.5410997867584229
+-assume-builder -annotation-remarks -elim-avail-extern -canon-freeze -constraint-elimination -always-inline -early-cse -extract-blocks -correlated-propagation -float2int -globalsplit -alignment-from-assumptions -consthoist -gvn-hoist -annotation2metadata -inline -called-value-propagation -globaldce -aggressive-instcombine -deadargelim 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.3478565216064453, -0.3478565216064453
+-cross-dso-cfi -correlated-propagation -called-value-propagation -callsite-splitting -float2int -dce -ipsccp -globalsplit -globalopt -aggressive-instcombine -div-rem-pairs -inline -deadargelim -gvn-hoist -gvn -forceattrs -constmerge -attributor -break-crit-edges -attributor-cgscc 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2690443992614746, -0.2690443992614746
+-guard-widening -dce -adce -elim-avail-extern -globaldce -globalsplit -bdce -cross-dso-cfi -canon-freeze -hotcoldsplit -dse -aggressive-instcombine -ipsccp -assume-simplify -fix-irreducible -callsite-splitting -add-discriminators -alignment-from-assumptions -forceattrs -early-cse 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.22284531593322754, -0.22284531593322754
+-globalsplit -break-crit-edges -consthoist -attributor -adce -function-specialization -early-cse -dfa-jump-threading -constraint-elimination -inline -float2int -dse -gvn-hoist -extract-blocks -annotation2metadata -annotation-remarks -aggressive-instcombine -hotcoldsplit -div-rem-pairs -callsite-splitting 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24175095558166504, -0.24175095558166504
+-correlated-propagation -flattencfg -early-cse -dfa-jump-threading -function-specialization -annotation2metadata -assume-builder -deadargelim -add-discriminators -globalsplit -simplifycfg -constmerge -hotcoldsplit -fix-irreducible -alignment-from-assumptions -gvn -elim-avail-extern -float2int -callsite-splitting -aggressive-instcombine 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24972152709960938, -0.24972152709960938
+-adce -dfa-jump-threading -consthoist -aggressive-instcombine -bdce -guard-widening -gvn-hoist -canon-freeze -callsite-splitting -assume-builder -dce -inline -ipsccp -alignment-from-assumptions -constmerge -elim-avail-extern -hotcoldsplit -add-discriminators -annotation-remarks -gvn 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.517796516418457, -0.517796516418457
+-forceattrs -aggressive-instcombine -dse -attributor-cgscc -inline -simplifycfg -dfa-jump-threading -early-cse -globalopt -globalsplit -callsite-splitting -globaldce -annotation-remarks -alignment-from-assumptions -deadargelim -elim-avail-extern -ipsccp -assume-builder -constmerge -hotcoldsplit 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2602577209472656, -0.2602577209472656
+-inline -guard-widening -gvn-hoist -gvn -simplifycfg -canon-freeze -extract-blocks -hotcoldsplit -annotation2metadata -flattencfg -annotation-remarks -constmerge -callsite-splitting -alignment-from-assumptions -globalsplit -aggressive-instcombine -called-value-propagation -consthoist -constraint-elimination -div-rem-pairs 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2408008575439453, -0.2408008575439453
+-alignment-from-assumptions -cross-dso-cfi -callsite-splitting -globalopt -annotation2metadata -constmerge -canon-freeze -add-discriminators -globalsplit -annotation-remarks -dfa-jump-threading -hotcoldsplit -div-rem-pairs -always-inline -aggressive-instcombine -ipsccp -dse -gvn -assume-builder -dce 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24405694007873535, -0.24405694007873535
+-inline -early-cse-memssa -dfa-jump-threading -hotcoldsplit -assume-simplify -guard-widening -extract-blocks -early-cse -aggressive-instcombine -attributor -canon-freeze -adce -gvn -float2int -bdce -ipsccp -break-crit-edges -fix-irreducible -callsite-splitting -forceattrs 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.47162485122680664, -0.47162485122680664
+-called-value-propagation -gvn -globalopt -hotcoldsplit -aggressive-instcombine -correlated-propagation -globalsplit -div-rem-pairs -early-cse -guard-widening -callsite-splitting -alignment-from-assumptions -extract-blocks -always-inline -function-specialization -constmerge -cross-dso-cfi -deadargelim -dce -attributor 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.555901288986206, -0.555901288986206
+-dce -ipsccp -gvn -constmerge -annotation-remarks -simplifycfg -consthoist -inline -forceattrs -early-cse -alignment-from-assumptions -attributor -globalopt -elim-avail-extern -aggressive-instcombine -globalsplit -dfa-jump-threading -extract-blocks -callsite-splitting -assume-simplify 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2429213523864746, -0.2429213523864746
+-function-specialization -alignment-from-assumptions -globalopt -canon-freeze -dce -elim-avail-extern -consthoist -hotcoldsplit -aggressive-instcombine -globalsplit -dfa-jump-threading -called-value-propagation -gvn -ipsccp -guard-widening -globaldce -div-rem-pairs -gvn-hoist -cross-dso-cfi -simplifycfg 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2384488582611084, -0.2384488582611084
+-simplifycfg -always-inline -bdce -break-crit-edges -forceattrs -early-cse -globalopt -globalsplit -ipsccp -attributor-cgscc -dfa-jump-threading -alignment-from-assumptions -hotcoldsplit -flattencfg -callsite-splitting -aggressive-instcombine -float2int -adce -fix-irreducible -function-specialization 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.3436777591705322, -0.3436777591705322
+-add-discriminators -extract-blocks -globalopt -float2int -cross-dso-cfi -gvn -ipsccp -aggressive-instcombine -globalsplit -alignment-from-assumptions -constraint-elimination -assume-simplify -constmerge -assume-builder -guard-widening -elim-avail-extern -canon-freeze -annotation-remarks -hotcoldsplit -deadargelim 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.5092394351959229, -0.5092394351959229
+-canon-freeze -extract-blocks -attributor-cgscc -globalsplit -ipsccp -callsite-splitting -forceattrs -aggressive-instcombine -attributor -add-discriminators -early-cse -function-specialization -constraint-elimination -gvn-hoist -deadargelim -assume-builder -bdce -globaldce -hotcoldsplit -annotation2metadata 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.3099651336669922, -0.3099651336669922
+-div-rem-pairs -elim-avail-extern -globalopt -break-crit-edges -alignment-from-assumptions -assume-simplify -attributor-cgscc -annotation2metadata -extract-blocks -globalsplit -bdce -dfa-jump-threading -callsite-splitting -gvn -aggressive-instcombine -hotcoldsplit -early-cse -assume-builder -ipsccp -flattencfg 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.4970121383666992, -0.4970121383666992
+-deadargelim -elim-avail-extern -ipsccp -constraint-elimination -constmerge -gvn-hoist -annotation-remarks -aggressive-instcombine -add-discriminators -alignment-from-assumptions -float2int -hotcoldsplit -guard-widening -break-crit-edges -canon-freeze -globalsplit -consthoist -dse -adce -extract-blocks 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.43179917335510254, -0.43179917335510254
+-fix-irreducible -dfa-jump-threading -gvn -attributor -ipsccp -function-specialization -assume-builder -globalopt -float2int -inline -globalsplit -constraint-elimination -hotcoldsplit -attributor-cgscc -add-discriminators -aggressive-instcombine -callsite-splitting -deadargelim -bdce -extract-blocks 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.233231782913208, -0.233231782913208
+-forceattrs -aggressive-instcombine -cross-dso-cfi -early-cse -callsite-splitting -alignment-from-assumptions -simplifycfg -annotation-remarks -consthoist -elim-avail-extern -always-inline -gvn-hoist -assume-builder -assume-simplify -globalsplit -dfa-jump-threading -adce -ipsccp -correlated-propagation -hotcoldsplit 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.5364735126495361, -0.5364735126495361
+-flattencfg -globalsplit -gvn-hoist -simplifycfg -dse -dfa-jump-threading -gvn -forceattrs -constraint-elimination -inline -adce -break-crit-edges -guard-widening -canon-freeze -aggressive-instcombine -cross-dso-cfi -hotcoldsplit -attributor-cgscc -alignment-from-assumptions -early-cse 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.5516419410705566, -0.5516419410705566
+-aggressive-instcombine -constraint-elimination -deadargelim -early-cse-memssa -always-inline -ipsccp -bdce -globalsplit -elim-avail-extern -forceattrs -assume-simplify -hotcoldsplit -float2int -annotation-remarks -assume-builder -called-value-propagation -annotation2metadata -dfa-jump-threading -callsite-splitting -gvn 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.38634681701660156, -0.38634681701660156
+-simplifycfg -globalsplit -float2int -constmerge -callsite-splitting -aggressive-instcombine -ipsccp -dfa-jump-threading -alignment-from-assumptions -assume-builder -extract-blocks -deadargelim -attributor-cgscc -hotcoldsplit -forceattrs -bdce -gvn -called-value-propagation -always-inline -gvn-hoist 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24491667747497559, -0.24491667747497559
+-deadargelim -ipsccp -called-value-propagation -dfa-jump-threading -add-discriminators -float2int -always-inline -forceattrs -aggressive-instcombine -extract-blocks -gvn-hoist -alignment-from-assumptions -early-cse -elim-avail-extern -constmerge -bdce -callsite-splitting -correlated-propagation -globalopt -gvn 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.22892355918884277, -0.22892355918884277
+-deadargelim -aggressive-instcombine -alignment-from-assumptions -hotcoldsplit -dfa-jump-threading -elim-avail-extern -float2int -function-specialization -gvn -ipsccp -guard-widening -gvn-hoist -early-cse -dse -cross-dso-cfi -callsite-splitting -attributor -constmerge -globaldce -canon-freeze 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.23153257369995117, -0.23153257369995117
+-assume-builder -globalsplit -assume-simplify -break-crit-edges -div-rem-pairs -gvn -correlated-propagation -adce -hotcoldsplit -dce -deadargelim -extract-blocks -early-cse -aggressive-instcombine -float2int -ipsccp -alignment-from-assumptions -add-discriminators -cross-dso-cfi -constmerge 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.5174729824066162, -0.5174729824066162
+-constmerge -gvn -aggressive-instcombine -always-inline -assume-builder -annotation2metadata -function-specialization -called-value-propagation -early-cse -break-crit-edges -add-discriminators -callsite-splitting -dfa-jump-threading -dce -forceattrs -canon-freeze -alignment-from-assumptions -annotation-remarks -div-rem-pairs -ipsccp 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2518608570098877, -0.2518608570098877
+-annotation2metadata -aggressive-instcombine -attributor-cgscc -dce -assume-builder -ipsccp -add-discriminators -always-inline -bdce -function-specialization -extract-blocks -early-cse -break-crit-edges -float2int -dfa-jump-threading -gvn-hoist -annotation-remarks -gvn -canon-freeze -alignment-from-assumptions 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.28739285469055176, -0.28739285469055176
+-early-cse -callsite-splitting -correlated-propagation -add-discriminators -extract-blocks -attributor -ipsccp -assume-builder -hotcoldsplit -assume-simplify -elim-avail-extern -gvn -canon-freeze -alignment-from-assumptions -dfa-jump-threading -constmerge -globalopt -aggressive-instcombine -bdce -deadargelim 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2235400676727295, -0.2235400676727295
+-called-value-propagation -early-cse -gvn -dce -dse -ipsccp -globaldce -alignment-from-assumptions -assume-builder -deadargelim -extract-blocks -annotation2metadata -add-discriminators -elim-avail-extern -attributor -hotcoldsplit -break-crit-edges -flattencfg -aggressive-instcombine -callsite-splitting 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24046635627746582, -0.24046635627746582
+-annotation-remarks -flattencfg -ipsccp -globaldce -hotcoldsplit -assume-simplify -attributor -consthoist -assume-builder -dse -dce -constraint-elimination -add-discriminators -aggressive-instcombine -dfa-jump-threading -float2int -extract-blocks -deadargelim -adce -early-cse 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24829435348510742, -0.24829435348510742
+-correlated-propagation -early-cse -adce -globalopt -annotation-remarks -early-cse-memssa -guard-widening -callsite-splitting -add-discriminators -inline -hotcoldsplit -cross-dso-cfi -aggressive-instcombine -deadargelim -alignment-from-assumptions -ipsccp -assume-builder -globalsplit -bdce -dfa-jump-threading 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24297189712524414, -0.24297189712524414
+-alignment-from-assumptions -early-cse-memssa -forceattrs -aggressive-instcombine -consthoist -elim-avail-extern -constmerge -attributor -globalopt -ipsccp -break-crit-edges -assume-builder -correlated-propagation -early-cse -gvn-hoist -add-discriminators -attributor-cgscc -deadargelim -gvn -flattencfg 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.342510461807251, -0.342510461807251
+-globaldce -early-cse -ipsccp -alignment-from-assumptions -function-specialization -assume-simplify -guard-widening -globalopt -forceattrs -gvn -constmerge -dfa-jump-threading -float2int -hotcoldsplit -aggressive-instcombine -deadargelim -assume-builder -annotation-remarks -fix-irreducible -correlated-propagation 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.5398163795471191, -0.5398163795471191
+-hotcoldsplit -add-discriminators -function-specialization -assume-simplify -canon-freeze -correlated-propagation -assume-builder -aggressive-instcombine -gvn-hoist -dfa-jump-threading -ipsccp -attributor -constmerge -forceattrs -always-inline -fix-irreducible -called-value-propagation -gvn -div-rem-pairs -early-cse 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24251723289489746, -0.24251723289489746
+-cross-dso-cfi -break-crit-edges -forceattrs -annotation-remarks -assume-simplify -globaldce -attributor -aggressive-instcombine -early-cse-memssa -always-inline -dfa-jump-threading -assume-builder -deadargelim -attributor-cgscc -early-cse -add-discriminators -gvn-hoist -hotcoldsplit -ipsccp -adce 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24204111099243164, -0.24204111099243164
+-inline -forceattrs -called-value-propagation -callsite-splitting -guard-widening -aggressive-instcombine -fix-irreducible -gvn -gvn-hoist -deadargelim -ipsccp -globalsplit -assume-builder -alignment-from-assumptions -bdce -annotation-remarks -add-discriminators -early-cse -hotcoldsplit -consthoist 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.6436429023742676, -0.6436429023742676
+-globaldce -adce -flattencfg -constmerge -hotcoldsplit -break-crit-edges -float2int -div-rem-pairs -dfa-jump-threading -early-cse -ipsccp -elim-avail-extern -correlated-propagation -add-discriminators -annotation-remarks -forceattrs -gvn -extract-blocks -inline -deadargelim 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.27305102348327637, -0.27305102348327637
+-flattencfg -annotation-remarks -early-cse -dfa-jump-threading -div-rem-pairs -extract-blocks -aggressive-instcombine -fix-irreducible -assume-builder -elim-avail-extern -simplifycfg -ipsccp -hotcoldsplit -bdce -guard-widening -always-inline -forceattrs -alignment-from-assumptions -break-crit-edges -add-discriminators 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2454209327697754, -0.2454209327697754
+-aggressive-instcombine -div-rem-pairs -alignment-from-assumptions -flattencfg -attributor -gvn -annotation-remarks -ipsccp -globalsplit -early-cse -correlated-propagation -early-cse-memssa -bdce -constraint-elimination -assume-builder -hotcoldsplit -fix-irreducible -forceattrs -break-crit-edges -dfa-jump-threading 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2349226474761963, -0.2349226474761963
+-early-cse-memssa -fix-irreducible -aggressive-instcombine -constraint-elimination -bdce -annotation-remarks -simplifycfg -gvn-hoist -assume-builder -forceattrs -ipsccp -alignment-from-assumptions -early-cse -gvn -add-discriminators -hotcoldsplit -dfa-jump-threading -attributor-cgscc -annotation2metadata -div-rem-pairs 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2768585681915283, -0.2768585681915283
+-assume-builder -callsite-splitting -early-cse-memssa -annotation-remarks -forceattrs -add-discriminators -gvn -alignment-from-assumptions -globalsplit -extract-blocks -ipsccp -deadargelim -constmerge -dfa-jump-threading -aggressive-instcombine -break-crit-edges -attributor -bdce -canon-freeze -assume-simplify 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24219894409179688, -0.24219894409179688
+-assume-builder -alignment-from-assumptions -break-crit-edges -always-inline -add-discriminators -aggressive-instcombine -dfa-jump-threading -forceattrs -hotcoldsplit -early-cse-memssa -constmerge -ipsccp -gvn -early-cse -assume-simplify -attributor -fix-irreducible -bdce -attributor-cgscc -extract-blocks 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2640268802642822, -0.2640268802642822
+-early-cse-memssa -cross-dso-cfi -correlated-propagation -gvn -elim-avail-extern -alignment-from-assumptions -always-inline -forceattrs -ipsccp -gvn-hoist -div-rem-pairs -add-discriminators -globalsplit -bdce -assume-builder -early-cse -fix-irreducible -hotcoldsplit -constmerge -called-value-propagation 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.6504349708557129, -0.6504349708557129
+-callsite-splitting -constmerge -break-crit-edges -add-discriminators -dce -forceattrs -globalsplit -gvn -early-cse -flattencfg -assume-builder -aggressive-instcombine -div-rem-pairs -ipsccp -hotcoldsplit -always-inline -alignment-from-assumptions -deadargelim -bdce -cross-dso-cfi 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24384617805480957, -0.24384617805480957
+-gvn-hoist -fix-irreducible -callsite-splitting -alignment-from-assumptions -constmerge -guard-widening -add-discriminators -assume-simplify -dfa-jump-threading -inline -always-inline -bdce -forceattrs -hotcoldsplit -early-cse -gvn -break-crit-edges -assume-builder -ipsccp -aggressive-instcombine 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.6155052185058594, -0.6155052185058594
+-float2int -adce -gvn -hotcoldsplit -globaldce -add-discriminators -extract-blocks -attributor -flattencfg -callsite-splitting -div-rem-pairs -forceattrs -dfa-jump-threading -assume-builder -ipsccp -early-cse -aggressive-instcombine -fix-irreducible -break-crit-edges -constmerge 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2681765556335449, -0.2681765556335449
+-attributor -aggressive-instcombine -callsite-splitting -gvn-hoist -gvn -function-specialization -annotation-remarks -assume-simplify -simplifycfg -early-cse -bdce -ipsccp -fix-irreducible -assume-builder -break-crit-edges -flattencfg -forceattrs -constraint-elimination -dfa-jump-threading -add-discriminators 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24025201797485352, -0.24025201797485352
+-float2int -aggressive-instcombine -forceattrs -inline -gvn -ipsccp -simplifycfg -adce -bdce -add-discriminators -assume-builder -attributor-cgscc -constmerge -dfa-jump-threading -early-cse -hotcoldsplit -attributor -fix-irreducible -alignment-from-assumptions -always-inline 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.22827553749084473, -0.22827553749084473
+-aggressive-instcombine -early-cse-memssa -globaldce -forceattrs -fix-irreducible -dfa-jump-threading -deadargelim -gvn -hotcoldsplit -ipsccp -callsite-splitting -assume-builder -flattencfg -alignment-from-assumptions -bdce -add-discriminators -elim-avail-extern -early-cse -attributor -assume-simplify 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.22687530517578125, -0.22687530517578125
+-dfa-jump-threading -gvn -annotation2metadata -consthoist -attributor -elim-avail-extern -hotcoldsplit -ipsccp -early-cse-memssa -globalsplit -assume-simplify -aggressive-instcombine -bdce -early-cse -assume-builder -annotation-remarks -add-discriminators -forceattrs -globalopt -div-rem-pairs 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2481400966644287, -0.2481400966644287
+-early-cse-memssa -gvn -ipsccp -flattencfg -called-value-propagation -annotation2metadata -globalsplit -attributor -forceattrs -simplifycfg -early-cse -add-discriminators -aggressive-instcombine -hotcoldsplit -alignment-from-assumptions -assume-builder -extract-blocks -break-crit-edges -bdce -attributor-cgscc 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.3865377902984619, -0.3865377902984619
+-guard-widening -globalopt -ipsccp -inline -constmerge -callsite-splitting -alignment-from-assumptions -correlated-propagation -assume-builder -flattencfg -gvn -aggressive-instcombine -bdce -called-value-propagation -add-discriminators -simplifycfg -break-crit-edges -attributor -constraint-elimination -forceattrs 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.650484561920166, -0.650484561920166
+-fix-irreducible -elim-avail-extern -gvn -dse -annotation-remarks -constmerge -aggressive-instcombine -early-cse -early-cse-memssa -correlated-propagation -div-rem-pairs -ipsccp -assume-builder -bdce -callsite-splitting -forceattrs -always-inline -add-discriminators -globalopt -alignment-from-assumptions 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2281944751739502, -0.2281944751739502
+-globalsplit -add-discriminators -cross-dso-cfi -aggressive-instcombine -attributor -ipsccp -globaldce -gvn -early-cse -deadargelim -guard-widening -assume-builder -constmerge -bdce -break-crit-edges -fix-irreducible -assume-simplify -always-inline -early-cse-memssa -hotcoldsplit 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24306845664978027, -0.24306845664978027
+-bdce -aggressive-instcombine -ipsccp -early-cse-memssa -forceattrs -assume-builder -alignment-from-assumptions -gvn -dce -annotation-remarks -globalopt -break-crit-edges -fix-irreducible -always-inline -add-discriminators -extract-blocks -dfa-jump-threading -early-cse -callsite-splitting -attributor 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.23710966110229492, -0.23710966110229492
+-correlated-propagation -callsite-splitting -globalsplit -alignment-from-assumptions -add-discriminators -forceattrs -extract-blocks -ipsccp -gvn -assume-builder -hotcoldsplit -fix-irreducible -guard-widening -aggressive-instcombine -globalopt -bdce -early-cse-memssa -break-crit-edges -constmerge -div-rem-pairs 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2528543472290039, -0.2528543472290039
+-always-inline -assume-simplify -alignment-from-assumptions -forceattrs -aggressive-instcombine -assume-builder -gvn -early-cse-memssa -bdce -ipsccp -attributor-cgscc -break-crit-edges -fix-irreducible -early-cse -add-discriminators -deadargelim -div-rem-pairs -float2int -extract-blocks -dfa-jump-threading 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.2849764823913574, -0.2849764823913574
+-assume-builder -constraint-elimination -gvn -aggressive-instcombine -globalsplit -ipsccp -dfa-jump-threading -attributor -deadargelim -alignment-from-assumptions -break-crit-edges -dce -early-cse -div-rem-pairs -annotation-remarks -fix-irreducible -add-discriminators -globalopt -globaldce -inline 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.22690296173095703, -0.22690296173095703
+-attributor -early-cse -deadargelim -ipsccp -fix-irreducible -dfa-jump-threading -early-cse-memssa -always-inline -attributor-cgscc -hotcoldsplit -add-discriminators -break-crit-edges -annotation-remarks -assume-builder -elim-avail-extern -forceattrs -aggressive-instcombine -gvn -constraint-elimination -alignment-from-assumptions 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.22633028030395508, -0.22633028030395508
+-constraint-elimination -constmerge -add-discriminators -canon-freeze -deadargelim -ipsccp -forceattrs -assume-builder -attributor -fix-irreducible -gvn -bdce -consthoist -assume-simplify -elim-avail-extern -hotcoldsplit -adce -callsite-splitting -early-cse -annotation-remarks 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.22309470176696777, -0.22309470176696777
+-adce -canon-freeze -ipsccp -float2int -assume-builder -gvn -bdce -annotation-remarks -aggressive-instcombine -globalsplit -always-inline -early-cse -add-discriminators -attributor -dfa-jump-threading -callsite-splitting -alignment-from-assumptions -assume-simplify -early-cse-memssa -forceattrs 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24568867683410645, -0.24568867683410645
+-dse -globaldce -aggressive-instcombine -dfa-jump-threading -hotcoldsplit -gvn-hoist -guard-widening -inline -callsite-splitting -attributor -div-rem-pairs -ipsccp -globalsplit -early-cse -fix-irreducible -add-discriminators -gvn -assume-builder -simplifycfg -forceattrs 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.22740888595581055, -0.22740888595581055
+-ipsccp -hotcoldsplit -add-discriminators -forceattrs -float2int -gvn-hoist -gvn -aggressive-instcombine -assume-builder -early-cse -dce -called-value-propagation -alignment-from-assumptions -attributor -assume-simplify -bdce -break-crit-edges -consthoist -dfa-jump-threading -deadargelim 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24366497993469238, -0.24366497993469238
+-callsite-splitting -extract-blocks -float2int -flattencfg -aggressive-instcombine -assume-builder -early-cse -ipsccp -gvn -annotation-remarks -div-rem-pairs -add-discriminators -attributor -forceattrs -correlated-propagation -annotation2metadata -bdce -alignment-from-assumptions -consthoist -attributor-cgscc 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.37778782844543457, -0.37778782844543457
+-globaldce -adce -called-value-propagation -extract-blocks -guard-widening -ipsccp -break-crit-edges -simplifycfg -dce -annotation-remarks -gvn -callsite-splitting -assume-simplify -alignment-from-assumptions -early-cse -assume-builder -add-discriminators -attributor -hotcoldsplit -bdce 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.22279858589172363, -0.22279858589172363
+-extract-blocks -callsite-splitting -early-cse -ipsccp -attributor -aggressive-instcombine -simplifycfg -always-inline -hotcoldsplit -attributor-cgscc -annotation2metadata -assume-builder -alignment-from-assumptions -add-discriminators -forceattrs -gvn -dfa-jump-threading -globalopt -annotation-remarks -break-crit-edges 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.5666975975036621, -0.5666975975036621
+-consthoist -dce -flattencfg -alignment-from-assumptions -correlated-propagation -add-discriminators -ipsccp -aggressive-instcombine -gvn -annotation-remarks -break-crit-edges -assume-simplify -assume-builder -callsite-splitting -early-cse -forceattrs -dfa-jump-threading -attributor -bdce -extract-blocks 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.6491258144378662, -0.6491258144378662
+-dse -gvn -add-discriminators -callsite-splitting -ipsccp -extract-blocks -attributor -dfa-jump-threading -consthoist -bdce -deadargelim -assume-simplify -assume-builder -early-cse-memssa -early-cse -forceattrs -attributor-cgscc -fix-irreducible -alignment-from-assumptions -aggressive-instcombine 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.25218725204467773, -0.25218725204467773
+-forceattrs -assume-simplify -early-cse-memssa -deadargelim -always-inline -attributor -dfa-jump-threading -ipsccp -gvn -alignment-from-assumptions -flattencfg -early-cse -assume-builder -attributor-cgscc -called-value-propagation -aggressive-instcombine -break-crit-edges -bdce -callsite-splitting -fix-irreducible 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.26300644874572754, -0.26300644874572754
+-gvn -function-specialization -early-cse-memssa -bdce -globalsplit -ipsccp -float2int -break-crit-edges -add-discriminators -alignment-from-assumptions -extract-blocks -simplifycfg -assume-builder -assume-simplify -attributor -deadargelim -early-cse -fix-irreducible -dfa-jump-threading -called-value-propagation 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.22928404808044434, -0.22928404808044434
+-elim-avail-extern -canon-freeze -forceattrs -aggressive-instcombine -always-inline -correlated-propagation -early-cse -ipsccp -add-discriminators -gvn -bdce -callsite-splitting -assume-builder -gvn-hoist -deadargelim -alignment-from-assumptions -early-cse-memssa -attributor-cgscc -attributor -assume-simplify 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24352765083312988, -0.24352765083312988
+-attributor -always-inline -dse -inline -bdce -fix-irreducible -early-cse -float2int -ipsccp -forceattrs -assume-builder -gvn -alignment-from-assumptions -add-discriminators -deadargelim -gvn-hoist -attributor-cgscc -assume-simplify -annotation-remarks -called-value-propagation 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.24850916862487793, -0.24850916862487793
+-bdce -float2int -constmerge -ipsccp -assume-builder -early-cse -called-value-propagation -gvn -inline -alignment-from-assumptions -early-cse-memssa -forceattrs -gvn-hoist -annotation2metadata -add-discriminators -deadargelim -flattencfg -correlated-propagation -callsite-splitting -consthoist 
+shootout-random: 0.21999263763427734, inf, inf, inf, 0.5420515537261963, -0.5420515537261963
+-bdce -extract-blocks -consthoist -break-crit-edges -assume-builder -assume-simplify -gvn -attributor -ipsccp -add-discriminators -early-cse -forceattrs -early-cse-memssa -dfa-jump-threading -alignment-from-assumptions -correlated-propagation -attributor-cgscc -deadargelim -hotcoldsplit -callsite-splitting 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2182331085205078, -0.2182331085205078
+-annotation2metadata -dfa-jump-threading -called-value-propagation -fix-irreducible -hotcoldsplit -forceattrs -ipsccp -dse -inline -gvn -assume-simplify -aggressive-instcombine -assume-builder -deadargelim -early-cse -flattencfg -attributor-cgscc -annotation-remarks -attributor -globaldce 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2771439552307129, -0.2771439552307129
+-extract-blocks -hotcoldsplit -alignment-from-assumptions -cross-dso-cfi -ipsccp -early-cse -dfa-jump-threading -assume-builder -forceattrs -add-discriminators -callsite-splitting -gvn -bdce -called-value-propagation -aggressive-instcombine -break-crit-edges -deadargelim -attributor-cgscc -float2int -correlated-propagation 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23279166221618652, -0.23279166221618652
+-forceattrs -callsite-splitting -assume-builder -simplifycfg -adce -gvn -aggressive-instcombine -ipsccp -alignment-from-assumptions -early-cse -dfa-jump-threading -add-discriminators -bdce -annotation-remarks -assume-simplify -inline -attributor-cgscc -attributor -deadargelim -correlated-propagation 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.244307279586792, -0.244307279586792
+-assume-simplify -globalopt -assume-builder -simplifycfg -gvn -early-cse -ipsccp -add-discriminators -break-crit-edges -forceattrs -dce -bdce -deadargelim -constmerge -consthoist -guard-widening -aggressive-instcombine -early-cse-memssa -inline -attributor-cgscc 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.24094128608703613, -0.24094128608703613
+-assume-builder -dce -ipsccp -gvn -forceattrs -assume-simplify -early-cse -break-crit-edges -globalsplit -alignment-from-assumptions -add-discriminators -inline -correlated-propagation -bdce -fix-irreducible -dfa-jump-threading -attributor-cgscc -attributor -deadargelim -dse 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.29073333740234375, -0.29073333740234375
+-assume-builder -simplifycfg -break-crit-edges -always-inline -alignment-from-assumptions -dse -ipsccp -bdce -forceattrs -gvn -extract-blocks -early-cse -add-discriminators -canon-freeze -globalsplit -aggressive-instcombine -dfa-jump-threading -annotation-remarks -hotcoldsplit -attributor-cgscc 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.22415518760681152, -0.22415518760681152
+-canon-freeze -callsite-splitting -assume-simplify -early-cse -ipsccp -inline -gvn -correlated-propagation -attributor-cgscc -forceattrs -dce -assume-builder -hotcoldsplit -alignment-from-assumptions -bdce -add-discriminators -annotation2metadata -attributor -dfa-jump-threading -aggressive-instcombine 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.26181769371032715, -0.26181769371032715
+-always-inline -constraint-elimination -inline -gvn-hoist -adce -gvn -bdce -ipsccp -add-discriminators -alignment-from-assumptions -function-specialization -early-cse -callsite-splitting -assume-builder -aggressive-instcombine -forceattrs -assume-simplify -attributor-cgscc -correlated-propagation -simplifycfg 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.31720662117004395, -0.31720662117004395
+-ipsccp -forceattrs -dce -guard-widening -attributor -add-discriminators -flattencfg -dfa-jump-threading -break-crit-edges -bdce -assume-builder -early-cse -alignment-from-assumptions -callsite-splitting -gvn -attributor-cgscc -annotation-remarks -aggressive-instcombine -assume-simplify -fix-irreducible 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23559927940368652, -0.23559927940368652
+-hotcoldsplit -assume-simplify -break-crit-edges -early-cse-memssa -attributor -bdce -alignment-from-assumptions -early-cse -assume-builder -ipsccp -consthoist -gvn -forceattrs -constmerge -deadargelim -dce -float2int -add-discriminators -dfa-jump-threading -correlated-propagation 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.22425174713134766, -0.22425174713134766
+-constmerge -callsite-splitting -add-discriminators -attributor-cgscc -attributor -forceattrs -ipsccp -aggressive-instcombine -assume-builder -alignment-from-assumptions -early-cse -gvn -deadargelim -consthoist -bdce -assume-simplify -float2int -dfa-jump-threading -correlated-propagation -annotation-remarks 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23237180709838867, -0.23237180709838867
+-fix-irreducible -annotation-remarks -add-discriminators -early-cse-memssa -ipsccp -forceattrs -bdce -deadargelim -assume-builder -early-cse -attributor -gvn -aggressive-instcombine -correlated-propagation -adce -float2int -globalsplit -alignment-from-assumptions -constmerge -consthoist 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.22219133377075195, -0.22219133377075195
+-constmerge -assume-builder -ipsccp -callsite-splitting -simplifycfg -assume-simplify -alignment-from-assumptions -forceattrs -add-discriminators -aggressive-instcombine -bdce -dfa-jump-threading -early-cse -gvn -float2int -attributor-cgscc -deadargelim -globalopt -correlated-propagation -gvn-hoist 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.22393202781677246, -0.22393202781677246
+-early-cse-memssa -forceattrs -early-cse -attributor -assume-builder -add-discriminators -hotcoldsplit -dfa-jump-threading -elim-avail-extern -aggressive-instcombine -ipsccp -alignment-from-assumptions -gvn -break-crit-edges -deadargelim -correlated-propagation -bdce -consthoist -fix-irreducible -simplifycfg 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.22867655754089355, -0.22867655754089355
+-ipsccp -consthoist -function-specialization -callsite-splitting -forceattrs -elim-avail-extern -early-cse -gvn -alignment-from-assumptions -bdce -guard-widening -assume-builder -annotation-remarks -correlated-propagation -add-discriminators -aggressive-instcombine -attributor -deadargelim -globalopt -dfa-jump-threading 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.4530489444732666, -0.4530489444732666
+-forceattrs -globalopt -dfa-jump-threading -assume-builder -aggressive-instcombine -ipsccp -add-discriminators -gvn -extract-blocks -early-cse -alignment-from-assumptions -bdce -correlated-propagation -attributor -annotation-remarks -annotation2metadata -constmerge -guard-widening -hotcoldsplit -break-crit-edges 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2331092357635498, -0.2331092357635498
+-aggressive-instcombine -ipsccp -hotcoldsplit -simplifycfg -assume-builder -adce -globaldce -add-discriminators -bdce -dfa-jump-threading -early-cse -forceattrs -alignment-from-assumptions -gvn -gvn-hoist -attributor-cgscc -break-crit-edges -globalopt -inline -correlated-propagation 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.6289305686950684, -0.6289305686950684
+-guard-widening -correlated-propagation -dfa-jump-threading -gvn -dce -forceattrs -break-crit-edges -ipsccp -add-discriminators -constmerge -aggressive-instcombine -globalopt -alignment-from-assumptions -assume-builder -early-cse -bdce -simplifycfg -callsite-splitting -attributor -fix-irreducible 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.48235321044921875, -0.48235321044921875
+-dse -bdce -ipsccp -simplifycfg -float2int -dfa-jump-threading -assume-simplify -aggressive-instcombine -early-cse -gvn -forceattrs -attributor -assume-builder -consthoist -add-discriminators -callsite-splitting -break-crit-edges -alignment-from-assumptions -fix-irreducible -dce 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2443709373474121, -0.2443709373474121
+-dfa-jump-threading -forceattrs -canon-freeze -bdce -attributor -constmerge -aggressive-instcombine -ipsccp -early-cse-memssa -assume-builder -adce -gvn -add-discriminators -float2int -early-cse -annotation-remarks -correlated-propagation -assume-simplify -consthoist -gvn-hoist 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.22841167449951172, -0.22841167449951172
+-constraint-elimination -function-specialization -constmerge -inline -ipsccp -extract-blocks -forceattrs -assume-simplify -aggressive-instcombine -called-value-propagation -bdce -attributor -add-discriminators -assume-builder -early-cse -annotation-remarks -dfa-jump-threading -break-crit-edges -simplifycfg -fix-irreducible 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.5449354648590088, -0.5449354648590088
+-annotation2metadata -inline -gvn-hoist -attributor -guard-widening -correlated-propagation -forceattrs -dfa-jump-threading -ipsccp -early-cse-memssa -early-cse -bdce -assume-builder -aggressive-instcombine -add-discriminators -constraint-elimination -break-crit-edges -alignment-from-assumptions -assume-simplify -gvn 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.24144697189331055, -0.24144697189331055
+-assume-builder -fix-irreducible -globaldce -bdce -early-cse -ipsccp -hotcoldsplit -float2int -gvn -dfa-jump-threading -guard-widening -forceattrs -constmerge -correlated-propagation -consthoist -aggressive-instcombine -add-discriminators -assume-simplify -elim-avail-extern -annotation-remarks 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2293987274169922, -0.2293987274169922
+-correlated-propagation -dfa-jump-threading -assume-simplify -ipsccp -gvn -assume-builder -forceattrs -add-discriminators -consthoist -bdce -early-cse -aggressive-instcombine -annotation-remarks -callsite-splitting -hotcoldsplit -attributor-cgscc -alignment-from-assumptions -attributor -fix-irreducible -constmerge 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.22840285301208496, -0.22840285301208496
+-hotcoldsplit -dfa-jump-threading -forceattrs -ipsccp -attributor -assume-builder -add-discriminators -globalsplit -constmerge -gvn -correlated-propagation -early-cse -assume-simplify -bdce -fix-irreducible -aggressive-instcombine -annotation-remarks -guard-widening -dce -consthoist 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.24778223037719727, -0.24778223037719727
+-assume-simplify -fix-irreducible -consthoist -canon-freeze -bdce -ipsccp -add-discriminators -annotation-remarks -assume-builder -aggressive-instcombine -early-cse -forceattrs -gvn -dfa-jump-threading -constmerge -attributor -correlated-propagation -globaldce -break-crit-edges -float2int 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.22452759742736816, -0.22452759742736816
+-attributor -ipsccp -early-cse -aggressive-instcombine -annotation-remarks -float2int -adce -bdce -forceattrs -dfa-jump-threading -constraint-elimination -assume-builder -add-discriminators -gvn-hoist -assume-simplify -annotation2metadata -consthoist -gvn -correlated-propagation -hotcoldsplit 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.4501986503601074, -0.4501986503601074
+-globalsplit -early-cse-memssa -bdce -constmerge -deadargelim -constraint-elimination -forceattrs -ipsccp -gvn -correlated-propagation -early-cse -dfa-jump-threading -assume-builder -aggressive-instcombine -add-discriminators -fix-irreducible -assume-simplify -annotation2metadata -globaldce -adce 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23207736015319824, -0.23207736015319824
+-globalsplit -gvn -assume-simplify -attributor -callsite-splitting -globalopt -ipsccp -bdce -assume-builder -forceattrs -early-cse -add-discriminators -alignment-from-assumptions -correlated-propagation -aggressive-instcombine -annotation-remarks -gvn-hoist -constmerge -dfa-jump-threading -consthoist 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.22031545639038086, -0.22031545639038086
+-forceattrs -assume-builder -dse -aggressive-instcombine -ipsccp -bdce -correlated-propagation -alignment-from-assumptions -add-discriminators -float2int -guard-widening -dfa-jump-threading -attributor -early-cse -hotcoldsplit -assume-simplify -flattencfg -adce -break-crit-edges -constraint-elimination 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2658729553222656, -0.2658729553222656
+-add-discriminators -assume-simplify -always-inline -break-crit-edges -globalsplit -ipsccp -early-cse -constmerge -assume-builder -forceattrs -gvn -correlated-propagation -dfa-jump-threading -bdce -aggressive-instcombine -fix-irreducible -early-cse-memssa -callsite-splitting -gvn-hoist -alignment-from-assumptions 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2531545162200928, -0.2531545162200928
+-forceattrs -ipsccp -assume-builder -aggressive-instcombine -bdce -correlated-propagation -alignment-from-assumptions -early-cse -elim-avail-extern -add-discriminators -fix-irreducible -dfa-jump-threading -constraint-elimination -assume-simplify -gvn -constmerge -annotation2metadata -simplifycfg -float2int -globaldce 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23537588119506836, -0.23537588119506836
+-div-rem-pairs -bdce -dfa-jump-threading -globalopt -annotation-remarks -adce -forceattrs -ipsccp -gvn -attributor -early-cse -add-discriminators -hotcoldsplit -assume-builder -assume-simplify -simplifycfg -correlated-propagation -aggressive-instcombine -consthoist -globalsplit 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.3727550506591797, -0.3727550506591797
+-ipsccp -attributor -break-crit-edges -dfa-jump-threading -attributor-cgscc -assume-builder -add-discriminators -forceattrs -early-cse -bdce -constmerge -dce -gvn -assume-simplify -aggressive-instcombine -correlated-propagation -hotcoldsplit -annotation-remarks -alignment-from-assumptions -callsite-splitting 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2360551357269287, -0.2360551357269287
+-break-crit-edges -annotation2metadata -fix-irreducible -alignment-from-assumptions -dce -assume-builder -ipsccp -callsite-splitting -gvn -forceattrs -add-discriminators -bdce -dfa-jump-threading -early-cse -correlated-propagation -attributor -annotation-remarks -consthoist -constmerge -assume-simplify 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.22795963287353516, -0.22795963287353516
+-elim-avail-extern -assume-simplify -annotation2metadata -bdce -forceattrs -ipsccp -attributor -gvn -early-cse -assume-builder -dfa-jump-threading -break-crit-edges -correlated-propagation -constmerge -annotation-remarks -add-discriminators -aggressive-instcombine -flattencfg -adce -float2int 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.3661682605743408, -0.3661682605743408
+-callsite-splitting -ipsccp -attributor-cgscc -float2int -forceattrs -constmerge -assume-builder -add-discriminators -dfa-jump-threading -attributor -assume-simplify -gvn-hoist -alignment-from-assumptions -deadargelim -early-cse -aggressive-instcombine -gvn -bdce -correlated-propagation -consthoist 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.3823678493499756, -0.3823678493499756
+-ipsccp -consthoist -bdce -elim-avail-extern -forceattrs -gvn -early-cse -dfa-jump-threading -early-cse-memssa -assume-builder -constmerge -add-discriminators -aggressive-instcombine -assume-simplify -annotation-remarks -hotcoldsplit -attributor-cgscc -adce -correlated-propagation -simplifycfg 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.4998779296875, -0.4998779296875
+-constmerge -correlated-propagation -break-crit-edges -gvn -assume-simplify -ipsccp -adce -dfa-jump-threading -deadargelim -add-discriminators -attributor -gvn-hoist -forceattrs -bdce -early-cse -assume-builder -guard-widening -aggressive-instcombine -annotation-remarks -early-cse-memssa 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.22427034378051758, -0.22427034378051758
+-attributor-cgscc -cross-dso-cfi -constmerge -ipsccp -gvn -add-discriminators -dfa-jump-threading -assume-builder -forceattrs -correlated-propagation -break-crit-edges -early-cse -consthoist -hotcoldsplit -gvn-hoist -adce -bdce -attributor -annotation-remarks -aggressive-instcombine 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2648606300354004, -0.2648606300354004
+-gvn-hoist -gvn -dfa-jump-threading -bdce -correlated-propagation -assume-builder -ipsccp -add-discriminators -early-cse -forceattrs -globalsplit -guard-widening -alignment-from-assumptions -annotation2metadata -attributor -constmerge -assume-simplify -aggressive-instcombine -consthoist -annotation-remarks 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.6414620876312256, -0.6414620876312256
+-globalopt -dfa-jump-threading -inline -annotation2metadata -correlated-propagation -alignment-from-assumptions -ipsccp -bdce -assume-builder -assume-simplify -aggressive-instcombine -forceattrs -add-discriminators -early-cse -attributor -constmerge -gvn -gvn-hoist -globalsplit -deadargelim 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.22217988967895508, -0.22217988967895508
+-fix-irreducible -assume-simplify -consthoist -attributor -ipsccp -attributor-cgscc -assume-builder -forceattrs -globalsplit -dfa-jump-threading -add-discriminators -guard-widening -early-cse -bdce -correlated-propagation -annotation-remarks -aggressive-instcombine -alignment-from-assumptions -constmerge -gvn 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.510277271270752, -0.510277271270752
+-forceattrs -dfa-jump-threading -gvn -correlated-propagation -canon-freeze -ipsccp -assume-builder -early-cse -add-discriminators -aggressive-instcombine -bdce -attributor-cgscc -constmerge -assume-simplify -annotation2metadata -break-crit-edges -annotation-remarks -consthoist -fix-irreducible -adce 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23697400093078613, -0.23697400093078613
+-ipsccp -dse -gvn -adce -gvn-hoist -add-discriminators -dfa-jump-threading -assume-builder -early-cse -consthoist -fix-irreducible -hotcoldsplit -bdce -forceattrs -attributor -assume-simplify -aggressive-instcombine -correlated-propagation -globaldce -globalsplit 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.25122690200805664, -0.25122690200805664
+-bdce -consthoist -early-cse -assume-simplify -forceattrs -globaldce -alignment-from-assumptions -correlated-propagation -assume-builder -dce -ipsccp -dfa-jump-threading -float2int -add-discriminators -guard-widening -aggressive-instcombine -constmerge -constraint-elimination -attributor -gvn-hoist 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2444772720336914, -0.2444772720336914
+-bdce -constmerge -ipsccp -gvn -assume-builder -adce -forceattrs -early-cse -dfa-jump-threading -add-discriminators -alignment-from-assumptions -assume-simplify -correlated-propagation -consthoist -break-crit-edges -always-inline -globalopt -fix-irreducible -deadargelim -aggressive-instcombine 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23122382164001465, -0.23122382164001465
+-attributor-cgscc -forceattrs -attributor -ipsccp -elim-avail-extern -add-discriminators -assume-builder -break-crit-edges -early-cse -dfa-jump-threading -bdce -correlated-propagation -assume-simplify -hotcoldsplit -constmerge -gvn -annotation-remarks -alignment-from-assumptions -aggressive-instcombine -consthoist 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2343153953552246, -0.2343153953552246
+-function-specialization -add-discriminators -hotcoldsplit -bdce -simplifycfg -gvn-hoist -ipsccp -assume-builder -aggressive-instcombine -forceattrs -early-cse -correlated-propagation -gvn -dfa-jump-threading -assume-simplify -constmerge -consthoist -attributor-cgscc -deadargelim -constraint-elimination 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2768573760986328, -0.2768573760986328
+-hotcoldsplit -ipsccp -forceattrs -attributor -correlated-propagation -gvn-hoist -assume-simplify -add-discriminators -early-cse -dfa-jump-threading -bdce -assume-builder -constraint-elimination -aggressive-instcombine -gvn -alignment-from-assumptions -constmerge -fix-irreducible -consthoist -break-crit-edges 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23741936683654785, -0.23741936683654785
+-bdce -forceattrs -assume-builder -ipsccp -gvn -early-cse -dfa-jump-threading -gvn-hoist -correlated-propagation -add-discriminators -assume-simplify -globalsplit -constmerge -break-crit-edges -aggressive-instcombine -annotation2metadata -consthoist -alignment-from-assumptions -attributor-cgscc -annotation-remarks 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23011398315429688, -0.23011398315429688
+-ipsccp -dfa-jump-threading -inline -forceattrs -constmerge -attributor -bdce -consthoist -assume-simplify -early-cse -assume-builder -break-crit-edges -add-discriminators -fix-irreducible -correlated-propagation -aggressive-instcombine -attributor-cgscc -globalopt -adce -gvn 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.26332807540893555, -0.26332807540893555
+-ipsccp -forceattrs -add-discriminators -assume-simplify -assume-builder -correlated-propagation -globalopt -attributor -gvn -early-cse -dfa-jump-threading -fix-irreducible -bdce -callsite-splitting -dse -constraint-elimination -aggressive-instcombine -annotation-remarks -constmerge -alignment-from-assumptions 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.24587392807006836, -0.24587392807006836
+-ipsccp -div-rem-pairs -simplifycfg -correlated-propagation -annotation-remarks -gvn -forceattrs -dfa-jump-threading -assume-builder -early-cse -bdce -globaldce -add-discriminators -constmerge -assume-simplify -break-crit-edges -callsite-splitting -guard-widening -aggressive-instcombine -gvn-hoist 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.24056291580200195, -0.24056291580200195
+-break-crit-edges -function-specialization -canon-freeze -add-discriminators -assume-builder -globalsplit -bdce -ipsccp -early-cse -forceattrs -assume-simplify -correlated-propagation -dfa-jump-threading -aggressive-instcombine -gvn -alignment-from-assumptions -gvn-hoist -always-inline -hotcoldsplit -simplifycfg 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23288846015930176, -0.23288846015930176
+-early-cse -assume-builder -dfa-jump-threading -deadargelim -ipsccp -add-discriminators -break-crit-edges -hotcoldsplit -correlated-propagation -constmerge -bdce -forceattrs -assume-simplify -gvn -aggressive-instcombine -annotation-remarks -attributor -gvn-hoist -globalsplit -alignment-from-assumptions 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2291553020477295, -0.2291553020477295
+-early-cse -ipsccp -fix-irreducible -constmerge -add-discriminators -dfa-jump-threading -forceattrs -guard-widening -float2int -annotation-remarks -correlated-propagation -consthoist -assume-simplify -bdce -assume-builder -aggressive-instcombine -gvn -globalopt -break-crit-edges -elim-avail-extern 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23803186416625977, -0.23803186416625977
+-function-specialization -forceattrs -gvn-hoist -aggressive-instcombine -correlated-propagation -dfa-jump-threading -ipsccp -add-discriminators -bdce -early-cse -assume-simplify -constmerge -assume-builder -fix-irreducible -called-value-propagation -alignment-from-assumptions -break-crit-edges -annotation-remarks -gvn -attributor-cgscc 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.24076366424560547, -0.24076366424560547
+-alignment-from-assumptions -dfa-jump-threading -bdce -break-crit-edges -cross-dso-cfi -ipsccp -annotation2metadata -assume-builder -extract-blocks -add-discriminators -fix-irreducible -early-cse -correlated-propagation -assume-simplify -hotcoldsplit -float2int -forceattrs -constmerge -gvn -aggressive-instcombine 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.678429126739502, -0.678429126739502
+-add-discriminators -ipsccp -bdce -alignment-from-assumptions -forceattrs -early-cse -assume-builder -constraint-elimination -dfa-jump-threading -gvn -break-crit-edges -correlated-propagation -aggressive-instcombine -constmerge -adce -dce -assume-simplify -annotation-remarks -guard-widening -simplifycfg 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.36283063888549805, -0.36283063888549805
+-globaldce -ipsccp -forceattrs -inline -globalsplit -aggressive-instcombine -gvn -dce -annotation-remarks -early-cse -assume-builder -add-discriminators -bdce -dfa-jump-threading -elim-avail-extern -correlated-propagation -assume-simplify -guard-widening -globalopt -hotcoldsplit 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2514333724975586, -0.2514333724975586
+-gvn-hoist -dfa-jump-threading -ipsccp -bdce -gvn -correlated-propagation -early-cse -add-discriminators -constmerge -assume-simplify -assume-builder -forceattrs -aggressive-instcombine -break-crit-edges -globalopt -adce -hotcoldsplit -annotation-remarks -inline -deadargelim 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.7109622955322266, -0.7109622955322266
+-break-crit-edges -early-cse -gvn -ipsccp -correlated-propagation -consthoist -add-discriminators -dfa-jump-threading -assume-builder -bdce -annotation2metadata -constmerge -forceattrs -adce -gvn-hoist -assume-simplify -aggressive-instcombine -globalopt -alignment-from-assumptions -hotcoldsplit 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23525333404541016, -0.23525333404541016
+-add-discriminators -early-cse-memssa -correlated-propagation -globaldce -bdce -dfa-jump-threading -gvn -assume-builder -ipsccp -forceattrs -early-cse -constmerge -assume-simplify -guard-widening -break-crit-edges -aggressive-instcombine -hotcoldsplit -adce -consthoist -alignment-from-assumptions 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23671793937683105, -0.23671793937683105
+-dce -bdce -aggressive-instcombine -ipsccp -forceattrs -dfa-jump-threading -annotation-remarks -assume-builder -add-discriminators -early-cse -correlated-propagation -constmerge -adce -hotcoldsplit -guard-widening -break-crit-edges -globalopt -assume-simplify -gvn -globaldce 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.24919676780700684, -0.24919676780700684
+-add-discriminators -assume-builder -attributor -assume-simplify -dfa-jump-threading -ipsccp -forceattrs -early-cse -bdce -constmerge -break-crit-edges -correlated-propagation -gvn -flattencfg -aggressive-instcombine -fix-irreducible -adce -guard-widening -globalopt -alignment-from-assumptions 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.25704479217529297, -0.25704479217529297
+-assume-builder -gvn -dfa-jump-threading -ipsccp -break-crit-edges -add-discriminators -forceattrs -early-cse -bdce -assume-simplify -deadargelim -correlated-propagation -aggressive-instcombine -hotcoldsplit -constmerge -globalsplit -adce -extract-blocks -fix-irreducible -always-inline 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.24932026863098145, -0.24932026863098145
+-gvn -dfa-jump-threading -ipsccp -add-discriminators -assume-builder -annotation-remarks -forceattrs -bdce -early-cse -correlated-propagation -globalopt -globaldce -assume-simplify -constmerge -aggressive-instcombine -attributor-cgscc -adce -hotcoldsplit -float2int -break-crit-edges 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.5495467185974121, -0.5495467185974121
+-add-discriminators -annotation2metadata -inline -dfa-jump-threading -adce -canon-freeze -ipsccp -correlated-propagation -assume-builder -constmerge -early-cse -always-inline -guard-widening -bdce -forceattrs -annotation-remarks -gvn -break-crit-edges -hotcoldsplit -assume-simplify 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.24140262603759766, -0.24140262603759766
+-constmerge -always-inline -deadargelim -add-discriminators -guard-widening -gvn -ipsccp -aggressive-instcombine -dfa-jump-threading -bdce -function-specialization -correlated-propagation -forceattrs -assume-builder -early-cse -assume-simplify -globalopt -alignment-from-assumptions -fix-irreducible -adce 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23505949974060059, -0.23505949974060059
+-constmerge -ipsccp -dce -bdce -adce -add-discriminators -dfa-jump-threading -early-cse -forceattrs -assume-builder -gvn -correlated-propagation -assume-simplify -globaldce -hotcoldsplit -alignment-from-assumptions -gvn-hoist -aggressive-instcombine -break-crit-edges -globalopt 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.41237974166870117, -0.41237974166870117
+-gvn -forceattrs -early-cse -ipsccp -bdce -dfa-jump-threading -break-crit-edges -callsite-splitting -add-discriminators -assume-builder -simplifycfg -correlated-propagation -alignment-from-assumptions -constmerge -adce -aggressive-instcombine -annotation-remarks -globalopt -deadargelim -hotcoldsplit 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.3314244747161865, -0.3314244747161865
+-ipsccp -forceattrs -dfa-jump-threading -attributor-cgscc -break-crit-edges -add-discriminators -gvn -bdce -early-cse -assume-builder -aggressive-instcombine -constmerge -correlated-propagation -annotation-remarks -assume-simplify -hotcoldsplit -flattencfg -alignment-from-assumptions -adce -globaldce 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.5620427131652832, -0.5620427131652832
+-gvn-hoist -break-crit-edges -assume-builder -assume-simplify -add-discriminators -ipsccp -early-cse -always-inline -bdce -dfa-jump-threading -adce -alignment-from-assumptions -hotcoldsplit -forceattrs -constmerge -correlated-propagation -gvn -aggressive-instcombine -globaldce -annotation-remarks 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.5478310585021973, -0.5478310585021973
+-ipsccp -forceattrs -add-discriminators -early-cse -bdce -globalopt -assume-simplify -adce -simplifycfg -constmerge -gvn -dfa-jump-threading -hotcoldsplit -correlated-propagation -aggressive-instcombine -globaldce -assume-builder -break-crit-edges -always-inline -fix-irreducible 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.24669837951660156, -0.24669837951660156
+-globaldce -fix-irreducible -aggressive-instcombine -bdce -break-crit-edges -ipsccp -gvn -adce -early-cse -forceattrs -dfa-jump-threading -add-discriminators -annotation-remarks -constmerge -assume-simplify -correlated-propagation -hotcoldsplit -assume-builder -attributor-cgscc -alignment-from-assumptions 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.40482330322265625, -0.40482330322265625
+-assume-simplify -ipsccp -early-cse-memssa -early-cse -correlated-propagation -add-discriminators -bdce -dfa-jump-threading -hotcoldsplit -globaldce -forceattrs -constmerge -alignment-from-assumptions -adce -assume-builder -gvn -break-crit-edges -annotation-remarks -fix-irreducible -aggressive-instcombine 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.24467015266418457, -0.24467015266418457
+-function-specialization -ipsccp -fix-irreducible -bdce -attributor-cgscc -break-crit-edges -globaldce -early-cse -dfa-jump-threading -add-discriminators -assume-builder -hotcoldsplit -correlated-propagation -forceattrs -adce -gvn -constmerge -assume-simplify -aggressive-instcombine -annotation-remarks 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.29474425315856934, -0.29474425315856934
+-gvn -forceattrs -hotcoldsplit -ipsccp -bdce -correlated-propagation -add-discriminators -early-cse -assume-builder -annotation-remarks -dfa-jump-threading -assume-simplify -globaldce -break-crit-edges -constmerge -adce -dce -aggressive-instcombine -simplifycfg -globalopt 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.24009943008422852, -0.24009943008422852
+-fix-irreducible -bdce -break-crit-edges -assume-simplify -add-discriminators -hotcoldsplit -adce -gvn-hoist -ipsccp -early-cse -forceattrs -dfa-jump-threading -globaldce -correlated-propagation -gvn -alignment-from-assumptions -assume-builder -aggressive-instcombine -constmerge -annotation-remarks 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.7120110988616943, -0.7120110988616943
+-gvn -globalsplit -bdce -assume-builder -correlated-propagation -ipsccp -early-cse -add-discriminators -dfa-jump-threading -forceattrs -assume-simplify -break-crit-edges -hotcoldsplit -aggressive-instcombine -constmerge -adce -annotation-remarks -globaldce -attributor-cgscc -guard-widening 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.4861564636230469, -0.4861564636230469
+-cross-dso-cfi -early-cse -bdce -assume-builder -ipsccp -dce -add-discriminators -deadargelim -gvn -forceattrs -aggressive-instcombine -assume-simplify -correlated-propagation -dfa-jump-threading -hotcoldsplit -break-crit-edges -constmerge -adce -annotation-remarks -guard-widening 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.6506712436676025, -0.6506712436676025
+-attributor-cgscc -add-discriminators -assume-simplify -hotcoldsplit -ipsccp -assume-builder -bdce -forceattrs -early-cse -dfa-jump-threading -constmerge -aggressive-instcombine -correlated-propagation -break-crit-edges -adce -gvn -annotation-remarks -fix-irreducible -globaldce -always-inline 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23809218406677246, -0.23809218406677246
+-add-discriminators -hotcoldsplit -forceattrs -early-cse -ipsccp -gvn -bdce -dfa-jump-threading -correlated-propagation -assume-simplify -assume-builder -annotation-remarks -constmerge -elim-avail-extern -adce -globaldce -aggressive-instcombine -break-crit-edges -early-cse-memssa -always-inline 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2456502914428711, -0.2456502914428711
+-early-cse -assume-simplify -bdce -ipsccp -annotation-remarks -forceattrs -correlated-propagation -add-discriminators -dfa-jump-threading -constmerge -aggressive-instcombine -hotcoldsplit -assume-builder -gvn -globaldce -break-crit-edges -adce -fix-irreducible -guard-widening -inline 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2579081058502197, -0.2579081058502197
+-aggressive-instcombine -globaldce -ipsccp -float2int -bdce -early-cse -forceattrs -add-discriminators -guard-widening -correlated-propagation -gvn -break-crit-edges -dfa-jump-threading -assume-simplify -hotcoldsplit -assume-builder -constmerge -annotation-remarks -cross-dso-cfi -adce 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.289661169052124, -0.289661169052124
+-constraint-elimination -callsite-splitting -adce -ipsccp -gvn -early-cse -hotcoldsplit -add-discriminators -annotation2metadata -bdce -forceattrs -dfa-jump-threading -assume-builder -assume-simplify -annotation-remarks -constmerge -aggressive-instcombine -correlated-propagation -globaldce -break-crit-edges 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.39375829696655273, -0.39375829696655273
+-constraint-elimination -forceattrs -assume-simplify -annotation-remarks -bdce -aggressive-instcombine -ipsccp -add-discriminators -early-cse -attributor-cgscc -correlated-propagation -dfa-jump-threading -assume-builder -hotcoldsplit -constmerge -globaldce -adce -gvn -inline -break-crit-edges 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.5228896141052246, -0.5228896141052246
+-bdce -adce -early-cse -ipsccp -annotation-remarks -fix-irreducible -assume-builder -constmerge -dfa-jump-threading -forceattrs -add-discriminators -assume-simplify -always-inline -hotcoldsplit -gvn -break-crit-edges -globaldce -correlated-propagation -aggressive-instcombine -consthoist 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.341738224029541, -0.341738224029541
+-aggressive-instcombine -add-discriminators -elim-avail-extern -forceattrs -bdce -ipsccp -gvn -correlated-propagation -early-cse -break-crit-edges -hotcoldsplit -dfa-jump-threading -annotation-remarks -assume-builder -globaldce -assume-simplify -adce -constmerge -attributor-cgscc -always-inline 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.5413491725921631, -0.5413491725921631
+-hotcoldsplit -early-cse -assume-builder -gvn -ipsccp -bdce -early-cse-memssa -constmerge -forceattrs -add-discriminators -assume-simplify -dfa-jump-threading -globaldce -adce -annotation-remarks -correlated-propagation -consthoist -break-crit-edges -aggressive-instcombine -inline 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23824143409729004, -0.23824143409729004
+-early-cse -assume-simplify -bdce -ipsccp -fix-irreducible -forceattrs -dfa-jump-threading -gvn -add-discriminators -assume-builder -correlated-propagation -constmerge -aggressive-instcombine -adce -globaldce -cross-dso-cfi -break-crit-edges -hotcoldsplit -annotation-remarks -alignment-from-assumptions 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23325157165527344, -0.23325157165527344
+-float2int -cross-dso-cfi -bdce -early-cse -ipsccp -dfa-jump-threading -hotcoldsplit -forceattrs -add-discriminators -simplifycfg -assume-builder -gvn -adce -alignment-from-assumptions -assume-simplify -correlated-propagation -constmerge -annotation-remarks -break-crit-edges -aggressive-instcombine 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23003363609313965, -0.23003363609313965
+-cross-dso-cfi -forceattrs -correlated-propagation -ipsccp -dfa-jump-threading -bdce -gvn -constmerge -add-discriminators -early-cse -assume-builder -assume-simplify -aggressive-instcombine -adce -hotcoldsplit -break-crit-edges -annotation-remarks -globaldce -globalsplit -always-inline 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.22941803932189941, -0.22941803932189941
+-inline -early-cse -add-discriminators -ipsccp -bdce -dfa-jump-threading -adce -assume-builder -globaldce -assume-simplify -forceattrs -constmerge -hotcoldsplit -correlated-propagation -gvn -consthoist -break-crit-edges -annotation-remarks -aggressive-instcombine -attributor-cgscc 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2490983009338379, -0.2490983009338379
+-correlated-propagation -add-discriminators -dfa-jump-threading -early-cse -bdce -ipsccp -hotcoldsplit -constmerge -assume-builder -forceattrs -early-cse-memssa -assume-simplify -gvn -adce -aggressive-instcombine -annotation-remarks -deadargelim -break-crit-edges -globalsplit -always-inline 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2504415512084961, -0.2504415512084961
+-deadargelim -alignment-from-assumptions -called-value-propagation -add-discriminators -ipsccp -bdce -forceattrs -assume-builder -early-cse -globalsplit -aggressive-instcombine -dfa-jump-threading -gvn -assume-simplify -correlated-propagation -adce -constmerge -annotation-remarks -break-crit-edges -hotcoldsplit 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2529628276824951, -0.2529628276824951
+-add-discriminators -bdce -ipsccp -assume-builder -attributor-cgscc -alignment-from-assumptions -early-cse -forceattrs -globaldce -hotcoldsplit -adce -correlated-propagation -dfa-jump-threading -assume-simplify -annotation-remarks -aggressive-instcombine -gvn -constmerge -break-crit-edges -always-inline 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2353224754333496, -0.2353224754333496
+-consthoist -ipsccp -bdce -forceattrs -gvn -early-cse -guard-widening -assume-builder -add-discriminators -constmerge -hotcoldsplit -correlated-propagation -dfa-jump-threading -adce -break-crit-edges -assume-simplify -annotation-remarks -aggressive-instcombine -alignment-from-assumptions -fix-irreducible 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.33773207664489746, -0.33773207664489746
+-adce -hotcoldsplit -bdce -ipsccp -early-cse -assume-builder -dse -add-discriminators -dfa-jump-threading -gvn -forceattrs -annotation2metadata -assume-simplify -correlated-propagation -constmerge -break-crit-edges -annotation-remarks -aggressive-instcombine -attributor-cgscc -deadargelim 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2326803207397461, -0.2326803207397461
+-annotation-remarks -assume-simplify -aggressive-instcombine -add-discriminators -hotcoldsplit -bdce -forceattrs -early-cse -ipsccp -assume-builder -dfa-jump-threading -constmerge -correlated-propagation -adce -dce -fix-irreducible -gvn -break-crit-edges -early-cse-memssa -globaldce 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.4864821434020996, -0.4864821434020996
+-add-discriminators -assume-builder -bdce -ipsccp -always-inline -early-cse -annotation-remarks -globaldce -break-crit-edges -correlated-propagation -hotcoldsplit -forceattrs -aggressive-instcombine -constmerge -dfa-jump-threading -adce -assume-simplify -gvn -fix-irreducible -attributor-cgscc 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.4467446804046631, -0.4467446804046631
+-forceattrs -adce -gvn -ipsccp -bdce -break-crit-edges -add-discriminators -correlated-propagation -early-cse -annotation-remarks -extract-blocks -dfa-jump-threading -constmerge -aggressive-instcombine -assume-builder -assume-simplify -hotcoldsplit -globalopt -inline -fix-irreducible 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.6821107864379883, -0.6821107864379883
+-guard-widening -add-discriminators -simplifycfg -assume-builder -annotation-remarks -forceattrs -ipsccp -early-cse -bdce -aggressive-instcombine -gvn -assume-simplify -hotcoldsplit -correlated-propagation -dfa-jump-threading -adce -constmerge -break-crit-edges -annotation2metadata -always-inline 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23758816719055176, -0.23758816719055176
+-flattencfg -globaldce -ipsccp -forceattrs -early-cse -correlated-propagation -extract-blocks -bdce -add-discriminators -aggressive-instcombine -adce -assume-simplify -assume-builder -dfa-jump-threading -constmerge -hotcoldsplit -break-crit-edges -gvn -deadargelim -annotation-remarks 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.5430428981781006, -0.5430428981781006
+-function-specialization -alignment-from-assumptions -early-cse -assume-builder -dfa-jump-threading -break-crit-edges -ipsccp -add-discriminators -globalopt -bdce -consthoist -gvn -hotcoldsplit -forceattrs -deadargelim -constmerge -correlated-propagation -adce -assume-simplify -annotation-remarks 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.23720335960388184, -0.23720335960388184
+-hotcoldsplit -float2int -bdce -constmerge -always-inline -correlated-propagation -add-discriminators -forceattrs -ipsccp -dfa-jump-threading -early-cse -break-crit-edges -adce -gvn -assume-builder -annotation-remarks -deadargelim -assume-simplify -aggressive-instcombine -callsite-splitting 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.25113415718078613, -0.25113415718078613
+-dfa-jump-threading -bdce -ipsccp -early-cse -add-discriminators -consthoist -globaldce -assume-simplify -assume-builder -forceattrs -adce -constmerge -hotcoldsplit -aggressive-instcombine -gvn -correlated-propagation -annotation-remarks -always-inline -break-crit-edges -attributor-cgscc 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.28607916831970215, -0.28607916831970215
+-adce -dfa-jump-threading -assume-simplify -hotcoldsplit -bdce -forceattrs -ipsccp -add-discriminators -early-cse -constmerge -annotation-remarks -assume-builder -correlated-propagation -break-crit-edges -aggressive-instcombine -gvn -cross-dso-cfi -globaldce -guard-widening -gvn-hoist 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.29933619499206543, -0.29933619499206543
+-globalsplit -ipsccp -bdce -correlated-propagation -add-discriminators -break-crit-edges -assume-builder -forceattrs -early-cse -adce -annotation-remarks -hotcoldsplit -constmerge -dfa-jump-threading -gvn -assume-simplify -aggressive-instcombine -attributor-cgscc -deadargelim -globaldce 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.27551722526550293, -0.27551722526550293
+-assume-simplify -bdce -forceattrs -guard-widening -early-cse -add-discriminators -dfa-jump-threading -ipsccp -break-crit-edges -consthoist -correlated-propagation -hotcoldsplit -fix-irreducible -constmerge -gvn -deadargelim -aggressive-instcombine -assume-builder -annotation-remarks -adce 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.2328805923461914, -0.2328805923461914
+-bdce -hotcoldsplit -break-crit-edges -add-discriminators -ipsccp -globalopt -forceattrs -early-cse -constmerge -dfa-jump-threading -assume-builder -correlated-propagation -called-value-propagation -assume-simplify -annotation-remarks -gvn -adce -alignment-from-assumptions -aggressive-instcombine -deadargelim 
+shootout-random: 0.2182331085205078, inf, inf, inf, 0.5755105018615723, -0.5755105018615723
+-assume-simplify -simplifycfg -alignment-from-assumptions -forceattrs -inline -bdce -ipsccp -add-discriminators -early-cse -gvn -dfa-jump-threading -correlated-propagation -assume-builder -constmerge -adce -hotcoldsplit -always-inline -break-crit-edges -aggressive-instcombine -annotation-remarks 

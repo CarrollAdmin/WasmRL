@@ -1,0 +1,184 @@
+network_patricia: 0.5133063793182373, inf, inf, inf, 0.5133063793182373, -0.5133063793182373
+-loop-rotate -loop-idiom -strip-nondebug -dse -inline -gvn -indvars -alignment-from-assumptions -memcpyopt -sink -constmerge -libcalls-shrinkwrap -deadargelim -simple-loop-unswitch -lower-expect -sroa -ipsccp -tailcallelim -break-crit-edges -licm 
+network_patricia: 0.5133063793182373, inf, inf, inf, 0.6661977767944336, -0.6661977767944336
+-early-cse -instcombine -lcssa -inline -partial-inliner -sroa -adce -reassociate -lowerinvoke -indvars -jump-threading -sccp -loop-unroll -function-attrs -float2int -dse -simplifycfg -lowerswitch -globalopt -mem2reg 
+network_patricia: 0.5068767070770264, inf, inf, inf, 0.5068767070770264, -0.5068767070770264
+-mem2reg -loop-fusion -break-crit-edges -alignment-from-assumptions -inline -jump-threading -globalopt -libcalls-shrinkwrap -sink -sroa -gvn -instcombine -indvars -loop-simplify -adce -correlated-propagation -sccp -ipsccp -partial-inliner -lowerinvoke 
+network_patricia: 0.5068767070770264, inf, inf, inf, 0.5529429912567139, -0.5529429912567139
+-loop-deletion -dse -simple-loop-unswitch -mem2reg -correlated-propagation -licm -constmerge -loop-rotate -partial-inliner -reassociate -break-crit-edges -globalopt -indvars -lowerinvoke -adce -lowerswitch -function-attrs -instcombine -lower-expect -simplifycfg 
+network_patricia: 0.5068767070770264, inf, inf, inf, 0.6681811809539795, -0.6681811809539795
+-ipsccp -function-attrs -lowerswitch -tailcallelim -correlated-propagation -libcalls-shrinkwrap -adce -dse -reassociate -instcombine -float2int -mem2reg -globaldce -licm -lowerinvoke -strip -simple-loop-unswitch -sroa -gvn -early-cse 
+network_patricia: 0.5068767070770264, inf, inf, inf, 0.8479609489440918, -0.8479609489440918
+-jump-threading -correlated-propagation -ipsccp -loop-idiom -loop-simplify -globaldce -adce -dse -strip -indvars -globalopt -simplifycfg -simple-loop-unswitch -tailcallelim -gvn -loop-fusion -break-crit-edges -loop-rotate -loop-deletion -loweratomic 
+network_patricia: 0.5068767070770264, inf, inf, inf, 0.5156733989715576, -0.5156733989715576
+-memcpyopt -strip-nondebug -sccp -instcombine -adce -tailcallelim -lcssa -mem2reg -break-crit-edges -loweratomic -lower-expect -lowerswitch -loop-rotate -inline -float2int -gvn -ipsccp -globalopt -globaldce -dse 
+network_patricia: 0.5068678855895996, inf, inf, inf, 0.5068678855895996, -0.5068678855895996
+-adce -dse -strip -function-attrs -loop-rotate -tailcallelim -simplifycfg -loop-simplify -strip-nondebug -loop-reduce -ipsccp -partial-inliner -sroa -early-cse -reassociate -deadargelim -inline -libcalls-shrinkwrap -instcombine -simple-loop-unswitch 
+network_patricia: 0.5068678855895996, inf, inf, inf, 0.5306074619293213, -0.5306074619293213
+-loweratomic -simplifycfg -loop-deletion -globalopt -function-attrs -break-crit-edges -gvn -ipsccp -float2int -reassociate -inline -loop-unroll -mem2reg -licm -libcalls-shrinkwrap -adce -sink -alignment-from-assumptions -lowerswitch -loop-reduce 
+network_patricia: 0.5068678855895996, inf, inf, inf, 0.5190012454986572, -0.5190012454986572
+-lowerinvoke -simplifycfg -correlated-propagation -constmerge -sroa -strip -loop-idiom -tailcallelim -libcalls-shrinkwrap -gvn -memcpyopt -lower-expect -lcssa -instcombine -sccp -jump-threading -reg2mem -break-crit-edges -strip-nondebug -early-cse 
+network_patricia: 0.5068678855895996, inf, inf, inf, 0.9616799354553223, -0.9616799354553223
+-globaldce -instcombine -jump-threading -correlated-propagation -simplifycfg -sccp -strip -loop-simplify -licm -reg2mem -simple-loop-unswitch -mem2reg -ipsccp -early-cse -inline -loop-deletion -break-crit-edges -indvars -adce -reassociate 
+network_patricia: 0.5068678855895996, inf, inf, inf, 0.7453944683074951, -0.7453944683074951
+-inline -correlated-propagation -loop-rotate -instcombine -deadargelim -loop-unroll -strip-nondebug -gvn -sroa -sccp -loop-idiom -simplifycfg -globalopt -reassociate -loop-simplify -loop-deletion -mem2reg -adce -globaldce -early-cse 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.4909360408782959, -0.4909360408782959
+-correlated-propagation -instcombine -mem2reg -lowerinvoke -sccp -simplifycfg -lcssa -globaldce -inline -reg2mem -loop-deletion -jump-threading -simple-loop-unswitch -constmerge -adce -loop-rotate -globalopt -early-cse -loop-simplify -loop-idiom 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.24623703956604, -1.24623703956604
+-constmerge -lowerswitch -break-crit-edges -globaldce -loop-rotate -tailcallelim -indvars -strip -lowerinvoke -inline -sroa -alignment-from-assumptions -reg2mem -licm -loweratomic -loop-deletion -strip-nondebug -loop-simplify -reassociate -dse 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.8886702060699463, -0.8886702060699463
+-ipsccp -correlated-propagation -indvars -sroa -lowerinvoke -loop-rotate -loop-idiom -jump-threading -loop-simplify -globalopt -sink -lowerswitch -loweratomic -mem2reg -lcssa -strip-nondebug -sccp -alignment-from-assumptions -reg2mem -licm 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5836036205291748, -0.5836036205291748
+-tailcallelim -loop-idiom -adce -alignment-from-assumptions -lowerswitch -early-cse -loop-fusion -sink -loop-deletion -indvars -reg2mem -ipsccp -dse -mem2reg -loop-simplify -loop-rotate -instcombine -lcssa -reassociate -jump-threading 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5154757499694824, -0.5154757499694824
+-globaldce -indvars -tailcallelim -libcalls-shrinkwrap -correlated-propagation -partial-inliner -instcombine -loop-unroll -globalopt -break-crit-edges -ipsccp -adce -sroa -jump-threading -loweratomic -strip -loop-reduce -constmerge -inline -reassociate 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5133359432220459, -0.5133359432220459
+-inline -libcalls-shrinkwrap -break-crit-edges -constmerge -loweratomic -globaldce -loop-reduce -dse -loop-unroll -loop-simplify -memcpyopt -licm -sroa -loop-deletion -early-cse -lowerinvoke -indvars -tailcallelim -adce -mem2reg 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5184597969055176, -0.5184597969055176
+-lcssa -loop-idiom -adce -loop-fusion -indvars -loop-simplify -sccp -instcombine -ipsccp -float2int -reg2mem -strip-nondebug -sroa -mem2reg -globaldce -libcalls-shrinkwrap -lowerswitch -early-cse -licm -memcpyopt 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.7123298645019531, -0.7123298645019531
+-strip -break-crit-edges -simple-loop-unswitch -loop-fusion -instcombine -memcpyopt -partial-inliner -indvars -loweratomic -reg2mem -licm -inline -function-attrs -lcssa -globalopt -jump-threading -loop-rotate -lower-expect -sroa -loop-simplify 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.49112391471862793, -0.49112391471862793
+-loop-fusion -loop-reduce -jump-threading -loop-idiom -loop-deletion -mem2reg -partial-inliner -adce -lowerswitch -lowerinvoke -early-cse -reassociate -loweratomic -loop-simplify -correlated-propagation -instcombine -loop-rotate -strip -deadargelim -alignment-from-assumptions 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.0020513534545898, -1.0020513534545898
+-inline -loop-reduce -loop-idiom -sroa -jump-threading -sccp -loop-unroll -reg2mem -loop-fusion -deadargelim -memcpyopt -mem2reg -function-attrs -indvars -globalopt -break-crit-edges -correlated-propagation -gvn -instcombine -licm 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.6973252296447754, -0.6973252296447754
+-ipsccp -adce -dse -break-crit-edges -indvars -tailcallelim -loop-unroll -globalopt -reassociate -alignment-from-assumptions -libcalls-shrinkwrap -float2int -lcssa -reg2mem -constmerge -licm -globaldce -strip-nondebug -mem2reg -sroa 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.834846019744873, -0.834846019744873
+-simplifycfg -libcalls-shrinkwrap -mem2reg -globaldce -sink -gvn -function-attrs -correlated-propagation -loop-deletion -break-crit-edges -inline -loop-reduce -strip-nondebug -loop-simplify -indvars -loop-rotate -globalopt -adce -simple-loop-unswitch -jump-threading 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.9429683685302734, -0.9429683685302734
+-jump-threading -correlated-propagation -early-cse -break-crit-edges -memcpyopt -loop-fusion -reassociate -inline -adce -instcombine -loop-rotate -loweratomic -sroa -dse -lowerinvoke -libcalls-shrinkwrap -float2int -ipsccp -partial-inliner -loop-reduce 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5408456325531006, -0.5408456325531006
+-lowerswitch -loop-rotate -memcpyopt -loop-unroll -gvn -reg2mem -function-attrs -adce -lower-expect -loweratomic -indvars -deadargelim -loop-simplify -simplifycfg -lowerinvoke -ipsccp -sink -tailcallelim -sroa -correlated-propagation 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5308523178100586, -0.5308523178100586
+-loop-deletion -indvars -tailcallelim -correlated-propagation -loop-reduce -globalopt -break-crit-edges -loweratomic -function-attrs -reg2mem -loop-rotate -memcpyopt -inline -adce -ipsccp -strip-nondebug -lowerinvoke -lcssa -sink -instcombine 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5986237525939941, -0.5986237525939941
+-tailcallelim -adce -jump-threading -loop-simplify -simple-loop-unswitch -strip-nondebug -indvars -float2int -function-attrs -memcpyopt -early-cse -partial-inliner -globalopt -loop-rotate -reg2mem -break-crit-edges -globaldce -licm -strip -lowerswitch 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5119893550872803, -0.5119893550872803
+-mem2reg -alignment-from-assumptions -licm -dse -break-crit-edges -loop-idiom -reg2mem -lower-expect -indvars -globaldce -function-attrs -tailcallelim -deadargelim -float2int -ipsccp -simplifycfg -loweratomic -instcombine -loop-rotate -strip-nondebug 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.0519697666168213, -1.0519697666168213
+-memcpyopt -inline -dse -sroa -jump-threading -globalopt -licm -float2int -strip-nondebug -tailcallelim -loop-idiom -partial-inliner -lowerswitch -loweratomic -reg2mem -globaldce -loop-unroll -adce -constmerge -break-crit-edges 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5066580772399902, -0.5066580772399902
+-globalopt -adce -lower-expect -reg2mem -mem2reg -libcalls-shrinkwrap -loweratomic -indvars -alignment-from-assumptions -memcpyopt -break-crit-edges -partial-inliner -float2int -ipsccp -loop-rotate -deadargelim -sccp -globaldce -jump-threading -instcombine 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.8330237865447998, -0.8330237865447998
+-inline -indvars -reg2mem -strip-nondebug -loweratomic -globalopt -instcombine -strip -sccp -lcssa -licm -break-crit-edges -lowerswitch -loop-reduce -reassociate -memcpyopt -correlated-propagation -loop-rotate -deadargelim -dse 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5729503631591797, -0.5729503631591797
+-tailcallelim -loop-simplify -early-cse -strip -jump-threading -loop-idiom -break-crit-edges -ipsccp -correlated-propagation -mem2reg -loop-deletion -memcpyopt -strip-nondebug -dse -sroa -indvars -loweratomic -function-attrs -adce -reg2mem 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.7491011619567871, -0.7491011619567871
+-globaldce -indvars -dse -ipsccp -loweratomic -mem2reg -loop-reduce -loop-simplify -break-crit-edges -partial-inliner -reassociate -reg2mem -float2int -memcpyopt -alignment-from-assumptions -strip-nondebug -adce -correlated-propagation -loop-fusion -instcombine 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.091646432876587, -1.091646432876587
+-tailcallelim -sroa -partial-inliner -loop-reduce -simplifycfg -break-crit-edges -strip-nondebug -indvars -correlated-propagation -ipsccp -loweratomic -globaldce -alignment-from-assumptions -gvn -reg2mem -loop-rotate -memcpyopt -licm -reassociate -mem2reg 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.6082091331481934, -0.6082091331481934
+-memcpyopt -adce -lowerinvoke -mem2reg -lower-expect -loop-rotate -lcssa -ipsccp -correlated-propagation -loweratomic -sccp -constmerge -reg2mem -strip-nondebug -deadargelim -break-crit-edges -indvars -loop-idiom -instcombine -globaldce 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.6843314170837402, -0.6843314170837402
+-loweratomic -instcombine -loop-simplify -float2int -loop-rotate -indvars -reassociate -strip-nondebug -break-crit-edges -reg2mem -ipsccp -sccp -correlated-propagation -mem2reg -globaldce -adce -constmerge -simple-loop-unswitch -memcpyopt -loop-idiom 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5802512168884277, -0.5802512168884277
+-indvars -loweratomic -partial-inliner -instcombine -ipsccp -tailcallelim -strip-nondebug -licm -reg2mem -break-crit-edges -reassociate -correlated-propagation -adce -constmerge -early-cse -mem2reg -loop-rotate -deadargelim -loop-idiom -globalopt 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.1764254570007324, -1.1764254570007324
+-mem2reg -early-cse -correlated-propagation -sroa -loop-simplify -break-crit-edges -lowerswitch -indvars -reg2mem -adce -loop-rotate -loop-idiom -loweratomic -function-attrs -globaldce -constmerge -ipsccp -reassociate -tailcallelim -memcpyopt 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.0540494918823242, -1.0540494918823242
+-instcombine -lowerswitch -globalopt -partial-inliner -indvars -memcpyopt -constmerge -tailcallelim -early-cse -break-crit-edges -deadargelim -ipsccp -strip-nondebug -loweratomic -reg2mem -reassociate -adce -loop-idiom -correlated-propagation -loop-rotate 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.8603165149688721, -0.8603165149688721
+-loweratomic -adce -constmerge -ipsccp -jump-threading -simplifycfg -instcombine -break-crit-edges -loop-reduce -dse -function-attrs -indvars -reassociate -loop-deletion -strip-nondebug -float2int -loop-rotate -correlated-propagation -reg2mem -memcpyopt 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.588212251663208, -0.588212251663208
+-libcalls-shrinkwrap -jump-threading -simplifycfg -adce -float2int -loop-idiom -early-cse -lowerswitch -strip-nondebug -indvars -loweratomic -loop-rotate -correlated-propagation -break-crit-edges -reg2mem -tailcallelim -reassociate -ipsccp -constmerge -memcpyopt 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5397024154663086, -0.5397024154663086
+-adce -sink -instcombine -globaldce -reassociate -reg2mem -correlated-propagation -break-crit-edges -simplifycfg -constmerge -loop-rotate -loweratomic -ipsccp -indvars -lower-expect -inline -deadargelim -dse -strip-nondebug -tailcallelim 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.0069420337677002, -1.0069420337677002
+-jump-threading -partial-inliner -instcombine -break-crit-edges -loop-idiom -deadargelim -correlated-propagation -globalopt -reg2mem -function-attrs -adce -ipsccp -alignment-from-assumptions -licm -loweratomic -indvars -constmerge -globaldce -reassociate -strip-nondebug 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5860888957977295, -0.5860888957977295
+-globaldce -globalopt -adce -partial-inliner -reg2mem -lcssa -deadargelim -indvars -function-attrs -break-crit-edges -loop-reduce -reassociate -sink -constmerge -tailcallelim -loweratomic -loop-rotate -ipsccp -memcpyopt -correlated-propagation 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.6911425590515137, -0.6911425590515137
+-ipsccp -dse -loweratomic -function-attrs -lower-expect -sroa -globaldce -mem2reg -correlated-propagation -loop-rotate -reassociate -reg2mem -break-crit-edges -simplifycfg -indvars -licm -loop-deletion -memcpyopt -tailcallelim -strip 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.0666577816009521, -1.0666577816009521
+-early-cse -sccp -lowerinvoke -loop-rotate -partial-inliner -strip-nondebug -adce -indvars -reassociate -correlated-propagation -reg2mem -break-crit-edges -instcombine -ipsccp -globaldce -constmerge -deadargelim -memcpyopt -loweratomic -alignment-from-assumptions 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.6501972675323486, -0.6501972675323486
+-globaldce -lcssa -instcombine -memcpyopt -tailcallelim -break-crit-edges -gvn -libcalls-shrinkwrap -ipsccp -sroa -constmerge -loweratomic -reassociate -early-cse -reg2mem -deadargelim -indvars -adce -correlated-propagation -loop-rotate 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5566146373748779, -0.5566146373748779
+-sroa -loop-rotate -adce -inline -loop-unroll -lowerinvoke -float2int -memcpyopt -break-crit-edges -constmerge -ipsccp -instcombine -strip-nondebug -reassociate -correlated-propagation -reg2mem -indvars -loweratomic -globaldce -simplifycfg 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.9382514953613281, -0.9382514953613281
+-simplifycfg -loop-idiom -instcombine -correlated-propagation -indvars -adce -globaldce -reg2mem -function-attrs -constmerge -early-cse -break-crit-edges -jump-threading -loweratomic -float2int -ipsccp -memcpyopt -reassociate -deadargelim -loop-rotate 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.9400029182434082, -0.9400029182434082
+-libcalls-shrinkwrap -loweratomic -indvars -lowerswitch -instcombine -ipsccp -memcpyopt -reg2mem -globaldce -break-crit-edges -float2int -reassociate -gvn -globalopt -correlated-propagation -adce -early-cse -loop-idiom -jump-threading -loop-rotate 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.0898523330688477, -1.0898523330688477
+-instcombine -mem2reg -deadargelim -constmerge -break-crit-edges -strip-nondebug -ipsccp -loop-reduce -licm -correlated-propagation -reassociate -jump-threading -reg2mem -adce -memcpyopt -loop-rotate -libcalls-shrinkwrap -indvars -loweratomic -loop-fusion 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.0445992946624756, -1.0445992946624756
+-early-cse -indvars -reg2mem -strip-nondebug -loop-rotate -break-crit-edges -dse -reassociate -correlated-propagation -globaldce -memcpyopt -adce -loweratomic -float2int -deadargelim -loop-idiom -instcombine -constmerge -libcalls-shrinkwrap -ipsccp 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.574892520904541, -0.574892520904541
+-loop-idiom -loop-simplify -instcombine -loop-deletion -adce -sccp -dse -globaldce -indvars -reassociate -break-crit-edges -reg2mem -constmerge -sink -loweratomic -correlated-propagation -ipsccp -partial-inliner -strip-nondebug -memcpyopt 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.0858302116394043, -1.0858302116394043
+-sccp -function-attrs -lower-expect -lowerinvoke -loop-deletion -break-crit-edges -adce -indvars -lcssa -instcombine -early-cse -strip-nondebug -correlated-propagation -constmerge -ipsccp -reg2mem -globaldce -reassociate -loop-rotate -loweratomic 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.9675400257110596, -0.9675400257110596
+-loop-rotate -sroa -instcombine -break-crit-edges -correlated-propagation -early-cse -lcssa -loweratomic -sink -constmerge -adce -indvars -reassociate -reg2mem -memcpyopt -globaldce -alignment-from-assumptions -ipsccp -loop-idiom -jump-threading 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.7592566013336182, -0.7592566013336182
+-sroa -constmerge -lowerswitch -break-crit-edges -loop-rotate -adce -indvars -correlated-propagation -simplifycfg -reg2mem -loop-unroll -loweratomic -float2int -reassociate -instcombine -loop-idiom -memcpyopt -ipsccp -deadargelim -strip-nondebug 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.021507740020752, -1.021507740020752
+-simplifycfg -reassociate -break-crit-edges -loweratomic -adce -licm -loop-idiom -tailcallelim -memcpyopt -reg2mem -partial-inliner -ipsccp -globaldce -loop-rotate -indvars -dse -constmerge -correlated-propagation -deadargelim -strip-nondebug 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.7113938331604004, -0.7113938331604004
+-loop-reduce -float2int -break-crit-edges -deadargelim -alignment-from-assumptions -strip -sroa -loop-rotate -adce -indvars -reassociate -loop-idiom -constmerge -loweratomic -correlated-propagation -memcpyopt -instcombine -reg2mem -early-cse -strip-nondebug 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.0299451351165771, -1.0299451351165771
+-loop-rotate -deadargelim -mem2reg -indvars -dse -early-cse -reg2mem -globaldce -constmerge -break-crit-edges -reassociate -adce -instcombine -strip-nondebug -ipsccp -memcpyopt -correlated-propagation -loweratomic -loop-idiom -loop-unroll 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5534095764160156, -0.5534095764160156
+-sccp -constmerge -indvars -ipsccp -deadargelim -correlated-propagation -loop-idiom -partial-inliner -break-crit-edges -reg2mem -reassociate -early-cse -adce -libcalls-shrinkwrap -loweratomic -strip-nondebug -sink -dse -globaldce -instcombine 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.889641284942627, -0.889641284942627
+-strip-nondebug -reassociate -alignment-from-assumptions -jump-threading -loop-rotate -correlated-propagation -constmerge -reg2mem -break-crit-edges -indvars -ipsccp -adce -globaldce -instcombine -early-cse -loop-idiom -loweratomic -loop-unroll -deadargelim -sroa 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5619592666625977, -0.5619592666625977
+-early-cse -mem2reg -globaldce -instcombine -constmerge -simple-loop-unswitch -ipsccp -break-crit-edges -loweratomic -lowerinvoke -indvars -reg2mem -loop-rotate -correlated-propagation -memcpyopt -deadargelim -adce -partial-inliner -strip-nondebug -reassociate 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.815197229385376, -0.815197229385376
+-inline -deadargelim -libcalls-shrinkwrap -globaldce -sink -reg2mem -break-crit-edges -reassociate -correlated-propagation -instcombine -ipsccp -loop-idiom -indvars -memcpyopt -jump-threading -constmerge -loop-rotate -strip-nondebug -adce -mem2reg 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.8323440551757812, -0.8323440551757812
+-float2int -globalopt -ipsccp -mem2reg -libcalls-shrinkwrap -deadargelim -break-crit-edges -sccp -indvars -constmerge -reg2mem -loop-rotate -correlated-propagation -reassociate -loweratomic -memcpyopt -strip-nondebug -adce -loop-idiom -globaldce 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5331254005432129, -0.5331254005432129
+-partial-inliner -sroa -adce -loweratomic -reassociate -break-crit-edges -memcpyopt -correlated-propagation -indvars -reg2mem -instcombine -sink -constmerge -loop-idiom -ipsccp -loop-rotate -globaldce -deadargelim -strip-nondebug -dse 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5857398509979248, -0.5857398509979248
+-tailcallelim -reg2mem -globaldce -loop-simplify -deadargelim -partial-inliner -memcpyopt -dse -loop-rotate -break-crit-edges -simplifycfg -instcombine -loop-reduce -ipsccp -strip-nondebug -reassociate -correlated-propagation -constmerge -indvars -adce 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.4958162307739258, -0.4958162307739258
+-early-cse -adce -constmerge -simplifycfg -loop-rotate -reg2mem -break-crit-edges -loop-reduce -instcombine -memcpyopt -correlated-propagation -reassociate -mem2reg -deadargelim -ipsccp -strip-nondebug -indvars -loop-idiom -float2int -partial-inliner 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5182473659515381, -0.5182473659515381
+-lowerswitch -reg2mem -strip-nondebug -loop-idiom -lower-expect -loop-reduce -break-crit-edges -loop-deletion -adce -indvars -constmerge -libcalls-shrinkwrap -ipsccp -float2int -instcombine -loweratomic -deadargelim -loop-rotate -dse -globaldce 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.9364490509033203, -0.9364490509033203
+-sink -break-crit-edges -adce -loop-unroll -loop-deletion -jump-threading -ipsccp -loop-idiom -loop-rotate -correlated-propagation -reassociate -loweratomic -deadargelim -constmerge -indvars -early-cse -reg2mem -partial-inliner -memcpyopt -mem2reg 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.7898736000061035, -0.7898736000061035
+-sink -loop-fusion -indvars -reg2mem -function-attrs -adce -jump-threading -licm -globaldce -break-crit-edges -ipsccp -instcombine -reassociate -loweratomic -early-cse -correlated-propagation -partial-inliner -loop-rotate -constmerge -strip 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.7492587566375732, -0.7492587566375732
+-float2int -instcombine -loweratomic -early-cse -alignment-from-assumptions -loop-rotate -memcpyopt -adce -break-crit-edges -reg2mem -correlated-propagation -indvars -sroa -ipsccp -globaldce -constmerge -strip-nondebug -tailcallelim -reassociate -deadargelim 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.0095436573028564, -1.0095436573028564
+-reg2mem -break-crit-edges -strip-nondebug -memcpyopt -lowerswitch -adce -correlated-propagation -indvars -float2int -reassociate -loop-rotate -constmerge -function-attrs -ipsccp -instcombine -loop-idiom -globaldce -loweratomic -loop-unroll -simple-loop-unswitch 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5281059741973877, -0.5281059741973877
+-function-attrs -globaldce -reg2mem -loop-rotate -adce -ipsccp -indvars -strip -break-crit-edges -deadargelim -memcpyopt -instcombine -correlated-propagation -constmerge -reassociate -mem2reg -dse -strip-nondebug -loweratomic -loop-idiom 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5243320465087891, -0.5243320465087891
+-float2int -strip -loweratomic -memcpyopt -adce -correlated-propagation -mem2reg -jump-threading -ipsccp -indvars -break-crit-edges -loop-idiom -partial-inliner -constmerge -inline -reg2mem -globaldce -reassociate -instcombine -dse 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5282192230224609, -0.5282192230224609
+-loop-deletion -globaldce -reg2mem -indvars -dse -reassociate -break-crit-edges -loweratomic -adce -ipsccp -float2int -tailcallelim -constmerge -jump-threading -instcombine -strip-nondebug -inline -correlated-propagation -loop-idiom -memcpyopt 
+network_patricia: 0.4909360408782959, inf, inf, inf, 1.117227554321289, -1.117227554321289
+-indvars -ipsccp -strip -break-crit-edges -adce -globaldce -constmerge -correlated-propagation -loweratomic -reassociate -reg2mem -instcombine -strip-nondebug -loop-idiom -loop-rotate -mem2reg -deadargelim -tailcallelim -lowerswitch -memcpyopt 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5261614322662354, -0.5261614322662354
+-memcpyopt -licm -correlated-propagation -inline -mem2reg -loop-fusion -deadargelim -adce -early-cse -indvars -reg2mem -break-crit-edges -partial-inliner -ipsccp -instcombine -dse -constmerge -strip-nondebug -loweratomic -globaldce 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.8214669227600098, -0.8214669227600098
+-break-crit-edges -adce -correlated-propagation -constmerge -ipsccp -reg2mem -deadargelim -globaldce -loop-rotate -loweratomic -indvars -memcpyopt -float2int -loop-idiom -instcombine -mem2reg -strip-nondebug -alignment-from-assumptions -function-attrs -jump-threading 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5845088958740234, -0.5845088958740234
+-jump-threading -loop-deletion -loop-reduce -loop-rotate -reassociate -early-cse -alignment-from-assumptions -indvars -strip-nondebug -adce -break-crit-edges -loweratomic -reg2mem -correlated-propagation -constmerge -tailcallelim -ipsccp -deadargelim -globaldce -memcpyopt 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5181570053100586, -0.5181570053100586
+-reg2mem -adce -strip-nondebug -loop-rotate -early-cse -tailcallelim -loop-idiom -break-crit-edges -lower-expect -correlated-propagation -sroa -instcombine -simple-loop-unswitch -globaldce -indvars -memcpyopt -ipsccp -deadargelim -jump-threading -constmerge 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5155401229858398, -0.5155401229858398
+-lower-expect -strip-nondebug -loop-rotate -deadargelim -correlated-propagation -adce -indvars -break-crit-edges -ipsccp -reg2mem -loop-deletion -dse -tailcallelim -memcpyopt -instcombine -loop-idiom -globaldce -lcssa -loweratomic -gvn 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5651824474334717, -0.5651824474334717
+-lowerswitch -globaldce -loop-rotate -deadargelim -reassociate -indvars -break-crit-edges -alignment-from-assumptions -reg2mem -loop-unroll -adce -strip-nondebug -constmerge -instcombine -ipsccp -correlated-propagation -loop-idiom -loweratomic -memcpyopt -tailcallelim 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.8156232833862305, -0.8156232833862305
+-tailcallelim -constmerge -lowerswitch -indvars -instcombine -break-crit-edges -strip-nondebug -simple-loop-unswitch -loweratomic -globaldce -jump-threading -adce -reg2mem -memcpyopt -deadargelim -correlated-propagation -ipsccp -loop-idiom -reassociate -loop-rotate 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5167913436889648, -0.5167913436889648
+-jump-threading -tailcallelim -reassociate -inline -reg2mem -loop-reduce -globaldce -indvars -break-crit-edges -ipsccp -loop-rotate -memcpyopt -strip-nondebug -constmerge -loweratomic -correlated-propagation -adce -loop-idiom -instcombine -deadargelim 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.6127772331237793, -0.6127772331237793
+-memcpyopt -loop-rotate -inline -simple-loop-unswitch -break-crit-edges -sroa -loop-unroll -loweratomic -globaldce -indvars -constmerge -reg2mem -licm -correlated-propagation -strip-nondebug -adce -ipsccp -loop-idiom -deadargelim -tailcallelim 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5955784320831299, -0.5955784320831299
+-lowerswitch -globaldce -loop-rotate -indvars -break-crit-edges -ipsccp -deadargelim -tailcallelim -reg2mem -dse -lcssa -simple-loop-unswitch -reassociate -loweratomic -correlated-propagation -adce -loop-idiom -constmerge -mem2reg -early-cse 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5360186100006104, -0.5360186100006104
+-ipsccp -function-attrs -correlated-propagation -constmerge -break-crit-edges -adce -loop-deletion -dse -sroa -loweratomic -indvars -instcombine -memcpyopt -reg2mem -lowerswitch -lowerinvoke -strip-nondebug -reassociate -tailcallelim -deadargelim 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.9414968490600586, -0.9414968490600586
+-deadargelim -adce -loop-fusion -loop-reduce -sink -globaldce -ipsccp -lowerinvoke -break-crit-edges -reg2mem -correlated-propagation -sroa -loop-idiom -strip-nondebug -indvars -memcpyopt -constmerge -loweratomic -instcombine -reassociate 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5833954811096191, -0.5833954811096191
+-early-cse -loop-deletion -ipsccp -loop-rotate -memcpyopt -indvars -strip-nondebug -tailcallelim -adce -constmerge -reg2mem -correlated-propagation -loweratomic -break-crit-edges -deadargelim -reassociate -globaldce -loop-idiom -instcombine -dse 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.5400559902191162, -0.5400559902191162
+-licm -instcombine -ipsccp -strip -constmerge -indvars -globaldce -strip-nondebug -break-crit-edges -loop-idiom -deadargelim -adce -loweratomic -correlated-propagation -reassociate -reg2mem -sroa -loop-rotate -memcpyopt -alignment-from-assumptions 
+network_patricia: 0.4909360408782959, inf, inf, inf, 0.6855716705322266, -0.6855716705322266
+-loweratomic -break-crit-edges -constmerge -deadargelim -indvars -correlated-propagation -strip-nondebug -reassociate -memcpyopt -ipsccp -loop-idiom -adce -globaldce -reg2mem -loop-rotate -instcombine -dse -tailcallelim -strip -loop-deletion 

@@ -1,0 +1,184 @@
+security_rijndael_d: 0.596550464630127, inf, inf, inf, 0.596550464630127, -0.596550464630127
+-float2int -lcssa -loop-fusion -sink -lowerswitch -sroa -loop-idiom -function-attrs -mem2reg -break-crit-edges -loop-rotate -correlated-propagation -strip -reassociate -lower-expect -indvars -memcpyopt -alignment-from-assumptions -instcombine -tailcallelim 
+security_rijndael_d: 0.596550464630127, inf, inf, inf, 0.6707985401153564, -0.6707985401153564
+-mem2reg -memcpyopt -loop-unroll -strip -lowerswitch -loop-rotate -early-cse -reg2mem -lcssa -float2int -globalopt -loop-simplify -inline -lower-expect -loop-idiom -loop-fusion -alignment-from-assumptions -simplifycfg -adce -reassociate 
+security_rijndael_d: 0.596550464630127, inf, inf, inf, 0.6720411777496338, -0.6720411777496338
+-function-attrs -lower-expect -lcssa -loop-rotate -licm -early-cse -memcpyopt -partial-inliner -simplifycfg -reassociate -reg2mem -deadargelim -strip-nondebug -indvars -globaldce -globalopt -loweratomic -loop-simplify -alignment-from-assumptions -loop-idiom 
+security_rijndael_d: 0.596550464630127, inf, inf, inf, 0.6092376708984375, -0.6092376708984375
+-alignment-from-assumptions -indvars -loop-rotate -jump-threading -float2int -adce -simplifycfg -reg2mem -constmerge -partial-inliner -ipsccp -lowerswitch -loweratomic -loop-deletion -inline -strip-nondebug -sink -sroa -tailcallelim -correlated-propagation 
+security_rijndael_d: 0.596550464630127, inf, inf, inf, 0.6220550537109375, -0.6220550537109375
+-simple-loop-unswitch -globaldce -sink -instcombine -lowerinvoke -reassociate -loweratomic -strip -correlated-propagation -tailcallelim -adce -loop-fusion -early-cse -reg2mem -gvn -lcssa -loop-deletion -float2int -memcpyopt -jump-threading 
+security_rijndael_d: 0.596550464630127, inf, inf, inf, 0.6040744781494141, -0.6040744781494141
+-simple-loop-unswitch -strip-nondebug -memcpyopt -simplifycfg -mem2reg -break-crit-edges -correlated-propagation -loop-rotate -loop-simplify -loweratomic -sccp -early-cse -constmerge -reg2mem -sroa -float2int -indvars -loop-reduce -lcssa -globaldce 
+security_rijndael_d: 0.596550464630127, inf, inf, inf, 0.6365005970001221, -0.6365005970001221
+-loop-fusion -break-crit-edges -globaldce -adce -constmerge -strip -memcpyopt -loop-deletion -loweratomic -loop-unroll -sink -strip-nondebug -correlated-propagation -mem2reg -loop-idiom -dse -lower-expect -jump-threading -loop-reduce -inline 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.5665082931518555, -0.5665082931518555
+-sroa -simplifycfg -simple-loop-unswitch -loweratomic -reg2mem -instcombine -loop-deletion -memcpyopt -constmerge -float2int -globaldce -correlated-propagation -libcalls-shrinkwrap -indvars -loop-reduce -early-cse -dse -loop-rotate -loop-idiom -strip-nondebug 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.5916101932525635, -0.5916101932525635
+-loweratomic -adce -jump-threading -libcalls-shrinkwrap -reg2mem -globalopt -sroa -mem2reg -loop-unroll -reassociate -dse -indvars -loop-rotate -ipsccp -deadargelim -partial-inliner -strip-nondebug -lowerinvoke -float2int -sink 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6119403839111328, -0.6119403839111328
+-loop-deletion -reg2mem -deadargelim -loop-rotate -simple-loop-unswitch -gvn -float2int -jump-threading -instcombine -lcssa -lower-expect -globalopt -lowerswitch -loweratomic -adce -strip -correlated-propagation -inline -loop-simplify -sink 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.5964279174804688, -0.5964279174804688
+-loop-unroll -gvn -sccp -partial-inliner -break-crit-edges -sink -loop-rotate -memcpyopt -adce -lowerswitch -loweratomic -deadargelim -early-cse -jump-threading -constmerge -sroa -reg2mem -lower-expect -inline -lowerinvoke 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6137673854827881, -0.6137673854827881
+-deadargelim -licm -tailcallelim -indvars -constmerge -sccp -reg2mem -float2int -memcpyopt -simple-loop-unswitch -break-crit-edges -loop-fusion -partial-inliner -adce -strip-nondebug -mem2reg -loop-idiom -early-cse -function-attrs -alignment-from-assumptions 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.5974974632263184, -0.5974974632263184
+-globalopt -globaldce -loop-unroll -loop-reduce -simplifycfg -instcombine -adce -strip -alignment-from-assumptions -gvn -lowerswitch -lowerinvoke -function-attrs -simple-loop-unswitch -lower-expect -reassociate -break-crit-edges -strip-nondebug -tailcallelim -loop-fusion 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6048581600189209, -0.6048581600189209
+-partial-inliner -reg2mem -libcalls-shrinkwrap -loweratomic -alignment-from-assumptions -strip-nondebug -ipsccp -lowerinvoke -inline -tailcallelim -adce -jump-threading -loop-rotate -loop-reduce -lcssa -loop-deletion -sroa -function-attrs -deadargelim -lower-expect 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6409342288970947, -0.6409342288970947
+-licm -adce -break-crit-edges -reg2mem -loop-simplify -deadargelim -sink -lcssa -indvars -early-cse -strip-nondebug -sccp -globaldce -loweratomic -ipsccp -loop-unroll -function-attrs -jump-threading -memcpyopt -simple-loop-unswitch 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.586632251739502, -0.586632251739502
+-constmerge -simplifycfg -ipsccp -strip -lcssa -libcalls-shrinkwrap -break-crit-edges -globalopt -deadargelim -loop-fusion -alignment-from-assumptions -inline -loop-simplify -loop-reduce -instcombine -adce -loweratomic -reg2mem -gvn -strip-nondebug 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6144523620605469, -0.6144523620605469
+-simplifycfg -licm -strip-nondebug -correlated-propagation -gvn -tailcallelim -break-crit-edges -constmerge -indvars -loop-reduce -partial-inliner -lowerinvoke -function-attrs -loop-fusion -jump-threading -mem2reg -adce -loweratomic -lcssa -strip 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.9023909568786621, -0.9023909568786621
+-loweratomic -sccp -function-attrs -loop-unroll -break-crit-edges -lowerinvoke -partial-inliner -indvars -sink -sroa -memcpyopt -dse -jump-threading -correlated-propagation -mem2reg -strip -inline -globalopt -loop-rotate -loop-reduce 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.5691912174224854, -0.5691912174224854
+-instcombine -correlated-propagation -lowerswitch -reg2mem -tailcallelim -indvars -break-crit-edges -ipsccp -loweratomic -simplifycfg -loop-idiom -gvn -lcssa -lower-expect -loop-unroll -sroa -jump-threading -loop-rotate -licm -loop-deletion 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.5805695056915283, -0.5805695056915283
+-indvars -float2int -instcombine -sink -deadargelim -globaldce -loop-rotate -function-attrs -strip -sroa -adce -loweratomic -reg2mem -alignment-from-assumptions -mem2reg -reassociate -strip-nondebug -lcssa -ipsccp -memcpyopt 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6129007339477539, -0.6129007339477539
+-mem2reg -lowerinvoke -constmerge -ipsccp -strip -float2int -early-cse -break-crit-edges -lower-expect -jump-threading -memcpyopt -globaldce -simple-loop-unswitch -gvn -dse -loop-deletion -loop-reduce -loweratomic -lcssa -sccp 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.5833489894866943, -0.5833489894866943
+-reg2mem -lowerinvoke -constmerge -gvn -libcalls-shrinkwrap -simple-loop-unswitch -simplifycfg -indvars -loop-reduce -licm -deadargelim -ipsccp -globaldce -adce -instcombine -mem2reg -early-cse -inline -memcpyopt -break-crit-edges 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.7165749073028564, -0.7165749073028564
+-correlated-propagation -loop-idiom -break-crit-edges -globaldce -lowerinvoke -constmerge -loop-rotate -jump-threading -loop-reduce -inline -lcssa -loweratomic -adce -lower-expect -ipsccp -globalopt -reg2mem -reassociate -strip -loop-deletion 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.5699160099029541, -0.5699160099029541
+-jump-threading -loweratomic -loop-deletion -gvn -loop-rotate -reg2mem -libcalls-shrinkwrap -indvars -loop-idiom -instcombine -inline -licm -partial-inliner -correlated-propagation -sink -sroa -lowerswitch -loop-fusion -loop-reduce -mem2reg 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6241700649261475, -0.6241700649261475
+-lower-expect -loop-reduce -jump-threading -loop-rotate -instcombine -globaldce -break-crit-edges -dse -loweratomic -loop-fusion -mem2reg -alignment-from-assumptions -constmerge -reassociate -correlated-propagation -strip-nondebug -inline -deadargelim -partial-inliner -sink 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6231613159179688, -0.6231613159179688
+-instcombine -dse -reassociate -mem2reg -loop-reduce -adce -lcssa -strip-nondebug -reg2mem -lowerinvoke -loop-rotate -inline -correlated-propagation -loop-fusion -ipsccp -float2int -indvars -memcpyopt -strip -deadargelim 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6053323745727539, -0.6053323745727539
+-mem2reg -partial-inliner -loop-deletion -ipsccp -break-crit-edges -lowerinvoke -early-cse -strip-nondebug -adce -sink -globalopt -inline -simplifycfg -sroa -licm -globaldce -loweratomic -loop-rotate -reg2mem -lower-expect 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6287984848022461, -0.6287984848022461
+-simplifycfg -loop-reduce -globalopt -mem2reg -loop-rotate -lowerswitch -indvars -strip-nondebug -loop-fusion -globaldce -deadargelim -reassociate -early-cse -simple-loop-unswitch -adce -tailcallelim -correlated-propagation -memcpyopt -loweratomic -sink 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.606903076171875, -0.606903076171875
+-function-attrs -loop-fusion -sroa -adce -memcpyopt -lowerswitch -licm -ipsccp -partial-inliner -reg2mem -deadargelim -loop-simplify -mem2reg -break-crit-edges -alignment-from-assumptions -loweratomic -indvars -float2int -reassociate -correlated-propagation 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 1.0648488998413086, -1.0648488998413086
+-loop-rotate -loop-fusion -reg2mem -loweratomic -loop-simplify -lowerswitch -ipsccp -lcssa -strip-nondebug -break-crit-edges -sccp -inline -alignment-from-assumptions -tailcallelim -reassociate -memcpyopt -partial-inliner -dse -correlated-propagation -adce 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.9971716403961182, -0.9971716403961182
+-lcssa -strip -loop-idiom -memcpyopt -loweratomic -break-crit-edges -lower-expect -alignment-from-assumptions -correlated-propagation -constmerge -strip-nondebug -function-attrs -sink -adce -globaldce -reassociate -reg2mem -loop-reduce -lowerinvoke -ipsccp 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.7981441020965576, -0.7981441020965576
+-partial-inliner -reassociate -loweratomic -instcombine -adce -licm -break-crit-edges -dse -reg2mem -loop-rotate -ipsccp -strip-nondebug -indvars -memcpyopt -early-cse -jump-threading -loop-deletion -loop-reduce -simple-loop-unswitch -loop-simplify 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6258161067962646, -0.6258161067962646
+-libcalls-shrinkwrap -adce -lowerinvoke -deadargelim -tailcallelim -jump-threading -ipsccp -strip-nondebug -loop-reduce -reg2mem -loop-deletion -float2int -break-crit-edges -loweratomic -instcombine -constmerge -early-cse -globalopt -loop-rotate -indvars 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.8220620155334473, -0.8220620155334473
+-loop-idiom -alignment-from-assumptions -float2int -correlated-propagation -lcssa -gvn -indvars -adce -globalopt -strip -loweratomic -simple-loop-unswitch -ipsccp -sccp -constmerge -reg2mem -instcombine -reassociate -break-crit-edges -memcpyopt 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.9361720085144043, -0.9361720085144043
+-alignment-from-assumptions -break-crit-edges -partial-inliner -simplifycfg -ipsccp -globalopt -loweratomic -mem2reg -tailcallelim -float2int -instcombine -indvars -reg2mem -constmerge -lowerswitch -reassociate -adce -strip-nondebug -globaldce -memcpyopt 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6389997005462646, -0.6389997005462646
+-alignment-from-assumptions -simple-loop-unswitch -jump-threading -dse -loweratomic -gvn -sink -indvars -break-crit-edges -constmerge -lowerinvoke -reg2mem -correlated-propagation -loop-reduce -strip-nondebug -memcpyopt -simplifycfg -float2int -loop-rotate -partial-inliner 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6312108039855957, -0.6312108039855957
+-function-attrs -indvars -reassociate -instcombine -correlated-propagation -alignment-from-assumptions -break-crit-edges -lcssa -adce -loop-idiom -strip-nondebug -ipsccp -jump-threading -loweratomic -loop-rotate -tailcallelim -reg2mem -memcpyopt -lower-expect -loop-reduce 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6220302581787109, -0.6220302581787109
+-correlated-propagation -loop-rotate -libcalls-shrinkwrap -lowerswitch -reg2mem -deadargelim -loop-deletion -simplifycfg -memcpyopt -indvars -loop-idiom -break-crit-edges -loweratomic -adce -tailcallelim -early-cse -alignment-from-assumptions -ipsccp -globaldce -strip-nondebug 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.7065505981445312, -0.7065505981445312
+-lowerinvoke -adce -loop-unroll -libcalls-shrinkwrap -loweratomic -lcssa -mem2reg -memcpyopt -loop-idiom -correlated-propagation -break-crit-edges -reg2mem -indvars -constmerge -function-attrs -globaldce -ipsccp -strip-nondebug -instcombine -simple-loop-unswitch 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6207308769226074, -0.6207308769226074
+-libcalls-shrinkwrap -reg2mem -instcombine -loop-fusion -memcpyopt -sink -lowerinvoke -break-crit-edges -simplifycfg -ipsccp -indvars -correlated-propagation -function-attrs -reassociate -adce -loop-idiom -mem2reg -loop-rotate -constmerge -early-cse 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.5922751426696777, -0.5922751426696777
+-indvars -partial-inliner -break-crit-edges -gvn -reg2mem -sroa -early-cse -strip-nondebug -adce -globaldce -reassociate -memcpyopt -loweratomic -loop-rotate -correlated-propagation -loop-reduce -ipsccp -float2int -simple-loop-unswitch -loop-idiom 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6658036708831787, -0.6658036708831787
+-globalopt -break-crit-edges -simple-loop-unswitch -indvars -sink -reassociate -simplifycfg -ipsccp -globaldce -lowerinvoke -early-cse -loop-idiom -reg2mem -strip-nondebug -correlated-propagation -loweratomic -loop-rotate -jump-threading -adce -constmerge 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6470961570739746, -0.6470961570739746
+-loop-simplify -globalopt -dse -loop-fusion -tailcallelim -partial-inliner -break-crit-edges -reassociate -strip-nondebug -indvars -ipsccp -adce -reg2mem -correlated-propagation -loop-reduce -alignment-from-assumptions -loop-rotate -loweratomic -constmerge -jump-threading 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.639380931854248, -0.639380931854248
+-indvars -strip-nondebug -deadargelim -loop-simplify -memcpyopt -break-crit-edges -instcombine -sccp -lowerswitch -alignment-from-assumptions -loweratomic -ipsccp -reg2mem -simplifycfg -constmerge -correlated-propagation -reassociate -loop-rotate -globaldce -adce 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.5709633827209473, -0.5709633827209473
+-simplifycfg -break-crit-edges -correlated-propagation -constmerge -strip-nondebug -indvars -loweratomic -sroa -memcpyopt -loop-rotate -deadargelim -loop-simplify -ipsccp -lowerswitch -licm -reg2mem -globaldce -reassociate -adce -instcombine 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 1.1662192344665527, -1.1662192344665527
+-tailcallelim -adce -lowerswitch -lowerinvoke -globalopt -indvars -jump-threading -ipsccp -break-crit-edges -instcombine -loop-rotate -globaldce -float2int -loweratomic -reassociate -reg2mem -early-cse -memcpyopt -simplifycfg -correlated-propagation 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6248219013214111, -0.6248219013214111
+-adce -simplifycfg -instcombine -lowerinvoke -jump-threading -partial-inliner -break-crit-edges -indvars -reg2mem -dse -correlated-propagation -strip-nondebug -loweratomic -constmerge -reassociate -ipsccp -loop-rotate -early-cse -tailcallelim -inline 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6567342281341553, -0.6567342281341553
+-break-crit-edges -partial-inliner -lcssa -globalopt -strip -alignment-from-assumptions -globaldce -lowerswitch -simple-loop-unswitch -constmerge -ipsccp -correlated-propagation -strip-nondebug -loop-rotate -deadargelim -reassociate -memcpyopt -indvars -reg2mem -loop-idiom 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6274805068969727, -0.6274805068969727
+-loop-unroll -loop-idiom -lowerinvoke -correlated-propagation -reg2mem -tailcallelim -partial-inliner -break-crit-edges -globaldce -mem2reg -loop-rotate -memcpyopt -instcombine -indvars -reassociate -adce -loop-simplify -loop-fusion -constmerge -libcalls-shrinkwrap 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6661665439605713, -0.6661665439605713
+-globalopt -ipsccp -strip -sccp -reg2mem -memcpyopt -dse -alignment-from-assumptions -early-cse -correlated-propagation -mem2reg -loop-rotate -adce -indvars -break-crit-edges -loweratomic -lowerswitch -globaldce -reassociate -constmerge 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6711251735687256, -0.6711251735687256
+-strip -simple-loop-unswitch -lowerswitch -alignment-from-assumptions -loop-unroll -instcombine -reg2mem -deadargelim -strip-nondebug -indvars -correlated-propagation -break-crit-edges -reassociate -loop-idiom -constmerge -ipsccp -loop-rotate -memcpyopt -loweratomic -mem2reg 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.8812274932861328, -0.8812274932861328
+-globalopt -mem2reg -early-cse -tailcallelim -ipsccp -adce -strip-nondebug -break-crit-edges -correlated-propagation -constmerge -loop-rotate -reassociate -instcombine -memcpyopt -strip -reg2mem -indvars -jump-threading -loop-idiom -globaldce 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.8937811851501465, -0.8937811851501465
+-lowerswitch -deadargelim -loweratomic -break-crit-edges -memcpyopt -mem2reg -loop-rotate -ipsccp -adce -correlated-propagation -jump-threading -indvars -globaldce -reg2mem -reassociate -strip-nondebug -instcombine -constmerge -libcalls-shrinkwrap -loop-idiom 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6310515403747559, -0.6310515403747559
+-reg2mem -indvars -break-crit-edges -tailcallelim -correlated-propagation -alignment-from-assumptions -libcalls-shrinkwrap -globaldce -loweratomic -memcpyopt -ipsccp -early-cse -lowerswitch -constmerge -instcombine -loop-idiom -strip-nondebug -reassociate -deadargelim -loop-rotate 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6147546768188477, -0.6147546768188477
+-instcombine -indvars -reg2mem -break-crit-edges -alignment-from-assumptions -dse -early-cse -strip-nondebug -reassociate -ipsccp -simplifycfg -float2int -loop-rotate -constmerge -deadargelim -memcpyopt -adce -globaldce -correlated-propagation -loop-idiom 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6180613040924072, -0.6180613040924072
+-break-crit-edges -correlated-propagation -globaldce -simplifycfg -simple-loop-unswitch -reassociate -lowerinvoke -jump-threading -loop-rotate -instcombine -adce -reg2mem -indvars -memcpyopt -ipsccp -libcalls-shrinkwrap -loop-idiom -loweratomic -constmerge -dse 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6359913349151611, -0.6359913349151611
+-simple-loop-unswitch -loop-idiom -correlated-propagation -float2int -inline -strip -simplifycfg -globaldce -adce -indvars -early-cse -constmerge -break-crit-edges -memcpyopt -instcombine -ipsccp -reassociate -reg2mem -loweratomic -jump-threading 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 1.286419153213501, -1.286419153213501
+-constmerge -early-cse -loop-fusion -deadargelim -break-crit-edges -instcombine -reg2mem -reassociate -strip-nondebug -ipsccp -adce -correlated-propagation -memcpyopt -loop-rotate -licm -indvars -sroa -dse -loweratomic -loop-idiom 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.5918118953704834, -0.5918118953704834
+-loweratomic -licm -alignment-from-assumptions -memcpyopt -break-crit-edges -indvars -globaldce -ipsccp -correlated-propagation -reassociate -loop-rotate -reg2mem -constmerge -adce -partial-inliner -instcombine -strip-nondebug -sroa -mem2reg -deadargelim 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6140589714050293, -0.6140589714050293
+-tailcallelim -break-crit-edges -deadargelim -reassociate -instcombine -loop-unroll -memcpyopt -indvars -reg2mem -globaldce -loop-idiom -ipsccp -adce -loop-rotate -constmerge -partial-inliner -correlated-propagation -strip-nondebug -loweratomic -mem2reg 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.9820163249969482, -0.9820163249969482
+-licm -partial-inliner -loweratomic -deadargelim -ipsccp -reg2mem -sccp -libcalls-shrinkwrap -early-cse -constmerge -memcpyopt -break-crit-edges -indvars -correlated-propagation -adce -instcombine -reassociate -loop-rotate -strip-nondebug -loop-idiom 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6454043388366699, -0.6454043388366699
+-strip -strip-nondebug -break-crit-edges -simple-loop-unswitch -ipsccp -simplifycfg -loop-idiom -adce -loweratomic -indvars -tailcallelim -correlated-propagation -reg2mem -constmerge -libcalls-shrinkwrap -loop-rotate -memcpyopt -early-cse -globaldce -deadargelim 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6499178409576416, -0.6499178409576416
+-strip -inline -loweratomic -libcalls-shrinkwrap -memcpyopt -break-crit-edges -licm -tailcallelim -float2int -indvars -correlated-propagation -constmerge -reassociate -strip-nondebug -adce -ipsccp -globaldce -reg2mem -loop-rotate -instcombine 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.910104513168335, -0.910104513168335
+-loop-deletion -correlated-propagation -simplifycfg -ipsccp -loop-idiom -reassociate -strip-nondebug -partial-inliner -constmerge -adce -reg2mem -indvars -break-crit-edges -memcpyopt -instcombine -libcalls-shrinkwrap -loweratomic -loop-rotate -lowerswitch -early-cse 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.664447546005249, -0.664447546005249
+-indvars -reg2mem -loweratomic -reassociate -break-crit-edges -strip-nondebug -correlated-propagation -early-cse -adce -loop-rotate -constmerge -globaldce -ipsccp -dse -memcpyopt -loop-idiom -instcombine -libcalls-shrinkwrap -function-attrs -partial-inliner 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 1.1160809993743896, -1.1160809993743896
+-inline -strip -tailcallelim -reg2mem -jump-threading -strip-nondebug -break-crit-edges -memcpyopt -globalopt -globaldce -sroa -lcssa -licm -deadargelim -loop-rotate -loweratomic -indvars -instcombine -constmerge -correlated-propagation 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.9915874004364014, -0.9915874004364014
+-simplifycfg -correlated-propagation -loop-rotate -reg2mem -tailcallelim -adce -break-crit-edges -indvars -memcpyopt -dse -globaldce -constmerge -loop-idiom -reassociate -ipsccp -strip-nondebug -loweratomic -instcombine -mem2reg -deadargelim 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 1.0551087856292725, -1.0551087856292725
+-partial-inliner -tailcallelim -jump-threading -loweratomic -break-crit-edges -indvars -ipsccp -mem2reg -loop-rotate -deadargelim -constmerge -instcombine -correlated-propagation -strip-nondebug -reg2mem -early-cse -memcpyopt -adce -function-attrs -reassociate 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.622704267501831, -0.622704267501831
+-break-crit-edges -simple-loop-unswitch -adce -indvars -correlated-propagation -strip-nondebug -tailcallelim -loop-deletion -reassociate -reg2mem -early-cse -ipsccp -loop-idiom -deadargelim -memcpyopt -globaldce -loop-rotate -instcombine -constmerge -loweratomic 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 1.0044317245483398, -1.0044317245483398
+-simplifycfg -adce -sroa -loweratomic -correlated-propagation -inline -indvars -break-crit-edges -constmerge -reg2mem -memcpyopt -mem2reg -jump-threading -deadargelim -dse -loop-rotate -instcombine -function-attrs -ipsccp -strip-nondebug 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.706190824508667, -0.706190824508667
+-libcalls-shrinkwrap -loop-idiom -instcombine -licm -break-crit-edges -correlated-propagation -loop-unroll -simplifycfg -early-cse -adce -reg2mem -float2int -loweratomic -indvars -constmerge -loop-rotate -ipsccp -memcpyopt -reassociate -globaldce 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.8292369842529297, -0.8292369842529297
+-loweratomic -indvars -licm -adce -strip-nondebug -break-crit-edges -globaldce -loop-rotate -early-cse -deadargelim -loop-idiom -correlated-propagation -reassociate -reg2mem -tailcallelim -memcpyopt -simple-loop-unswitch -ipsccp -constmerge -lowerswitch 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.5934312343597412, -0.5934312343597412
+-dse -break-crit-edges -lower-expect -simplifycfg -loop-idiom -mem2reg -reg2mem -correlated-propagation -instcombine -indvars -adce -constmerge -strip-nondebug -ipsccp -loop-rotate -memcpyopt -loweratomic -deadargelim -strip -globaldce 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 1.172642707824707, -1.172642707824707
+-simplifycfg -loop-fusion -constmerge -dse -inline -break-crit-edges -reg2mem -ipsccp -correlated-propagation -tailcallelim -loweratomic -strip-nondebug -adce -indvars -partial-inliner -globaldce -float2int -reassociate -memcpyopt -loop-idiom 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.943962812423706, -0.943962812423706
+-alignment-from-assumptions -instcombine -licm -float2int -break-crit-edges -globaldce -indvars -early-cse -loop-rotate -reg2mem -reassociate -constmerge -adce -ipsccp -correlated-propagation -strip-nondebug -loweratomic -memcpyopt -deadargelim -dse 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 1.151233434677124, -1.151233434677124
+-alignment-from-assumptions -reg2mem -break-crit-edges -ipsccp -memcpyopt -tailcallelim -loweratomic -reassociate -loop-rotate -constmerge -adce -globaldce -indvars -correlated-propagation -loop-idiom -jump-threading -simple-loop-unswitch -dse -deadargelim -strip-nondebug 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6168391704559326, -0.6168391704559326
+-sink -reg2mem -loweratomic -globaldce -partial-inliner -correlated-propagation -deadargelim -dse -loop-rotate -break-crit-edges -indvars -constmerge -adce -libcalls-shrinkwrap -instcombine -ipsccp -memcpyopt -reassociate -float2int -mem2reg 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.7045841217041016, -0.7045841217041016
+-strip-nondebug -reg2mem -ipsccp -sink -break-crit-edges -loop-deletion -mem2reg -loop-idiom -correlated-propagation -loweratomic -indvars -loop-simplify -dse -adce -deadargelim -loop-rotate -constmerge -reassociate -globaldce -memcpyopt 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6830160617828369, -0.6830160617828369
+-indvars -break-crit-edges -loweratomic -float2int -correlated-propagation -sroa -strip-nondebug -memcpyopt -reg2mem -early-cse -adce -constmerge -simple-loop-unswitch -ipsccp -loop-idiom -reassociate -globaldce -instcombine -deadargelim -loop-rotate 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.9341738224029541, -0.9341738224029541
+-lowerinvoke -indvars -loop-unroll -lcssa -break-crit-edges -reg2mem -ipsccp -instcombine -tailcallelim -adce -memcpyopt -reassociate -constmerge -correlated-propagation -early-cse -loweratomic -loop-idiom -jump-threading -globaldce -deadargelim 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.8554372787475586, -0.8554372787475586
+-correlated-propagation -dse -globaldce -lowerswitch -break-crit-edges -reg2mem -tailcallelim -loop-rotate -ipsccp -adce -indvars -strip-nondebug -early-cse -deadargelim -loweratomic -instcombine -reassociate -memcpyopt -constmerge -loop-idiom 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.7348306179046631, -0.7348306179046631
+-reg2mem -constmerge -indvars -early-cse -loop-fusion -globaldce -ipsccp -strip-nondebug -strip -adce -deadargelim -break-crit-edges -sroa -reassociate -loweratomic -memcpyopt -correlated-propagation -instcombine -loop-idiom -loop-rotate 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 1.2853062152862549, -1.2853062152862549
+-correlated-propagation -sccp -strip-nondebug -adce -indvars -reassociate -dse -loweratomic -loop-idiom -instcombine -deadargelim -break-crit-edges -reg2mem -globaldce -ipsccp -loop-rotate -alignment-from-assumptions -constmerge -tailcallelim -memcpyopt 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.6931393146514893, -0.6931393146514893
+-lowerinvoke -memcpyopt -lcssa -strip -loop-idiom -correlated-propagation -indvars -globaldce -libcalls-shrinkwrap -break-crit-edges -strip-nondebug -deadargelim -ipsccp -instcombine -reg2mem -loop-unroll -constmerge -loweratomic -adce -reassociate 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.885106086730957, -0.885106086730957
+-gvn -deadargelim -jump-threading -loop-fusion -constmerge -adce -correlated-propagation -inline -ipsccp -globaldce -lowerinvoke -reg2mem -strip-nondebug -break-crit-edges -loop-idiom -loop-deletion -indvars -memcpyopt -loweratomic -reassociate 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.9954473972320557, -0.9954473972320557
+-simple-loop-unswitch -inline -tailcallelim -dse -jump-threading -memcpyopt -reg2mem -loop-rotate -break-crit-edges -sink -instcombine -indvars -loweratomic -adce -ipsccp -correlated-propagation -strip-nondebug -globaldce -constmerge -loop-idiom 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 1.1276726722717285, -1.1276726722717285
+-loop-idiom -float2int -reassociate -libcalls-shrinkwrap -tailcallelim -lowerswitch -simple-loop-unswitch -strip -globaldce -jump-threading -adce -break-crit-edges -loop-rotate -indvars -loweratomic -memcpyopt -ipsccp -reg2mem -deadargelim -mem2reg 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.8104140758514404, -0.8104140758514404
+-loop-reduce -gvn -strip-nondebug -jump-threading -indvars -break-crit-edges -memcpyopt -globalopt -partial-inliner -reg2mem -loop-deletion -globaldce -reassociate -loweratomic -ipsccp -loop-rotate -loop-idiom -correlated-propagation -tailcallelim -constmerge 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.845247745513916, -0.845247745513916
+-memcpyopt -loop-rotate -lcssa -break-crit-edges -simplifycfg -indvars -dse -reg2mem -loweratomic -deadargelim -correlated-propagation -inline -strip-nondebug -constmerge -lowerswitch -ipsccp -globaldce -reassociate -adce -instcombine 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.635298490524292, -0.635298490524292
+-sccp -reassociate -function-attrs -loop-idiom -reg2mem -strip -loop-deletion -jump-threading -indvars -correlated-propagation -break-crit-edges -globaldce -ipsccp -strip-nondebug -adce -deadargelim -instcombine -loweratomic -constmerge -loop-rotate 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.8038029670715332, -0.8038029670715332
+-sink -early-cse -reg2mem -ipsccp -dse -correlated-propagation -adce -break-crit-edges -instcombine -deadargelim -indvars -globaldce -constmerge -loweratomic -loop-rotate -reassociate -loop-idiom -simplifycfg -mem2reg -strip-nondebug 
+security_rijndael_d: 0.5665082931518555, inf, inf, inf, 0.8533539772033691, -0.8533539772033691
+-correlated-propagation -ipsccp -reg2mem -loweratomic -early-cse -gvn -break-crit-edges -indvars -memcpyopt -globaldce -simplifycfg -deadargelim -strip-nondebug -reassociate -alignment-from-assumptions -instcombine -mem2reg -constmerge -partial-inliner -adce 

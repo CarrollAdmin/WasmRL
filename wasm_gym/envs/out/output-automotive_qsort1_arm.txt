@@ -1,0 +1,184 @@
+automotive_qsort1: 0.5638844966888428, inf, inf, inf, 0.5638844966888428, -0.5638844966888428
+-loop-idiom -loop-deletion -jump-threading -reassociate -loop-simplify -sink -reg2mem -float2int -sroa -lowerswitch -ipsccp -loop-rotate -adce -alignment-from-assumptions -mem2reg -deadargelim -correlated-propagation -loweratomic -licm -function-attrs 
+automotive_qsort1: 0.2965409755706787, inf, inf, inf, 0.2965409755706787, -0.2965409755706787
+-indvars -loop-deletion -sink -reg2mem -jump-threading -deadargelim -mem2reg -lcssa -break-crit-edges -libcalls-shrinkwrap -licm -loop-rotate -correlated-propagation -gvn -alignment-from-assumptions -lowerswitch -sccp -dse -constmerge -loop-idiom 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.23716449737548828, -0.23716449737548828
+-early-cse -lowerinvoke -globaldce -float2int -licm -inline -reassociate -deadargelim -gvn -loop-simplify -lower-expect -loop-reduce -adce -ipsccp -loop-idiom -constmerge -break-crit-edges -strip -globalopt -indvars 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.3807835578918457, -0.3807835578918457
+-strip-nondebug -jump-threading -loop-simplify -strip -deadargelim -lowerinvoke -loop-unroll -globaldce -early-cse -loop-reduce -simple-loop-unswitch -tailcallelim -partial-inliner -loweratomic -ipsccp -globalopt -function-attrs -simplifycfg -lowerswitch -float2int 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.6908094882965088, -0.6908094882965088
+-loop-deletion -lowerinvoke -partial-inliner -ipsccp -dse -loop-simplify -globaldce -simplifycfg -lowerswitch -simple-loop-unswitch -early-cse -tailcallelim -break-crit-edges -licm -reg2mem -lower-expect -correlated-propagation -loop-fusion -globalopt -sccp 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.2532079219818115, -0.2532079219818115
+-lower-expect -ipsccp -loop-fusion -sink -lowerswitch -loop-simplify -lcssa -indvars -sccp -loop-deletion -strip-nondebug -float2int -loop-reduce -licm -adce -loweratomic -deadargelim -function-attrs -libcalls-shrinkwrap -tailcallelim 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.24688196182250977, -0.24688196182250977
+-loop-rotate -early-cse -lcssa -jump-threading -globalopt -lowerswitch -break-crit-edges -gvn -adce -loop-simplify -loop-deletion -libcalls-shrinkwrap -sroa -tailcallelim -dse -lower-expect -strip -loweratomic -lowerinvoke -licm 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.38410019874572754, -0.38410019874572754
+-loop-deletion -indvars -simplifycfg -sink -lowerinvoke -lower-expect -sroa -ipsccp -libcalls-shrinkwrap -inline -strip-nondebug -loop-reduce -dse -break-crit-edges -loop-fusion -partial-inliner -loweratomic -licm -globalopt -reassociate 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.24571633338928223, -0.24571633338928223
+-globaldce -simple-loop-unswitch -constmerge -licm -reg2mem -indvars -inline -sccp -memcpyopt -break-crit-edges -lowerinvoke -loop-idiom -strip -partial-inliner -gvn -sroa -sink -lcssa -libcalls-shrinkwrap -mem2reg 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.24065303802490234, -0.24065303802490234
+-correlated-propagation -early-cse -simplifycfg -break-crit-edges -float2int -reg2mem -memcpyopt -libcalls-shrinkwrap -globalopt -strip-nondebug -loop-deletion -loop-unroll -mem2reg -reassociate -strip -sccp -lowerinvoke -tailcallelim -sink -dse 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.4469480514526367, -0.4469480514526367
+-partial-inliner -mem2reg -gvn -float2int -early-cse -simple-loop-unswitch -licm -memcpyopt -adce -inline -loop-deletion -loop-simplify -globaldce -strip-nondebug -deadargelim -strip -libcalls-shrinkwrap -constmerge -simplifycfg -break-crit-edges 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.28440093994140625, -0.28440093994140625
+-partial-inliner -loop-rotate -loop-fusion -indvars -strip-nondebug -libcalls-shrinkwrap -alignment-from-assumptions -globalopt -strip -reassociate -ipsccp -function-attrs -tailcallelim -lowerswitch -loweratomic -reg2mem -loop-reduce -lower-expect -lowerinvoke -loop-idiom 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.3354790210723877, -0.3354790210723877
+-lower-expect -mem2reg -reassociate -loop-fusion -loop-deletion -loop-simplify -lowerinvoke -indvars -loop-reduce -globalopt -ipsccp -licm -break-crit-edges -libcalls-shrinkwrap -memcpyopt -inline -reg2mem -gvn -strip-nondebug -deadargelim 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.2510650157928467, -0.2510650157928467
+-float2int -libcalls-shrinkwrap -lcssa -inline -deadargelim -loop-simplify -reassociate -loop-unroll -constmerge -sroa -adce -globalopt -alignment-from-assumptions -instcombine -strip-nondebug -tailcallelim -sccp -correlated-propagation -globaldce -early-cse 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.252744197845459, -0.252744197845459
+-instcombine -lower-expect -lowerinvoke -loop-reduce -loweratomic -loop-fusion -alignment-from-assumptions -sroa -jump-threading -float2int -inline -lcssa -licm -break-crit-edges -indvars -simplifycfg -reg2mem -ipsccp -loop-simplify -globaldce 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.4411284923553467, -0.4411284923553467
+-sink -sroa -loop-unroll -globalopt -instcombine -mem2reg -loop-deletion -licm -lowerinvoke -strip-nondebug -jump-threading -dse -lower-expect -sccp -lcssa -loweratomic -libcalls-shrinkwrap -ipsccp -loop-idiom -loop-rotate 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.46011996269226074, -0.46011996269226074
+-reassociate -loop-simplify -loop-unroll -memcpyopt -instcombine -globaldce -reg2mem -early-cse -constmerge -sccp -loweratomic -dse -loop-rotate -break-crit-edges -loop-deletion -lower-expect -strip-nondebug -libcalls-shrinkwrap -lcssa -ipsccp 
+automotive_qsort1: 0.23716449737548828, inf, inf, inf, 0.24564576148986816, -0.24564576148986816
+-loop-deletion -adce -jump-threading -lowerinvoke -tailcallelim -inline -strip-nondebug -loop-simplify -mem2reg -simple-loop-unswitch -deadargelim -strip -early-cse -loop-fusion -simplifycfg -reg2mem -memcpyopt -lcssa -alignment-from-assumptions -indvars 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2369840145111084, -0.2369840145111084
+-globaldce -indvars -loop-simplify -break-crit-edges -strip -licm -function-attrs -libcalls-shrinkwrap -sccp -strip-nondebug -loop-reduce -lcssa -ipsccp -mem2reg -tailcallelim -instcombine -adce -reg2mem -memcpyopt -lowerswitch 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.3440394401550293, -0.3440394401550293
+-dse -constmerge -globaldce -instcombine -loop-simplify -memcpyopt -early-cse -loop-deletion -loop-rotate -correlated-propagation -globalopt -break-crit-edges -simplifycfg -lowerinvoke -strip-nondebug -lcssa -lower-expect -ipsccp -tailcallelim -sccp 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.49901509284973145, -0.49901509284973145
+-loop-deletion -sink -adce -sccp -lowerinvoke -loweratomic -loop-fusion -deadargelim -correlated-propagation -lower-expect -jump-threading -partial-inliner -indvars -reg2mem -ipsccp -globalopt -loop-rotate -globaldce -libcalls-shrinkwrap -mem2reg 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.25158262252807617, -0.25158262252807617
+-loweratomic -jump-threading -early-cse -loop-idiom -globaldce -loop-simplify -sink -memcpyopt -globalopt -lower-expect -adce -simplifycfg -sroa -deadargelim -tailcallelim -ipsccp -loop-deletion -reg2mem -instcombine -float2int 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.250469446182251, -0.250469446182251
+-instcombine -lowerinvoke -inline -early-cse -ipsccp -indvars -globalopt -adce -mem2reg -tailcallelim -alignment-from-assumptions -reg2mem -lcssa -deadargelim -float2int -loop-reduce -loop-simplify -memcpyopt -loweratomic -sccp 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2526686191558838, -0.2526686191558838
+-instcombine -mem2reg -early-cse -loop-simplify -reg2mem -tailcallelim -globaldce -loop-fusion -lower-expect -constmerge -lowerinvoke -adce -loop-deletion -ipsccp -memcpyopt -jump-threading -loop-reduce -correlated-propagation -reassociate -simple-loop-unswitch 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.44777393341064453, -0.44777393341064453
+-inline -adce -partial-inliner -memcpyopt -loop-idiom -loop-deletion -loop-rotate -globaldce -break-crit-edges -strip -licm -ipsccp -lowerinvoke -reassociate -deadargelim -dse -simplifycfg -early-cse -float2int -sink 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2751157283782959, -0.2751157283782959
+-lowerinvoke -globaldce -lower-expect -correlated-propagation -gvn -reg2mem -loop-reduce -sink -licm -jump-threading -early-cse -loop-rotate -lcssa -float2int -loop-simplify -sccp -simple-loop-unswitch -loop-idiom -loop-fusion -partial-inliner 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2611262798309326, -0.2611262798309326
+-lower-expect -reg2mem -loop-simplify -lowerinvoke -lowerswitch -loweratomic -memcpyopt -reassociate -dse -strip-nondebug -indvars -instcombine -mem2reg -loop-rotate -gvn -sccp -loop-idiom -globalopt -ipsccp -break-crit-edges 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2532951831817627, -0.2532951831817627
+-loop-reduce -reg2mem -mem2reg -simplifycfg -loop-unroll -memcpyopt -sroa -break-crit-edges -correlated-propagation -licm -ipsccp -constmerge -deadargelim -indvars -gvn -strip -strip-nondebug -loop-simplify -loop-idiom -adce 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.24529790878295898, -0.24529790878295898
+-sink -inline -mem2reg -loop-deletion -loop-rotate -float2int -reg2mem -loweratomic -loop-reduce -deadargelim -globaldce -sroa -correlated-propagation -function-attrs -break-crit-edges -alignment-from-assumptions -reassociate -loop-idiom -early-cse -globalopt 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2659883499145508, -0.2659883499145508
+-mem2reg -break-crit-edges -function-attrs -loweratomic -dse -correlated-propagation -loop-rotate -loop-simplify -lowerinvoke -indvars -simple-loop-unswitch -ipsccp -reassociate -reg2mem -jump-threading -memcpyopt -globaldce -strip-nondebug -loop-unroll -globalopt 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.5750324726104736, -0.5750324726104736
+-partial-inliner -loweratomic -reg2mem -indvars -sccp -memcpyopt -correlated-propagation -licm -dse -reassociate -simplifycfg -loop-idiom -adce -strip-nondebug -loop-reduce -loop-unroll -sink -break-crit-edges -alignment-from-assumptions -inline 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2376565933227539, -0.2376565933227539
+-inline -strip -mem2reg -loop-rotate -early-cse -sink -function-attrs -break-crit-edges -loop-deletion -lowerinvoke -reg2mem -alignment-from-assumptions -strip-nondebug -simplifycfg -loweratomic -globaldce -adce -licm -deadargelim -memcpyopt 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.31139254570007324, -0.31139254570007324
+-reassociate -strip -reg2mem -loop-rotate -deadargelim -lcssa -strip-nondebug -partial-inliner -break-crit-edges -correlated-propagation -simple-loop-unswitch -instcombine -loweratomic -indvars -jump-threading -ipsccp -memcpyopt -sink -adce -simplifycfg 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.25788092613220215, -0.25788092613220215
+-loop-idiom -alignment-from-assumptions -loop-reduce -indvars -early-cse -correlated-propagation -ipsccp -reg2mem -deadargelim -partial-inliner -break-crit-edges -inline -lowerswitch -loweratomic -memcpyopt -mem2reg -loop-rotate -adce -licm -strip-nondebug 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.42513155937194824, -0.42513155937194824
+-loop-idiom -alignment-from-assumptions -loop-fusion -globalopt -ipsccp -licm -reg2mem -loop-unroll -indvars -loop-reduce -jump-threading -constmerge -float2int -loop-simplify -partial-inliner -break-crit-edges -strip-nondebug -memcpyopt -loweratomic -loop-rotate 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.26597142219543457, -0.26597142219543457
+-function-attrs -jump-threading -loweratomic -reg2mem -tailcallelim -reassociate -lowerswitch -sroa -loop-rotate -globaldce -lcssa -ipsccp -break-crit-edges -adce -memcpyopt -alignment-from-assumptions -indvars -correlated-propagation -lower-expect -float2int 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.5888285636901855, -0.5888285636901855
+-globaldce -break-crit-edges -loop-unroll -loweratomic -deadargelim -lowerswitch -jump-threading -strip-nondebug -reg2mem -constmerge -loop-rotate -loop-deletion -float2int -globalopt -mem2reg -indvars -loop-reduce -reassociate -correlated-propagation -lowerinvoke 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.6172287464141846, -0.6172287464141846
+-simple-loop-unswitch -tailcallelim -adce -inline -break-crit-edges -early-cse -sink -dse -loweratomic -constmerge -indvars -reassociate -memcpyopt -globaldce -loop-rotate -ipsccp -partial-inliner -strip-nondebug -reg2mem -correlated-propagation 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2637450695037842, -0.2637450695037842
+-inline -reg2mem -globaldce -loweratomic -strip-nondebug -licm -indvars -loop-reduce -partial-inliner -break-crit-edges -ipsccp -instcombine -reassociate -function-attrs -loop-rotate -sroa -mem2reg -correlated-propagation -loop-idiom -float2int 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2532801628112793, -0.2532801628112793
+-sink -loweratomic -alignment-from-assumptions -ipsccp -loop-simplify -correlated-propagation -adce -reassociate -lower-expect -early-cse -indvars -break-crit-edges -deadargelim -licm -memcpyopt -loop-reduce -reg2mem -strip-nondebug -instcombine -tailcallelim 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2634439468383789, -0.2634439468383789
+-alignment-from-assumptions -strip-nondebug -instcombine -indvars -simplifycfg -loop-unroll -reg2mem -correlated-propagation -deadargelim -break-crit-edges -tailcallelim -loweratomic -reassociate -sroa -ipsccp -constmerge -early-cse -loop-reduce -loop-rotate -memcpyopt 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2644827365875244, -0.2644827365875244
+-gvn -adce -simple-loop-unswitch -indvars -break-crit-edges -float2int -memcpyopt -lcssa -loop-idiom -ipsccp -loweratomic -instcombine -correlated-propagation -reassociate -reg2mem -constmerge -globaldce -lowerinvoke -early-cse -strip-nondebug 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2528975009918213, -0.2528975009918213
+-memcpyopt -instcombine -lowerswitch -function-attrs -constmerge -break-crit-edges -sroa -correlated-propagation -adce -reg2mem -reassociate -ipsccp -strip -indvars -globaldce -loweratomic -tailcallelim -strip-nondebug -loop-rotate -libcalls-shrinkwrap 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.24420928955078125, -0.24420928955078125
+-simple-loop-unswitch -jump-threading -adce -ipsccp -loop-rotate -mem2reg -indvars -lowerswitch -break-crit-edges -partial-inliner -instcombine -reassociate -reg2mem -memcpyopt -strip-nondebug -loweratomic -sink -correlated-propagation -lower-expect -function-attrs 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.24887537956237793, -0.24887537956237793
+-strip-nondebug -correlated-propagation -indvars -sccp -dse -adce -break-crit-edges -loweratomic -reg2mem -loop-rotate -loop-idiom -lowerswitch -instcombine -loop-fusion -globaldce -reassociate -memcpyopt -deadargelim -early-cse -ipsccp 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.25359463691711426, -0.25359463691711426
+-mem2reg -adce -strip -simplifycfg -break-crit-edges -partial-inliner -loweratomic -constmerge -function-attrs -reassociate -strip-nondebug -sroa -correlated-propagation -ipsccp -reg2mem -instcombine -float2int -loop-idiom -indvars -sink 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.6786420345306396, -0.6786420345306396
+-loop-simplify -float2int -reg2mem -licm -loop-rotate -dse -loweratomic -break-crit-edges -gvn -mem2reg -reassociate -indvars -correlated-propagation -globaldce -deadargelim -ipsccp -instcombine -simplifycfg -jump-threading -adce 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.24913477897644043, -0.24913477897644043
+-correlated-propagation -reg2mem -strip -gvn -libcalls-shrinkwrap -indvars -globaldce -lowerswitch -partial-inliner -break-crit-edges -reassociate -deadargelim -float2int -early-cse -ipsccp -strip-nondebug -adce -loop-rotate -simplifycfg -memcpyopt 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.242387056350708, -0.242387056350708
+-deadargelim -correlated-propagation -constmerge -adce -indvars -tailcallelim -loop-idiom -reassociate -strip-nondebug -break-crit-edges -globaldce -simplifycfg -function-attrs -instcombine -reg2mem -sroa -ipsccp -loop-rotate -memcpyopt -loweratomic 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.25797057151794434, -0.25797057151794434
+-instcombine -loweratomic -indvars -sink -constmerge -reassociate -deadargelim -loop-rotate -break-crit-edges -adce -strip-nondebug -memcpyopt -tailcallelim -correlated-propagation -reg2mem -loop-idiom -ipsccp -globaldce -early-cse -dse 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.24916815757751465, -0.24916815757751465
+-globaldce -correlated-propagation -indvars -reassociate -break-crit-edges -early-cse -adce -loop-rotate -lowerswitch -loop-idiom -memcpyopt -instcombine -reg2mem -ipsccp -constmerge -inline -strip-nondebug -lowerinvoke -globalopt -deadargelim 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.26765894889831543, -0.26765894889831543
+-loweratomic -indvars -break-crit-edges -globalopt -reg2mem -adce -simplifycfg -function-attrs -licm -lowerswitch -correlated-propagation -globaldce -deadargelim -reassociate -float2int -ipsccp -loop-rotate -constmerge -jump-threading -sink 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.23907160758972168, -0.23907160758972168
+-loweratomic -loop-fusion -break-crit-edges -loop-unroll -reg2mem -function-attrs -indvars -lower-expect -correlated-propagation -strip-nondebug -loop-idiom -reassociate -globaldce -adce -memcpyopt -early-cse -float2int -ipsccp -jump-threading -loop-rotate 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.25722193717956543, -0.25722193717956543
+-memcpyopt -simple-loop-unswitch -loop-idiom -indvars -deadargelim -break-crit-edges -loop-deletion -reassociate -simplifycfg -loop-simplify -globaldce -reg2mem -correlated-propagation -loop-rotate -ipsccp -tailcallelim -mem2reg -loweratomic -constmerge -adce 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.25308895111083984, -0.25308895111083984
+-indvars -dse -ipsccp -loweratomic -simplifycfg -break-crit-edges -globaldce -reg2mem -tailcallelim -adce -deadargelim -constmerge -loop-rotate -early-cse -instcombine -simple-loop-unswitch -reassociate -correlated-propagation -jump-threading -strip-nondebug 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2561991214752197, -0.2561991214752197
+-libcalls-shrinkwrap -loop-deletion -loop-idiom -instcombine -mem2reg -break-crit-edges -loop-simplify -ipsccp -sroa -constmerge -loop-rotate -loweratomic -reg2mem -indvars -strip-nondebug -adce -memcpyopt -dse -simplifycfg -globaldce 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.26069068908691406, -0.26069068908691406
+-correlated-propagation -adce -partial-inliner -strip-nondebug -loop-rotate -loweratomic -memcpyopt -indvars -reg2mem -break-crit-edges -mem2reg -constmerge -ipsccp -reassociate -dse -deadargelim -sink -instcombine -loop-idiom -globaldce 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.24954915046691895, -0.24954915046691895
+-loweratomic -lowerinvoke -partial-inliner -strip-nondebug -break-crit-edges -indvars -correlated-propagation -loop-rotate -memcpyopt -deadargelim -adce -constmerge -reg2mem -loop-idiom -ipsccp -reassociate -globaldce -instcombine -tailcallelim -lcssa 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.29222917556762695, -0.29222917556762695
+-loweratomic -simple-loop-unswitch -reg2mem -inline -deadargelim -instcombine -dse -break-crit-edges -reassociate -loop-fusion -correlated-propagation -licm -loop-simplify -indvars -strip-nondebug -adce -globaldce -constmerge -ipsccp -memcpyopt 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.47289156913757324, -0.47289156913757324
+-loop-rotate -memcpyopt -strip -loop-fusion -reg2mem -partial-inliner -lcssa -instcombine -correlated-propagation -break-crit-edges -indvars -globalopt -globaldce -adce -sroa -constmerge -ipsccp -reassociate -loweratomic -loop-idiom 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2723209857940674, -0.2723209857940674
+-correlated-propagation -alignment-from-assumptions -constmerge -globaldce -break-crit-edges -indvars -ipsccp -memcpyopt -deadargelim -mem2reg -reg2mem -loop-rotate -adce -instcombine -reassociate -loweratomic -strip-nondebug -loop-idiom -dse -jump-threading 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.6810793876647949, -0.6810793876647949
+-mem2reg -adce -correlated-propagation -loop-fusion -inline -jump-threading -memcpyopt -loop-rotate -ipsccp -reg2mem -break-crit-edges -loop-unroll -constmerge -loweratomic -indvars -strip-nondebug -deadargelim -instcombine -reassociate -globaldce 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2931947708129883, -0.2931947708129883
+-strip-nondebug -partial-inliner -indvars -break-crit-edges -lowerinvoke -reg2mem -jump-threading -loop-rotate -alignment-from-assumptions -ipsccp -instcombine -adce -memcpyopt -constmerge -correlated-propagation -mem2reg -globaldce -loop-reduce -reassociate -loweratomic 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.24100327491760254, -0.24100327491760254
+-indvars -dse -licm -loweratomic -lower-expect -ipsccp -instcombine -break-crit-edges -constmerge -reg2mem -jump-threading -memcpyopt -strip-nondebug -loop-rotate -correlated-propagation -reassociate -lowerswitch -adce -deadargelim -globaldce 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.24748015403747559, -0.24748015403747559
+-early-cse -partial-inliner -simplifycfg -deadargelim -strip-nondebug -correlated-propagation -reg2mem -lower-expect -loweratomic -loop-rotate -instcombine -break-crit-edges -indvars -memcpyopt -adce -ipsccp -constmerge -reassociate -globaldce -jump-threading 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2632331848144531, -0.2632331848144531
+-memcpyopt -dse -strip -constmerge -correlated-propagation -ipsccp -instcombine -loop-rotate -adce -break-crit-edges -loweratomic -reg2mem -tailcallelim -globaldce -indvars -reassociate -simple-loop-unswitch -strip-nondebug -partial-inliner -jump-threading 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.24813270568847656, -0.24813270568847656
+-loop-rotate -lowerswitch -sroa -libcalls-shrinkwrap -jump-threading -deadargelim -lowerinvoke -reg2mem -globaldce -break-crit-edges -correlated-propagation -simplifycfg -indvars -reassociate -loweratomic -memcpyopt -constmerge -dse -strip -instcombine 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.3579976558685303, -0.3579976558685303
+-adce -loop-reduce -strip-nondebug -globalopt -simple-loop-unswitch -constmerge -break-crit-edges -memcpyopt -ipsccp -reg2mem -indvars -reassociate -early-cse -loop-rotate -globaldce -correlated-propagation -loweratomic -deadargelim -loop-idiom -jump-threading 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.3144493103027344, -0.3144493103027344
+-lower-expect -loop-rotate -indvars -reg2mem -libcalls-shrinkwrap -instcombine -early-cse -adce -loop-unroll -partial-inliner -dse -break-crit-edges -constmerge -correlated-propagation -loop-idiom -ipsccp -strip-nondebug -globaldce -deadargelim -memcpyopt 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2404651641845703, -0.2404651641845703
+-globaldce -break-crit-edges -dse -loop-rotate -indvars -simplifycfg -strip -alignment-from-assumptions -adce -deadargelim -loweratomic -loop-fusion -reg2mem -strip-nondebug -reassociate -libcalls-shrinkwrap -ipsccp -correlated-propagation -constmerge -memcpyopt 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.5547580718994141, -0.5547580718994141
+-reassociate -loop-fusion -globaldce -adce -lowerswitch -indvars -loop-reduce -early-cse -break-crit-edges -correlated-propagation -lower-expect -dse -loweratomic -instcombine -loop-idiom -reg2mem -constmerge -memcpyopt -ipsccp -loop-rotate 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.27765774726867676, -0.27765774726867676
+-adce -ipsccp -loweratomic -instcombine -memcpyopt -constmerge -loop-simplify -break-crit-edges -loop-idiom -early-cse -reg2mem -dse -indvars -reassociate -correlated-propagation -deadargelim -loop-rotate -strip-nondebug -globaldce -tailcallelim 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.3434934616088867, -0.3434934616088867
+-deadargelim -reg2mem -ipsccp -globaldce -early-cse -break-crit-edges -adce -loop-rotate -constmerge -strip-nondebug -tailcallelim -correlated-propagation -instcombine -memcpyopt -indvars -loweratomic -libcalls-shrinkwrap -reassociate -loop-idiom -float2int 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.26390838623046875, -0.26390838623046875
+-function-attrs -break-crit-edges -correlated-propagation -globaldce -ipsccp -reg2mem -adce -loweratomic -strip-nondebug -loop-rotate -indvars -reassociate -constmerge -loop-idiom -memcpyopt -dse -instcombine -simple-loop-unswitch -deadargelim -libcalls-shrinkwrap 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.24115896224975586, -0.24115896224975586
+-strip -strip-nondebug -loweratomic -correlated-propagation -break-crit-edges -reg2mem -partial-inliner -indvars -loop-deletion -memcpyopt -adce -ipsccp -constmerge -instcombine -dse -loop-idiom -globaldce -loop-rotate -deadargelim -reassociate 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.25302600860595703, -0.25302600860595703
+-adce -alignment-from-assumptions -ipsccp -memcpyopt -reg2mem -loop-fusion -strip-nondebug -loop-unroll -dse -partial-inliner -constmerge -globaldce -indvars -break-crit-edges -mem2reg -loweratomic -function-attrs -loop-idiom -loop-rotate -deadargelim 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.4342048168182373, -0.4342048168182373
+-correlated-propagation -loop-simplify -loop-deletion -break-crit-edges -indvars -adce -instcombine -ipsccp -loweratomic -memcpyopt -reg2mem -dse -globaldce -deadargelim -loop-rotate -constmerge -strip-nondebug -reassociate -partial-inliner -loop-idiom 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.4341599941253662, -0.4341599941253662
+-partial-inliner -reg2mem -globaldce -alignment-from-assumptions -loweratomic -simple-loop-unswitch -constmerge -break-crit-edges -adce -indvars -ipsccp -reassociate -memcpyopt -correlated-propagation -loop-rotate -simplifycfg -instcombine -loop-idiom -strip-nondebug -deadargelim 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.24857020378112793, -0.24857020378112793
+-float2int -lower-expect -loop-fusion -globaldce -libcalls-shrinkwrap -licm -loweratomic -mem2reg -correlated-propagation -memcpyopt -loop-idiom -indvars -ipsccp -reg2mem -break-crit-edges -loop-rotate -reassociate -deadargelim -adce -strip-nondebug 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.5961751937866211, -0.5961751937866211
+-alignment-from-assumptions -libcalls-shrinkwrap -sink -loop-reduce -memcpyopt -break-crit-edges -adce -globaldce -correlated-propagation -constmerge -reg2mem -loweratomic -ipsccp -strip-nondebug -indvars -mem2reg -deadargelim -loop-idiom -loop-rotate -tailcallelim 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.36326026916503906, -0.36326026916503906
+-adce -loop-deletion -memcpyopt -float2int -correlated-propagation -mem2reg -loweratomic -indvars -reg2mem -loop-rotate -reassociate -loop-idiom -break-crit-edges -instcombine -ipsccp -constmerge -deadargelim -loop-simplify -strip-nondebug -globaldce 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.24097824096679688, -0.24097824096679688
+-loop-rotate -early-cse -memcpyopt -tailcallelim -ipsccp -break-crit-edges -deadargelim -dse -reg2mem -indvars -partial-inliner -loweratomic -constmerge -adce -loop-idiom -simple-loop-unswitch -strip-nondebug -globaldce -alignment-from-assumptions -reassociate 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.25183582305908203, -0.25183582305908203
+-gvn -globalopt -lcssa -break-crit-edges -jump-threading -loop-rotate -adce -loweratomic -reg2mem -deadargelim -loop-deletion -strip-nondebug -indvars -simplifycfg -correlated-propagation -reassociate -ipsccp -memcpyopt -globaldce -instcombine 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.5209560394287109, -0.5209560394287109
+-gvn -loop-fusion -licm -ipsccp -loop-idiom -indvars -strip-nondebug -globaldce -break-crit-edges -correlated-propagation -reassociate -alignment-from-assumptions -loop-rotate -lcssa -reg2mem -constmerge -deadargelim -loweratomic -adce -memcpyopt 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.6237084865570068, -0.6237084865570068
+-lower-expect -sroa -break-crit-edges -licm -constmerge -globaldce -loop-simplify -loweratomic -memcpyopt -strip-nondebug -loop-idiom -reg2mem -adce -ipsccp -indvars -correlated-propagation -deadargelim -partial-inliner -reassociate -loop-rotate 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2708125114440918, -0.2708125114440918
+-constmerge -tailcallelim -indvars -reg2mem -deadargelim -correlated-propagation -jump-threading -break-crit-edges -inline -adce -ipsccp -memcpyopt -partial-inliner -loweratomic -loop-idiom -strip-nondebug -loop-rotate -globaldce -reassociate -instcombine 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.5109598636627197, -0.5109598636627197
+-break-crit-edges -loweratomic -indvars -loop-idiom -strip -instcombine -reassociate -libcalls-shrinkwrap -constmerge -reg2mem -strip-nondebug -loop-rotate -float2int -ipsccp -lowerswitch -memcpyopt -adce -correlated-propagation -globaldce -deadargelim 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.5015392303466797, -0.5015392303466797
+-strip -instcombine -constmerge -reassociate -break-crit-edges -loweratomic -indvars -simple-loop-unswitch -dse -strip-nondebug -globaldce -reg2mem -memcpyopt -ipsccp -correlated-propagation -sink -loop-rotate -deadargelim -tailcallelim -partial-inliner 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.49086928367614746, -0.49086928367614746
+-instcombine -dse -loop-fusion -lowerinvoke -loop-idiom -break-crit-edges -globalopt -alignment-from-assumptions -tailcallelim -correlated-propagation -loweratomic -lowerswitch -reassociate -strip-nondebug -indvars -ipsccp -constmerge -reg2mem -globaldce -loop-rotate 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.5936617851257324, -0.5936617851257324
+-function-attrs -deadargelim -strip-nondebug -break-crit-edges -loop-idiom -globaldce -indvars -loop-rotate -ipsccp -reg2mem -adce -libcalls-shrinkwrap -reassociate -instcombine -early-cse -constmerge -loweratomic -correlated-propagation -memcpyopt -tailcallelim 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.2754983901977539, -0.2754983901977539
+-loop-reduce -break-crit-edges -loweratomic -indvars -loop-rotate -strip-nondebug -reassociate -ipsccp -reg2mem -instcombine -sink -globaldce -correlated-propagation -adce -dse -constmerge -loop-idiom -deadargelim -memcpyopt -tailcallelim 
+automotive_qsort1: 0.2369840145111084, inf, inf, inf, 0.5432360172271729, -0.5432360172271729
+-sccp -indvars -float2int -ipsccp -loop-idiom -break-crit-edges -loop-rotate -globaldce -globalopt -adce -constmerge -reg2mem -strip-nondebug -reassociate -deadargelim -loweratomic -correlated-propagation -early-cse -sink -instcombine 

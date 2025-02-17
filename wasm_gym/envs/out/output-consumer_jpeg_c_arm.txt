@@ -1,0 +1,184 @@
+consumer_jpeg_c: 0.22111201286315918, inf, inf, inf, 0.22111201286315918, -0.22111201286315918
+-loweratomic -mem2reg -reg2mem -float2int -correlated-propagation -instcombine -loop-fusion -loop-deletion -loop-idiom -inline -break-crit-edges -libcalls-shrinkwrap -loop-reduce -deadargelim -simple-loop-unswitch -loop-unroll -gvn -alignment-from-assumptions -reassociate -memcpyopt 
+consumer_jpeg_c: 0.21906542778015137, inf, inf, inf, 0.21906542778015137, -0.21906542778015137
+-inline -indvars -correlated-propagation -dse -function-attrs -loop-simplify -libcalls-shrinkwrap -memcpyopt -strip -reg2mem -simplifycfg -globalopt -adce -tailcallelim -loop-reduce -loop-unroll -reassociate -loop-fusion -lowerinvoke -break-crit-edges 
+consumer_jpeg_c: 0.21906542778015137, inf, inf, inf, 0.22635960578918457, -0.22635960578918457
+-loweratomic -reg2mem -loop-idiom -lowerswitch -tailcallelim -deadargelim -float2int -early-cse -constmerge -loop-simplify -simple-loop-unswitch -libcalls-shrinkwrap -indvars -sccp -lcssa -strip-nondebug -adce -memcpyopt -lower-expect -dse 
+consumer_jpeg_c: 0.21906542778015137, inf, inf, inf, 0.2226090431213379, -0.2226090431213379
+-simplifycfg -early-cse -sccp -libcalls-shrinkwrap -lcssa -licm -float2int -loop-fusion -adce -loop-simplify -indvars -loop-unroll -gvn -deadargelim -memcpyopt -ipsccp -reassociate -strip-nondebug -constmerge -mem2reg 
+consumer_jpeg_c: 0.21679210662841797, inf, inf, inf, 0.21679210662841797, -0.21679210662841797
+-sink -loop-fusion -lowerinvoke -sccp -memcpyopt -gvn -early-cse -function-attrs -libcalls-shrinkwrap -globaldce -break-crit-edges -partial-inliner -loop-deletion -lower-expect -loop-simplify -licm -tailcallelim -loop-unroll -deadargelim -globalopt 
+consumer_jpeg_c: 0.21679210662841797, inf, inf, inf, 0.22060251235961914, -0.22060251235961914
+-sink -simple-loop-unswitch -loop-reduce -constmerge -instcombine -libcalls-shrinkwrap -alignment-from-assumptions -indvars -correlated-propagation -loweratomic -float2int -break-crit-edges -function-attrs -partial-inliner -lowerswitch -reg2mem -early-cse -tailcallelim -deadargelim -jump-threading 
+consumer_jpeg_c: 0.21679210662841797, inf, inf, inf, 0.2168130874633789, -0.2168130874633789
+-lowerinvoke -loop-deletion -loop-reduce -inline -ipsccp -loweratomic -correlated-propagation -loop-fusion -alignment-from-assumptions -loop-idiom -break-crit-edges -loop-simplify -reassociate -early-cse -dse -float2int -memcpyopt -sink -indvars -constmerge 
+consumer_jpeg_c: 0.21679210662841797, inf, inf, inf, 0.22757411003112793, -0.22757411003112793
+-gvn -loop-simplify -function-attrs -simplifycfg -jump-threading -licm -lowerinvoke -early-cse -strip -instcombine -float2int -alignment-from-assumptions -indvars -break-crit-edges -loop-rotate -globaldce -loop-deletion -correlated-propagation -loop-idiom -memcpyopt 
+consumer_jpeg_c: 0.21679210662841797, inf, inf, inf, 0.22485756874084473, -0.22485756874084473
+-dse -indvars -lowerswitch -break-crit-edges -early-cse -loop-simplify -loop-deletion -jump-threading -reassociate -function-attrs -adce -tailcallelim -alignment-from-assumptions -deadargelim -loop-fusion -lowerinvoke -globaldce -sccp -globalopt -memcpyopt 
+consumer_jpeg_c: 0.21679210662841797, inf, inf, inf, 0.21724390983581543, -0.21724390983581543
+-indvars -globalopt -alignment-from-assumptions -loop-deletion -adce -lowerswitch -dse -sccp -instcombine -inline -strip-nondebug -early-cse -loop-rotate -strip -break-crit-edges -loop-reduce -loop-idiom -mem2reg -correlated-propagation -sroa 
+consumer_jpeg_c: 0.21679210662841797, inf, inf, inf, 0.2169642448425293, -0.2169642448425293
+-lcssa -licm -instcombine -memcpyopt -float2int -function-attrs -gvn -lowerinvoke -inline -simple-loop-unswitch -libcalls-shrinkwrap -loop-deletion -sccp -globaldce -ipsccp -adce -early-cse -dse -partial-inliner -break-crit-edges 
+consumer_jpeg_c: 0.21679210662841797, inf, inf, inf, 0.22048401832580566, -0.22048401832580566
+-indvars -loweratomic -gvn -sink -lower-expect -alignment-from-assumptions -memcpyopt -simplifycfg -jump-threading -loop-idiom -lcssa -lowerinvoke -loop-fusion -dse -lowerswitch -ipsccp -globalopt -loop-deletion -adce -partial-inliner 
+consumer_jpeg_c: 0.21679210662841797, inf, inf, inf, 0.22496461868286133, -0.22496461868286133
+-reassociate -loop-unroll -loop-deletion -loop-reduce -lcssa -ipsccp -loop-idiom -inline -reg2mem -sroa -loweratomic -globalopt -partial-inliner -memcpyopt -mem2reg -simplifycfg -indvars -loop-fusion -jump-threading -dse 
+consumer_jpeg_c: 0.21679210662841797, inf, inf, inf, 0.22666621208190918, -0.22666621208190918
+-deadargelim -lowerswitch -instcombine -lcssa -mem2reg -lowerinvoke -libcalls-shrinkwrap -loop-unroll -loop-deletion -memcpyopt -reassociate -adce -function-attrs -partial-inliner -tailcallelim -ipsccp -sink -loweratomic -reg2mem -dse 
+consumer_jpeg_c: 0.21679210662841797, inf, inf, inf, 0.22618317604064941, -0.22618317604064941
+-globaldce -memcpyopt -reg2mem -correlated-propagation -lower-expect -inline -function-attrs -lowerinvoke -loweratomic -constmerge -libcalls-shrinkwrap -break-crit-edges -ipsccp -gvn -indvars -tailcallelim -loop-fusion -simplifycfg -sccp -instcombine 
+consumer_jpeg_c: 0.21679210662841797, inf, inf, inf, 0.22515106201171875, -0.22515106201171875
+-reassociate -reg2mem -loop-rotate -instcombine -mem2reg -tailcallelim -sccp -lower-expect -memcpyopt -correlated-propagation -libcalls-shrinkwrap -strip-nondebug -early-cse -function-attrs -sroa -loop-unroll -lcssa -break-crit-edges -jump-threading -loweratomic 
+consumer_jpeg_c: 0.21679210662841797, inf, inf, inf, 0.2243633270263672, -0.2243633270263672
+-mem2reg -break-crit-edges -lowerswitch -libcalls-shrinkwrap -function-attrs -loop-simplify -strip-nondebug -partial-inliner -reg2mem -sink -float2int -loop-rotate -early-cse -sroa -correlated-propagation -memcpyopt -dse -loop-idiom -loop-reduce -adce 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.21660518646240234, -0.21660518646240234
+-simplifycfg -correlated-propagation -loop-idiom -globalopt -partial-inliner -reg2mem -lower-expect -memcpyopt -loweratomic -loop-rotate -sroa -break-crit-edges -strip-nondebug -adce -loop-simplify -mem2reg -lcssa -loop-reduce -deadargelim -float2int 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.2250359058380127, -0.2250359058380127
+-float2int -globalopt -alignment-from-assumptions -deadargelim -instcombine -strip-nondebug -break-crit-edges -mem2reg -memcpyopt -sink -loop-reduce -adce -strip -function-attrs -loop-rotate -loop-simplify -reg2mem -lowerswitch -early-cse -loweratomic 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.21735024452209473, -0.21735024452209473
+-strip -loop-idiom -simple-loop-unswitch -dse -lowerswitch -indvars -constmerge -loop-unroll -loop-rotate -loweratomic -gvn -inline -mem2reg -tailcallelim -libcalls-shrinkwrap -adce -sccp -reg2mem -instcombine -lower-expect 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.23138928413391113, -0.23138928413391113
+-licm -lower-expect -strip-nondebug -correlated-propagation -deadargelim -inline -constmerge -partial-inliner -loop-idiom -alignment-from-assumptions -simplifycfg -instcombine -strip -loop-deletion -sccp -reg2mem -mem2reg -globalopt -indvars -lowerinvoke 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.22860050201416016, -0.22860050201416016
+-reg2mem -adce -loop-idiom -break-crit-edges -sccp -jump-threading -globalopt -dse -mem2reg -instcombine -lcssa -lowerswitch -loweratomic -memcpyopt -strip-nondebug -sink -globaldce -libcalls-shrinkwrap -loop-simplify -alignment-from-assumptions 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.2361280918121338, -0.2361280918121338
+-reg2mem -constmerge -reassociate -ipsccp -mem2reg -tailcallelim -memcpyopt -strip-nondebug -early-cse -inline -float2int -loop-unroll -lower-expect -adce -loop-reduce -indvars -licm -libcalls-shrinkwrap -globaldce -jump-threading 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.2219982147216797, -0.2219982147216797
+-reg2mem -globalopt -early-cse -adce -ipsccp -sroa -loop-rotate -inline -lower-expect -gvn -libcalls-shrinkwrap -alignment-from-assumptions -mem2reg -indvars -instcombine -function-attrs -memcpyopt -break-crit-edges -loweratomic -deadargelim 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.24044227600097656, -0.24044227600097656
+-dse -lowerinvoke -partial-inliner -ipsccp -memcpyopt -correlated-propagation -function-attrs -break-crit-edges -lowerswitch -loop-rotate -adce -instcombine -libcalls-shrinkwrap -indvars -lcssa -simple-loop-unswitch -reg2mem -loweratomic -float2int -reassociate 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.2299642562866211, -0.2299642562866211
+-lowerswitch -jump-threading -indvars -correlated-propagation -reg2mem -tailcallelim -function-attrs -alignment-from-assumptions -loop-reduce -ipsccp -sink -licm -early-cse -strip-nondebug -deadargelim -instcombine -simple-loop-unswitch -break-crit-edges -loop-rotate -globalopt 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.22472834587097168, -0.22472834587097168
+-strip -globaldce -loweratomic -sink -loop-fusion -correlated-propagation -libcalls-shrinkwrap -lowerswitch -lcssa -break-crit-edges -tailcallelim -reassociate -gvn -licm -reg2mem -loop-reduce -deadargelim -simple-loop-unswitch -strip-nondebug -partial-inliner 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.22084999084472656, -0.22084999084472656
+-strip-nondebug -memcpyopt -licm -loop-deletion -loop-unroll -partial-inliner -reg2mem -libcalls-shrinkwrap -tailcallelim -sink -float2int -break-crit-edges -loop-simplify -loweratomic -ipsccp -reassociate -correlated-propagation -sccp -adce -loop-rotate 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.2242746353149414, -0.2242746353149414
+-instcombine -simple-loop-unswitch -loop-reduce -correlated-propagation -globaldce -deadargelim -alignment-from-assumptions -float2int -loop-idiom -globalopt -break-crit-edges -licm -indvars -lowerinvoke -ipsccp -memcpyopt -loop-rotate -mem2reg -loweratomic -reassociate 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.22112822532653809, -0.22112822532653809
+-deadargelim -loweratomic -loop-simplify -strip-nondebug -loop-fusion -ipsccp -sccp -mem2reg -indvars -globaldce -memcpyopt -reg2mem -break-crit-edges -licm -tailcallelim -adce -libcalls-shrinkwrap -lcssa -loop-rotate -loop-idiom 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.2262265682220459, -0.2262265682220459
+-globaldce -function-attrs -simple-loop-unswitch -sroa -break-crit-edges -indvars -loweratomic -strip-nondebug -memcpyopt -early-cse -reg2mem -adce -instcombine -inline -libcalls-shrinkwrap -lcssa -correlated-propagation -mem2reg -deadargelim -sccp 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.22129154205322266, -0.22129154205322266
+-deadargelim -mem2reg -lowerinvoke -globaldce -loop-simplify -correlated-propagation -break-crit-edges -ipsccp -loop-rotate -lowerswitch -memcpyopt -constmerge -reassociate -loop-idiom -strip-nondebug -loweratomic -reg2mem -indvars -loop-reduce -float2int 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.2249305248260498, -0.2249305248260498
+-adce -partial-inliner -indvars -ipsccp -loweratomic -constmerge -memcpyopt -reg2mem -strip-nondebug -loop-reduce -early-cse -mem2reg -break-crit-edges -inline -tailcallelim -globaldce -correlated-propagation -gvn -loop-deletion -instcombine 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.48059844970703125, -0.48059844970703125
+-memcpyopt -simple-loop-unswitch -deadargelim -strip-nondebug -loweratomic -simplifycfg -instcombine -loop-idiom -libcalls-shrinkwrap -partial-inliner -indvars -ipsccp -reg2mem -sink -break-crit-edges -correlated-propagation -reassociate -loop-reduce -sroa -globaldce 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.2320542335510254, -0.2320542335510254
+-strip-nondebug -correlated-propagation -globalopt -adce -loop-idiom -constmerge -strip -loop-simplify -memcpyopt -loweratomic -reg2mem -early-cse -ipsccp -instcombine -reassociate -break-crit-edges -alignment-from-assumptions -loop-reduce -deadargelim -indvars 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.22994279861450195, -0.22994279861450195
+-loop-rotate -early-cse -loop-deletion -lower-expect -loweratomic -sink -simplifycfg -inline -lowerinvoke -indvars -mem2reg -ipsccp -break-crit-edges -memcpyopt -float2int -reg2mem -sroa -instcombine -adce -strip-nondebug 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.2166883945465088, -0.2166883945465088
+-globaldce -simplifycfg -ipsccp -lcssa -break-crit-edges -loop-reduce -loop-idiom -loop-fusion -correlated-propagation -loop-rotate -strip-nondebug -adce -early-cse -reassociate -reg2mem -loweratomic -mem2reg -memcpyopt -function-attrs -tailcallelim 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.2205805778503418, -0.2205805778503418
+-tailcallelim -sroa -licm -globalopt -early-cse -sccp -sink -loop-reduce -loop-simplify -loop-rotate -indvars -strip-nondebug -break-crit-edges -ipsccp -reg2mem -globaldce -adce -loweratomic -libcalls-shrinkwrap -reassociate 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.25706005096435547, -0.25706005096435547
+-ipsccp -correlated-propagation -break-crit-edges -libcalls-shrinkwrap -tailcallelim -memcpyopt -jump-threading -globalopt -reg2mem -strip-nondebug -simple-loop-unswitch -sccp -deadargelim -reassociate -loop-idiom -constmerge -loweratomic -float2int -alignment-from-assumptions -loop-rotate 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.41422390937805176, -0.41422390937805176
+-simplifycfg -break-crit-edges -inline -constmerge -loweratomic -lowerinvoke -memcpyopt -float2int -correlated-propagation -reassociate -lcssa -indvars -loop-idiom -strip-nondebug -loop-reduce -sink -ipsccp -reg2mem -libcalls-shrinkwrap -loop-rotate 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.23023343086242676, -0.23023343086242676
+-dse -partial-inliner -mem2reg -adce -loop-idiom -break-crit-edges -globaldce -loweratomic -lcssa -strip-nondebug -loop-simplify -ipsccp -reassociate -deadargelim -constmerge -reg2mem -memcpyopt -globalopt -correlated-propagation -libcalls-shrinkwrap 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.3546030521392822, -0.3546030521392822
+-tailcallelim -loop-rotate -sroa -lcssa -instcombine -licm -break-crit-edges -reg2mem -ipsccp -lowerswitch -loweratomic -globalopt -reassociate -correlated-propagation -memcpyopt -indvars -deadargelim -float2int -strip-nondebug -adce 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.23295044898986816, -0.23295044898986816
+-indvars -sink -ipsccp -adce -partial-inliner -sccp -loop-simplify -loweratomic -strip-nondebug -correlated-propagation -break-crit-edges -sroa -early-cse -constmerge -reg2mem -jump-threading -memcpyopt -reassociate -loop-idiom -function-attrs 
+consumer_jpeg_c: 0.21660518646240234, inf, inf, inf, 0.38323378562927246, -0.38323378562927246
+-loop-idiom -reassociate -alignment-from-assumptions -reg2mem -correlated-propagation -jump-threading -break-crit-edges -ipsccp -inline -indvars -loweratomic -tailcallelim -constmerge -loop-unroll -sink -loop-rotate -strip-nondebug -adce -early-cse -deadargelim 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.21288132667541504, -0.21288132667541504
+-simple-loop-unswitch -correlated-propagation -mem2reg -break-crit-edges -loop-deletion -libcalls-shrinkwrap -strip -lowerinvoke -reg2mem -globaldce -adce -strip-nondebug -indvars -dse -loop-reduce -ipsccp -loop-rotate -tailcallelim -memcpyopt -globalopt 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.22179174423217773, -0.22179174423217773
+-sink -lowerinvoke -globaldce -reg2mem -loop-simplify -break-crit-edges -instcombine -loop-rotate -loop-deletion -early-cse -indvars -ipsccp -adce -licm -loweratomic -reassociate -deadargelim -dse -correlated-propagation -float2int 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.2323286533355713, -0.2323286533355713
+-tailcallelim -loop-idiom -adce -constmerge -early-cse -loweratomic -lower-expect -loop-rotate -jump-threading -globaldce -break-crit-edges -ipsccp -gvn -indvars -strip-nondebug -deadargelim -reg2mem -correlated-propagation -memcpyopt -reassociate 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.2211310863494873, -0.2211310863494873
+-partial-inliner -ipsccp -loweratomic -loop-fusion -indvars -loop-deletion -reassociate -tailcallelim -licm -break-crit-edges -jump-threading -correlated-propagation -loop-rotate -adce -constmerge -loop-reduce -strip-nondebug -globaldce -memcpyopt -reg2mem 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.22953534126281738, -0.22953534126281738
+-indvars -globalopt -instcombine -globaldce -strip-nondebug -ipsccp -break-crit-edges -mem2reg -correlated-propagation -reg2mem -strip -loop-rotate -float2int -constmerge -tailcallelim -memcpyopt -reassociate -lcssa -loweratomic -jump-threading 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.5731897354125977, -0.5731897354125977
+-strip-nondebug -globalopt -loop-unroll -jump-threading -instcombine -loweratomic -indvars -reassociate -constmerge -alignment-from-assumptions -reg2mem -break-crit-edges -correlated-propagation -loop-idiom -loop-rotate -memcpyopt -float2int -globaldce -adce -ipsccp 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.22499585151672363, -0.22499585151672363
+-indvars -break-crit-edges -reg2mem -globalopt -strip-nondebug -constmerge -ipsccp -lowerswitch -simplifycfg -loop-rotate -correlated-propagation -loweratomic -globaldce -mem2reg -reassociate -adce -instcombine -memcpyopt -sink -loop-idiom 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.2171943187713623, -0.2171943187713623
+-lcssa -mem2reg -ipsccp -strip -instcombine -break-crit-edges -float2int -libcalls-shrinkwrap -simple-loop-unswitch -correlated-propagation -constmerge -loop-simplify -loweratomic -early-cse -reg2mem -memcpyopt -loop-rotate -indvars -adce -reassociate 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.21823644638061523, -0.21823644638061523
+-indvars -sroa -break-crit-edges -lowerinvoke -loop-rotate -reg2mem -correlated-propagation -ipsccp -constmerge -early-cse -globaldce -reassociate -adce -instcombine -loop-idiom -deadargelim -memcpyopt -sink -loweratomic -libcalls-shrinkwrap 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.2213141918182373, -0.2213141918182373
+-loop-rotate -break-crit-edges -sink -loop-reduce -licm -adce -indvars -function-attrs -sroa -memcpyopt -correlated-propagation -ipsccp -strip-nondebug -reassociate -instcombine -early-cse -reg2mem -loop-idiom -constmerge -loweratomic 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.2449479103088379, -0.2449479103088379
+-break-crit-edges -loop-rotate -gvn -correlated-propagation -ipsccp -instcombine -indvars -reassociate -lcssa -early-cse -sroa -reg2mem -lowerswitch -constmerge -strip-nondebug -adce -tailcallelim -loop-idiom -globaldce -memcpyopt 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.5023314952850342, -0.5023314952850342
+-globaldce -dse -reg2mem -ipsccp -mem2reg -sccp -licm -simplifycfg -reassociate -indvars -break-crit-edges -adce -loop-rotate -correlated-propagation -constmerge -instcombine -strip-nondebug -loweratomic -deadargelim -memcpyopt 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.21631669998168945, -0.21631669998168945
+-lcssa -gvn -indvars -ipsccp -reg2mem -licm -loop-fusion -globaldce -function-attrs -lower-expect -memcpyopt -break-crit-edges -sroa -dse -early-cse -constmerge -reassociate -adce -correlated-propagation -instcombine 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.24768948554992676, -0.24768948554992676
+-loop-reduce -strip-nondebug -indvars -constmerge -break-crit-edges -deadargelim -lower-expect -ipsccp -memcpyopt -loop-rotate -loop-idiom -reg2mem -float2int -adce -instcombine -early-cse -reassociate -mem2reg -globaldce -correlated-propagation 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.22547531127929688, -0.22547531127929688
+-loop-unroll -correlated-propagation -constmerge -deadargelim -instcombine -ipsccp -sroa -indvars -break-crit-edges -tailcallelim -early-cse -reg2mem -adce -globaldce -reassociate -loop-rotate -loweratomic -lowerinvoke -strip-nondebug -memcpyopt 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.23416876792907715, -0.23416876792907715
+-globalopt -simplifycfg -loweratomic -dse -lcssa -strip-nondebug -float2int -loop-idiom -constmerge -indvars -globaldce -reassociate -ipsccp -break-crit-edges -reg2mem -instcombine -memcpyopt -correlated-propagation -loop-rotate -adce 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.22853899002075195, -0.22853899002075195
+-early-cse -globaldce -strip-nondebug -adce -lowerswitch -reg2mem -break-crit-edges -lowerinvoke -indvars -mem2reg -correlated-propagation -ipsccp -loop-rotate -constmerge -loop-idiom -memcpyopt -partial-inliner -loweratomic -instcombine -reassociate 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.23511338233947754, -0.23511338233947754
+-reg2mem -constmerge -loweratomic -adce -sroa -break-crit-edges -ipsccp -globaldce -memcpyopt -indvars -deadargelim -strip-nondebug -reassociate -strip -loop-deletion -correlated-propagation -early-cse -loop-rotate -instcombine -loop-simplify 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.2209155559539795, -0.2209155559539795
+-partial-inliner -libcalls-shrinkwrap -indvars -loop-rotate -sink -function-attrs -globaldce -instcombine -reg2mem -break-crit-edges -correlated-propagation -constmerge -reassociate -ipsccp -strip-nondebug -adce -deadargelim -loweratomic -memcpyopt -early-cse 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.21380209922790527, -0.21380209922790527
+-globaldce -loop-simplify -function-attrs -loop-unroll -break-crit-edges -indvars -loweratomic -reg2mem -adce -loop-idiom -ipsccp -correlated-propagation -constmerge -instcombine -reassociate -memcpyopt -loop-rotate -early-cse -strip-nondebug -dse 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.4692997932434082, -0.4692997932434082
+-dse -lowerswitch -memcpyopt -indvars -loop-unroll -float2int -deadargelim -reg2mem -adce -instcombine -break-crit-edges -correlated-propagation -constmerge -loop-rotate -ipsccp -strip-nondebug -globaldce -reassociate -loop-idiom -loweratomic 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.25684690475463867, -0.25684690475463867
+-reg2mem -ipsccp -simple-loop-unswitch -constmerge -loop-idiom -indvars -break-crit-edges -loop-simplify -reassociate -adce -correlated-propagation -instcombine -loop-rotate -loweratomic -mem2reg -deadargelim -strip-nondebug -tailcallelim -jump-threading -globaldce 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.22061371803283691, -0.22061371803283691
+-jump-threading -break-crit-edges -instcombine -sccp -memcpyopt -loop-idiom -inline -alignment-from-assumptions -function-attrs -correlated-propagation -adce -loop-rotate -ipsccp -constmerge -globalopt -globaldce -indvars -reg2mem -strip-nondebug -reassociate 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.2341749668121338, -0.2341749668121338
+-break-crit-edges -reg2mem -simple-loop-unswitch -loop-simplify -loop-reduce -globalopt -loop-rotate -dse -loweratomic -indvars -deadargelim -strip-nondebug -constmerge -correlated-propagation -adce -ipsccp -libcalls-shrinkwrap -instcombine -partial-inliner -loop-idiom 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.26480555534362793, -0.26480555534362793
+-instcombine -correlated-propagation -memcpyopt -loop-idiom -break-crit-edges -strip-nondebug -indvars -loweratomic -reg2mem -globaldce -loop-rotate -adce -loop-unroll -reassociate -constmerge -jump-threading -deadargelim -ipsccp -tailcallelim -dse 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.2323591709136963, -0.2323591709136963
+-jump-threading -strip -early-cse -float2int -correlated-propagation -indvars -constmerge -mem2reg -reassociate -reg2mem -break-crit-edges -memcpyopt -adce -ipsccp -strip-nondebug -loop-rotate -tailcallelim -globaldce -loop-idiom -loweratomic 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.444835901260376, -0.444835901260376
+-sccp -strip -early-cse -indvars -reg2mem -partial-inliner -constmerge -mem2reg -jump-threading -correlated-propagation -instcombine -break-crit-edges -adce -globaldce -deadargelim -loop-rotate -tailcallelim -ipsccp -strip-nondebug -libcalls-shrinkwrap 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.3402531147003174, -0.3402531147003174
+-loop-deletion -loop-fusion -break-crit-edges -dse -reg2mem -loweratomic -ipsccp -deadargelim -instcombine -lowerswitch -strip-nondebug -adce -indvars -correlated-propagation -globaldce -constmerge -reassociate -tailcallelim -memcpyopt -loop-rotate 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.4040534496307373, -0.4040534496307373
+-strip -indvars -float2int -dse -loweratomic -globaldce -correlated-propagation -loop-reduce -break-crit-edges -reg2mem -reassociate -sink -ipsccp -adce -constmerge -instcombine -memcpyopt -lowerswitch -early-cse -tailcallelim 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.21679258346557617, -0.21679258346557617
+-function-attrs -reg2mem -strip -lcssa -break-crit-edges -instcombine -lowerswitch -float2int -correlated-propagation -globaldce -adce -loop-idiom -loop-deletion -constmerge -partial-inliner -ipsccp -dse -indvars -tailcallelim -memcpyopt 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.21639299392700195, -0.21639299392700195
+-loweratomic -globalopt -licm -reg2mem -memcpyopt -break-crit-edges -correlated-propagation -deadargelim -dse -float2int -indvars -loop-rotate -lowerswitch -adce -loop-unroll -instcombine -constmerge -reassociate -ipsccp -globaldce 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.2899184226989746, -0.2899184226989746
+-memcpyopt -simplifycfg -adce -reg2mem -indvars -ipsccp -simple-loop-unswitch -alignment-from-assumptions -dse -mem2reg -break-crit-edges -constmerge -loweratomic -correlated-propagation -instcombine -reassociate -early-cse -strip-nondebug -loop-rotate -globaldce 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.2286827564239502, -0.2286827564239502
+-lowerinvoke -loop-fusion -jump-threading -dse -deadargelim -reg2mem -lcssa -adce -lowerswitch -indvars -instcombine -break-crit-edges -loop-idiom -globaldce -loop-rotate -reassociate -ipsccp -loweratomic -correlated-propagation -strip-nondebug 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.40117573738098145, -0.40117573738098145
+-lowerinvoke -loop-rotate -globalopt -break-crit-edges -indvars -memcpyopt -partial-inliner -globaldce -reg2mem -ipsccp -adce -constmerge -reassociate -lcssa -loweratomic -correlated-propagation -strip-nondebug -instcombine -deadargelim -dse 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.22619104385375977, -0.22619104385375977
+-loop-deletion -licm -mem2reg -correlated-propagation -dse -reg2mem -memcpyopt -indvars -constmerge -break-crit-edges -tailcallelim -loweratomic -adce -loop-rotate -ipsccp -strip-nondebug -reassociate -loop-idiom -globaldce -partial-inliner 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.22267770767211914, -0.22267770767211914
+-gvn -lower-expect -correlated-propagation -reg2mem -sccp -break-crit-edges -adce -simplifycfg -deadargelim -libcalls-shrinkwrap -constmerge -ipsccp -loweratomic -indvars -strip-nondebug -globaldce -instcombine -memcpyopt -loop-idiom -loop-rotate 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.34218335151672363, -0.34218335151672363
+-jump-threading -loweratomic -partial-inliner -sroa -break-crit-edges -correlated-propagation -adce -indvars -reg2mem -globaldce -strip-nondebug -constmerge -reassociate -memcpyopt -loop-idiom -deadargelim -ipsccp -loop-rotate -instcombine -mem2reg 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.23197078704833984, -0.23197078704833984
+-lowerinvoke -simplifycfg -function-attrs -tailcallelim -correlated-propagation -adce -loop-idiom -break-crit-edges -lowerswitch -strip-nondebug -dse -reg2mem -reassociate -indvars -deadargelim -globaldce -ipsccp -loweratomic -constmerge -loop-rotate 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.21638703346252441, -0.21638703346252441
+-ipsccp -function-attrs -loop-fusion -strip-nondebug -adce -reg2mem -deadargelim -break-crit-edges -globalopt -indvars -reassociate -correlated-propagation -loop-idiom -loop-unroll -partial-inliner -constmerge -loweratomic -tailcallelim -memcpyopt -globaldce 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.4135754108428955, -0.4135754108428955
+-instcombine -lcssa -strip-nondebug -loop-deletion -loop-rotate -tailcallelim -break-crit-edges -ipsccp -reg2mem -reassociate -mem2reg -jump-threading -indvars -memcpyopt -correlated-propagation -globaldce -constmerge -adce -loweratomic -loop-idiom 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.3867819309234619, -0.3867819309234619
+-loop-idiom -ipsccp -loweratomic -reg2mem -sink -partial-inliner -correlated-propagation -reassociate -indvars -break-crit-edges -libcalls-shrinkwrap -adce -strip -deadargelim -instcombine -constmerge -early-cse -globaldce -strip-nondebug -memcpyopt 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.22109246253967285, -0.22109246253967285
+-strip-nondebug -loop-simplify -alignment-from-assumptions -correlated-propagation -break-crit-edges -reg2mem -indvars -simplifycfg -reassociate -globaldce -adce -ipsccp -gvn -memcpyopt -constmerge -loweratomic -loop-idiom -deadargelim -instcombine -tailcallelim 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.46113157272338867, -0.46113157272338867
+-indvars -adce -tailcallelim -lowerswitch -dse -licm -globaldce -loweratomic -break-crit-edges -ipsccp -strip-nondebug -memcpyopt -reg2mem -deadargelim -loop-rotate -loop-idiom -correlated-propagation -constmerge -globalopt -instcombine 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.22620654106140137, -0.22620654106140137
+-correlated-propagation -early-cse -adce -simple-loop-unswitch -reassociate -loop-idiom -loop-reduce -reg2mem -break-crit-edges -indvars -ipsccp -float2int -constmerge -loop-unroll -loweratomic -strip-nondebug -globaldce -memcpyopt -deadargelim -instcombine 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.22529268264770508, -0.22529268264770508
+-loop-unroll -ipsccp -indvars -simplifycfg -break-crit-edges -dse -strip-nondebug -constmerge -reg2mem -tailcallelim -adce -licm -globaldce -loweratomic -reassociate -deadargelim -loop-rotate -correlated-propagation -memcpyopt -instcombine 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.3311285972595215, -0.3311285972595215
+-reg2mem -globaldce -tailcallelim -indvars -loweratomic -instcombine -strip-nondebug -loop-rotate -break-crit-edges -ipsccp -adce -constmerge -deadargelim -reassociate -correlated-propagation -lower-expect -loop-idiom -dse -strip -sroa 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.3436012268066406, -0.3436012268066406
+-adce -loweratomic -reg2mem -lcssa -break-crit-edges -correlated-propagation -reassociate -indvars -loop-idiom -globaldce -ipsccp -instcombine -memcpyopt -deadargelim -strip-nondebug -mem2reg -loop-rotate -constmerge -tailcallelim -lowerswitch 
+consumer_jpeg_c: 0.21288132667541504, inf, inf, inf, 0.2567622661590576, -0.2567622661590576
+-loweratomic -strip -loop-simplify -break-crit-edges -loop-unroll -ipsccp -deadargelim -indvars -loop-rotate -reg2mem -correlated-propagation -reassociate -strip-nondebug -adce -globaldce -instcombine -constmerge -loop-idiom -memcpyopt -dse 
